@@ -1,0 +1,17 @@
+{
+ "notes": "Smash 64 roster. 'template' = the SvR 2011 superstar whose moveset (chEtc.pac CHAR/PRO record) and entrance this character borrows; the pairing itself is a custom design choice of this game. 'height_m' = in-game standing height (custom: Smash 64 proportions compressed toward wrestler size so SvR paired moves still connect).",
+ "characters": [
+  {"kind": "mario",   "name": "Mario",          "template": 139, "template_name": "John Cena",     "why": "the company's flagship hero",                "height_m": 1.62, "color": "#e52521"},
+  {"kind": "donkey",  "name": "Donkey Kong",    "template": 179, "template_name": "Mark Henry",    "why": "World's Strongest... ape",                   "height_m": 2.05, "color": "#8a4b1e"},
+  {"kind": "link",    "name": "Link",           "template": 160, "template_name": "Batista",       "why": "sword-and-shield warrior 'Animal'",          "height_m": 1.78, "color": "#2e8b3a"},
+  {"kind": "samus",   "name": "Samus",          "template": 107, "template_name": "Kane",          "why": "armored, masked, pyro-loving powerhouse",    "height_m": 1.95, "color": "#e8822a"},
+  {"kind": "yoshi",   "name": "Yoshi",          "template": 176, "template_name": "Kofi Kingston", "why": "bouncy high-energy jumper",                  "height_m": 1.76, "color": "#47b33f"},
+  {"kind": "kirby",   "name": "Kirby",          "template": 123, "template_name": "Rey Mysterio",  "why": "the smallest, most acrobatic of the roster", "height_m": 1.30, "color": "#f4a7c4"},
+  {"kind": "fox",     "name": "Fox",            "template": 110, "template_name": "Edge",          "why": "the Spear ~ Fox Illusion dash",              "height_m": 1.72, "color": "#d9893b"},
+  {"kind": "pikachu", "name": "Pikachu",        "template": 100, "template_name": "The Rock",      "why": "the most electrifying",                     "height_m": 1.35, "color": "#ffd83b"},
+  {"kind": "luigi",   "name": "Luigi",          "template": 272, "template_name": "R-Truth",       "why": "quirky sidekick energy",                     "height_m": 1.72, "color": "#2fa84f"},
+  {"kind": "captain", "name": "Captain Falcon", "template": 101, "template_name": "Stone Cold",    "why": "brash brawler; Falcon Punch ~ Stunner",      "height_m": 1.92, "color": "#2b4fb3"},
+  {"kind": "ness",    "name": "Ness",           "template": 218, "template_name": "The Miz",       "why": "cocky kid with a catchphrase",               "height_m": 1.42, "color": "#d6332e"},
+  {"kind": "purin",   "name": "Jigglypuff",     "template": 103, "template_name": "Undertaker",    "why": "puts you to sleep - Rest In Peace",          "height_m": 1.30, "color": "#f7b6d2"}
+ ]
+}

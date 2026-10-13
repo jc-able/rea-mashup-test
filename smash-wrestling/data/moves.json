@@ -1,0 +1,8150 @@
+{
+ "source": "SvR 2011 misc.pac WAZE names, m.pac clips, move_timing.json impact cues (earlier run)",
+ "moves": {
+  "838": {
+   "name": "Belly to Belly Reversal",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_838_0",
+    "1": "STAT_838_1"
+   },
+   "impact_frames": [
+    55
+   ],
+   "impact_provenance": [],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.0,
+    "fit_mean_contact_dm": null,
+    "fit_score": null,
+    "method": "STAT two-actor rule (shared origin, victim turned 180 deg), checked visually"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand",
+   "generic": "reversal"
+  },
+  "829": {
+   "name": "Spin Kick Reversal",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_829_0",
+    "1": "STAT_829_1"
+   },
+   "impact_frames": [
+    19
+   ],
+   "impact_provenance": [],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.0,
+    "fit_mean_contact_dm": null,
+    "fit_score": null,
+    "method": "STAT two-actor rule (shared origin, victim turned 180 deg), checked visually"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand",
+   "generic": "reversal"
+  },
+  "845": {
+   "name": "Dragon Whip Reversal",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_845_0",
+    "1": "STAT_845_1"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.0,
+    "fit_mean_contact_dm": null,
+    "fit_score": null,
+    "method": "STAT two-actor rule (shared origin, victim turned 180 deg), checked visually"
+   },
+   "attacker_end": "down_up",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand",
+   "generic": "reversal"
+  },
+  "6801": {
+   "name": "Normal",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_6801_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "739": {
+   "name": "Slide Ring In 1",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_739_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "715": {
+   "name": "Slide Ring Out",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_715_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "sit",
+   "attacker_start": "stand"
+  },
+  "722": {
+   "name": "Normal Ring In 1",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_722_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "11450": {
+   "name": "Normal Ring Out 2",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_11450_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "9508": {
+   "name": "John Cena 2",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9508_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "9212": {
+   "name": "John Cena 1",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9212_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "9563": {
+   "name": "John Cena 4",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9563_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3128": {
+   "name": "Gut Punch",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3128_0"
+   },
+   "impact_frames": [
+    10
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3128_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3129": {
+   "name": "Head Punch 1",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3129_0"
+   },
+   "impact_frames": [
+    10
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3129_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3130": {
+   "name": "Body Hook",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3130_0"
+   },
+   "impact_frames": [
+    12
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3130_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3110": {
+   "name": "Haymaker 1",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3110_0"
+   },
+   "impact_frames": [
+    13
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3110_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "11079": {
+   "name": "Cena Punch",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11079_0"
+   },
+   "impact_frames": [
+    41
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_11079_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "110": {
+   "name": "Elbow Smash 1",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_110_0",
+    "1": "STAT_110_1"
+   },
+   "impact_frames": [
+    29
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_110_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": -0.1947,
+    "fit_mean_contact_dm": 1.74,
+    "fit_score": 1.74,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5024": {
+   "name": "Belly to Belly 2",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5024_0",
+    "1": "STN1_5024_1"
+   },
+   "impact_frames": [
+    62
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5024_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.5578,
+    "fit_mean_contact_dm": 2.65,
+    "fit_score": 2.65,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5319": {
+   "name": "Scoop Slam 3",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5319_0",
+    "1": "STN1_5319_1"
+   },
+   "impact_frames": [
+    71
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5319_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.3144,
+    "fit_mean_contact_dm": 1.41,
+    "fit_score": 1.41,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "21002": {
+   "name": "Snapmare & Butterfly Lock",
+   "category": "ANAS",
+   "clips": {
+    "0": "ANAS_21002_0",
+    "1": "ANAS_21002_1"
+   },
+   "impact_frames": [
+    36
+   ],
+   "impact_provenance": [
+    "victim body-thud cue (WAZA/DATA 800-857 on ANAS_21002_1; clip not decoded yet)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.146,
+    "fit_mean_contact_dm": 1.99,
+    "fit_score": 1.99,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "down_down",
+   "victim_end": "sit",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "120": {
+   "name": "Punch to Head 1",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_120_0",
+    "1": "STAT_120_1"
+   },
+   "impact_frames": [
+    23
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_120_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": -0.1947,
+    "fit_mean_contact_dm": 3.74,
+    "fit_score": 3.74,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5129": {
+   "name": "Side Headlock Takedown",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5129_0",
+    "1": "STN1_5129_1"
+   },
+   "impact_frames": [
+    41
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5129_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.5091,
+    "fit_mean_contact_dm": 1.7,
+    "fit_score": 1.7,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "115": {
+   "name": "Elbow Smash 2",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_115_0",
+    "1": "STAT_115_1"
+   },
+   "impact_frames": [
+    27
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_115_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.925,
+    "fit_mean_contact_dm": 2.92,
+    "fit_score": 2.92,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5183": {
+   "name": "Suplex 3",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5183_0",
+    "1": "STN1_5183_1"
+   },
+   "impact_frames": [
+    106
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5183_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.217,
+    "fit_mean_contact_dm": 1.36,
+    "fit_score": 1.36,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "125": {
+   "name": "Forearm Smash 1",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_125_0",
+    "1": "STAT_125_1"
+   },
+   "impact_frames": [
+    17
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_125_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.1197,
+    "fit_mean_contact_dm": 1.88,
+    "fit_score": 1.88,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7364": {
+   "name": "Back Suplex 5",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7364_0",
+    "1": "STN2_7364_1"
+   },
+   "impact_frames": [
+    66
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7364_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.9736,
+    "fit_mean_contact_dm": 2.07,
+    "fit_score": 2.07,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "21100": {
+   "name": "Full Nelson",
+   "category": "ANAS",
+   "clips": {
+    "0": "ANAS_21100_0",
+    "1": "ANAS_21100_1"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.0974,
+    "fit_mean_contact_dm": 2.1,
+    "fit_score": 2.1,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5267": {
+   "name": "Spin Fisherman Suplex 1",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5267_0",
+    "1": "STN1_5267_1"
+   },
+   "impact_frames": [
+    127
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5267_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.1684,
+    "fit_mean_contact_dm": 1.68,
+    "fit_score": 1.68,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4680": {
+   "name": "DDT 1",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4680_0",
+    "1": "STN2_4680_1"
+   },
+   "impact_frames": [
+    47
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4680_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.6329,
+    "fit_mean_contact_dm": 1.73,
+    "fit_score": 1.73,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5053": {
+   "name": "Fisherman Suplex 4",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5053_0",
+    "1": "STN1_5053_1"
+   },
+   "impact_frames": [
+    103
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5053_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.3144,
+    "fit_mean_contact_dm": 1.27,
+    "fit_score": 1.27,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4983": {
+   "name": "Russian Leg Sweep 2",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_4983_0",
+    "1": "STN1_4983_1"
+   },
+   "impact_frames": [
+    96
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_4983_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.071,
+    "fit_mean_contact_dm": 4.08,
+    "fit_score": 4.08,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7200": {
+   "name": "Throwback",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7200_0",
+    "1": "STN2_7200_1"
+   },
+   "impact_frames": [
+    25
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7200_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.4118,
+    "fit_mean_contact_dm": 4.39,
+    "fit_score": 4.39,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7440": {
+   "name": "Spin-Out Powerbomb 2",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7440_0",
+    "1": "STN2_7440_1"
+   },
+   "impact_frames": [
+    103
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7440_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.7789,
+    "fit_mean_contact_dm": 1.53,
+    "fit_score": 1.53,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3850": {
+   "name": "Angry Stomp",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3850_0"
+   },
+   "impact_frames": [
+    12
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3850_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3862": {
+   "name": "Undertaker Stomp",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3862_0"
+   },
+   "impact_frames": [
+    8
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3862_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "5971": {
+   "name": "Running Neck Twist",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_5971_0",
+    "1": "GRND_5971_1"
+   },
+   "impact_frames": [
+    89
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_5971_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.0223,
+    "fit_mean_contact_dm": 2.89,
+    "fit_score": 2.89,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "10314": {
+   "name": "Elbow Drop 9",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_10314_0",
+    "1": "GRND_10314_1"
+   },
+   "impact_frames": [
+    36
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_10314_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.1947,
+    "fit_mean_contact_dm": 11.45,
+    "fit_score": 11.45,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "6178": {
+   "name": "Leg Breaker",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_6178_0",
+    "1": "GRND_6178_1"
+   },
+   "impact_frames": [
+    94
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_6178_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.2657,
+    "fit_mean_contact_dm": 3.43,
+    "fit_score": 3.43,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "6080": {
+   "name": "Armbar 2",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_6080_0",
+    "1": "GRND_6080_1"
+   },
+   "impact_frames": [
+    70
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_6080_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.6065,
+    "fit_mean_contact_dm": 3.39,
+    "fit_score": 3.39,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "down_down",
+   "attacker_start": "stand"
+  },
+  "10514": {
+   "name": "Elbow Drop 11",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_10514_0",
+    "1": "GRND_10514_1"
+   },
+   "impact_frames": [
+    32
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_10514_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.3895,
+    "fit_mean_contact_dm": 8.85,
+    "fit_score": 8.85,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "down_down",
+   "attacker_start": "stand"
+  },
+  "6210": {
+   "name": "Knee Slam",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_6210_0",
+    "1": "GRND_6210_1"
+   },
+   "impact_frames": [
+    87
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_6210_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.6065,
+    "fit_mean_contact_dm": 5.77,
+    "fit_score": 5.77,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_down",
+   "attacker_start": "stand"
+  },
+  "21201": {
+   "name": "Surfboard Stretch",
+   "category": "ANAS",
+   "clips": {
+    "0": "ANAS_21201_0",
+    "1": "ANAS_21201_1"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": -0.0487,
+    "fit_mean_contact_dm": 4.22,
+    "fit_score": 4.22,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "kneel",
+   "victim_end": "sit",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "21450": {
+   "name": "Camel Clutch 2",
+   "category": "ANAS",
+   "clips": {
+    "0": "ANAS_21450_0",
+    "1": "ANAS_21450_1"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.146,
+    "fit_mean_contact_dm": 6.22,
+    "fit_score": 6.22,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "sit",
+   "victim_end": "sit",
+   "victim_start": "down_down",
+   "attacker_start": "stand"
+  },
+  "21308": {
+   "name": "Single Leg Boston Crab",
+   "category": "ANAS",
+   "clips": {
+    "0": "ANAS_21308_0",
+    "1": "ANAS_21308_1"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.0974,
+    "fit_mean_contact_dm": 1.68,
+    "fit_score": 1.68,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "kneel",
+   "victim_end": "down_down",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "5742": {
+   "name": "Diving Leg Drop 2",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_5742_0",
+    "1": "CORN_5742_1"
+   },
+   "impact_frames": [
+    205
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in CORN_5742_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.0974,
+    "fit_mean_contact_dm": 1.57,
+    "fit_score": 1.57,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "23351": {
+   "name": "Punch to Head 3",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_23351_0"
+   },
+   "impact_frames": [
+    9
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_23351_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "5788": {
+   "name": "Toss Into Ring Post",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_5788_0",
+    "1": "CORN_5788_1"
+   },
+   "impact_frames": [
+    97
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in CORN_5788_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": -0.1947,
+    "fit_mean_contact_dm": 2.79,
+    "fit_score": 2.79,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3571": {
+   "name": "Diving Fist Drop 3",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_3571_0"
+   },
+   "impact_frames": [
+    27
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in CORN_3571_0)"
+   ],
+   "pair": null,
+   "attacker_end": "down_down",
+   "attacker_start": "stand"
+  },
+  "3521": {
+   "name": "Over Castle",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_3521_0"
+   },
+   "impact_frames": [
+    20
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in CORN_3521_0)"
+   ],
+   "pair": null,
+   "attacker_end": "down_down",
+   "attacker_start": "stand"
+  },
+  "7565": {
+   "name": "Drop Toe Hold 2",
+   "category": "RUN",
+   "clips": {
+    "0": "RUN_7565_0",
+    "1": "RUN_7565_1"
+   },
+   "impact_frames": [
+    24
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in RUN_7565_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.5842,
+    "fit_mean_contact_dm": 3.99,
+    "fit_score": 3.99,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5517": {
+   "name": "Lou Thesz Press 1",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5517_0",
+    "1": "STN1_5517_1"
+   },
+   "impact_frames": [
+    112
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5517_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.1197,
+    "fit_mean_contact_dm": 2.1,
+    "fit_score": 2.1,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3381": {
+   "name": "Shoulder Block 1",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3381_0"
+   },
+   "impact_frames": [
+    9
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3381_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3941": {
+   "name": "Elbow Drop 4",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3941_0"
+   },
+   "impact_frames": [
+    11
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3941_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "5555": {
+   "name": "Hip Toss 5",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5555_0",
+    "1": "STN1_5555_1"
+   },
+   "impact_frames": [
+    26
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5555_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.071,
+    "fit_mean_contact_dm": 3.27,
+    "fit_score": 3.27,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "1360": {
+   "name": "Knee Lift Reversal",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_1360_0"
+   },
+   "impact_frames": [
+    17
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_1360_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "1355": {
+   "name": "Leapfrog",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_1355_0",
+    "1": "STAT_1355_1"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.9473,
+    "fit_mean_contact_dm": 7.22,
+    "fit_score": 7.22,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "11009": {
+   "name": "Pull-Back Shoulder Block",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11009_0",
+    "1": "STAT_11009_1"
+   },
+   "impact_frames": [
+    19
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_11009_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.6065,
+    "fit_mean_contact_dm": 3.56,
+    "fit_score": 3.56,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "11041": {
+   "name": "Pull-Back Hip Toss",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11041_0",
+    "1": "STAT_11041_1"
+   },
+   "impact_frames": [
+    37
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_11041_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.8012,
+    "fit_mean_contact_dm": 2.88,
+    "fit_score": 2.88,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "6689": {
+   "name": "Five Knuckle Shuffle",
+   "category": "ROPE",
+   "clips": {
+    "0": "ROPE_6689_0",
+    "1": "ROPE_6689_1"
+   },
+   "impact_frames": [
+    272
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in ROPE_6689_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": -0.1947,
+    "fit_mean_contact_dm": 8.45,
+    "fit_score": 8.45,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "5010": {
+   "name": "Attitude Adjustment 2",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5010_0",
+    "1": "STN1_5010_1"
+   },
+   "impact_frames": [
+    228
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5010_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.0,
+    "fit_mean_contact_dm": 5.46,
+    "fit_score": 5.46,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "21350": {
+   "name": "STF",
+   "category": "ANAS",
+   "clips": {
+    "0": "ANAS_21350_0",
+    "1": "ANAS_21350_1"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.0,
+    "fit_mean_contact_dm": 3.17,
+    "fit_score": 3.17,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "down_down",
+   "victim_end": "down_down",
+   "victim_start": "down_down",
+   "attacker_start": "stand"
+  },
+  "745": {
+   "name": "Jumping Ring In 2",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_745_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "749": {
+   "name": "Quick Ring Out",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_749_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "sit",
+   "attacker_start": "stand"
+  },
+  "11431": {
+   "name": "Jumping Ring In 3",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_11431_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "11453": {
+   "name": "Jumping Ring Out",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_11453_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "kneel"
+  },
+  "9156": {
+   "name": "R-Truth 1",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9156_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "9047": {
+   "name": "R-Truth 4",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9047_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3283": {
+   "name": "Gut Kick 2",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3283_0"
+   },
+   "impact_frames": [
+    11
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3283_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3092": {
+   "name": "Backhand Chop 1",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3092_0"
+   },
+   "impact_frames": [
+    11
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3092_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3207": {
+   "name": "Corkscrew Calfkick",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3207_0"
+   },
+   "impact_frames": [
+    15
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3207_0)"
+   ],
+   "pair": null,
+   "attacker_end": "down_down",
+   "attacker_start": "stand"
+  },
+  "11077": {
+   "name": "Dropkick 6",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11077_0"
+   },
+   "impact_frames": [
+    26
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_11077_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "11061": {
+   "name": "Enzuigiri 2",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11061_0"
+   },
+   "impact_frames": [
+    16
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_11061_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "down_down"
+  },
+  "5050": {
+   "name": "Suplex 1",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5050_0",
+    "1": "STN1_5050_1"
+   },
+   "impact_frames": [
+    91
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5050_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.8276,
+    "fit_mean_contact_dm": 1.53,
+    "fit_score": 1.53,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "21006": {
+   "name": "Armbar 4",
+   "category": "ANAS",
+   "clips": {
+    "0": "ANAS_21006_0",
+    "1": "ANAS_21006_1"
+   },
+   "impact_frames": [
+    92
+   ],
+   "impact_provenance": [
+    "victim body-thud cue (WAZA/DATA 800-857 on ANAS_21006_1; clip not decoded yet)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.6815,
+    "fit_mean_contact_dm": 2.75,
+    "fit_score": 2.75,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "sit",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5366": {
+   "name": "Sambo Hip Toss",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5366_0",
+    "1": "STN1_5366_1"
+   },
+   "impact_frames": [
+    61
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5366_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.3144,
+    "fit_mean_contact_dm": 2.91,
+    "fit_score": 2.91,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "21003": {
+   "name": "Snapmare & Chin Lock",
+   "category": "ANAS",
+   "clips": {
+    "0": "ANAS_21003_0",
+    "1": "ANAS_21003_1"
+   },
+   "impact_frames": [
+    38
+   ],
+   "impact_provenance": [
+    "victim body-thud cue (WAZA/DATA 800-857 on ANAS_21003_1; clip not decoded yet)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.0,
+    "fit_mean_contact_dm": 2.58,
+    "fit_score": 2.58,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "kneel",
+   "victim_end": "sit",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5069": {
+   "name": "Arm Drag 1",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5069_0",
+    "1": "STN1_5069_1"
+   },
+   "impact_frames": [
+    26
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5069_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.1197,
+    "fit_mean_contact_dm": 4.57,
+    "fit_score": 4.57,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4583": {
+   "name": "Arm Wringer Flip 1",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4583_0",
+    "1": "STN2_4583_1"
+   },
+   "impact_frames": [
+    37
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4583_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.8763,
+    "fit_mean_contact_dm": 2.88,
+    "fit_score": 2.88,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5251": {
+   "name": "Hurricanrana 2",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5251_0",
+    "1": "STN1_5251_1"
+   },
+   "impact_frames": [
+    39
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5251_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.5355,
+    "fit_mean_contact_dm": 6.32,
+    "fit_score": 6.32,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5171": {
+   "name": "Gourdbuster 1",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5171_0",
+    "1": "STN1_5171_1"
+   },
+   "impact_frames": [
+    94
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5171_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.217,
+    "fit_mean_contact_dm": 1.51,
+    "fit_score": 1.51,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5005": {
+   "name": "Back Wheel Trip",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5005_0",
+    "1": "STN1_5005_1"
+   },
+   "impact_frames": [
+    34
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5005_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.5091,
+    "fit_mean_contact_dm": 2.01,
+    "fit_score": 2.01,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7339": {
+   "name": "Full Nelson Bomb",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7339_0",
+    "1": "STN2_7339_1"
+   },
+   "impact_frames": [
+    68
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7339_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.1197,
+    "fit_mean_contact_dm": 1.43,
+    "fit_score": 1.43,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "down_down",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7209": {
+   "name": "Forward Russian Leg Sweep",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7209_0",
+    "1": "STN2_7209_1"
+   },
+   "impact_frames": [
+    67
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7209_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.8763,
+    "fit_mean_contact_dm": 2.36,
+    "fit_score": 2.36,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3860": {
+   "name": "King Stomp",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3860_0"
+   },
+   "impact_frames": [
+    10
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3860_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3864": {
+   "name": "Jumping Elbow Drop",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3864_0"
+   },
+   "impact_frames": [
+    20
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3864_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "6175": {
+   "name": "Belly Stomp",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_6175_0",
+    "1": "GRND_6175_1"
+   },
+   "impact_frames": [
+    62
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_6175_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.3144,
+    "fit_mean_contact_dm": 3.39,
+    "fit_score": 3.39,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "6052": {
+   "name": "Elbow Drop 6",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_6052_0",
+    "1": "GRND_6052_1"
+   },
+   "impact_frames": [
+    45
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_6052_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.146,
+    "fit_mean_contact_dm": 7.94,
+    "fit_score": 7.94,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "down_down",
+   "attacker_start": "stand"
+  },
+  "5737": {
+   "name": "Clothesline 7",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_5737_0",
+    "1": "CORN_5737_1"
+   },
+   "impact_frames": [
+    49
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in CORN_5737_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": -0.1947,
+    "fit_mean_contact_dm": 4.73,
+    "fit_score": 4.73,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3559": {
+   "name": "450 Splash",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_3559_0"
+   },
+   "impact_frames": [
+    31
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in CORN_3559_0)"
+   ],
+   "pair": null,
+   "attacker_end": "sit",
+   "attacker_start": "stand"
+  },
+  "3585": {
+   "name": "Houston Hangover",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_3585_0"
+   },
+   "impact_frames": [
+    29
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in CORN_3585_0)"
+   ],
+   "pair": null,
+   "attacker_end": "sit",
+   "attacker_start": "stand"
+  },
+  "7598": {
+   "name": "Headscissors Takedown",
+   "category": "RUN",
+   "clips": {
+    "0": "RUN_7598_0",
+    "1": "RUN_7598_1"
+   },
+   "impact_frames": [
+    53
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in RUN_7598_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.8276,
+    "fit_mean_contact_dm": 2.48,
+    "fit_score": 2.48,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3321": {
+   "name": "Bicycle Kick",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3321_0"
+   },
+   "impact_frames": [
+    16
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3321_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "7212": {
+   "name": "One-handed Bulldog 2",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7212_0",
+    "1": "STN2_7212_1"
+   },
+   "impact_frames": [
+    24
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7212_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.8763,
+    "fit_mean_contact_dm": 3.89,
+    "fit_score": 3.89,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5558": {
+   "name": "Hip Toss 6",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5558_0",
+    "1": "STN1_5558_1"
+   },
+   "impact_frames": [
+    29
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5558_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.925,
+    "fit_mean_contact_dm": 4.77,
+    "fit_score": 4.77,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5519": {
+   "name": "Powerslam 6",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5519_0",
+    "1": "STN1_5519_1"
+   },
+   "impact_frames": [
+    22
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5519_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.1197,
+    "fit_mean_contact_dm": 1.96,
+    "fit_score": 1.96,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "1356": {
+   "name": "Ducking",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_1356_0",
+    "1": "STAT_1356_1"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.9473,
+    "fit_mean_contact_dm": 6.18,
+    "fit_score": 6.18,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "down_down"
+  },
+  "11006": {
+   "name": "Pull-Back Leg Lariat",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11006_0",
+    "1": "STAT_11006_1"
+   },
+   "impact_frames": [
+    12
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_11006_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.4381,
+    "fit_mean_contact_dm": 2.63,
+    "fit_score": 2.63,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "11039": {
+   "name": "Pull-Back Fireman Carry",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11039_0",
+    "1": "STAT_11039_1"
+   },
+   "impact_frames": [
+    42
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_11039_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.4118,
+    "fit_mean_contact_dm": 3.67,
+    "fit_score": 3.67,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "6864": {
+   "name": "Corkscrew Axekick",
+   "category": "ROPE",
+   "clips": {
+    "0": "ROPE_6864_0",
+    "1": "ROPE_6864_1"
+   },
+   "impact_frames": [
+    111
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in ROPE_6864_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": -0.1947,
+    "fit_mean_contact_dm": 1.58,
+    "fit_score": 1.58,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "down_down",
+   "attacker_start": "stand"
+  },
+  "3323": {
+   "name": "Lie Detector",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3323_0"
+   },
+   "impact_frames": [
+    7
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3323_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "718": {
+   "name": "Over the Rope In",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_718_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "719": {
+   "name": "Over the Rope Out",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_719_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "sit",
+   "attacker_start": "stand"
+  },
+  "11427": {
+   "name": "Over the Rope In 1",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_11427_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "11452": {
+   "name": "Over the Rope Out",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_11452_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "9611": {
+   "name": "Mark Henry 1",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9611_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "9612": {
+   "name": "Mark Henry 2",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9612_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3106": {
+   "name": "Brother Snap Jab",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3106_0"
+   },
+   "impact_frames": [
+    7
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3106_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3028": {
+   "name": "Overhand Punch 1",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3028_0"
+   },
+   "impact_frames": [
+    10
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3028_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3008": {
+   "name": "Body Punch 1",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3008_0"
+   },
+   "impact_frames": [
+    10
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3008_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3003": {
+   "name": "Clothesline 1",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3003_0"
+   },
+   "impact_frames": [
+    8
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3003_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "11062": {
+   "name": "Headbutt 6",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11062_0"
+   },
+   "impact_frames": [
+    26
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_11062_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "11066": {
+   "name": "Clothesline 9",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11066_0"
+   },
+   "impact_frames": [
+    18
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_11066_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "4620": {
+   "name": "Front Neck Lock Knee Lift",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4620_0",
+    "1": "STN2_4620_1"
+   },
+   "impact_frames": [
+    73
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4620_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.1684,
+    "fit_mean_contact_dm": 1.14,
+    "fit_score": 1.14,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5307": {
+   "name": "Scoop Slam 2",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5307_0",
+    "1": "STN1_5307_1"
+   },
+   "impact_frames": [
+    163
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5307_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.5091,
+    "fit_mean_contact_dm": 2.72,
+    "fit_score": 2.72,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5088": {
+   "name": "Facecrusher 2",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5088_0",
+    "1": "STN1_5088_1"
+   },
+   "impact_frames": [
+    43
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5088_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.2657,
+    "fit_mean_contact_dm": 1.26,
+    "fit_score": 1.26,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "21007": {
+   "name": "Bearhug",
+   "category": "ANAS",
+   "clips": {
+    "0": "ANAS_21007_0",
+    "1": "ANAS_21007_1"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": -0.146,
+    "fit_mean_contact_dm": 2.63,
+    "fit_score": 2.63,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "123": {
+   "name": "Elbow Smash 3",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_123_0",
+    "1": "STAT_123_1"
+   },
+   "impact_frames": [
+    43
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_123_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": -0.1947,
+    "fit_mean_contact_dm": 1.58,
+    "fit_score": 1.58,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4676": {
+   "name": "Headbutt 1",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4676_0",
+    "1": "STN2_4676_1"
+   },
+   "impact_frames": [
+    58
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4676_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.7789,
+    "fit_mean_contact_dm": 2.77,
+    "fit_score": 2.77,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4731": {
+   "name": "Hangman's Elbow",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4731_0",
+    "1": "STN2_4731_1"
+   },
+   "impact_frames": [
+    75
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4731_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.1684,
+    "fit_mean_contact_dm": 2.07,
+    "fit_score": 2.07,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5062": {
+   "name": "Suplex 2",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5062_0",
+    "1": "STN1_5062_1"
+   },
+   "impact_frames": [
+    130
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5062_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.217,
+    "fit_mean_contact_dm": 3.01,
+    "fit_score": 3.01,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4678": {
+   "name": "Hammer and Sickle",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4678_0",
+    "1": "STN2_4678_1"
+   },
+   "impact_frames": [
+    120
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4678_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.4868,
+    "fit_mean_contact_dm": 1.91,
+    "fit_score": 1.91,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "117": {
+   "name": "Arm Wrench",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_117_0",
+    "1": "STAT_117_1"
+   },
+   "impact_frames": [
+    26
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_117_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.3631,
+    "fit_mean_contact_dm": 2.76,
+    "fit_score": 2.76,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5116": {
+   "name": "Jawbreaker",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5116_0",
+    "1": "STN1_5116_1"
+   },
+   "impact_frames": [
+    53
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5116_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.4118,
+    "fit_mean_contact_dm": 1.5,
+    "fit_score": 1.5,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4590": {
+   "name": "Leg Sweep 2",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4590_0",
+    "1": "STN2_4590_1"
+   },
+   "impact_frames": [
+    83
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4590_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.3408,
+    "fit_mean_contact_dm": 2.37,
+    "fit_score": 2.37,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "2800": {
+   "name": "Suplex 6",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_2800_0",
+    "1": "STN2_2800_1"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.7302,
+    "fit_mean_contact_dm": 1.1,
+    "fit_score": 1.1,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5021": {
+   "name": "Two-Handed Choke Toss",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5021_0",
+    "1": "STN1_5021_1"
+   },
+   "impact_frames": [
+    73
+   ],
+   "impact_provenance": [
+    "victim body-thud cue (WAZA/DATA 800-857 on STN1_5021_1)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.3144,
+    "fit_mean_contact_dm": 1.49,
+    "fit_score": 1.49,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "21000": {
+   "name": "Abdominal Stretch",
+   "category": "ANAS",
+   "clips": {
+    "0": "ANAS_21000_0",
+    "1": "ANAS_21000_1"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.2921,
+    "fit_mean_contact_dm": 2.96,
+    "fit_score": 2.96,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "127": {
+   "name": "Elbow Smash 4",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_127_0",
+    "1": "STAT_127_1"
+   },
+   "impact_frames": [
+    30
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_127_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.1684,
+    "fit_mean_contact_dm": 1.45,
+    "fit_score": 1.45,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7424": {
+   "name": "Rear Headbutt",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7424_0",
+    "1": "STN2_7424_1"
+   },
+   "impact_frames": [
+    46
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7424_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.8276,
+    "fit_mean_contact_dm": 1.85,
+    "fit_score": 1.85,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7202": {
+   "name": "Shin Breaker",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7202_0",
+    "1": "STN2_7202_1"
+   },
+   "impact_frames": [
+    118
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7202_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.8763,
+    "fit_mean_contact_dm": 2.11,
+    "fit_score": 2.11,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7356": {
+   "name": "Full Nelson Slam 2",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7356_0",
+    "1": "STN2_7356_1"
+   },
+   "impact_frames": [
+    77
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7356_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.1684,
+    "fit_mean_contact_dm": 1.73,
+    "fit_score": 1.73,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5066": {
+   "name": "Military Press Drop",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5066_0",
+    "1": "STN1_5066_1"
+   },
+   "impact_frames": [
+    154
+   ],
+   "impact_provenance": [
+    "victim body-thud cue (WAZA/DATA 800-857 on STN1_5066_1)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.2657,
+    "fit_mean_contact_dm": 1.05,
+    "fit_score": 1.05,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4991": {
+   "name": "Two-Handed Chokeslam 2",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_4991_0",
+    "1": "STN1_4991_1"
+   },
+   "impact_frames": [
+    132
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_4991_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.2657,
+    "fit_mean_contact_dm": 2.26,
+    "fit_score": 2.26,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4906": {
+   "name": "Backbreaker Drop 3",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4906_0",
+    "1": "STN2_4906_1"
+   },
+   "impact_frames": [
+    83
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4906_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.0223,
+    "fit_mean_contact_dm": 2.34,
+    "fit_score": 2.34,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7459": {
+   "name": "Backbreaker Drop 7",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7459_0",
+    "1": "STN2_7459_1"
+   },
+   "impact_frames": [
+    49
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7459_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.8763,
+    "fit_mean_contact_dm": 1.61,
+    "fit_score": 1.61,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7405": {
+   "name": "Argentine Backbreaker",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7405_0",
+    "1": "STN2_7405_1"
+   },
+   "impact_frames": [
+    108
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7405_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.1684,
+    "fit_mean_contact_dm": 1.87,
+    "fit_score": 1.87,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3884": {
+   "name": "Elbow Drop 2",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3884_0"
+   },
+   "impact_frames": [
+    20
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3884_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "5974": {
+   "name": "Face Stretch 1",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_5974_0",
+    "1": "GRND_5974_1"
+   },
+   "impact_frames": [
+    70
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_5974_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": -0.146,
+    "fit_mean_contact_dm": 6.5,
+    "fit_score": 6.5,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "10306": {
+   "name": "Walk Over",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_10306_0",
+    "1": "GRND_10306_1"
+   },
+   "impact_frames": [
+    20
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_10306_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.217,
+    "fit_mean_contact_dm": 7.66,
+    "fit_score": 7.66,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "6174": {
+   "name": "Leg Snap",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_6174_0",
+    "1": "GRND_6174_1"
+   },
+   "impact_frames": [
+    148
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_6174_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.925,
+    "fit_mean_contact_dm": 3.36,
+    "fit_score": 3.36,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "6061": {
+   "name": "Knee Stomp 1",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_6061_0",
+    "1": "GRND_6061_1"
+   },
+   "impact_frames": [
+    59
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_6061_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": -0.1947,
+    "fit_mean_contact_dm": 8.13,
+    "fit_score": 8.13,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "down_down",
+   "attacker_start": "stand"
+  },
+  "23352": {
+   "name": "Shoulder Block 6",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_23352_0"
+   },
+   "impact_frames": [
+    11
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_23352_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3614": {
+   "name": "Body Splash 3",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_3614_0"
+   },
+   "impact_frames": [
+    20
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in CORN_3614_0)"
+   ],
+   "pair": null,
+   "attacker_end": "down_down",
+   "attacker_start": "stand"
+  },
+  "3502": {
+   "name": "Double Axe Handle 2",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_3502_0"
+   },
+   "impact_frames": [
+    21
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in CORN_3502_0)"
+   ],
+   "pair": null,
+   "attacker_end": "sit",
+   "attacker_start": "stand"
+  },
+  "7611": {
+   "name": "Pushing",
+   "category": "RUN",
+   "clips": {
+    "0": "RUN_7611_0",
+    "1": "RUN_7611_1"
+   },
+   "impact_frames": [
+    14
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in RUN_7611_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.5091,
+    "fit_mean_contact_dm": 3.64,
+    "fit_score": 3.64,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3487": {
+   "name": "Clothesline 4",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3487_0"
+   },
+   "impact_frames": [
+    11
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3487_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3933": {
+   "name": "Jumping Headbutt",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3933_0"
+   },
+   "impact_frames": [
+    28
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3933_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "7206": {
+   "name": "Bulldog 2",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7206_0",
+    "1": "STN2_7206_1"
+   },
+   "impact_frames": [
+    39
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7206_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.1197,
+    "fit_mean_contact_dm": 1.76,
+    "fit_score": 1.76,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5369": {
+   "name": "Powerslam 5",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5369_0",
+    "1": "STN1_5369_1"
+   },
+   "impact_frames": [
+    29
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5369_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.8763,
+    "fit_mean_contact_dm": 1.54,
+    "fit_score": 1.54,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3493": {
+   "name": "Shoulder Block 3",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3493_0"
+   },
+   "impact_frames": [
+    10
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3493_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "11005": {
+   "name": "Pull-Back Headbutt",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11005_0",
+    "1": "STAT_11005_1"
+   },
+   "impact_frames": [
+    15
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_11005_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.5578,
+    "fit_mean_contact_dm": 2.81,
+    "fit_score": 2.81,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "11042": {
+   "name": "Pull-Back Backbreaker 2",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11042_0",
+    "1": "STAT_11042_1"
+   },
+   "impact_frames": [
+    47
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_11042_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.6065,
+    "fit_mean_contact_dm": 2.31,
+    "fit_score": 2.31,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5001": {
+   "name": "World's Strongest Slam 1",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5001_0",
+    "1": "STN1_5001_1"
+   },
+   "impact_frames": [
+    135
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5001_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.2657,
+    "fit_mean_contact_dm": 1.71,
+    "fit_score": 1.71,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "11426": {
+   "name": "Normal Ring In 3",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_11426_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "9630": {
+   "name": "Batista 4",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9630_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "9632": {
+   "name": "Batista 5",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9632_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "11071": {
+   "name": "Big Boot 6",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11071_0"
+   },
+   "impact_frames": [
+    16
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_11071_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "5061": {
+   "name": "Neck Lock Suplex",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5061_0",
+    "1": "STN1_5061_1"
+   },
+   "impact_frames": [
+    90
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5061_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.217,
+    "fit_mean_contact_dm": 1.57,
+    "fit_score": 1.57,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4603": {
+   "name": "Back Elbow",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4603_0",
+    "1": "STN2_4603_1"
+   },
+   "impact_frames": [
+    35
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4603_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.6329,
+    "fit_mean_contact_dm": 2.68,
+    "fit_score": 2.68,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4619": {
+   "name": "Wrist Clutch & Elbow",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4619_0",
+    "1": "STN2_4619_1"
+   },
+   "impact_frames": [
+    85
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4619_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.0223,
+    "fit_mean_contact_dm": 2.15,
+    "fit_score": 2.15,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4614": {
+   "name": "Arm Wrench Kick & Punch",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4614_0",
+    "1": "STN2_4614_1"
+   },
+   "impact_frames": [
+    113
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4614_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.0223,
+    "fit_mean_contact_dm": 2.11,
+    "fit_score": 2.11,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4936": {
+   "name": "Ankle Lock 1",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4936_0",
+    "1": "STN2_4936_1"
+   },
+   "impact_frames": [
+    169
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4936_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.3144,
+    "fit_mean_contact_dm": 2.67,
+    "fit_score": 2.67,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4992": {
+   "name": "Powerslam 1",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_4992_0",
+    "1": "STN1_4992_1"
+   },
+   "impact_frames": [
+    127
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_4992_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.6329,
+    "fit_mean_contact_dm": 2.63,
+    "fit_score": 2.63,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4916": {
+   "name": "Two-Handed Chokeslam 1",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4916_0",
+    "1": "STN2_4916_1"
+   },
+   "impact_frames": [
+    90
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4916_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.3144,
+    "fit_mean_contact_dm": 1.62,
+    "fit_score": 1.62,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4898": {
+   "name": "Short-Arm Clotheslines 1",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4898_0",
+    "1": "STN2_4898_1"
+   },
+   "impact_frames": [
+    152
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4898_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.1197,
+    "fit_mean_contact_dm": 2.88,
+    "fit_score": 2.88,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7307": {
+   "name": "Saito Suplex",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7307_0",
+    "1": "STN2_7307_1"
+   },
+   "impact_frames": [
+    64
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7307_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.7302,
+    "fit_mean_contact_dm": 2.59,
+    "fit_score": 2.59,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7377": {
+   "name": "Pumphandle Fallaway Slam",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7377_0",
+    "1": "STN2_7377_1"
+   },
+   "impact_frames": [
+    127
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7377_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.8276,
+    "fit_mean_contact_dm": 1.45,
+    "fit_score": 1.45,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3901": {
+   "name": "Wrestling Hero Stomp",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3901_0"
+   },
+   "impact_frames": [
+    11
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3901_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3883": {
+   "name": "Double Axe Handle Drop",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3883_0"
+   },
+   "impact_frames": [
+    16
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3883_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "6012": {
+   "name": "Elbow Stomp",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_6012_0",
+    "1": "GRND_6012_1"
+   },
+   "impact_frames": [
+    98
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_6012_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.2657,
+    "fit_mean_contact_dm": 2.35,
+    "fit_score": 2.35,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "10508": {
+   "name": "Knee Drop 6",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_10508_0",
+    "1": "GRND_10508_1"
+   },
+   "impact_frames": [
+    34
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_10508_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.3144,
+    "fit_mean_contact_dm": 7.24,
+    "fit_score": 7.24,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "down_down",
+   "attacker_start": "stand"
+  },
+  "5733": {
+   "name": "Batista Shoulder Block",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_5733_0",
+    "1": "CORN_5733_1"
+   },
+   "impact_frames": [
+    96
+   ],
+   "impact_provenance": [
+    "victim body-thud cue (WAZA/DATA 800-857 on CORN_5733_1)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": -0.146,
+    "fit_mean_contact_dm": 2.62,
+    "fit_score": 2.62,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "sit",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3551": {
+   "name": "Diving Elbow Drop 2",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_3551_0"
+   },
+   "impact_frames": [
+    17
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in CORN_3551_0)"
+   ],
+   "pair": null,
+   "attacker_end": "down_down",
+   "attacker_start": "stand"
+  },
+  "3538": {
+   "name": "Diving Double Axe Handle",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_3538_0"
+   },
+   "impact_frames": [
+    27
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in CORN_3538_0)"
+   ],
+   "pair": null,
+   "attacker_end": "sit",
+   "attacker_start": "stand"
+  },
+  "3505": {
+   "name": "Diving Spear",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_3505_0"
+   },
+   "impact_frames": [
+    21
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in CORN_3505_0)"
+   ],
+   "pair": null,
+   "attacker_end": "down_down",
+   "attacker_start": "stand"
+  },
+  "7619": {
+   "name": "Running STO",
+   "category": "RUN",
+   "clips": {
+    "0": "RUN_7619_0",
+    "1": "RUN_7619_1"
+   },
+   "impact_frames": [
+    17
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in RUN_7619_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.1197,
+    "fit_mean_contact_dm": 2.49,
+    "fit_score": 2.49,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3407": {
+   "name": "Shoulder Block 2",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3407_0"
+   },
+   "impact_frames": [
+    7
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3407_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3940": {
+   "name": "Double Axe Handle 3",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3940_0"
+   },
+   "impact_frames": [
+    11
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3940_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "5611": {
+   "name": "Chop Block 1",
+   "category": "RUN",
+   "clips": {
+    "0": "RUN_5611_0",
+    "1": "RUN_5611_1"
+   },
+   "impact_frames": [
+    5
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in RUN_5611_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.2657,
+    "fit_mean_contact_dm": 3.19,
+    "fit_score": 3.19,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5506": {
+   "name": "Side Slam 1",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5506_0",
+    "1": "STN1_5506_1"
+   },
+   "impact_frames": [
+    35
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5506_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.8763,
+    "fit_mean_contact_dm": 1.39,
+    "fit_score": 1.39,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3372": {
+   "name": "Clothesline 2",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3372_0"
+   },
+   "impact_frames": [
+    10
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3372_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "11034": {
+   "name": "Pull-Back Spinebuster",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11034_0",
+    "1": "STAT_11034_1"
+   },
+   "impact_frames": [
+    34
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_11034_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.6552,
+    "fit_mean_contact_dm": 2.08,
+    "fit_score": 2.08,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7554": {
+   "name": "Spear 3",
+   "category": "RUN",
+   "clips": {
+    "0": "RUN_7554_0",
+    "1": "RUN_7554_1"
+   },
+   "impact_frames": [
+    2
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in RUN_7554_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.217,
+    "fit_mean_contact_dm": 2.42,
+    "fit_score": 2.42,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "6522": {
+   "name": "Snapmare & Big Boot",
+   "category": "ROPE",
+   "clips": {
+    "0": "ROPE_6522_0",
+    "1": "ROPE_6522_1"
+   },
+   "impact_frames": [
+    84
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in ROPE_6522_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.5091,
+    "fit_mean_contact_dm": 1.99,
+    "fit_score": 1.99,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5070": {
+   "name": "Batista Bomb",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5070_0",
+    "1": "STN1_5070_1"
+   },
+   "impact_frames": [
+    154
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5070_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.925,
+    "fit_mean_contact_dm": 2.81,
+    "fit_score": 2.81,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "9744": {
+   "name": "Kane 1",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9744_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "9610": {
+   "name": "Kane 2",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9610_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3081": {
+   "name": "Throat Thrust 2",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3081_0"
+   },
+   "impact_frames": [
+    6
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3081_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3080": {
+   "name": "Throat Thrust 1",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3080_0"
+   },
+   "impact_frames": [
+    11
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3080_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3109": {
+   "name": "Kane Uppercut",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3109_0"
+   },
+   "impact_frames": [
+    17
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3109_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "11063": {
+   "name": "Big Boot 5",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11063_0"
+   },
+   "impact_frames": [
+    12
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_11063_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "21008": {
+   "name": "Sleeper Hold",
+   "category": "ANAS",
+   "clips": {
+    "0": "ANAS_21008_0",
+    "1": "ANAS_21008_1"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.0974,
+    "fit_mean_contact_dm": 2.0,
+    "fit_score": 2.0,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5027": {
+   "name": "Armlock Scoop Slam",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5027_0",
+    "1": "STN1_5027_1"
+   },
+   "impact_frames": [
+    76
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5027_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.217,
+    "fit_mean_contact_dm": 4.27,
+    "fit_score": 4.27,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7373": {
+   "name": "Back Side Slam",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7373_0",
+    "1": "STN2_7373_1"
+   },
+   "impact_frames": [
+    76
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7373_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.1197,
+    "fit_mean_contact_dm": 3.05,
+    "fit_score": 3.05,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4696": {
+   "name": "Pendulum Backbreaker",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4696_0",
+    "1": "STN2_4696_1"
+   },
+   "impact_frames": [
+    61
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4696_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.3408,
+    "fit_mean_contact_dm": 2.28,
+    "fit_score": 2.88,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4988": {
+   "name": "Scoop Powerslam",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_4988_0",
+    "1": "STN1_4988_1"
+   },
+   "impact_frames": [
+    122
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_4988_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.4868,
+    "fit_mean_contact_dm": 1.77,
+    "fit_score": 1.77,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "10313": {
+   "name": "Elbow Drop 8",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_10313_0",
+    "1": "GRND_10313_1"
+   },
+   "impact_frames": [
+    60
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_10313_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.146,
+    "fit_mean_contact_dm": 6.91,
+    "fit_score": 6.91,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "21204": {
+   "name": "Triangle Hold",
+   "category": "ANAS",
+   "clips": {
+    "0": "ANAS_21204_0",
+    "1": "ANAS_21204_1"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": -0.0974,
+    "fit_mean_contact_dm": 2.87,
+    "fit_score": 2.87,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "down_up",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "21301": {
+   "name": "Boston Crab",
+   "category": "ANAS",
+   "clips": {
+    "0": "ANAS_21301_0",
+    "1": "ANAS_21301_1"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.146,
+    "fit_mean_contact_dm": 1.39,
+    "fit_score": 1.39,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "sit",
+   "victim_end": "down_down",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "3577": {
+   "name": "Diving Fist Drop 1",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_3577_0"
+   },
+   "impact_frames": [
+    20
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in CORN_3577_0)"
+   ],
+   "pair": null,
+   "attacker_end": "sit",
+   "attacker_start": "stand"
+  },
+  "3523": {
+   "name": "Flying Clothesline",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_3523_0"
+   },
+   "impact_frames": [
+    24
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in CORN_3523_0)"
+   ],
+   "pair": null,
+   "attacker_end": "sit",
+   "attacker_start": "stand"
+  },
+  "7556": {
+   "name": "DDT 11",
+   "category": "RUN",
+   "clips": {
+    "0": "RUN_7556_0",
+    "1": "RUN_7556_1"
+   },
+   "impact_frames": [
+    27
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in RUN_7556_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.071,
+    "fit_mean_contact_dm": 2.29,
+    "fit_score": 2.29,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5564": {
+   "name": "Back Body Drop 2",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5564_0",
+    "1": "STN1_5564_1"
+   },
+   "impact_frames": [
+    28
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5564_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.9473,
+    "fit_mean_contact_dm": 8.45,
+    "fit_score": 8.45,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "down_down"
+  },
+  "5516": {
+   "name": "Back Body Drop 1",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5516_0",
+    "1": "STN1_5516_1"
+   },
+   "impact_frames": [
+    30
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5516_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.0974,
+    "fit_mean_contact_dm": 3.33,
+    "fit_score": 3.33,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "down_down"
+  },
+  "3271": {
+   "name": "Big Boot 2",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3271_0"
+   },
+   "impact_frames": [
+    7
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3271_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "11010": {
+   "name": "Pull-Back Big Boot",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11010_0",
+    "1": "STAT_11010_1"
+   },
+   "impact_frames": [
+    17
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_11010_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.3631,
+    "fit_mean_contact_dm": 3.45,
+    "fit_score": 3.45,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "11033": {
+   "name": "Pull-Back Side Slam",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11033_0",
+    "1": "STAT_11033_1"
+   },
+   "impact_frames": [
+    52
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_11033_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.6552,
+    "fit_mean_contact_dm": 2.18,
+    "fit_score": 2.18,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "6526": {
+   "name": "Scoop Slam & Dropkick",
+   "category": "ROPE",
+   "clips": {
+    "0": "ROPE_6526_0",
+    "1": "ROPE_6526_1"
+   },
+   "impact_frames": [
+    157
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in ROPE_6526_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.3631,
+    "fit_mean_contact_dm": 1.77,
+    "fit_score": 1.77,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5006": {
+   "name": "Chokeslam 1",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5006_0",
+    "1": "STN1_5006_1"
+   },
+   "impact_frames": [
+    94
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5006_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.3144,
+    "fit_mean_contact_dm": 1.32,
+    "fit_score": 1.32,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "700": {
+   "name": "Normal Ring In 1",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_700_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "9090": {
+   "name": "Kofi Kingston 2",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9090_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "9616": {
+   "name": "Kofi Kingston 3",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9616_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "9589": {
+   "name": "Kofi Kingston 1",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9589_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3015": {
+   "name": "Snap Jab 1",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3015_0"
+   },
+   "impact_frames": [
+    5
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3015_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3221": {
+   "name": "Spinning Back Kick",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3221_0"
+   },
+   "impact_frames": [
+    19
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3221_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3211": {
+   "name": "Dropkick 1",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3211_0"
+   },
+   "impact_frames": [
+    25
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3211_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3013": {
+   "name": "Elbow Smash 5",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3013_0"
+   },
+   "impact_frames": [
+    10
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3013_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "112": {
+   "name": "European Uppercut 1",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_112_0",
+    "1": "STAT_112_1"
+   },
+   "impact_frames": [
+    15
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_112_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.3631,
+    "fit_mean_contact_dm": 3.36,
+    "fit_score": 3.96,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4565": {
+   "name": "Double Back Chop",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4565_0",
+    "1": "STN2_4565_1"
+   },
+   "impact_frames": [
+    9
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4565_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": -0.1947,
+    "fit_mean_contact_dm": 9.43,
+    "fit_score": 9.43,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "6527": {
+   "name": "Running Dropkick",
+   "category": "ROPE",
+   "clips": {
+    "0": "ROPE_6527_0",
+    "1": "ROPE_6527_1"
+   },
+   "impact_frames": [
+    78
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in ROPE_6527_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.6815,
+    "fit_mean_contact_dm": 4.23,
+    "fit_score": 4.23,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4587": {
+   "name": "Hip Toss 1",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4587_0",
+    "1": "STN2_4587_1"
+   },
+   "impact_frames": [
+    43
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4587_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.4118,
+    "fit_mean_contact_dm": 4.16,
+    "fit_score": 4.16,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4514": {
+   "name": "European Uppercut 3",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4514_0",
+    "1": "STN2_4514_1"
+   },
+   "impact_frames": [
+    34
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4514_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.2657,
+    "fit_mean_contact_dm": 1.86,
+    "fit_score": 1.86,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4554": {
+   "name": "STO",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4554_0",
+    "1": "STN2_4554_1"
+   },
+   "impact_frames": [
+    54
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4554_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.1684,
+    "fit_mean_contact_dm": 1.99,
+    "fit_score": 1.99,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5247": {
+   "name": "Suplex 4",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5247_0",
+    "1": "STN1_5247_1"
+   },
+   "impact_frames": [
+    142
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5247_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.2657,
+    "fit_mean_contact_dm": 0.83,
+    "fit_score": 0.83,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4536": {
+   "name": "Arm Twist / Leg Lariat",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4536_0",
+    "1": "STN2_4536_1"
+   },
+   "impact_frames": [
+    75
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4536_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.1197,
+    "fit_mean_contact_dm": 2.61,
+    "fit_score": 2.61,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "116": {
+   "name": "Middle Kick 1",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_116_0",
+    "1": "STAT_116_1"
+   },
+   "impact_frames": [
+    19
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_116_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.4118,
+    "fit_mean_contact_dm": 3.59,
+    "fit_score": 3.59,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4744": {
+   "name": "Spinning Roundhouse Kick",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4744_0",
+    "1": "STN2_4744_1"
+   },
+   "impact_frames": [
+    47
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4744_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.4381,
+    "fit_mean_contact_dm": 3.48,
+    "fit_score": 3.48,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5340": {
+   "name": "Arm Wringer / Leg Drop",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5340_0",
+    "1": "STN1_5340_1"
+   },
+   "impact_frames": [
+    133
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5340_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.9736,
+    "fit_mean_contact_dm": 2.95,
+    "fit_score": 2.95,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "126": {
+   "name": "Drop Kick",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_126_0",
+    "1": "STAT_126_1"
+   },
+   "impact_frames": [
+    43
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_126_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.9736,
+    "fit_mean_contact_dm": 3.49,
+    "fit_score": 3.49,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7455": {
+   "name": "Russian Leg Sweep 1",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7455_0",
+    "1": "STN2_7455_1"
+   },
+   "impact_frames": [
+    63
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7455_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.8763,
+    "fit_mean_contact_dm": 1.93,
+    "fit_score": 1.93,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5179": {
+   "name": "Double Wrist Suplex",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5179_0",
+    "1": "STN1_5179_1"
+   },
+   "impact_frames": [
+    41
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5179_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.1684,
+    "fit_mean_contact_dm": 3.1,
+    "fit_score": 3.1,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4974": {
+   "name": "Fisherman Driver",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_4974_0",
+    "1": "STN1_4974_1"
+   },
+   "impact_frames": [
+    108
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_4974_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.3631,
+    "fit_mean_contact_dm": 1.75,
+    "fit_score": 1.75,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7332": {
+   "name": "DDT 10",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7332_0",
+    "1": "STN2_7332_1"
+   },
+   "impact_frames": [
+    41
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7332_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.7302,
+    "fit_mean_contact_dm": 1.76,
+    "fit_score": 1.76,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "down_down",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7308": {
+   "name": "Back Neckbreaker",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7308_0",
+    "1": "STN2_7308_1"
+   },
+   "impact_frames": [
+    93
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7308_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.7789,
+    "fit_mean_contact_dm": 2.16,
+    "fit_score": 2.16,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3857": {
+   "name": "Falling Chop",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3857_0"
+   },
+   "impact_frames": [
+    36
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3857_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "6017": {
+   "name": "Knee Drop 5",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_6017_0",
+    "1": "GRND_6017_1"
+   },
+   "impact_frames": [
+    33
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_6017_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.5842,
+    "fit_mean_contact_dm": 8.33,
+    "fit_score": 8.33,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "10317": {
+   "name": "Soccerball Kick 2",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_10317_0",
+    "1": "GRND_10317_1"
+   },
+   "impact_frames": [
+    59
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_10317_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.5842,
+    "fit_mean_contact_dm": 2.0,
+    "fit_score": 2.0,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "6173": {
+   "name": "Leg Stomps",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_6173_0",
+    "1": "GRND_6173_1"
+   },
+   "impact_frames": [
+    61
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_6173_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.4118,
+    "fit_mean_contact_dm": 3.29,
+    "fit_score": 3.29,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "6060": {
+   "name": "Low Dropkick 1",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_6060_0",
+    "1": "GRND_6060_1"
+   },
+   "impact_frames": [
+    75
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_6060_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.5842,
+    "fit_mean_contact_dm": 10.38,
+    "fit_score": 10.38,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_down",
+   "attacker_start": "stand"
+  },
+  "5734": {
+   "name": "Hanging Overhead Kick",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_5734_0",
+    "1": "CORN_5734_1"
+   },
+   "impact_frames": [
+    108
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in CORN_5734_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": -0.0974,
+    "fit_mean_contact_dm": 5.73,
+    "fit_score": 5.73,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3560": {
+   "name": "Diving Leg Drop 4",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_3560_0"
+   },
+   "impact_frames": [
+    23
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in CORN_3560_0)"
+   ],
+   "pair": null,
+   "attacker_end": "sit",
+   "attacker_start": "stand"
+  },
+  "3529": {
+   "name": "Diving Cross Body 2",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_3529_0"
+   },
+   "impact_frames": [
+    25
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in CORN_3529_0)"
+   ],
+   "pair": null,
+   "attacker_end": "down_down",
+   "attacker_start": "stand"
+  },
+  "7586": {
+   "name": "Arm Drag 6",
+   "category": "RUN",
+   "clips": {
+    "0": "RUN_7586_0",
+    "1": "RUN_7586_1"
+   },
+   "impact_frames": [
+    41
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in RUN_7586_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.7789,
+    "fit_mean_contact_dm": 2.58,
+    "fit_score": 2.58,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7599": {
+   "name": "Monkey Flip 3",
+   "category": "RUN",
+   "clips": {
+    "0": "RUN_7599_0",
+    "1": "RUN_7599_1"
+   },
+   "impact_frames": [
+    50
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in RUN_7599_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.071,
+    "fit_mean_contact_dm": 1.29,
+    "fit_score": 1.29,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3485": {
+   "name": "Flying Forearm Smash 2",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3485_0"
+   },
+   "impact_frames": [
+    8
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3485_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3295": {
+   "name": "Double Chop 2",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3295_0"
+   },
+   "impact_frames": [
+    9
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3295_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "11012": {
+   "name": "Pull-Back Jumping Knee",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11012_0",
+    "1": "STAT_11012_1"
+   },
+   "impact_frames": [
+    12
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_11012_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.146,
+    "fit_mean_contact_dm": 4.37,
+    "fit_score": 4.37,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "11031": {
+   "name": "Pull-Back Hurricanrana",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11031_0",
+    "1": "STAT_11031_1"
+   },
+   "impact_frames": [
+    46
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_11031_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.146,
+    "fit_mean_contact_dm": 3.7,
+    "fit_score": 3.7,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "6686": {
+   "name": "Boom Drop",
+   "category": "ROPE",
+   "clips": {
+    "0": "ROPE_6686_0",
+    "1": "ROPE_6686_1"
+   },
+   "impact_frames": [
+    127
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in ROPE_6686_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.5842,
+    "fit_mean_contact_dm": 18.02,
+    "fit_score": 18.02,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "4561": {
+   "name": "Trouble in Paradise 1",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4561_0",
+    "1": "STN2_4561_1"
+   },
+   "impact_frames": [
+    51
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4561_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.5842,
+    "fit_mean_contact_dm": 3.75,
+    "fit_score": 3.75,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4746": {
+   "name": "S.O.S.",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4746_0",
+    "1": "STN2_4746_1"
+   },
+   "impact_frames": [
+    101
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4746_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.1684,
+    "fit_mean_contact_dm": 2.62,
+    "fit_score": 2.62,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "9265": {
+   "name": "Rey Mysterio 1",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9265_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "9148": {
+   "name": "Rey Mysterio 4",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9148_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3105": {
+   "name": "Low Kick 2",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3105_0"
+   },
+   "impact_frames": [
+    8
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3105_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3228": {
+   "name": "Dropkick to Knee",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3228_0"
+   },
+   "impact_frames": [
+    21
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3228_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3213": {
+   "name": "Flying Kneel Kick 1",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3213_0"
+   },
+   "impact_frames": [
+    15
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3213_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3230": {
+   "name": "Left Middle Kick",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3230_0"
+   },
+   "impact_frames": [
+    18
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3230_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "11078": {
+   "name": "Dropkick 7",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11078_0"
+   },
+   "impact_frames": [
+    27
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_11078_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "4733": {
+   "name": "Step Kick",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4733_0",
+    "1": "STN2_4733_1"
+   },
+   "impact_frames": [
+    61
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4733_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.217,
+    "fit_mean_contact_dm": 1.42,
+    "fit_score": 1.42,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "121": {
+   "name": "Knee to Gut",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_121_0",
+    "1": "STAT_121_1"
+   },
+   "impact_frames": [
+    28
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_121_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": -0.1947,
+    "fit_mean_contact_dm": 3.05,
+    "fit_score": 3.05,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4841": {
+   "name": "Flying Kneel Kick 2",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4841_0",
+    "1": "STN2_4841_1"
+   },
+   "impact_frames": [
+    23
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4841_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.5842,
+    "fit_mean_contact_dm": 3.51,
+    "fit_score": 3.51,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5143": {
+   "name": "Drop Toe Facecrusher",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5143_0",
+    "1": "STN1_5143_1"
+   },
+   "impact_frames": [
+    48
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5143_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.7789,
+    "fit_mean_contact_dm": 1.44,
+    "fit_score": 1.44,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4792": {
+   "name": "Hurricanrana 1",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4792_0",
+    "1": "STN2_4792_1"
+   },
+   "impact_frames": [
+    60
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4792_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.4118,
+    "fit_mean_contact_dm": 3.89,
+    "fit_score": 3.89,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7450": {
+   "name": "Hurricanrana 5",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7450_0",
+    "1": "STN2_7450_1"
+   },
+   "impact_frames": [
+    89
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7450_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.7789,
+    "fit_mean_contact_dm": 2.98,
+    "fit_score": 2.98,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "21101": {
+   "name": "Cobra Clutch",
+   "category": "ANAS",
+   "clips": {
+    "0": "ANAS_21101_0",
+    "1": "ANAS_21101_1"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.0974,
+    "fit_mean_contact_dm": 1.74,
+    "fit_score": 1.74,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5348": {
+   "name": "Silver Spoon DDT",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5348_0",
+    "1": "STN1_5348_1"
+   },
+   "impact_frames": [
+    28
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5348_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.4118,
+    "fit_mean_contact_dm": 2.33,
+    "fit_score": 2.33,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5246": {
+   "name": "Sunset Flip Powerbomb 2",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5246_0",
+    "1": "STN1_5246_1"
+   },
+   "impact_frames": [
+    142
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5246_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.1947,
+    "fit_mean_contact_dm": 3.28,
+    "fit_score": 3.28,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5334": {
+   "name": "Jumping DDT",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5334_0",
+    "1": "STN1_5334_1"
+   },
+   "impact_frames": [
+    77
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5334_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.6329,
+    "fit_mean_contact_dm": 1.33,
+    "fit_score": 1.33,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7386": {
+   "name": "Hurricanrana DDT",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7386_0",
+    "1": "STN2_7386_1"
+   },
+   "impact_frames": [
+    67
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7386_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.8276,
+    "fit_mean_contact_dm": 2.71,
+    "fit_score": 2.71,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7408": {
+   "name": "Frankensteiner 2",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7408_0",
+    "1": "STN2_7408_1"
+   },
+   "impact_frames": [
+    81
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7408_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.0223,
+    "fit_mean_contact_dm": 2.9,
+    "fit_score": 2.9,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3890": {
+   "name": "Spiral Leg Drop",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3890_0"
+   },
+   "impact_frames": [
+    24
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3890_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "5993": {
+   "name": "Soccerball Kick 1",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_5993_0",
+    "1": "GRND_5993_1"
+   },
+   "impact_frames": [
+    75
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_5993_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.9736,
+    "fit_mean_contact_dm": 2.87,
+    "fit_score": 2.87,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "10333": {
+   "name": "Mysterio Middle Kick",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_10333_0",
+    "1": "GRND_10333_1"
+   },
+   "impact_frames": [
+    66
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_10333_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": -0.1947,
+    "fit_mean_contact_dm": 7.63,
+    "fit_score": 7.63,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "6134": {
+   "name": "Foot DDT",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_6134_0",
+    "1": "GRND_6134_1"
+   },
+   "impact_frames": [
+    112
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_6134_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.0223,
+    "fit_mean_contact_dm": 3.45,
+    "fit_score": 3.45,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "10513": {
+   "name": "Hip Drop 3",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_10513_0",
+    "1": "GRND_10513_1"
+   },
+   "impact_frames": [
+    76
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_10513_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.217,
+    "fit_mean_contact_dm": 5.37,
+    "fit_score": 5.37,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "down_down",
+   "attacker_start": "stand"
+  },
+  "5659": {
+   "name": "Arm Drag 5",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_5659_0",
+    "1": "CORN_5659_1"
+   },
+   "impact_frames": [
+    195
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in CORN_5659_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": -0.1947,
+    "fit_mean_contact_dm": 3.86,
+    "fit_score": 3.86,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "23350": {
+   "name": "Knife Edge Chop 4",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_23350_0"
+   },
+   "impact_frames": [
+    10
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_23350_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "5769": {
+   "name": "Corner Bulldog",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_5769_0",
+    "1": "CORN_5769_1"
+   },
+   "impact_frames": [
+    104
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in CORN_5769_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": -0.1947,
+    "fit_mean_contact_dm": 2.93,
+    "fit_score": 2.93,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3610": {
+   "name": "Diving Moonsault 1",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_3610_0"
+   },
+   "impact_frames": [
+    18
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in CORN_3610_0)"
+   ],
+   "pair": null,
+   "attacker_end": "down_down",
+   "attacker_start": "stand"
+  },
+  "3596": {
+   "name": "Five Star Frog Splash",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_3596_0"
+   },
+   "impact_frames": [
+    24
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in CORN_3596_0)"
+   ],
+   "pair": null,
+   "attacker_end": "down_down",
+   "attacker_start": "stand"
+  },
+  "3520": {
+   "name": "Diving Hurricanrana",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_3520_0"
+   },
+   "impact_frames": [
+    20
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in CORN_3520_0)"
+   ],
+   "pair": null,
+   "attacker_end": "sit",
+   "attacker_start": "stand"
+  },
+  "3528": {
+   "name": "Diving Heel Kick",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_3528_0"
+   },
+   "impact_frames": [
+    16
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in CORN_3528_0)"
+   ],
+   "pair": null,
+   "attacker_end": "down_up",
+   "attacker_start": "stand"
+  },
+  "7618": {
+   "name": "Bulldog 5",
+   "category": "RUN",
+   "clips": {
+    "0": "RUN_7618_0",
+    "1": "RUN_7618_1"
+   },
+   "impact_frames": [
+    63
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in RUN_7618_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.4868,
+    "fit_mean_contact_dm": 2.17,
+    "fit_score": 2.17,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7615": {
+   "name": "DDT 13",
+   "category": "RUN",
+   "clips": {
+    "0": "RUN_7615_0",
+    "1": "RUN_7615_1"
+   },
+   "impact_frames": [
+    66
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in RUN_7615_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.3144,
+    "fit_mean_contact_dm": 1.7,
+    "fit_score": 1.7,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3484": {
+   "name": "Flying Wheel Kick",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3484_0"
+   },
+   "impact_frames": [
+    9
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3484_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3942": {
+   "name": "Flip Senton Attack 2",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3942_0"
+   },
+   "impact_frames": [
+    9
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3942_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "5522": {
+   "name": "Lou Thesz Press 2",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5522_0",
+    "1": "STN1_5522_1"
+   },
+   "impact_frames": [
+    58
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5522_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.071,
+    "fit_mean_contact_dm": 2.06,
+    "fit_score": 2.06,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3412": {
+   "name": "Running Hurricanrana",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3412_0"
+   },
+   "impact_frames": [
+    13
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3412_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "1363": {
+   "name": "Forward Roll Reversal",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_1363_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "6605": {
+   "name": "The 619 Body Splash",
+   "category": "ROPE",
+   "clips": {
+    "0": "ROPE_6605_0",
+    "1": "ROPE_6605_1"
+   },
+   "impact_frames": [
+    276
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in ROPE_6605_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.3631,
+    "fit_mean_contact_dm": 5.99,
+    "fit_score": 5.99,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "6604": {
+   "name": "The 619 Senton",
+   "category": "ROPE",
+   "clips": {
+    "0": "ROPE_6604_0",
+    "1": "ROPE_6604_1"
+   },
+   "impact_frames": [
+    276
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in ROPE_6604_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.3144,
+    "fit_mean_contact_dm": 4.9,
+    "fit_score": 4.9,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "9631": {
+   "name": "Edge 6",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9631_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "9625": {
+   "name": "Edge 5",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9625_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "122": {
+   "name": "Eye Rake 1",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_122_0",
+    "1": "STAT_122_1"
+   },
+   "impact_frames": [
+    24
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_122_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": -0.1947,
+    "fit_mean_contact_dm": 3.15,
+    "fit_score": 3.15,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4687": {
+   "name": "Armbar 1",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4687_0",
+    "1": "STN2_4687_1"
+   },
+   "impact_frames": [
+    108
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4687_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.0223,
+    "fit_mean_contact_dm": 3.01,
+    "fit_score": 3.01,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4615": {
+   "name": "Arm Wrench Slap",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4615_0",
+    "1": "STN2_4615_1"
+   },
+   "impact_frames": [
+    52
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4615_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.071,
+    "fit_mean_contact_dm": 3.2,
+    "fit_score": 3.2,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4870": {
+   "name": "Edge-O-Matic",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4870_0",
+    "1": "STN2_4870_1"
+   },
+   "impact_frames": [
+    47
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4870_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.2657,
+    "fit_mean_contact_dm": 1.4,
+    "fit_score": 1.4,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5259": {
+   "name": "Gutbuster 1",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5259_0",
+    "1": "STN1_5259_1"
+   },
+   "impact_frames": [
+    75
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5259_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.071,
+    "fit_mean_contact_dm": 2.14,
+    "fit_score": 2.14,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5038": {
+   "name": "Flapjack 1",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5038_0",
+    "1": "STN1_5038_1"
+   },
+   "impact_frames": [
+    118
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5038_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.1197,
+    "fit_mean_contact_dm": 2.48,
+    "fit_score": 2.48,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5008": {
+   "name": "DDT 4",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5008_0",
+    "1": "STN1_5008_1"
+   },
+   "impact_frames": [
+    32
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5008_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.3144,
+    "fit_mean_contact_dm": 1.69,
+    "fit_score": 1.69,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7210": {
+   "name": "Electric Chair Drop",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7210_0",
+    "1": "STN2_7210_1"
+   },
+   "impact_frames": [
+    79
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7210_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.8763,
+    "fit_mean_contact_dm": 1.81,
+    "fit_score": 1.81,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "6032": {
+   "name": "Outlaw Stomp",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_6032_0",
+    "1": "GRND_6032_1"
+   },
+   "impact_frames": [
+    74
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_6032_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.3408,
+    "fit_mean_contact_dm": 8.58,
+    "fit_score": 8.58,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "10325": {
+   "name": "Head Smash",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_10325_0",
+    "1": "GRND_10325_1"
+   },
+   "impact_frames": [
+    91
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_10325_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.4868,
+    "fit_mean_contact_dm": 4.76,
+    "fit_score": 4.76,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "6150": {
+   "name": "Knee to Groin",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_6150_0",
+    "1": "GRND_6150_1"
+   },
+   "impact_frames": [
+    153
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_6150_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.3631,
+    "fit_mean_contact_dm": 2.95,
+    "fit_score": 2.95,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "21307": {
+   "name": "Cloverleaf",
+   "category": "ANAS",
+   "clips": {
+    "0": "ANAS_21307_0",
+    "1": "ANAS_21307_1"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": -0.0487,
+    "fit_mean_contact_dm": 1.88,
+    "fit_score": 1.88,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "down_down",
+   "victim_end": "down_down",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "5656": {
+   "name": "DDT 9",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_5656_0",
+    "1": "CORN_5656_1"
+   },
+   "impact_frames": [
+    149
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in CORN_5656_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": -0.1947,
+    "fit_mean_contact_dm": 2.53,
+    "fit_score": 2.53,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3508": {
+   "name": "Missile Dropkick",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_3508_0"
+   },
+   "impact_frames": [
+    19
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in CORN_3508_0)"
+   ],
+   "pair": null,
+   "attacker_end": "down_down",
+   "attacker_start": "stand"
+  },
+  "3379": {
+   "name": "Clothesline 3",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3379_0"
+   },
+   "impact_frames": [
+    3
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3379_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "5093": {
+   "name": "Edgecution 1",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5093_0",
+    "1": "STN1_5093_1"
+   },
+   "impact_frames": [
+    78
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5093_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.1684,
+    "fit_mean_contact_dm": 2.62,
+    "fit_score": 2.62,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "6693": {
+   "name": "Spear 2",
+   "category": "ROPE",
+   "clips": {
+    "0": "ROPE_6693_0",
+    "1": "ROPE_6693_1"
+   },
+   "impact_frames": [
+    116
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in ROPE_6693_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": -0.0487,
+    "fit_mean_contact_dm": 12.4,
+    "fit_score": 12.4,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_down",
+   "attacker_start": "stand"
+  },
+  "7609": {
+   "name": "Striking Spear",
+   "category": "RUN",
+   "clips": {
+    "0": "RUN_7609_0",
+    "1": "RUN_7609_1"
+   },
+   "impact_frames": [
+    17
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in RUN_7609_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.2657,
+    "fit_mean_contact_dm": 6.41,
+    "fit_score": 6.41,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "747": {
+   "name": "Handstand Ring Out",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_747_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "sit",
+   "attacker_start": "stand"
+  },
+  "7012": {
+   "name": "Normal Ring Out 1",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_7012_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "9629": {
+   "name": "The Rock 1",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9629_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "9537": {
+   "name": "The Rock 2",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9537_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3071": {
+   "name": "People's Punch 2",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3071_0"
+   },
+   "impact_frames": [
+    39
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3071_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "11073": {
+   "name": "Knife Edge Chop 2",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11073_0"
+   },
+   "impact_frames": [
+    22
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_11073_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "4683": {
+   "name": "Knee Breaker",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4683_0",
+    "1": "STN2_4683_1"
+   },
+   "impact_frames": [
+    106
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4683_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.925,
+    "fit_mean_contact_dm": 1.39,
+    "fit_score": 1.39,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4609": {
+   "name": "Undertaker Knee Strike",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4609_0",
+    "1": "STN2_4609_1"
+   },
+   "impact_frames": [
+    24
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4609_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.217,
+    "fit_mean_contact_dm": 1.88,
+    "fit_score": 1.88,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4941": {
+   "name": "Clothesline 6",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4941_0",
+    "1": "STN2_4941_1"
+   },
+   "impact_frames": [
+    57
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4941_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.4868,
+    "fit_mean_contact_dm": 5.18,
+    "fit_score": 5.18,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5003": {
+   "name": "Samoan Drop 4",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5003_0",
+    "1": "STN1_5003_1"
+   },
+   "impact_frames": [
+    111
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5003_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.7302,
+    "fit_mean_contact_dm": 1.98,
+    "fit_score": 1.98,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7201": {
+   "name": "Atomic Drop 1",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7201_0",
+    "1": "STN2_7201_1"
+   },
+   "impact_frames": [
+    80
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7201_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.9736,
+    "fit_mean_contact_dm": 2.58,
+    "fit_score": 2.58,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3888": {
+   "name": "People's Stomp",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3888_0"
+   },
+   "impact_frames": [
+    18
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3888_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3550": {
+   "name": "Diving Elbow Drop 1",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_3550_0"
+   },
+   "impact_frames": [
+    17
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in CORN_3550_0)"
+   ],
+   "pair": null,
+   "attacker_end": "sit",
+   "attacker_start": "stand"
+  },
+  "7550": {
+   "name": "Neckbreaker 5",
+   "category": "RUN",
+   "clips": {
+    "0": "RUN_7550_0",
+    "1": "RUN_7550_1"
+   },
+   "impact_frames": [
+    25
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in RUN_7550_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.4868,
+    "fit_mean_contact_dm": 2.48,
+    "fit_score": 2.48,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7588": {
+   "name": "Neckbreaker 6",
+   "category": "RUN",
+   "clips": {
+    "0": "RUN_7588_0",
+    "1": "RUN_7588_1"
+   },
+   "impact_frames": [
+    17
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in RUN_7588_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.6329,
+    "fit_mean_contact_dm": 4.89,
+    "fit_score": 4.89,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3488": {
+   "name": "Clothesline 5",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3488_0"
+   },
+   "impact_frames": [
+    16
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3488_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "5500": {
+   "name": "Samoan Drop 2",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5500_0",
+    "1": "STN1_5500_1"
+   },
+   "impact_frames": [
+    29
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5500_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.217,
+    "fit_mean_contact_dm": 2.18,
+    "fit_score": 2.18,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "down_down"
+  },
+  "11040": {
+   "name": "Pull-Back Samoan Drop",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11040_0",
+    "1": "STAT_11040_1"
+   },
+   "impact_frames": [
+    45
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_11040_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.9473,
+    "fit_mean_contact_dm": 3.02,
+    "fit_score": 3.02,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "21302": {
+   "name": "Sharpshooter",
+   "category": "ANAS",
+   "clips": {
+    "0": "ANAS_21302_0",
+    "1": "ANAS_21302_1"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.0487,
+    "fit_mean_contact_dm": 2.14,
+    "fit_score": 2.14,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "kneel",
+   "victim_end": "down_down",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "5562": {
+   "name": "Spinebuster 8",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5562_0",
+    "1": "STN1_5562_1"
+   },
+   "impact_frames": [
+    37
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5562_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.9736,
+    "fit_mean_contact_dm": 1.78,
+    "fit_score": 1.78,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "6677": {
+   "name": "People's Elbow",
+   "category": "ROPE",
+   "clips": {
+    "0": "ROPE_6677_0",
+    "1": "ROPE_6677_1"
+   },
+   "impact_frames": [
+    356
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in ROPE_6677_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.925,
+    "fit_mean_contact_dm": 8.77,
+    "fit_score": 8.77,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "5079": {
+   "name": "Rock Bottom 1",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5079_0",
+    "1": "STN1_5079_1"
+   },
+   "impact_frames": [
+    83
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5079_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.8276,
+    "fit_mean_contact_dm": 1.92,
+    "fit_score": 1.92,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "738": {
+   "name": "Outlaw Ring In",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_738_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "748": {
+   "name": "Roll Down Ring Out",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_748_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "sit",
+   "attacker_start": "stand"
+  },
+  "9721": {
+   "name": "Stone Cold",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9721_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "11060": {
+   "name": "Haymaker 3",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11060_0"
+   },
+   "impact_frames": [
+    16
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_11060_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "4608": {
+   "name": "Throat Thrust 3",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4608_0",
+    "1": "STN2_4608_1"
+   },
+   "impact_frames": [
+    20
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4608_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.6329,
+    "fit_mean_contact_dm": 2.81,
+    "fit_score": 2.81,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "kneel"
+  },
+  "4987": {
+   "name": "Texas Piledriver",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_4987_0",
+    "1": "STN1_4987_1"
+   },
+   "impact_frames": [
+    187
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_4987_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.3631,
+    "fit_mean_contact_dm": 1.65,
+    "fit_score": 1.65,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5110": {
+   "name": "Snap Suplex",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5110_0",
+    "1": "STN1_5110_1"
+   },
+   "impact_frames": [
+    90
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5110_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.2657,
+    "fit_mean_contact_dm": 1.54,
+    "fit_score": 1.54,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "6661": {
+   "name": "Elbow Drop 7",
+   "category": "ROPE",
+   "clips": {
+    "0": "ROPE_6661_0",
+    "1": "ROPE_6661_1"
+   },
+   "impact_frames": [
+    80
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in ROPE_6661_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.5091,
+    "fit_mean_contact_dm": 17.31,
+    "fit_score": 17.31,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "10511": {
+   "name": "Double Hammer Punch",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_10511_0",
+    "1": "GRND_10511_1"
+   },
+   "impact_frames": [
+    89
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_10511_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.3895,
+    "fit_mean_contact_dm": 4.1,
+    "fit_score": 4.1,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "down_down",
+   "attacker_start": "stand"
+  },
+  "11002": {
+   "name": "Pull-Back Kitchen Sink",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11002_0",
+    "1": "STAT_11002_1"
+   },
+   "impact_frames": [
+    12
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_11002_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.0487,
+    "fit_mean_contact_dm": 6.34,
+    "fit_score": 6.34,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5092": {
+   "name": "Stone Cold Stunner 1",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5092_0",
+    "1": "STN1_5092_1"
+   },
+   "impact_frames": [
+    41
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5092_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.0223,
+    "fit_mean_contact_dm": 3.54,
+    "fit_score": 3.54,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5235": {
+   "name": "Stone Cold Stunner 2",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5235_0",
+    "1": "STN1_5235_1"
+   },
+   "impact_frames": [
+    44
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5235_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.071,
+    "fit_mean_contact_dm": 3.32,
+    "fit_score": 3.32,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "9570": {
+   "name": "The Miz 3",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9570_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "9528": {
+   "name": "The Miz 4",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9528_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3096": {
+   "name": "Gut Kick 1",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3096_0"
+   },
+   "impact_frames": [
+    12
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3096_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3206": {
+   "name": "Cross Chop to Throat",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3206_0"
+   },
+   "impact_frames": [
+    9
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3206_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "11088": {
+   "name": "Discus Punch",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11088_0"
+   },
+   "impact_frames": [
+    17
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_11088_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "4582": {
+   "name": "Double Leg Trip Slap",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4582_0",
+    "1": "STN2_4582_1"
+   },
+   "impact_frames": [
+    34
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4582_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.8276,
+    "fit_mean_contact_dm": 2.56,
+    "fit_score": 2.56,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4616": {
+   "name": "Eye Rake 2",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4616_0",
+    "1": "STN2_4616_1"
+   },
+   "impact_frames": [
+    27
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4616_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.3408,
+    "fit_mean_contact_dm": 1.6,
+    "fit_score": 1.6,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4720": {
+   "name": "Shoulder Jawbreaker",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4720_0",
+    "1": "STN2_4720_1"
+   },
+   "impact_frames": [
+    55
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4720_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.5578,
+    "fit_mean_contact_dm": 1.23,
+    "fit_score": 1.23,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5063": {
+   "name": "Hangman's Neckbreaker 2",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5063_0",
+    "1": "STN1_5063_1"
+   },
+   "impact_frames": [
+    107
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5063_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.217,
+    "fit_mean_contact_dm": 2.11,
+    "fit_score": 2.11,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3865": {
+   "name": "Double Axe Handle 1",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3865_0"
+   },
+   "impact_frames": [
+    15
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3865_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "5973": {
+   "name": "Face Stomp",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_5973_0",
+    "1": "GRND_5973_1"
+   },
+   "impact_frames": [
+    39
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_5973_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.3408,
+    "fit_mean_contact_dm": 3.97,
+    "fit_score": 3.97,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "10518": {
+   "name": "Double Arm Camel Clutch",
+   "category": "GRND",
+   "clips": {
+    "0": "GRND_10518_0",
+    "1": "GRND_10518_1"
+   },
+   "impact_frames": [
+    121
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in GRND_10518_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.3144,
+    "fit_mean_contact_dm": 6.82,
+    "fit_score": 6.82,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "down_down",
+   "attacker_start": "stand"
+  },
+  "5661": {
+   "name": "Tornado DDT",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_5661_0",
+    "1": "CORN_5661_1"
+   },
+   "impact_frames": [
+    135
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in CORN_5661_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": -0.146,
+    "fit_mean_contact_dm": 1.42,
+    "fit_score": 1.42,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5759": {
+   "name": "Final Cut",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_5759_0",
+    "1": "CORN_5759_1"
+   },
+   "impact_frames": [
+    67
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in CORN_5759_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": -0.146,
+    "fit_mean_contact_dm": 0.94,
+    "fit_score": 0.94,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "7610": {
+   "name": "Neckbreaker 7",
+   "category": "RUN",
+   "clips": {
+    "0": "RUN_7610_0",
+    "1": "RUN_7610_1"
+   },
+   "impact_frames": [
+    29
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in RUN_7610_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.217,
+    "fit_mean_contact_dm": 3.15,
+    "fit_score": 3.15,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3324": {
+   "name": "Running Kneelift",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3324_0"
+   },
+   "impact_frames": [
+    8
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3324_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "5532": {
+   "name": "Hip Toss 4",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5532_0",
+    "1": "STN1_5532_1"
+   },
+   "impact_frames": [
+    20
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5532_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.071,
+    "fit_mean_contact_dm": 5.56,
+    "fit_score": 5.56,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "11007": {
+   "name": "Pull-Back Knee Strike",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_11007_0",
+    "1": "STAT_11007_1"
+   },
+   "impact_frames": [
+    17
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_11007_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.5091,
+    "fit_mean_contact_dm": 2.9,
+    "fit_score": 2.9,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4989": {
+   "name": "Mizard of Oz",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_4989_0",
+    "1": "STN1_4989_1"
+   },
+   "impact_frames": [
+    113
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_4989_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.0487,
+    "fit_mean_contact_dm": 2.16,
+    "fit_score": 2.16,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "6862": {
+   "name": "Reality Check 1",
+   "category": "ROPE",
+   "clips": {
+    "0": "ROPE_6862_0",
+    "1": "ROPE_6862_1"
+   },
+   "impact_frames": [
+    123
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in ROPE_6862_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": -0.1947,
+    "fit_mean_contact_dm": 5.22,
+    "fit_score": 5.22,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "down_down",
+   "attacker_start": "stand"
+  },
+  "7309": {
+   "name": "Skull Crushing Finale",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_7309_0",
+    "1": "STN2_7309_1"
+   },
+   "impact_frames": [
+    60
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_7309_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 1.071,
+    "fit_mean_contact_dm": 1.52,
+    "fit_score": 1.52,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "746": {
+   "name": "Backward Ring Out",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_746_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "sit",
+   "attacker_start": "stand"
+  },
+  "9741": {
+   "name": "Undertaker 2",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9741_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "9608": {
+   "name": "Undertaker 4",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9608_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "9727": {
+   "name": "Undertaker 3",
+   "category": "BASE",
+   "clips": {
+    "0": "BASE_9727_0"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3000": {
+   "name": "Boxing Jab",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3000_0"
+   },
+   "impact_frames": [
+    7
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3000_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3119": {
+   "name": "Undertaker Punch",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3119_0"
+   },
+   "impact_frames": [
+    12
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3119_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "113": {
+   "name": "Knee Strike 2",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_113_0",
+    "1": "STAT_113_1"
+   },
+   "impact_frames": [
+    32
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STAT_113_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": -0.1947,
+    "fit_mean_contact_dm": 1.92,
+    "fit_score": 1.92,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "stand",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4797": {
+   "name": "Double Underhook Lock",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4797_0",
+    "1": "STN2_4797_1"
+   },
+   "impact_frames": [
+    164
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4797_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.4118,
+    "fit_mean_contact_dm": 1.61,
+    "fit_score": 1.61,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5107": {
+   "name": "DDT 6",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5107_0",
+    "1": "STN1_5107_1"
+   },
+   "impact_frames": [
+    77
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5107_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.7302,
+    "fit_mean_contact_dm": 2.59,
+    "fit_score": 2.59,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "4695": {
+   "name": "Backbreaker Drop 2",
+   "category": "STN2",
+   "clips": {
+    "0": "STN2_4695_0",
+    "1": "STN2_4695_1"
+   },
+   "impact_frames": [
+    106
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN2_4695_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.6815,
+    "fit_mean_contact_dm": 1.67,
+    "fit_score": 1.67,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5205": {
+   "name": "Elevated Wrist Lock",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5205_0",
+    "1": "STN1_5205_1"
+   },
+   "impact_frames": [
+    202
+   ],
+   "impact_provenance": [
+    "victim body-thud cue (WAZA/DATA 800-857 on STN1_5205_1)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.8276,
+    "fit_mean_contact_dm": 3.33,
+    "fit_score": 3.33,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5272": {
+   "name": "Sidewalk Slam 1",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5272_0",
+    "1": "STN1_5272_1"
+   },
+   "impact_frames": [
+    135
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5272_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.6065,
+    "fit_mean_contact_dm": 1.85,
+    "fit_score": 1.85,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "21203": {
+   "name": "Dragon Sleeper",
+   "category": "ANAS",
+   "clips": {
+    "0": "ANAS_21203_0",
+    "1": "ANAS_21203_1"
+   },
+   "impact_frames": [],
+   "impact_provenance": [],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": -0.1947,
+    "fit_mean_contact_dm": 3.96,
+    "fit_score": 3.96,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "kneel",
+   "victim_end": "sit",
+   "victim_start": "down_up",
+   "attacker_start": "stand"
+  },
+  "5787": {
+   "name": "Snake Eyes",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_5787_0",
+    "1": "CORN_5787_1"
+   },
+   "impact_frames": [
+    125
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in CORN_5787_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": -0.1947,
+    "fit_mean_contact_dm": 2.19,
+    "fit_score": 2.19,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "3530": {
+   "name": "Diving Clothesline 1",
+   "category": "CORN",
+   "clips": {
+    "0": "CORN_3530_0"
+   },
+   "impact_frames": [
+    22
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in CORN_3530_0)"
+   ],
+   "pair": null,
+   "attacker_end": "down_down",
+   "attacker_start": "stand"
+  },
+  "3304": {
+   "name": "Big Boot 3",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3304_0"
+   },
+   "impact_frames": [
+    22
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3304_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "3943": {
+   "name": "Running Legdrop",
+   "category": "STAT",
+   "clips": {
+    "0": "STAT_3943_0"
+   },
+   "impact_frames": [
+    12
+   ],
+   "impact_provenance": [
+    "attack window start (motion event 0x57 in STAT_3943_0)"
+   ],
+   "pair": null,
+   "attacker_end": "stand",
+   "attacker_start": "stand"
+  },
+  "5612": {
+   "name": "One-handed Bulldog 1",
+   "category": "RUN",
+   "clips": {
+    "0": "RUN_5612_0",
+    "1": "RUN_5612_1"
+   },
+   "impact_frames": [
+    28
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in RUN_5612_0)"
+   ],
+   "pair": {
+    "theta_deg": 0,
+    "d_m": 0.925,
+    "fit_mean_contact_dm": 2.58,
+    "fit_score": 2.58,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "6525": {
+   "name": "Old School",
+   "category": "ROPE",
+   "clips": {
+    "0": "ROPE_6525_0",
+    "1": "ROPE_6525_1"
+   },
+   "impact_frames": [
+    246
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in ROPE_6525_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.6065,
+    "fit_mean_contact_dm": 4.94,
+    "fit_score": 4.94,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_down",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5080": {
+   "name": "Tombstone Piledriver 3",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5080_0",
+    "1": "STN1_5080_1"
+   },
+   "impact_frames": [
+    167
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5080_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 0.8763,
+    "fit_mean_contact_dm": 2.61,
+    "fit_score": 2.61,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  },
+  "5096": {
+   "name": "The Last Ride",
+   "category": "STN1",
+   "clips": {
+    "0": "STN1_5096_0",
+    "1": "STN1_5096_1"
+   },
+   "impact_frames": [
+    241
+   ],
+   "impact_provenance": [
+    "impact cue (motion event 0x56 in STN1_5096_0)"
+   ],
+   "pair": {
+    "theta_deg": 180,
+    "d_m": 1.2657,
+    "fit_mean_contact_dm": 1.45,
+    "fit_score": 1.45,
+    "method": "fitted (tools/swm/moveset_report.py): victim frame = attacker frame * T(0,0,-d) * Ry(theta), YOBJ frame"
+   },
+   "attacker_end": "stand",
+   "victim_end": "down_up",
+   "victim_start": "stand",
+   "attacker_start": "stand"
+  }
+ }
+}

@@ -1,0 +1,738 @@
+{
+ "source": "SvR 2011 evt/Nyujyo*.pac entrances decoded by helper C (tools/svr_entrance); arena frame of helper B (0.1 m per game unit, floor 0, mat 1.2, slope-stage offsets baked). The game scales positions by 0.0973633/0.1 into its motion metres.",
+ "arena_to_world": 0.973633,
+ "characters": {
+  "mario": {
+   "entrance_id": 139,
+   "entrance_name": "John Cena",
+   "parts": [
+    {
+     "part": "intro",
+     "visible": false,
+     "clip": "res://assets/entrances/139/intro.swm",
+     "cam": "res://assets/entrances/139/intro_cam.json",
+     "frames": 331,
+     "step_frames": [
+      331,
+      331
+     ]
+    },
+    {
+     "part": "stage",
+     "visible": true,
+     "clip": "res://assets/entrances/139/stage.swm",
+     "cam": "res://assets/entrances/139/stage_cam.json",
+     "frames": 272,
+     "step_frames": [
+      272,
+      272
+     ]
+    },
+    {
+     "part": "ramp",
+     "visible": true,
+     "clip": "res://assets/entrances/139/ramp.swm",
+     "cam": "res://assets/entrances/139/ramp_cam.json",
+     "frames": 121,
+     "step_frames": [
+      121,
+      121
+     ]
+    },
+    {
+     "part": "ringin",
+     "visible": true,
+     "clip": "res://assets/entrances/139/ringin.swm",
+     "cam": "res://assets/entrances/139/ringin_cam.json",
+     "frames": 121,
+     "step_frames": [
+      65,
+      65
+     ]
+    },
+    {
+     "part": "inring",
+     "visible": true,
+     "clip": "res://assets/entrances/139/inring.swm",
+     "cam": "res://assets/entrances/139/inring_cam.json",
+     "frames": 396,
+     "step_frames": [
+      396,
+      396
+     ]
+    }
+   ]
+  },
+  "donkey": {
+   "entrance_id": 179,
+   "entrance_name": "MarK Henry",
+   "parts": [
+    {
+     "part": "intro",
+     "visible": false,
+     "clip": "res://assets/entrances/179/intro.swm",
+     "cam": "res://assets/entrances/179/intro_cam.json",
+     "frames": 101,
+     "step_frames": [
+      101,
+      101
+     ]
+    },
+    {
+     "part": "stage",
+     "visible": true,
+     "clip": "res://assets/entrances/179/stage.swm",
+     "cam": "res://assets/entrances/179/stage_cam.json",
+     "frames": 176,
+     "step_frames": [
+      176,
+      176
+     ]
+    },
+    {
+     "part": "ramp",
+     "visible": true,
+     "clip": "res://assets/entrances/179/ramp.swm",
+     "cam": "res://assets/entrances/179/ramp_cam.json",
+     "frames": 406,
+     "step_frames": [
+      406,
+      406
+     ]
+    },
+    {
+     "part": "ringin",
+     "visible": true,
+     "clip": "res://assets/entrances/179/ringin.swm",
+     "cam": "res://assets/entrances/179/ringin_cam.json",
+     "frames": 522,
+     "step_frames": [
+      522,
+      522
+     ]
+    },
+    {
+     "part": "inring",
+     "visible": true,
+     "clip": "res://assets/entrances/179/inring.swm",
+     "cam": "res://assets/entrances/179/inring_cam.json",
+     "frames": 237,
+     "step_frames": [
+      237,
+      237
+     ]
+    }
+   ]
+  },
+  "link": {
+   "entrance_id": 160,
+   "entrance_name": "Batista",
+   "parts": [
+    {
+     "part": "intro",
+     "visible": false,
+     "clip": "res://assets/entrances/160/intro.swm",
+     "cam": "res://assets/entrances/160/intro_cam.json",
+     "frames": 101,
+     "step_frames": [
+      101,
+      101
+     ]
+    },
+    {
+     "part": "stage",
+     "visible": true,
+     "clip": "res://assets/entrances/160/stage.swm",
+     "cam": "res://assets/entrances/160/stage_cam.json",
+     "frames": 314,
+     "step_frames": [
+      314,
+      314
+     ]
+    },
+    {
+     "part": "ramp",
+     "visible": true,
+     "clip": "res://assets/entrances/160/ramp.swm",
+     "cam": "res://assets/entrances/160/ramp_cam.json",
+     "frames": 410,
+     "step_frames": [
+      410,
+      410
+     ]
+    },
+    {
+     "part": "ringin",
+     "visible": true,
+     "clip": "res://assets/entrances/160/ringin.swm",
+     "cam": "res://assets/entrances/160/ringin_cam.json",
+     "frames": 495,
+     "step_frames": [
+      495,
+      495
+     ]
+    },
+    {
+     "part": "inring",
+     "visible": true,
+     "clip": "res://assets/entrances/160/inring.swm",
+     "cam": "res://assets/entrances/160/inring_cam.json",
+     "frames": 305,
+     "step_frames": [
+      305,
+      305
+     ]
+    }
+   ]
+  },
+  "samus": {
+   "entrance_id": 107,
+   "entrance_name": "Kane",
+   "parts": [
+    {
+     "part": "intro",
+     "visible": false,
+     "clip": "res://assets/entrances/107/intro.swm",
+     "cam": "res://assets/entrances/107/intro_cam.json",
+     "frames": 141,
+     "step_frames": [
+      141,
+      141
+     ]
+    },
+    {
+     "part": "stage",
+     "visible": true,
+     "clip": "res://assets/entrances/107/stage.swm",
+     "cam": "res://assets/entrances/107/stage_cam.json",
+     "frames": 211,
+     "step_frames": [
+      211,
+      211
+     ]
+    },
+    {
+     "part": "ramp",
+     "visible": true,
+     "clip": "res://assets/entrances/107/ramp.swm",
+     "cam": "res://assets/entrances/107/ramp_cam.json",
+     "frames": 431,
+     "step_frames": [
+      431,
+      431
+     ]
+    },
+    {
+     "part": "ringin",
+     "visible": true,
+     "clip": "res://assets/entrances/107/ringin.swm",
+     "cam": "res://assets/entrances/107/ringin_cam.json",
+     "frames": 449,
+     "step_frames": [
+      449,
+      449
+     ]
+    },
+    {
+     "part": "inring",
+     "visible": true,
+     "clip": "res://assets/entrances/107/inring.swm",
+     "cam": "res://assets/entrances/107/inring_cam.json",
+     "frames": 394,
+     "step_frames": [
+      394,
+      394
+     ]
+    }
+   ]
+  },
+  "yoshi": {
+   "entrance_id": 176,
+   "entrance_name": "Kofi Kingston",
+   "parts": [
+    {
+     "part": "intro",
+     "visible": false,
+     "clip": "res://assets/entrances/176/intro.swm",
+     "cam": "res://assets/entrances/176/intro_cam.json",
+     "frames": 101,
+     "step_frames": [
+      101,
+      101
+     ]
+    },
+    {
+     "part": "stage",
+     "visible": true,
+     "clip": "res://assets/entrances/176/stage.swm",
+     "cam": "res://assets/entrances/176/stage_cam.json",
+     "frames": 231,
+     "step_frames": [
+      231,
+      231
+     ]
+    },
+    {
+     "part": "ramp",
+     "visible": true,
+     "clip": "res://assets/entrances/176/ramp.swm",
+     "cam": "res://assets/entrances/176/ramp_cam.json",
+     "frames": 180,
+     "step_frames": [
+      180,
+      180
+     ]
+    },
+    {
+     "part": "ringin",
+     "visible": true,
+     "clip": "res://assets/entrances/176/ringin.swm",
+     "cam": "res://assets/entrances/176/ringin_cam.json",
+     "frames": 200,
+     "step_frames": [
+      200,
+      200
+     ]
+    },
+    {
+     "part": "inring",
+     "visible": true,
+     "clip": "res://assets/entrances/176/inring.swm",
+     "cam": "res://assets/entrances/176/inring_cam.json",
+     "frames": 360,
+     "step_frames": [
+      360,
+      360
+     ]
+    }
+   ]
+  },
+  "kirby": {
+   "entrance_id": 123,
+   "entrance_name": "Rey_Mysterio",
+   "parts": [
+    {
+     "part": "intro",
+     "visible": false,
+     "clip": "res://assets/entrances/123/intro.swm",
+     "cam": "res://assets/entrances/123/intro_cam.json",
+     "frames": 371,
+     "step_frames": [
+      371,
+      371
+     ]
+    },
+    {
+     "part": "stage",
+     "visible": true,
+     "clip": "res://assets/entrances/123/stage.swm",
+     "cam": "res://assets/entrances/123/stage_cam.json",
+     "frames": 371,
+     "step_frames": [
+      371,
+      371
+     ]
+    },
+    {
+     "part": "ramp",
+     "visible": true,
+     "clip": "res://assets/entrances/123/ramp.swm",
+     "cam": "res://assets/entrances/123/ramp_cam.json",
+     "frames": 306,
+     "step_frames": [
+      306,
+      306
+     ]
+    },
+    {
+     "part": "ringin",
+     "visible": true,
+     "clip": "res://assets/entrances/123/ringin.swm",
+     "cam": "res://assets/entrances/123/ringin_cam.json",
+     "frames": 321,
+     "step_frames": [
+      321,
+      321
+     ]
+    },
+    {
+     "part": "inring",
+     "visible": true,
+     "clip": "res://assets/entrances/123/inring.swm",
+     "cam": "res://assets/entrances/123/inring_cam.json",
+     "frames": 601,
+     "step_frames": [
+      601,
+      601
+     ]
+    }
+   ]
+  },
+  "fox": {
+   "entrance_id": 110,
+   "entrance_name": "Edge",
+   "parts": [
+    {
+     "part": "intro",
+     "visible": false,
+     "clip": "res://assets/entrances/110/intro.swm",
+     "cam": "res://assets/entrances/110/intro_cam.json",
+     "frames": 201,
+     "step_frames": [
+      201,
+      201
+     ]
+    },
+    {
+     "part": "stage",
+     "visible": true,
+     "clip": "res://assets/entrances/110/stage.swm",
+     "cam": "res://assets/entrances/110/stage_cam.json",
+     "frames": 231,
+     "step_frames": [
+      231,
+      231
+     ]
+    },
+    {
+     "part": "ramp",
+     "visible": true,
+     "clip": "res://assets/entrances/110/ramp.swm",
+     "cam": "res://assets/entrances/110/ramp_cam.json",
+     "frames": 731,
+     "step_frames": [
+      731,
+      731
+     ]
+    },
+    {
+     "part": "ringin",
+     "visible": true,
+     "clip": "res://assets/entrances/110/ringin.swm",
+     "cam": "res://assets/entrances/110/ringin_cam.json",
+     "frames": 226,
+     "step_frames": [
+      226,
+      226
+     ]
+    },
+    {
+     "part": "inring",
+     "visible": true,
+     "clip": "res://assets/entrances/110/inring.swm",
+     "cam": "res://assets/entrances/110/inring_cam.json",
+     "frames": 689,
+     "step_frames": [
+      689,
+      689
+     ]
+    }
+   ]
+  },
+  "pikachu": {
+   "entrance_id": 100,
+   "entrance_name": "The Rock",
+   "parts": [
+    {
+     "part": "intro",
+     "visible": false,
+     "clip": "res://assets/entrances/100/intro.swm",
+     "cam": "res://assets/entrances/100/intro_cam.json",
+     "frames": 181,
+     "step_frames": [
+      181,
+      181
+     ]
+    },
+    {
+     "part": "stage",
+     "visible": true,
+     "clip": "res://assets/entrances/100/stage.swm",
+     "cam": "res://assets/entrances/100/stage_cam.json",
+     "frames": 131,
+     "step_frames": [
+      131,
+      131
+     ]
+    },
+    {
+     "part": "ramp",
+     "visible": true,
+     "clip": "res://assets/entrances/100/ramp.swm",
+     "cam": "res://assets/entrances/100/ramp_cam.json",
+     "frames": 246,
+     "step_frames": [
+      246,
+      246
+     ]
+    },
+    {
+     "part": "ringin",
+     "visible": true,
+     "clip": "res://assets/entrances/100/ringin.swm",
+     "cam": "res://assets/entrances/100/ringin_cam.json",
+     "frames": 621,
+     "step_frames": [
+      621,
+      621
+     ]
+    },
+    {
+     "part": "inring",
+     "visible": true,
+     "clip": "res://assets/entrances/100/inring.swm",
+     "cam": "res://assets/entrances/100/inring_cam.json",
+     "frames": 671,
+     "step_frames": [
+      671,
+      671
+     ]
+    }
+   ]
+  },
+  "luigi": {
+   "entrance_id": 272,
+   "entrance_name": "R-Truth",
+   "parts": [
+    {
+     "part": "intro",
+     "visible": false,
+     "clip": "res://assets/entrances/272/intro.swm",
+     "cam": "res://assets/entrances/272/intro_cam.json",
+     "frames": 116,
+     "step_frames": [
+      116,
+      116
+     ]
+    },
+    {
+     "part": "stage",
+     "visible": true,
+     "clip": "res://assets/entrances/272/stage.swm",
+     "cam": "res://assets/entrances/272/stage_cam.json",
+     "frames": 676,
+     "step_frames": [
+      676,
+      676
+     ]
+    },
+    {
+     "part": "ramp",
+     "visible": true,
+     "clip": "res://assets/entrances/272/ramp.swm",
+     "cam": "res://assets/entrances/272/ramp_cam.json",
+     "frames": 1271,
+     "step_frames": [
+      1271,
+      1271
+     ]
+    },
+    {
+     "part": "ringin",
+     "visible": true,
+     "clip": "res://assets/entrances/272/ringin.swm",
+     "cam": "res://assets/entrances/272/ringin_cam.json",
+     "frames": 431,
+     "step_frames": [
+      431,
+      431
+     ]
+    },
+    {
+     "part": "inring",
+     "visible": true,
+     "clip": "res://assets/entrances/272/inring.swm",
+     "cam": "res://assets/entrances/272/inring_cam.json",
+     "frames": 171,
+     "step_frames": [
+      17,
+      17
+     ]
+    }
+   ]
+  },
+  "captain": {
+   "entrance_id": 101,
+   "entrance_name": "Steve Austin",
+   "parts": [
+    {
+     "part": "intro",
+     "visible": false,
+     "clip": "res://assets/entrances/101/intro.swm",
+     "cam": "res://assets/entrances/101/intro_cam.json",
+     "frames": 146,
+     "step_frames": [
+      146,
+      146
+     ]
+    },
+    {
+     "part": "stage",
+     "visible": true,
+     "clip": "res://assets/entrances/101/stage.swm",
+     "cam": "res://assets/entrances/101/stage_cam.json",
+     "frames": 124,
+     "step_frames": [
+      124,
+      124
+     ]
+    },
+    {
+     "part": "ramp",
+     "visible": true,
+     "clip": "res://assets/entrances/101/ramp.swm",
+     "cam": "res://assets/entrances/101/ramp_cam.json",
+     "frames": 246,
+     "step_frames": [
+      246,
+      246
+     ]
+    },
+    {
+     "part": "ringin",
+     "visible": true,
+     "clip": "res://assets/entrances/101/ringin.swm",
+     "cam": "res://assets/entrances/101/ringin_cam.json",
+     "frames": 239,
+     "step_frames": [
+      239,
+      239
+     ]
+    },
+    {
+     "part": "inring",
+     "visible": true,
+     "clip": "res://assets/entrances/101/inring.swm",
+     "cam": "res://assets/entrances/101/inring_cam.json",
+     "frames": 1331,
+     "step_frames": [
+      1331,
+      1331
+     ]
+    }
+   ]
+  },
+  "ness": {
+   "entrance_id": 218,
+   "entrance_name": "The Miz",
+   "parts": [
+    {
+     "part": "intro",
+     "visible": false,
+     "clip": "res://assets/entrances/218/intro.swm",
+     "cam": "res://assets/entrances/218/intro_cam.json",
+     "frames": 101,
+     "step_frames": [
+      101,
+      101
+     ]
+    },
+    {
+     "part": "stage",
+     "visible": true,
+     "clip": "res://assets/entrances/218/stage.swm",
+     "cam": "res://assets/entrances/218/stage_cam.json",
+     "frames": 321,
+     "step_frames": [
+      321,
+      321
+     ]
+    },
+    {
+     "part": "ramp",
+     "visible": true,
+     "clip": "res://assets/entrances/218/ramp.swm",
+     "cam": "res://assets/entrances/218/ramp_cam.json",
+     "frames": 381,
+     "step_frames": [
+      381,
+      381
+     ]
+    },
+    {
+     "part": "ringin",
+     "visible": true,
+     "clip": "res://assets/entrances/218/ringin.swm",
+     "cam": "res://assets/entrances/218/ringin_cam.json",
+     "frames": 376,
+     "step_frames": [
+      376,
+      376
+     ]
+    },
+    {
+     "part": "inring",
+     "visible": true,
+     "clip": "res://assets/entrances/218/inring.swm",
+     "cam": "res://assets/entrances/218/inring_cam.json",
+     "frames": 231,
+     "step_frames": [
+      231,
+      231
+     ]
+    }
+   ]
+  },
+  "purin": {
+   "entrance_id": 103,
+   "entrance_name": "The Undertaker",
+   "parts": [
+    {
+     "part": "intro",
+     "visible": false,
+     "clip": "res://assets/entrances/103/intro.swm",
+     "cam": "res://assets/entrances/103/intro_cam.json",
+     "frames": 551,
+     "step_frames": [
+      551,
+      551
+     ]
+    },
+    {
+     "part": "stage",
+     "visible": true,
+     "clip": "res://assets/entrances/103/stage.swm",
+     "cam": "res://assets/entrances/103/stage_cam.json",
+     "frames": 682,
+     "step_frames": [
+      682,
+      682
+     ]
+    },
+    {
+     "part": "ramp",
+     "visible": true,
+     "clip": "res://assets/entrances/103/ramp.swm",
+     "cam": "res://assets/entrances/103/ramp_cam.json",
+     "frames": 750,
+     "step_frames": [
+      750,
+      750
+     ]
+    },
+    {
+     "part": "ringin",
+     "visible": true,
+     "clip": "res://assets/entrances/103/ringin.swm",
+     "cam": "res://assets/entrances/103/ringin_cam.json",
+     "frames": 1387,
+     "step_frames": [
+      1387,
+      1387
+     ]
+    },
+    {
+     "part": "inring",
+     "visible": true,
+     "clip": "res://assets/entrances/103/inring.swm",
+     "cam": "res://assets/entrances/103/inring_cam.json",
+     "frames": 238,
+     "step_frames": [
+      236,
+      238
+     ]
+    }
+   ]
+  }
+ }
+}

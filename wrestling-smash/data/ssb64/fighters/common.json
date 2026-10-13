@@ -1,0 +1,3821 @@
+{
+ "file_id": 201,
+ "file": "FTCommonMoveset",
+ "scripts": {
+  "dFTCommonMoveset_SwordSwing1": [
+   {
+    "op": "EffectItemHold",
+    "args": {
+     "jid": -2,
+     "eid": 31,
+     "flag": 0,
+     "ox": 0,
+     "oy": 0,
+     "oz": 180,
+     "rx": 90,
+     "ry": 90,
+     "rz": 90
+    },
+    "word_offset": 0,
+    "enum": {
+     "eid": "nEFKindSparkleWhiteScale"
+    }
+   },
+   {
+    "op": "Effect",
+    "args": {
+     "jid": 0,
+     "eid": 11,
+     "flag": 0,
+     "ox": 0,
+     "oy": 0,
+     "oz": -120,
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "word_offset": 4,
+    "enum": {
+     "eid": "nEFKindDustLight"
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 0,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 12,
+     "reb": 1,
+     "elem": 3,
+     "sz": 300,
+     "ox": 0,
+     "oy": 400,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 2,
+     "fl": 1,
+     "fk": 5,
+     "kbb": 5
+    },
+    "word_offset": 8,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 150.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 1,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 12,
+     "reb": 1,
+     "elem": 3,
+     "sz": 300,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 2,
+     "fl": 1,
+     "fk": 5,
+     "kbb": 5
+    },
+    "word_offset": 13,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 150.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 2,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 12,
+     "reb": 1,
+     "elem": 3,
+     "sz": 200,
+     "ox": 0,
+     "oy": 0,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 2,
+     "fl": 1,
+     "fk": 5,
+     "kbb": 5
+    },
+    "word_offset": 18,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 100.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "PlayFGM",
+    "args": {
+     "fgm_id": 69
+    },
+    "word_offset": 23,
+    "enum": {
+     "fgm_id": "nSYAudioFGMSwordSwing1"
+    }
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 24
+   }
+  ],
+  "dFTCommonMoveset_SwordSwing3": [
+   {
+    "op": "EffectItemHold",
+    "args": {
+     "jid": -2,
+     "eid": 31,
+     "flag": 0,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "rx": 90,
+     "ry": 90,
+     "rz": 90
+    },
+    "word_offset": 0,
+    "enum": {
+     "eid": "nEFKindSparkleWhiteScale"
+    }
+   },
+   {
+    "op": "Effect",
+    "args": {
+     "jid": 0,
+     "eid": 16,
+     "flag": 0,
+     "ox": 0,
+     "oy": 0,
+     "oz": -120,
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "word_offset": 4,
+    "enum": {
+     "eid": "nEFKindDustHeavyReverse"
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 0,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 18,
+     "reb": 1,
+     "elem": 3,
+     "sz": 300,
+     "ox": 0,
+     "oy": 400,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 4,
+     "fl": 2,
+     "fk": 5,
+     "kbb": 8
+    },
+    "word_offset": 8,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 150.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 1,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 18,
+     "reb": 1,
+     "elem": 3,
+     "sz": 300,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 4,
+     "fl": 2,
+     "fk": 5,
+     "kbb": 8
+    },
+    "word_offset": 13,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 150.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 2,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 18,
+     "reb": 1,
+     "elem": 3,
+     "sz": 200,
+     "ox": 0,
+     "oy": 0,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 4,
+     "fl": 2,
+     "fk": 5,
+     "kbb": 8
+    },
+    "word_offset": 18,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 100.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "PlayFGM",
+    "args": {
+     "fgm_id": 68
+    },
+    "word_offset": 23,
+    "enum": {
+     "fgm_id": "nSYAudioFGMSwordSwing3"
+    }
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 24
+   }
+  ],
+  "dFTCommonMoveset_SwordSwing4": [
+   {
+    "op": "EffectItemHold",
+    "args": {
+     "jid": -2,
+     "eid": 31,
+     "flag": 0,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "rx": 90,
+     "ry": 90,
+     "rz": 90
+    },
+    "word_offset": 0,
+    "enum": {
+     "eid": "nEFKindSparkleWhiteScale"
+    }
+   },
+   {
+    "op": "Effect",
+    "args": {
+     "jid": 0,
+     "eid": 19,
+     "flag": 0,
+     "ox": 0,
+     "oy": 0,
+     "oz": -90,
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "word_offset": 4,
+    "enum": {
+     "eid": "nEFKindDustDashSmall"
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 0,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 25,
+     "reb": 1,
+     "elem": 3,
+     "sz": 300,
+     "ox": 0,
+     "oy": 400,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 6,
+     "fl": 2,
+     "fk": 5,
+     "kbb": 12
+    },
+    "word_offset": 8,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 150.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 1,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 25,
+     "reb": 1,
+     "elem": 3,
+     "sz": 300,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 6,
+     "fl": 2,
+     "fk": 5,
+     "kbb": 12
+    },
+    "word_offset": 13,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 150.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 2,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 25,
+     "reb": 1,
+     "elem": 3,
+     "sz": 200,
+     "ox": 0,
+     "oy": 0,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 6,
+     "fl": 2,
+     "fk": 5,
+     "kbb": 12
+    },
+    "word_offset": 18,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 100.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "PlayFGM",
+    "args": {
+     "fgm_id": 67
+    },
+    "word_offset": 23,
+    "enum": {
+     "fgm_id": "nSYAudioFGMSwordSwing4"
+    }
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 24
+   }
+  ],
+  "dFTCommonMoveset_SwordSwingDash": [
+   {
+    "op": "EffectItemHold",
+    "args": {
+     "jid": -2,
+     "eid": 31,
+     "flag": 0,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "rx": 90,
+     "ry": 90,
+     "rz": 90
+    },
+    "word_offset": 0,
+    "enum": {
+     "eid": "nEFKindSparkleWhiteScale"
+    }
+   },
+   {
+    "op": "Effect",
+    "args": {
+     "jid": 0,
+     "eid": 19,
+     "flag": 0,
+     "ox": 0,
+     "oy": 0,
+     "oz": -60,
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "word_offset": 4,
+    "enum": {
+     "eid": "nEFKindDustDashSmall"
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 0,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 16,
+     "reb": 1,
+     "elem": 3,
+     "sz": 200,
+     "ox": 0,
+     "oy": 0,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 0,
+     "fl": 2,
+     "fk": 5,
+     "kbb": 8
+    },
+    "word_offset": 8,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 100.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 1,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 14,
+     "reb": 1,
+     "elem": 3,
+     "sz": 260,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 0,
+     "fl": 2,
+     "fk": 5,
+     "kbb": 8
+    },
+    "word_offset": 13,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 130.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 2,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 12,
+     "reb": 1,
+     "elem": 3,
+     "sz": 260,
+     "ox": 0,
+     "oy": 400,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 0,
+     "fl": 2,
+     "fk": 5,
+     "kbb": 8
+    },
+    "word_offset": 18,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 130.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "PlayFGM",
+    "args": {
+     "fgm_id": 68
+    },
+    "word_offset": 23,
+    "enum": {
+     "fgm_id": "nSYAudioFGMSwordSwing3"
+    }
+   },
+   {
+    "op": "Wait",
+    "args": {
+     "frames": 4
+    },
+    "word_offset": 24
+   },
+   {
+    "op": "SetAttackCollDamage",
+    "args": {
+     "id": 0,
+     "dmg": 10
+    },
+    "word_offset": 25
+   },
+   {
+    "op": "SetAttackCollDamage",
+    "args": {
+     "id": 1,
+     "dmg": 8
+    },
+    "word_offset": 26
+   },
+   {
+    "op": "SetAttackCollDamage",
+    "args": {
+     "id": 2,
+     "dmg": 6
+    },
+    "word_offset": 27
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 28
+   }
+  ],
+  "dFTCommonMoveset_BatSwing1": [
+   {
+    "op": "Effect",
+    "args": {
+     "jid": 0,
+     "eid": 11,
+     "flag": 0,
+     "ox": 0,
+     "oy": 0,
+     "oz": -120,
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "word_offset": 0,
+    "enum": {
+     "eid": "nEFKindDustLight"
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 0,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 7,
+     "reb": 1,
+     "elem": 0,
+     "sz": 270,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 2,
+     "fl": 0,
+     "fk": 7,
+     "kbb": 5
+    },
+    "word_offset": 4,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 135.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 1,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 7,
+     "reb": 1,
+     "elem": 0,
+     "sz": 270,
+     "ox": 0,
+     "oy": 100,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 2,
+     "fl": 0,
+     "fk": 7,
+     "kbb": 5
+    },
+    "word_offset": 9,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 135.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 2,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 7,
+     "reb": 1,
+     "elem": 0,
+     "sz": 200,
+     "ox": 0,
+     "oy": 0,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 2,
+     "fl": 0,
+     "fk": 7,
+     "kbb": 5
+    },
+    "word_offset": 14,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 100.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "PlayFGMStoreInfo",
+    "args": {
+     "id": 260
+    },
+    "word_offset": 19,
+    "enum": {
+     "id": "nSYAudioFGMBladeSwing1"
+    }
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 20
+   }
+  ],
+  "dFTCommonMoveset_BatSwing3": [
+   {
+    "op": "Effect",
+    "args": {
+     "jid": 0,
+     "eid": 16,
+     "flag": 0,
+     "ox": 0,
+     "oy": 0,
+     "oz": -120,
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "word_offset": 0,
+    "enum": {
+     "eid": "nEFKindDustHeavyReverse"
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 0,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 12,
+     "reb": 1,
+     "elem": 0,
+     "sz": 270,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 4,
+     "fl": 1,
+     "fk": 7,
+     "kbb": 8
+    },
+    "word_offset": 4,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 135.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 1,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 12,
+     "reb": 1,
+     "elem": 0,
+     "sz": 270,
+     "ox": 0,
+     "oy": 100,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 4,
+     "fl": 1,
+     "fk": 7,
+     "kbb": 8
+    },
+    "word_offset": 9,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 135.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 2,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 12,
+     "reb": 1,
+     "elem": 0,
+     "sz": 200,
+     "ox": 0,
+     "oy": 0,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 4,
+     "fl": 1,
+     "fk": 7,
+     "kbb": 8
+    },
+    "word_offset": 14,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 100.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "PlayFGMStoreInfo",
+    "args": {
+     "id": 259
+    },
+    "word_offset": 19,
+    "enum": {
+     "id": "nSYAudioFGMBladeSwing3"
+    }
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 20
+   }
+  ],
+  "dFTCommonMoveset_BatSwing4": [
+   {
+    "op": "StopRumble",
+    "args": {
+     "rid": 7
+    },
+    "word_offset": 0
+   },
+   {
+    "op": "PlayFGMStoreInfo",
+    "args": {
+     "id": 258
+    },
+    "word_offset": 1,
+    "enum": {
+     "id": "nSYAudioFGMBladeSwing4"
+    }
+   },
+   {
+    "op": "EffectItemHold",
+    "args": {
+     "jid": -2,
+     "eid": 31,
+     "flag": 0,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "rx": 90,
+     "ry": 90,
+     "rz": 90
+    },
+    "word_offset": 2,
+    "enum": {
+     "eid": "nEFKindSparkleWhiteScale"
+    }
+   },
+   {
+    "op": "Effect",
+    "args": {
+     "jid": 0,
+     "eid": 19,
+     "flag": 0,
+     "ox": 0,
+     "oy": 0,
+     "oz": -60,
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "word_offset": 6,
+    "enum": {
+     "eid": "nEFKindDustDashSmall"
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 0,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 10,
+     "reb": 1,
+     "elem": 0,
+     "sz": 270,
+     "ox": 0,
+     "oy": 180,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": -9,
+     "fl": 2,
+     "fk": 7,
+     "kbb": 300
+    },
+    "word_offset": 10,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 135.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 1,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 10,
+     "reb": 1,
+     "elem": 0,
+     "sz": 270,
+     "ox": 0,
+     "oy": 90,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": -9,
+     "fl": 2,
+     "fk": 7,
+     "kbb": 300
+    },
+    "word_offset": 15,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 135.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 2,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 10,
+     "reb": 1,
+     "elem": 0,
+     "sz": 200,
+     "ox": 0,
+     "oy": 0,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": -9,
+     "fl": 2,
+     "fk": 7,
+     "kbb": 300
+    },
+    "word_offset": 20,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 100.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 25
+   }
+  ],
+  "dFTCommonMoveset_BatSwingDash": [
+   {
+    "op": "EffectItemHold",
+    "args": {
+     "jid": -2,
+     "eid": 31,
+     "flag": 0,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "rx": 90,
+     "ry": 90,
+     "rz": 90
+    },
+    "word_offset": 0,
+    "enum": {
+     "eid": "nEFKindSparkleWhiteScale"
+    }
+   },
+   {
+    "op": "Effect",
+    "args": {
+     "jid": 0,
+     "eid": 19,
+     "flag": 0,
+     "ox": 0,
+     "oy": 0,
+     "oz": -60,
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "word_offset": 4,
+    "enum": {
+     "eid": "nEFKindDustDashSmall"
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 0,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 16,
+     "reb": 1,
+     "elem": 0,
+     "sz": 200,
+     "ox": 0,
+     "oy": 0,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 0,
+     "fl": 0,
+     "fk": 7,
+     "kbb": 8
+    },
+    "word_offset": 8,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 100.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 1,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 14,
+     "reb": 1,
+     "elem": 0,
+     "sz": 270,
+     "ox": 0,
+     "oy": 90,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 0,
+     "fl": 0,
+     "fk": 7,
+     "kbb": 8
+    },
+    "word_offset": 13,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 135.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 2,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 12,
+     "reb": 1,
+     "elem": 0,
+     "sz": 270,
+     "ox": 0,
+     "oy": 180,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 0,
+     "fl": 0,
+     "fk": 7,
+     "kbb": 8
+    },
+    "word_offset": 18,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 135.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "PlayFGMStoreInfo",
+    "args": {
+     "id": 259
+    },
+    "word_offset": 23,
+    "enum": {
+     "id": "nSYAudioFGMBladeSwing3"
+    }
+   },
+   {
+    "op": "Wait",
+    "args": {
+     "frames": 4
+    },
+    "word_offset": 24
+   },
+   {
+    "op": "SetAttackCollDamage",
+    "args": {
+     "id": 0,
+     "dmg": 10
+    },
+    "word_offset": 25
+   },
+   {
+    "op": "SetAttackCollDamage",
+    "args": {
+     "id": 1,
+     "dmg": 8
+    },
+    "word_offset": 26
+   },
+   {
+    "op": "SetAttackCollDamage",
+    "args": {
+     "id": 2,
+     "dmg": 6
+    },
+    "word_offset": 27
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 28
+   }
+  ],
+  "dFTCommonMoveset_HarisenSwing1": [
+   {
+    "op": "Effect",
+    "args": {
+     "jid": 0,
+     "eid": 11,
+     "flag": 0,
+     "ox": 0,
+     "oy": 0,
+     "oz": -120,
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "word_offset": 0,
+    "enum": {
+     "eid": "nEFKindDustLight"
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 0,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 2,
+     "reb": 1,
+     "elem": 0,
+     "sz": 270,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "ang": 170,
+     "kbs": 100,
+     "kbw": 10,
+     "ga": 3,
+     "sd": 10,
+     "fl": 2,
+     "fk": 6,
+     "kbb": 0
+    },
+    "word_offset": 4,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 135.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 1,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 2,
+     "reb": 1,
+     "elem": 0,
+     "sz": 270,
+     "ox": 0,
+     "oy": 100,
+     "oz": 0,
+     "ang": 170,
+     "kbs": 100,
+     "kbw": 10,
+     "ga": 3,
+     "sd": 10,
+     "fl": 2,
+     "fk": 6,
+     "kbb": 0
+    },
+    "word_offset": 9,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 135.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 2,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 2,
+     "reb": 1,
+     "elem": 0,
+     "sz": 200,
+     "ox": 0,
+     "oy": 0,
+     "oz": 0,
+     "ang": 170,
+     "kbs": 100,
+     "kbw": 10,
+     "ga": 3,
+     "sd": 10,
+     "fl": 2,
+     "fk": 6,
+     "kbb": 0
+    },
+    "word_offset": 14,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 100.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "PlayFGMStoreInfo",
+    "args": {
+     "id": 42
+    },
+    "word_offset": 19,
+    "enum": {
+     "id": "nSYAudioFGMLightSwingM"
+    }
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 20
+   }
+  ],
+  "dFTCommonMoveset_HarisenSwing3": [
+   {
+    "op": "Effect",
+    "args": {
+     "jid": 0,
+     "eid": 11,
+     "flag": 0,
+     "ox": 0,
+     "oy": 0,
+     "oz": -120,
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "word_offset": 0,
+    "enum": {
+     "eid": "nEFKindDustLight"
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 0,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 4,
+     "reb": 1,
+     "elem": 0,
+     "sz": 270,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "ang": 160,
+     "kbs": 100,
+     "kbw": 30,
+     "ga": 3,
+     "sd": 20,
+     "fl": 2,
+     "fk": 6,
+     "kbb": 0
+    },
+    "word_offset": 4,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 135.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 1,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 4,
+     "reb": 1,
+     "elem": 0,
+     "sz": 270,
+     "ox": 0,
+     "oy": 100,
+     "oz": 0,
+     "ang": 160,
+     "kbs": 100,
+     "kbw": 30,
+     "ga": 3,
+     "sd": 20,
+     "fl": 2,
+     "fk": 6,
+     "kbb": 0
+    },
+    "word_offset": 9,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 135.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 2,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 4,
+     "reb": 1,
+     "elem": 0,
+     "sz": 200,
+     "ox": 0,
+     "oy": 0,
+     "oz": 0,
+     "ang": 160,
+     "kbs": 100,
+     "kbw": 30,
+     "ga": 3,
+     "sd": 20,
+     "fl": 2,
+     "fk": 6,
+     "kbb": 0
+    },
+    "word_offset": 14,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 100.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "PlayFGMStoreInfo",
+    "args": {
+     "id": 41
+    },
+    "word_offset": 19,
+    "enum": {
+     "id": "nSYAudioFGMLightSwingL"
+    }
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 20
+   }
+  ],
+  "dFTCommonMoveset_HarisenSwing4": [
+   {
+    "op": "EffectItemHold",
+    "args": {
+     "jid": -2,
+     "eid": 31,
+     "flag": 0,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "rx": 90,
+     "ry": 90,
+     "rz": 90
+    },
+    "word_offset": 0,
+    "enum": {
+     "eid": "nEFKindSparkleWhiteScale"
+    }
+   },
+   {
+    "op": "Effect",
+    "args": {
+     "jid": 0,
+     "eid": 16,
+     "flag": 0,
+     "ox": 0,
+     "oy": 0,
+     "oz": -120,
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "word_offset": 4,
+    "enum": {
+     "eid": "nEFKindDustHeavyReverse"
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 0,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 8,
+     "reb": 1,
+     "elem": 0,
+     "sz": 270,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "ang": 140,
+     "kbs": 100,
+     "kbw": 80,
+     "ga": 3,
+     "sd": 100,
+     "fl": 2,
+     "fk": 6,
+     "kbb": 0
+    },
+    "word_offset": 8,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 135.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 1,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 8,
+     "reb": 1,
+     "elem": 0,
+     "sz": 270,
+     "ox": 0,
+     "oy": 100,
+     "oz": 0,
+     "ang": 140,
+     "kbs": 100,
+     "kbw": 80,
+     "ga": 3,
+     "sd": 100,
+     "fl": 2,
+     "fk": 6,
+     "kbb": 0
+    },
+    "word_offset": 13,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 135.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 2,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 8,
+     "reb": 1,
+     "elem": 0,
+     "sz": 200,
+     "ox": 0,
+     "oy": 0,
+     "oz": 0,
+     "ang": 140,
+     "kbs": 100,
+     "kbw": 80,
+     "ga": 3,
+     "sd": 100,
+     "fl": 2,
+     "fk": 6,
+     "kbb": 0
+    },
+    "word_offset": 18,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 100.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "PlayFGMStoreInfo",
+    "args": {
+     "id": 41
+    },
+    "word_offset": 23,
+    "enum": {
+     "id": "nSYAudioFGMLightSwingL"
+    }
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 24
+   }
+  ],
+  "dFTCommonMoveset_HarisenSwingDash": [
+   {
+    "op": "Effect",
+    "args": {
+     "jid": 0,
+     "eid": 16,
+     "flag": 0,
+     "ox": 0,
+     "oy": 0,
+     "oz": -120,
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "word_offset": 0,
+    "enum": {
+     "eid": "nEFKindDustHeavyReverse"
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 0,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 8,
+     "reb": 1,
+     "elem": 0,
+     "sz": 200,
+     "ox": 0,
+     "oy": 0,
+     "oz": 0,
+     "ang": 120,
+     "kbs": 100,
+     "kbw": 80,
+     "ga": 3,
+     "sd": 40,
+     "fl": 2,
+     "fk": 6,
+     "kbb": 0
+    },
+    "word_offset": 4,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 100.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 1,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 7,
+     "reb": 1,
+     "elem": 0,
+     "sz": 270,
+     "ox": 0,
+     "oy": 100,
+     "oz": 0,
+     "ang": 120,
+     "kbs": 100,
+     "kbw": 80,
+     "ga": 3,
+     "sd": 40,
+     "fl": 2,
+     "fk": 6,
+     "kbb": 0
+    },
+    "word_offset": 9,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 135.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 2,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 6,
+     "reb": 1,
+     "elem": 0,
+     "sz": 270,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "ang": 120,
+     "kbs": 100,
+     "kbw": 80,
+     "ga": 3,
+     "sd": 40,
+     "fl": 2,
+     "fk": 6,
+     "kbb": 0
+    },
+    "word_offset": 14,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 135.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "PlayFGMStoreInfo",
+    "args": {
+     "id": 41
+    },
+    "word_offset": 19,
+    "enum": {
+     "id": "nSYAudioFGMLightSwingL"
+    }
+   },
+   {
+    "op": "Wait",
+    "args": {
+     "frames": 4
+    },
+    "word_offset": 20
+   },
+   {
+    "op": "SetAttackCollDamage",
+    "args": {
+     "id": 0,
+     "dmg": 5
+    },
+    "word_offset": 21
+   },
+   {
+    "op": "SetAttackCollDamage",
+    "args": {
+     "id": 1,
+     "dmg": 5
+    },
+    "word_offset": 22
+   },
+   {
+    "op": "SetAttackCollDamage",
+    "args": {
+     "id": 2,
+     "dmg": 4
+    },
+    "word_offset": 23
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 24
+   }
+  ],
+  "dFTCommonMoveset_StarRodSwing1": [
+   {
+    "op": "EffectItemHold",
+    "args": {
+     "jid": -2,
+     "eid": 31,
+     "flag": 0,
+     "ox": 0,
+     "oy": 0,
+     "oz": 180,
+     "rx": 90,
+     "ry": 90,
+     "rz": 90
+    },
+    "word_offset": 0,
+    "enum": {
+     "eid": "nEFKindSparkleWhiteScale"
+    }
+   },
+   {
+    "op": "Effect",
+    "args": {
+     "jid": 0,
+     "eid": 11,
+     "flag": 0,
+     "ox": 0,
+     "oy": 0,
+     "oz": -120,
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "word_offset": 4,
+    "enum": {
+     "eid": "nEFKindDustLight"
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 0,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 10,
+     "reb": 1,
+     "elem": 0,
+     "sz": 300,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 2,
+     "fl": 1,
+     "fk": 0,
+     "kbb": 5
+    },
+    "word_offset": 8,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 150.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 1,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 10,
+     "reb": 1,
+     "elem": 0,
+     "sz": 300,
+     "ox": 0,
+     "oy": 100,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 2,
+     "fl": 1,
+     "fk": 0,
+     "kbb": 5
+    },
+    "word_offset": 13,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 150.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 2,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 10,
+     "reb": 1,
+     "elem": 0,
+     "sz": 200,
+     "ox": 0,
+     "oy": 0,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 2,
+     "fl": 1,
+     "fk": 0,
+     "kbb": 5
+    },
+    "word_offset": 18,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 100.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "SetFlag1",
+    "args": {
+     "val": 65
+    },
+    "word_offset": 23,
+    "enum": {
+     "val": "nSYAudioFGMStarRodSwing1"
+    }
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 24
+   }
+  ],
+  "dFTCommonMoveset_StarRodSwing3": [
+   {
+    "op": "EffectItemHold",
+    "args": {
+     "jid": -2,
+     "eid": 31,
+     "flag": 0,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "rx": 90,
+     "ry": 90,
+     "rz": 90
+    },
+    "word_offset": 0,
+    "enum": {
+     "eid": "nEFKindSparkleWhiteScale"
+    }
+   },
+   {
+    "op": "Effect",
+    "args": {
+     "jid": 0,
+     "eid": 16,
+     "flag": 0,
+     "ox": 0,
+     "oy": 0,
+     "oz": -120,
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "word_offset": 4,
+    "enum": {
+     "eid": "nEFKindDustHeavyReverse"
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 0,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 15,
+     "reb": 1,
+     "elem": 0,
+     "sz": 300,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 4,
+     "fl": 2,
+     "fk": 0,
+     "kbb": 8
+    },
+    "word_offset": 8,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 150.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 1,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 15,
+     "reb": 1,
+     "elem": 0,
+     "sz": 300,
+     "ox": 0,
+     "oy": 100,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 4,
+     "fl": 2,
+     "fk": 0,
+     "kbb": 8
+    },
+    "word_offset": 13,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 150.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 2,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 15,
+     "reb": 1,
+     "elem": 0,
+     "sz": 200,
+     "ox": 0,
+     "oy": 0,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 4,
+     "fl": 2,
+     "fk": 0,
+     "kbb": 8
+    },
+    "word_offset": 18,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 100.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "SetFlag1",
+    "args": {
+     "val": 64
+    },
+    "word_offset": 23,
+    "enum": {
+     "val": "nSYAudioFGMStarRodSwing3"
+    }
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 24
+   }
+  ],
+  "dFTCommonMoveset_StarRodSwing4": [
+   {
+    "op": "EffectItemHold",
+    "args": {
+     "jid": -2,
+     "eid": 31,
+     "flag": 0,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "rx": 90,
+     "ry": 90,
+     "rz": 90
+    },
+    "word_offset": 0,
+    "enum": {
+     "eid": "nEFKindSparkleWhiteScale"
+    }
+   },
+   {
+    "op": "Effect",
+    "args": {
+     "jid": 0,
+     "eid": 19,
+     "flag": 0,
+     "ox": 0,
+     "oy": 0,
+     "oz": -60,
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "word_offset": 4,
+    "enum": {
+     "eid": "nEFKindDustDashSmall"
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 0,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 22,
+     "reb": 1,
+     "elem": 0,
+     "sz": 300,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 6,
+     "fl": 2,
+     "fk": 0,
+     "kbb": 12
+    },
+    "word_offset": 8,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 150.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 1,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 22,
+     "reb": 1,
+     "elem": 0,
+     "sz": 300,
+     "ox": 0,
+     "oy": 100,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 6,
+     "fl": 2,
+     "fk": 0,
+     "kbb": 12
+    },
+    "word_offset": 13,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 150.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 2,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 22,
+     "reb": 1,
+     "elem": 0,
+     "sz": 200,
+     "ox": 0,
+     "oy": 0,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 6,
+     "fl": 2,
+     "fk": 0,
+     "kbb": 12
+    },
+    "word_offset": 18,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 100.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "SetFlag1",
+    "args": {
+     "val": 63
+    },
+    "word_offset": 23,
+    "enum": {
+     "val": "nSYAudioFGMStarRodSwing4"
+    }
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 24
+   }
+  ],
+  "dFTCommonMoveset_StarRodSwingDash": [
+   {
+    "op": "EffectItemHold",
+    "args": {
+     "jid": -2,
+     "eid": 31,
+     "flag": 0,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "rx": 90,
+     "ry": 90,
+     "rz": 90
+    },
+    "word_offset": 0,
+    "enum": {
+     "eid": "nEFKindSparkleWhiteScale"
+    }
+   },
+   {
+    "op": "Effect",
+    "args": {
+     "jid": 0,
+     "eid": 19,
+     "flag": 0,
+     "ox": 0,
+     "oy": 0,
+     "oz": -60,
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "word_offset": 4,
+    "enum": {
+     "eid": "nEFKindDustDashSmall"
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 0,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 16,
+     "reb": 1,
+     "elem": 0,
+     "sz": 200,
+     "ox": 0,
+     "oy": 0,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 0,
+     "fl": 2,
+     "fk": 0,
+     "kbb": 8
+    },
+    "word_offset": 8,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 100.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 1,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 14,
+     "reb": 1,
+     "elem": 0,
+     "sz": 260,
+     "ox": 0,
+     "oy": 100,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 0,
+     "fl": 2,
+     "fk": 0,
+     "kbb": 8
+    },
+    "word_offset": 13,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 130.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 2,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 12,
+     "reb": 1,
+     "elem": 0,
+     "sz": 260,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 0,
+     "fl": 2,
+     "fk": 0,
+     "kbb": 8
+    },
+    "word_offset": 18,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 130.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "SetFlag1",
+    "args": {
+     "val": 64
+    },
+    "word_offset": 23,
+    "enum": {
+     "val": "nSYAudioFGMStarRodSwing3"
+    }
+   },
+   {
+    "op": "Wait",
+    "args": {
+     "frames": 4
+    },
+    "word_offset": 24
+   },
+   {
+    "op": "SetAttackCollDamage",
+    "args": {
+     "id": 0,
+     "dmg": 10
+    },
+    "word_offset": 25
+   },
+   {
+    "op": "SetAttackCollDamage",
+    "args": {
+     "id": 1,
+     "dmg": 8
+    },
+    "word_offset": 26
+   },
+   {
+    "op": "SetAttackCollDamage",
+    "args": {
+     "id": 2,
+     "dmg": 6
+    },
+    "word_offset": 27
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 28
+   }
+  ],
+  "dFTCommonMoveset_FireFlowerShoot": [
+   {
+    "op": "EffectItemHold",
+    "args": {
+     "jid": -2,
+     "eid": 31,
+     "flag": 0,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "rx": 90,
+     "ry": 90,
+     "rz": 90
+    },
+    "word_offset": 0,
+    "enum": {
+     "eid": "nEFKindSparkleWhiteScale"
+    }
+   },
+   {
+    "op": "Effect",
+    "args": {
+     "jid": 0,
+     "eid": 11,
+     "flag": 0,
+     "ox": 0,
+     "oy": 0,
+     "oz": -60,
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "word_offset": 4,
+    "enum": {
+     "eid": "nEFKindDustLight"
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 0,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 30,
+     "reb": 1,
+     "elem": 0,
+     "sz": 120,
+     "ox": 0,
+     "oy": 0,
+     "oz": 0,
+     "ang": 75,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": -15,
+     "fl": 2,
+     "fk": 0,
+     "kbb": 42
+    },
+    "word_offset": 8,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 60.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 1,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 30,
+     "reb": 1,
+     "elem": 0,
+     "sz": 120,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "ang": 75,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": -15,
+     "fl": 2,
+     "fk": 0,
+     "kbb": 42
+    },
+    "word_offset": 13,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 60.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 2,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 30,
+     "reb": 1,
+     "elem": 0,
+     "sz": 200,
+     "ox": -60,
+     "oy": 300,
+     "oz": 0,
+     "ang": 75,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": -15,
+     "fl": 2,
+     "fk": 0,
+     "kbb": 42
+    },
+    "word_offset": 18,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 100.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "MakeAttackCollScaled",
+    "args": {
+     "aid": 3,
+     "gid": 0,
+     "jid": -2,
+     "dmg": 30,
+     "reb": 1,
+     "elem": 0,
+     "sz": 200,
+     "ox": 60,
+     "oy": 300,
+     "oz": 0,
+     "ang": 75,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": -15,
+     "fl": 2,
+     "fk": 0,
+     "kbb": 42
+    },
+    "word_offset": 23,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 100.0,
+     "joint_is_item_light": true
+    }
+   },
+   {
+    "op": "PlayFGM",
+    "args": {
+     "fgm_id": 50
+    },
+    "word_offset": 28,
+    "enum": {
+     "fgm_id": "nSYAudioFGMHammerSwing"
+    }
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 29
+   }
+  ],
+  "dFTCommonMoveset_DamageBumpHit": [
+   {
+    "op": "MakeAttackColl",
+    "args": {
+     "aid": 0,
+     "gid": 0,
+     "jid": 0,
+     "dmg": 15,
+     "reb": 1,
+     "elem": 0,
+     "sz": 300,
+     "ox": 0,
+     "oy": 210,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 70,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 0,
+     "fl": 2,
+     "fk": 1,
+     "kbb": 60
+    },
+    "word_offset": 0,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 150.0,
+     "joint_is_item_light": false
+    }
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 5
+   }
+  ],
+  "dFTCommonMoveset_DamageRumble": [
+   {
+    "op": "MakeRumble",
+    "args": {
+     "len": 0,
+     "rid": 9
+    },
+    "word_offset": 0
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 1
+   }
+  ],
+  "dFTCommonMoveset_DamageFlameBurst": [
+   {
+    "op": "MakeRumble",
+    "args": {
+     "len": 0,
+     "rid": 7
+    },
+    "word_offset": 0
+   },
+   {
+    "op": "LoopBegin",
+    "args": {
+     "count": 4
+    },
+    "word_offset": 1
+   },
+   {
+    "op": "Effect",
+    "args": {
+     "jid": 0,
+     "eid": 7,
+     "flag": 0,
+     "ox": 0,
+     "oy": 100,
+     "oz": 0,
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "word_offset": 2,
+    "enum": {
+     "eid": "nEFKindFlameRandom"
+    }
+   },
+   {
+    "op": "Wait",
+    "args": {
+     "frames": 2
+    },
+    "word_offset": 6
+   },
+   {
+    "op": "LoopEnd",
+    "args": {},
+    "word_offset": 7
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 8
+   }
+  ],
+  "dFTCommonMoveset_DamageSparkleDelay": [
+   {
+    "op": "WaitAsync",
+    "args": {
+     "frames": 8
+    },
+    "word_offset": 0
+   },
+   {
+    "op": "Effect",
+    "args": {
+     "jid": 0,
+     "eid": 31,
+     "flag": 0,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "rx": 90,
+     "ry": 90,
+     "rz": 90
+    },
+    "word_offset": 1,
+    "enum": {
+     "eid": "nEFKindSparkleWhiteScale"
+    }
+   },
+   {
+    "op": "SetFlag0",
+    "args": {
+     "val": 1
+    },
+    "word_offset": 5
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 6
+   }
+  ],
+  "dFTCommonMoveset_DamageSparkle": [
+   {
+    "op": "Effect",
+    "args": {
+     "jid": 0,
+     "eid": 31,
+     "flag": 0,
+     "ox": 0,
+     "oy": 200,
+     "oz": 0,
+     "rx": 90,
+     "ry": 90,
+     "rz": 90
+    },
+    "word_offset": 0,
+    "enum": {
+     "eid": "nEFKindSparkleWhiteScale"
+    }
+   },
+   {
+    "op": "WaitAsync",
+    "args": {
+     "frames": 3
+    },
+    "word_offset": 4
+   },
+   {
+    "op": "SetFlag1",
+    "args": {
+     "val": 1
+    },
+    "word_offset": 5
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 6
+   }
+  ],
+  "dFTCommonMoveset_ThrownVictimHit": [
+   {
+    "op": "MakeAttackColl",
+    "args": {
+     "aid": 0,
+     "gid": 0,
+     "jid": 5,
+     "dmg": 6,
+     "reb": 0,
+     "elem": 0,
+     "sz": 160,
+     "ox": 0,
+     "oy": 80,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 0,
+     "fl": 1,
+     "fk": 0,
+     "kbb": 30
+    },
+    "word_offset": 0,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 80.0,
+     "joint_is_item_light": false
+    }
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 5
+   }
+  ],
+  "dFTCommonMoveset_ThrownVictimHitMario": [
+   {
+    "op": "MakeAttackColl",
+    "args": {
+     "aid": 0,
+     "gid": 0,
+     "jid": 5,
+     "dmg": 8,
+     "reb": 0,
+     "elem": 0,
+     "sz": 200,
+     "ox": 0,
+     "oy": 0,
+     "oz": 0,
+     "ang": 361,
+     "kbs": 100,
+     "kbw": 0,
+     "ga": 3,
+     "sd": 0,
+     "fl": 1,
+     "fk": 0,
+     "kbb": 20
+    },
+    "word_offset": 0,
+    "runtime": {
+     "is_hit_air": 1,
+     "is_hit_ground": 1,
+     "size_radius": 100.0,
+     "joint_is_item_light": false
+    }
+   },
+   {
+    "op": "Return",
+    "args": {},
+    "word_offset": 5
+   }
+  ]
+ },
+ "script_raw": {
+  "dFTCommonMoveset_SwordSwing1": {
+   "file_id": 201,
+   "offset_bytes": 0,
+   "raw_words": [
+    2683337728,
+    0,
+    11796570,
+    5898330,
+    2550148096,
+    0,
+    4287102976,
+    0,
+    269468051,
+    19660800,
+    26214400,
+    1514553347,
+    36307584,
+    277856659,
+    19660800,
+    13107200,
+    1514553347,
+    36307584,
+    286245267,
+    13107200,
+    0,
+    1514553347,
+    36307584,
+    939524165,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_SwordSwing3": {
+   "file_id": 201,
+   "offset_bytes": 100,
+   "raw_words": [
+    2683337728,
+    200,
+    90,
+    5898330,
+    2550153216,
+    0,
+    4287102976,
+    0,
+    269468243,
+    19660800,
+    26214400,
+    1514553347,
+    71959552,
+    277856851,
+    19660800,
+    13107200,
+    1514553347,
+    71959552,
+    286245459,
+    13107200,
+    0,
+    1514553347,
+    71959552,
+    939524164,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_SwordSwing4": {
+   "file_id": 201,
+   "offset_bytes": 200,
+   "raw_words": [
+    2683337728,
+    200,
+    90,
+    5898330,
+    2550156288,
+    0,
+    4289069056,
+    0,
+    269468467,
+    19660800,
+    26214400,
+    1514553347,
+    105514496,
+    277857075,
+    19660800,
+    13107200,
+    1514553347,
+    105514496,
+    286245683,
+    13107200,
+    0,
+    1514553347,
+    105514496,
+    939524163,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_SwordSwingDash": {
+   "file_id": 201,
+   "offset_bytes": 300,
+   "raw_words": [
+    2683337728,
+    200,
+    90,
+    5898330,
+    2550156288,
+    0,
+    4291035136,
+    0,
+    269468179,
+    13107200,
+    0,
+    1514553347,
+    4850688,
+    277856723,
+    17039360,
+    13107200,
+    1514553347,
+    4850688,
+    286245267,
+    17039360,
+    26214400,
+    1514553347,
+    4850688,
+    939524164,
+    67108868,
+    537198592,
+    545521664,
+    553844736,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_BatSwing1": {
+   "file_id": 201,
+   "offset_bytes": 416,
+   "raw_words": [
+    2550148096,
+    0,
+    4287102976,
+    0,
+    269467888,
+    17694720,
+    13107200,
+    1514553347,
+    34472576,
+    277856496,
+    17694720,
+    6553600,
+    1514553347,
+    34472576,
+    286245104,
+    13107200,
+    0,
+    1514553347,
+    34472576,
+    1275068676,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_BatSwing3": {
+   "file_id": 201,
+   "offset_bytes": 500,
+   "raw_words": [
+    2550153216,
+    0,
+    4287102976,
+    0,
+    269468048,
+    17694720,
+    13107200,
+    1514553347,
+    70124544,
+    277856656,
+    17694720,
+    6553600,
+    1514553347,
+    70124544,
+    286245264,
+    13107200,
+    0,
+    1514553347,
+    70124544,
+    1275068675,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_BatSwing4": {
+   "file_id": 201,
+   "offset_bytes": 584,
+   "raw_words": [
+    3355443207,
+    1275068674,
+    2683337728,
+    200,
+    90,
+    5898330,
+    2550156288,
+    0,
+    4291035136,
+    0,
+    269467984,
+    17694720,
+    11796480,
+    1514553347,
+    4149122560,
+    277856592,
+    17694720,
+    5898240,
+    1514553347,
+    4149122560,
+    286245200,
+    13107200,
+    0,
+    1514553347,
+    4149122560,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_BatSwingDash": {
+   "file_id": 201,
+   "offset_bytes": 688,
+   "raw_words": [
+    2683337728,
+    200,
+    90,
+    5898330,
+    2550156288,
+    0,
+    4291035136,
+    0,
+    269468176,
+    13107200,
+    0,
+    1514553347,
+    918528,
+    277856720,
+    17694720,
+    5898240,
+    1514553347,
+    918528,
+    286245264,
+    17694720,
+    11796480,
+    1514553347,
+    918528,
+    1275068675,
+    67108868,
+    537198592,
+    545521664,
+    553844736,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_HarisenSwing1": {
+   "file_id": 201,
+   "offset_bytes": 804,
+   "raw_words": [
+    2550148096,
+    0,
+    4287102976,
+    0,
+    269467728,
+    17694720,
+    13107200,
+    713441323,
+    172752896,
+    277856336,
+    17694720,
+    6553600,
+    713441323,
+    172752896,
+    286244944,
+    13107200,
+    0,
+    713441323,
+    172752896,
+    1275068458,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_HarisenSwing3": {
+   "file_id": 201,
+   "offset_bytes": 888,
+   "raw_words": [
+    2550148096,
+    0,
+    4287102976,
+    0,
+    269467792,
+    17694720,
+    13107200,
+    671498363,
+    340525056,
+    277856400,
+    17694720,
+    6553600,
+    671498363,
+    340525056,
+    286245008,
+    13107200,
+    0,
+    671498363,
+    340525056,
+    1275068457,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_HarisenSwing4": {
+   "file_id": 201,
+   "offset_bytes": 972,
+   "raw_words": [
+    2683337728,
+    200,
+    90,
+    5898330,
+    2550153216,
+    0,
+    4287102976,
+    0,
+    269467920,
+    17694720,
+    13107200,
+    587612483,
+    1682702336,
+    277856528,
+    17694720,
+    6553600,
+    587612483,
+    1682702336,
+    286245136,
+    13107200,
+    0,
+    587612483,
+    1682702336,
+    1275068457,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_HarisenSwingDash": {
+   "file_id": 201,
+   "offset_bytes": 1072,
+   "raw_words": [
+    2550153216,
+    0,
+    4287102976,
+    0,
+    269467920,
+    13107200,
+    0,
+    503726403,
+    676069376,
+    277856496,
+    17694720,
+    6553600,
+    503726403,
+    676069376,
+    286245072,
+    17694720,
+    13107200,
+    503726403,
+    676069376,
+    1275068457,
+    67108868,
+    537034752,
+    545423360,
+    553779200,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_StarRodSwing1": {
+   "file_id": 201,
+   "offset_bytes": 1172,
+   "raw_words": [
+    2683337728,
+    0,
+    11796570,
+    5898330,
+    2550148096,
+    0,
+    4287102976,
+    0,
+    269467984,
+    19660800,
+    13107200,
+    1514553347,
+    35652224,
+    277856592,
+    19660800,
+    6553600,
+    1514553347,
+    35652224,
+    286245200,
+    13107200,
+    0,
+    1514553347,
+    35652224,
+    1476395073,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_StarRodSwing3": {
+   "file_id": 201,
+   "offset_bytes": 1272,
+   "raw_words": [
+    2683337728,
+    200,
+    90,
+    5898330,
+    2550153216,
+    0,
+    4287102976,
+    0,
+    269468144,
+    19660800,
+    13107200,
+    1514553347,
+    71304192,
+    277856752,
+    19660800,
+    6553600,
+    1514553347,
+    71304192,
+    286245360,
+    13107200,
+    0,
+    1514553347,
+    71304192,
+    1476395072,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_StarRodSwing4": {
+   "file_id": 201,
+   "offset_bytes": 1372,
+   "raw_words": [
+    2683337728,
+    200,
+    90,
+    5898330,
+    2550156288,
+    0,
+    4291035136,
+    0,
+    269468368,
+    19660800,
+    13107200,
+    1514553347,
+    104859136,
+    277856976,
+    19660800,
+    6553600,
+    1514553347,
+    104859136,
+    286245584,
+    13107200,
+    0,
+    1514553347,
+    104859136,
+    1476395071,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_StarRodSwingDash": {
+   "file_id": 201,
+   "offset_bytes": 1472,
+   "raw_words": [
+    2683337728,
+    200,
+    90,
+    5898330,
+    2550156288,
+    0,
+    4291035136,
+    0,
+    269468176,
+    13107200,
+    0,
+    1514553347,
+    4195328,
+    277856720,
+    17039360,
+    6553600,
+    1514553347,
+    4195328,
+    286245264,
+    17039360,
+    13107200,
+    1514553347,
+    4195328,
+    1476395072,
+    67108868,
+    537198592,
+    545521664,
+    553844736,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_FireFlowerShoot": {
+   "file_id": 201,
+   "offset_bytes": 1588,
+   "raw_words": [
+    2683337728,
+    200,
+    90,
+    5898330,
+    2550148096,
+    0,
+    4291035136,
+    0,
+    269468624,
+    7864320,
+    0,
+    314982403,
+    4047508736,
+    277857232,
+    7864320,
+    13107200,
+    314982403,
+    4047508736,
+    286245840,
+    13172676,
+    19660800,
+    314982403,
+    4047508736,
+    294634448,
+    13107260,
+    19660800,
+    314982403,
+    4047508736,
+    939524146,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_DamageBumpHit": {
+   "file_id": 201,
+   "offset_bytes": 1708,
+   "raw_words": [
+    201327088,
+    19660800,
+    13762560,
+    1514430467,
+    4333056,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_DamageRumble": {
+   "file_id": 201,
+   "offset_bytes": 1732,
+   "raw_words": [
+    3288334345,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_DamageFlameBurst": {
+   "file_id": 201,
+   "offset_bytes": 1740,
+   "raw_words": [
+    3288334343,
+    2147483652,
+    2550144000,
+    100,
+    0,
+    0,
+    67108866,
+    2214592512,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_DamageSparkleDelay": {
+   "file_id": 201,
+   "offset_bytes": 1776,
+   "raw_words": [
+    134217736,
+    2550168576,
+    200,
+    90,
+    5898330,
+    1409286145,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_DamageSparkle": {
+   "file_id": 201,
+   "offset_bytes": 1804,
+   "raw_words": [
+    2550168576,
+    200,
+    90,
+    5898330,
+    134217731,
+    1476395009,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_ThrownVictimHit": {
+   "file_id": 201,
+   "offset_bytes": 1832,
+   "raw_words": [
+    201367744,
+    10485760,
+    5242880,
+    1514553347,
+    2100992,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  },
+  "dFTCommonMoveset_ThrownVictimHitMario": {
+   "file_id": 201,
+   "offset_bytes": 1856,
+   "raw_words": [
+    201367808,
+    13107200,
+    0,
+    1514553347,
+    2099712,
+    2348810240
+   ],
+   "words_vs_C": "match",
+   "pointer_words": {}
+  }
+ },
+ "damage_script_table": {
+  "symbol": "dFTCommonMoveset_DamageScript",
+  "offset_bytes": 1880,
+  "shape": [
+   2,
+   27
+  ],
+  "index": "[status_vars.common.damage.script_id][thrower fkind]",
+  "entries": [
+   [
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    }
+   ],
+   [
+    {
+     "file_id": 201,
+     "offset": 1856,
+     "symbol": "dFTCommonMoveset_ThrownVictimHitMario",
+     "script": "dFTCommonMoveset_ThrownVictimHitMario",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1856,
+     "symbol": "dFTCommonMoveset_ThrownVictimHitMario",
+     "script": "dFTCommonMoveset_ThrownVictimHitMario",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1856,
+     "symbol": "dFTCommonMoveset_ThrownVictimHitMario",
+     "script": "dFTCommonMoveset_ThrownVictimHitMario",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    },
+    {
+     "file_id": 201,
+     "offset": 1832,
+     "symbol": "dFTCommonMoveset_ThrownVictimHit",
+     "script": "dFTCommonMoveset_ThrownVictimHit",
+     "word_offset": 0
+    }
+   ]
+  ]
+ }
+}

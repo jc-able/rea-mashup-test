@@ -1,0 +1,28 @@
+{
+  "notes": "Each wrestler (model extracted from WWE SmackDown vs. Raw 2011, see evidence/svr_models) inherits the complete SSB64 fighter data of one character (attributes, every motion script/hitbox, specials, projectiles, animations driving the skeleton). fkind = SSB64 nFTKind value.",
+  "fighters": [
+    {"fkind": 0,  "ssb64": "Mario",           "data": "mario",   "slug": "john_cena",     "name": "John Cena",               "style": "All-rounder (Mario moveset)"},
+    {"fkind": 1,  "ssb64": "Fox",             "data": "fox",     "slug": "kofi_kingston", "name": "Kofi Kingston",           "style": "Speedster (Fox moveset)"},
+    {"fkind": 2,  "ssb64": "Donkey Kong",     "data": "donkey",  "slug": "mark_henry",    "name": "Mark Henry",              "style": "Heavyweight powerhouse (Donkey Kong moveset)"},
+    {"fkind": 3,  "ssb64": "Samus",           "data": "samus",   "slug": "kane",          "name": "Kane",                    "style": "Heavy zoner (Samus moveset)"},
+    {"fkind": 4,  "ssb64": "Luigi",           "data": "luigi",   "slug": "the_miz",       "name": "The Miz",                 "style": "Floaty all-rounder (Luigi moveset)"},
+    {"fkind": 5,  "ssb64": "Link",            "data": "link",    "slug": "undertaker",    "name": "The Undertaker",          "style": "Heavy reach (Link moveset)"},
+    {"fkind": 6,  "ssb64": "Yoshi",           "data": "yoshi",   "slug": "batista",       "name": "Batista",                 "style": "Heavy jumper (Yoshi moveset)"},
+    {"fkind": 7,  "ssb64": "Captain Falcon",  "data": "captain", "slug": "the_rock",      "name": "The Rock",                "style": "Fast power (Captain Falcon moveset)"},
+    {"fkind": 8,  "ssb64": "Kirby",           "data": "kirby",   "slug": "rey_mysterio",  "name": "Rey Mysterio",            "style": "Lightweight multi-jumper (Kirby moveset)"},
+    {"fkind": 9,  "ssb64": "Pikachu",         "data": "pikachu", "slug": "r_truth",       "name": "R-Truth",                 "style": "Quick lightweight (Pikachu moveset)"},
+    {"fkind": 10, "ssb64": "Jigglypuff",      "data": "purin",   "slug": "edge",          "name": "Edge",                    "style": "Aerial floater (Jigglypuff moveset)"},
+    {"fkind": 11, "ssb64": "Ness",            "data": "ness",    "slug": "stone_cold",    "name": "Stone Cold Steve Austin", "style": "Brawler with tricks (Ness moveset)"}
+  ],
+  "stages": [
+    {"gkind": 0, "key": "castle",   "name": "Peach's Castle"},
+    {"gkind": 1, "key": "sector",   "name": "Sector Z"},
+    {"gkind": 2, "key": "jungle",   "name": "Congo Jungle"},
+    {"gkind": 3, "key": "zebes",    "name": "Planet Zebes"},
+    {"gkind": 4, "key": "hyrule",   "name": "Hyrule Castle"},
+    {"gkind": 5, "key": "yoster",   "name": "Yoshi's Island"},
+    {"gkind": 6, "key": "pupupu",   "name": "Dream Land"},
+    {"gkind": 7, "key": "yamabuki", "name": "Saffron City"},
+    {"gkind": 8, "key": "inishie",  "name": "Mushroom Kingdom"}
+  ]
+}

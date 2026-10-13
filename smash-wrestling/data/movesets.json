@@ -1,0 +1,1548 @@
+{
+ "source": "chEtc.pac CHAR/PRO movesets of the template superstars (decoded by the earlier run); template choice per Smash character = this game (custom)",
+ "holds": {
+  "facelock": {
+   "lock": "100",
+   "slots": {
+    "strike": 80,
+    "submission": 221,
+    "up": 81,
+    "right": 82,
+    "down": 83,
+    "left": 84
+   }
+  },
+  "headlock": {
+   "lock": "102",
+   "slots": {
+    "strike": 75,
+    "submission": 220,
+    "up": 76,
+    "right": 77,
+    "down": 78,
+    "left": 79
+   }
+  },
+  "wristlock": {
+   "lock": "101",
+   "slots": {
+    "strike": 85,
+    "submission": 222,
+    "up": 86,
+    "right": 87,
+    "down": 88,
+    "left": 89
+   }
+  },
+  "waistlock": {
+   "lock": "103",
+   "slots": {
+    "strike": 70,
+    "submission": 219,
+    "up": 71,
+    "right": 72,
+    "down": 73,
+    "left": 74
+   }
+  }
+ },
+ "characters": {
+  "mario": {
+   "template_record": 139,
+   "template_name": "JOHN CENA",
+   "slots": {
+    "base": {
+     "run": 6801
+    },
+    "ring": {
+     "ring_in": 739,
+     "ring_out": 715,
+     "apron_in": 722,
+     "apron_out": 11450
+    },
+    "taunt": {
+     "taunt1": 9508,
+     "taunt2": 9212,
+     "taunt3": 9508,
+     "taunt4": 9563
+    },
+    "strike": {
+     "strike_1": 3128,
+     "strike_2": 3129,
+     "strike_3": 3130,
+     "strike_4": 3129,
+     "strike_5": 3130
+    },
+    "combo": {
+     "combo_1": 3129,
+     "combo_2": 3129,
+     "combo_3": 3110
+    },
+    "strong": {
+     "strong_1": 11079,
+     "strong_2": 11079
+    },
+    "facelock": {
+     "entry": 110,
+     "throw_1": 5024,
+     "throw_2": 5319,
+     "throw_3": 5024,
+     "throw_4": 5319,
+     "submission": 21002
+    },
+    "headlock": {
+     "entry": 120,
+     "throw_1": 5129,
+     "throw_2": 5129,
+     "throw_3": 5129,
+     "throw_4": 5129,
+     "submission": 21002
+    },
+    "wristlock": {
+     "entry": 115,
+     "throw_1": 5183,
+     "throw_2": 5183,
+     "throw_3": 5183,
+     "throw_4": 5183,
+     "submission": 21002
+    },
+    "waistlock": {
+     "entry": 125,
+     "throw_1": 7364,
+     "throw_2": 7364,
+     "throw_3": 7364,
+     "throw_4": 7364,
+     "submission": 21100
+    },
+    "groggy": {
+     "front_1": 5267,
+     "front_2": 4680,
+     "front_3": 5053,
+     "front_4": 4983,
+     "back_1": 7200,
+     "back_2": 7440
+    },
+    "ground": {
+     "strike_upper": 3850,
+     "strike_lower": 3862,
+     "up_head": 5971,
+     "up_side": 10314,
+     "up_feet": 6178,
+     "down_head": 6080,
+     "down_side": 10514,
+     "down_feet": 6210,
+     "sub_head": 21201,
+     "sub_side": 21450,
+     "sub_feet": 21308
+    },
+    "corner": {
+     "grapple_1": 5742,
+     "strike_1": 23351,
+     "behind_1": 5788
+    },
+    "diving": {
+     "vs_downed_1": 3571,
+     "vs_downed_2": 3571,
+     "vs_standing_1": 3521,
+     "vs_standing_2": 3521
+    },
+    "running": {
+     "grapple_1": 7565,
+     "grapple_2": 5517,
+     "strike": 3381,
+     "ground_strike": 3941,
+     "behind_1": 7200
+    },
+    "rebound": {
+     "a": 5555,
+     "b": 5555,
+     "c": 3381,
+     "d": 1360,
+     "e": 1355
+    },
+    "pullback": {
+     "strike": 11009,
+     "grapple": 11041
+    },
+    "special": {
+     "signature_1": 6689,
+     "signature_2": 6689,
+     "finisher_1": 5010,
+     "finisher_2": 21350
+    }
+   }
+  },
+  "luigi": {
+   "template_record": 272,
+   "template_name": "R-TRUTH",
+   "slots": {
+    "base": {
+     "run": 6801
+    },
+    "ring": {
+     "ring_in": 745,
+     "ring_out": 749,
+     "apron_in": 11431,
+     "apron_out": 11453
+    },
+    "taunt": {
+     "taunt1": 9156,
+     "taunt2": 9047,
+     "taunt3": 9156,
+     "taunt4": 9047
+    },
+    "strike": {
+     "strike_1": 3130,
+     "strike_2": 3283,
+     "strike_3": 3092,
+     "strike_4": 3207,
+     "strike_5": 3092
+    },
+    "combo": {
+     "combo_1": 3130,
+     "combo_2": 3128,
+     "combo_3": 3207
+    },
+    "strong": {
+     "strong_1": 11077,
+     "strong_2": 11061
+    },
+    "facelock": {
+     "entry": 110,
+     "throw_1": 5050,
+     "throw_2": 5050,
+     "throw_3": 5050,
+     "throw_4": 5050,
+     "submission": 21006
+    },
+    "headlock": {
+     "entry": 120,
+     "throw_1": 5366,
+     "throw_2": 5366,
+     "throw_3": 5366,
+     "throw_4": 5366,
+     "submission": 21003
+    },
+    "wristlock": {
+     "entry": 115,
+     "throw_1": 5069,
+     "throw_2": 4583,
+     "throw_3": 5069,
+     "throw_4": 4583,
+     "submission": 21003
+    },
+    "waistlock": {
+     "entry": 125,
+     "throw_1": 7364,
+     "throw_2": 7364,
+     "throw_3": 7364,
+     "throw_4": 7364,
+     "submission": 21100
+    },
+    "groggy": {
+     "front_1": 4680,
+     "front_2": 5251,
+     "front_3": 5171,
+     "front_4": 5005,
+     "back_1": 7339,
+     "back_2": 7209
+    },
+    "ground": {
+     "strike_upper": 3860,
+     "strike_lower": 3864,
+     "up_head": 5971,
+     "up_side": 10314,
+     "up_feet": 6175,
+     "down_head": 6052,
+     "down_side": 10514,
+     "down_feet": 6210,
+     "sub_head": 21201,
+     "sub_side": 21450,
+     "sub_feet": 21308
+    },
+    "corner": {
+     "grapple_1": 5737,
+     "strike_1": 23351,
+     "behind_1": 5788
+    },
+    "diving": {
+     "vs_downed_1": 3559,
+     "vs_downed_2": 3585,
+     "vs_standing_1": 3521,
+     "vs_standing_2": 3521
+    },
+    "running": {
+     "grapple_1": 7598,
+     "grapple_2": 7598,
+     "strike": 3321,
+     "ground_strike": 3941,
+     "behind_1": 7212
+    },
+    "rebound": {
+     "a": 5558,
+     "b": 5519,
+     "c": 3321,
+     "d": 1360,
+     "e": 1356
+    },
+    "pullback": {
+     "strike": 11006,
+     "grapple": 11039
+    },
+    "special": {
+     "signature_1": 6864,
+     "signature_2": 6864,
+     "finisher_1": 3323,
+     "finisher_2": 3323
+    }
+   }
+  },
+  "donkey": {
+   "template_record": 179,
+   "template_name": "MARK HENRY",
+   "slots": {
+    "base": {
+     "run": 6801
+    },
+    "ring": {
+     "ring_in": 718,
+     "ring_out": 719,
+     "apron_in": 11427,
+     "apron_out": 11452
+    },
+    "taunt": {
+     "taunt1": 9611,
+     "taunt2": 9612,
+     "taunt3": 9611,
+     "taunt4": 9612
+    },
+    "strike": {
+     "strike_1": 3106,
+     "strike_2": 3028,
+     "strike_3": 3008,
+     "strike_4": 3003,
+     "strike_5": 3130
+    },
+    "combo": {
+     "combo_1": 3106,
+     "combo_2": 3008,
+     "combo_3": 3003
+    },
+    "strong": {
+     "strong_1": 11062,
+     "strong_2": 11066
+    },
+    "facelock": {
+     "entry": 110,
+     "throw_1": 4620,
+     "throw_2": 5024,
+     "throw_3": 5307,
+     "throw_4": 5088,
+     "submission": 21007
+    },
+    "headlock": {
+     "entry": 123,
+     "throw_1": 4676,
+     "throw_2": 4731,
+     "throw_3": 5062,
+     "throw_4": 4678,
+     "submission": 21002
+    },
+    "wristlock": {
+     "entry": 117,
+     "throw_1": 5116,
+     "throw_2": 4590,
+     "throw_3": 2800,
+     "throw_4": 5021,
+     "submission": 21000
+    },
+    "waistlock": {
+     "entry": 127,
+     "throw_1": 7424,
+     "throw_2": 7202,
+     "throw_3": 7356,
+     "throw_4": 7202,
+     "submission": 21100
+    },
+    "groggy": {
+     "front_1": 5066,
+     "front_2": 5024,
+     "front_3": 4991,
+     "front_4": 4906,
+     "back_1": 7459,
+     "back_2": 7405
+    },
+    "ground": {
+     "strike_upper": 3850,
+     "strike_lower": 3884,
+     "up_head": 5974,
+     "up_side": 10306,
+     "up_feet": 6174,
+     "down_head": 6061,
+     "down_side": 10514,
+     "down_feet": 6210,
+     "sub_head": 21201,
+     "sub_side": 21450,
+     "sub_feet": 21308
+    },
+    "corner": {
+     "grapple_1": 5737,
+     "strike_1": 23352,
+     "behind_1": 5788
+    },
+    "diving": {
+     "vs_downed_1": 3614,
+     "vs_downed_2": 3614,
+     "vs_standing_1": 3502,
+     "vs_standing_2": 3502
+    },
+    "running": {
+     "grapple_1": 7611,
+     "grapple_2": 7611,
+     "strike": 3487,
+     "ground_strike": 3933,
+     "behind_1": 7206
+    },
+    "rebound": {
+     "a": 5369,
+     "b": 5369,
+     "c": 3493,
+     "d": 1360
+    },
+    "pullback": {
+     "strike": 11005,
+     "grapple": 11042
+    },
+    "special": {
+     "signature_1": 21007,
+     "signature_2": 21007,
+     "finisher_1": 5001,
+     "finisher_2": 5001
+    }
+   }
+  },
+  "link": {
+   "template_record": 160,
+   "template_name": "BATISTA",
+   "slots": {
+    "base": {
+     "run": 6801
+    },
+    "ring": {
+     "ring_in": 739,
+     "ring_out": 715,
+     "apron_in": 11426,
+     "apron_out": 11450
+    },
+    "taunt": {
+     "taunt1": 9630,
+     "taunt2": 9632,
+     "taunt3": 9630,
+     "taunt4": 9632
+    },
+    "strike": {
+     "strike_1": 3129,
+     "strike_2": 3283,
+     "strike_3": 3128,
+     "strike_4": 3003,
+     "strike_5": 3128
+    },
+    "combo": {
+     "combo_1": 3129,
+     "combo_2": 3130,
+     "combo_3": 3003
+    },
+    "strong": {
+     "strong_1": 11066,
+     "strong_2": 11071
+    },
+    "facelock": {
+     "entry": 110,
+     "throw_1": 5183,
+     "throw_2": 5061,
+     "throw_3": 5183,
+     "throw_4": 5061,
+     "submission": 21007
+    },
+    "headlock": {
+     "entry": 120,
+     "throw_1": 4603,
+     "throw_2": 5319,
+     "throw_3": 4603,
+     "throw_4": 5319,
+     "submission": 21003
+    },
+    "wristlock": {
+     "entry": 115,
+     "throw_1": 4619,
+     "throw_2": 4614,
+     "throw_3": 4619,
+     "throw_4": 4614,
+     "submission": 21000
+    },
+    "waistlock": {
+     "entry": 125,
+     "throw_1": 7364,
+     "throw_2": 7202,
+     "throw_3": 7364,
+     "throw_4": 7202,
+     "submission": 21100
+    },
+    "groggy": {
+     "front_1": 4936,
+     "front_2": 4992,
+     "front_3": 4916,
+     "front_4": 4898,
+     "back_1": 7307,
+     "back_2": 7377
+    },
+    "ground": {
+     "strike_upper": 3901,
+     "strike_lower": 3883,
+     "up_head": 6012,
+     "up_side": 10314,
+     "up_feet": 6175,
+     "down_head": 6061,
+     "down_side": 10508,
+     "down_feet": 6210,
+     "sub_head": 21201,
+     "sub_side": 21450,
+     "sub_feet": 21308
+    },
+    "corner": {
+     "grapple_1": 5733,
+     "strike_1": 23352,
+     "behind_1": 5788
+    },
+    "diving": {
+     "vs_downed_1": 3551,
+     "vs_downed_2": 3551,
+     "vs_standing_1": 3538,
+     "vs_standing_2": 3505
+    },
+    "running": {
+     "grapple_1": 7619,
+     "grapple_2": 7619,
+     "strike": 3407,
+     "ground_strike": 3940,
+     "behind_1": 5611
+    },
+    "rebound": {
+     "a": 5506,
+     "b": 5506,
+     "c": 3372,
+     "d": 1360,
+     "e": 1356
+    },
+    "pullback": {
+     "strike": 11009,
+     "grapple": 11034
+    },
+    "special": {
+     "signature_1": 7554,
+     "signature_2": 6522,
+     "finisher_1": 5070,
+     "finisher_2": 5070
+    }
+   }
+  },
+  "samus": {
+   "template_record": 107,
+   "template_name": "KANE",
+   "slots": {
+    "base": {
+     "run": 6801
+    },
+    "ring": {
+     "ring_in": 718,
+     "ring_out": 719,
+     "apron_in": 11427,
+     "apron_out": 11452
+    },
+    "taunt": {
+     "taunt1": 9744,
+     "taunt2": 9610,
+     "taunt3": 9744,
+     "taunt4": 9610
+    },
+    "strike": {
+     "strike_1": 3081,
+     "strike_2": 3283,
+     "strike_3": 3080,
+     "strike_4": 3130,
+     "strike_5": 3080
+    },
+    "combo": {
+     "combo_1": 3130,
+     "combo_2": 3080,
+     "combo_3": 3109
+    },
+    "strong": {
+     "strong_1": 11063,
+     "strong_2": 11066
+    },
+    "facelock": {
+     "entry": 110,
+     "throw_1": 5021,
+     "throw_2": 5021,
+     "throw_3": 5021,
+     "throw_4": 5021,
+     "submission": 21008
+    },
+    "headlock": {
+     "entry": 120,
+     "throw_1": 5319,
+     "throw_2": 5319,
+     "throw_3": 5319,
+     "throw_4": 5319,
+     "submission": 21002
+    },
+    "wristlock": {
+     "entry": 117,
+     "throw_1": 5027,
+     "throw_2": 5027,
+     "throw_3": 5027,
+     "throw_4": 5027,
+     "submission": 21002
+    },
+    "waistlock": {
+     "entry": 125,
+     "throw_1": 7373,
+     "throw_2": 7373,
+     "throw_3": 7373,
+     "throw_4": 7373,
+     "submission": 21100
+    },
+    "groggy": {
+     "front_1": 4696,
+     "front_2": 4988,
+     "front_3": 4991,
+     "front_4": 4992,
+     "back_1": 7356,
+     "back_2": 7377
+    },
+    "ground": {
+     "strike_upper": 3850,
+     "strike_lower": 3883,
+     "up_head": 6012,
+     "up_side": 10313,
+     "up_feet": 6174,
+     "down_head": 6052,
+     "down_side": 10514,
+     "down_feet": 6210,
+     "sub_head": 21204,
+     "sub_side": 21450,
+     "sub_feet": 21301
+    },
+    "corner": {
+     "grapple_1": 5737,
+     "strike_1": 23352,
+     "behind_1": 5788
+    },
+    "diving": {
+     "vs_downed_1": 3577,
+     "vs_downed_2": 3577,
+     "vs_standing_1": 3523,
+     "vs_standing_2": 3523
+    },
+    "running": {
+     "grapple_1": 7556,
+     "grapple_2": 7556,
+     "strike": 3372,
+     "ground_strike": 3940,
+     "behind_1": 7206
+    },
+    "rebound": {
+     "a": 5564,
+     "b": 5516,
+     "c": 3271,
+     "d": 1360
+    },
+    "pullback": {
+     "strike": 11010,
+     "grapple": 11033
+    },
+    "special": {
+     "signature_1": 6526,
+     "signature_2": 6526,
+     "finisher_1": 5006,
+     "finisher_2": 5006
+    }
+   }
+  },
+  "yoshi": {
+   "template_record": 176,
+   "template_name": "KOFI KINGSTON",
+   "slots": {
+    "base": {
+     "run": 6801
+    },
+    "ring": {
+     "ring_in": 700,
+     "ring_out": 715,
+     "apron_in": 11431,
+     "apron_out": 11453
+    },
+    "taunt": {
+     "taunt1": 9090,
+     "taunt2": 9616,
+     "taunt3": 9589,
+     "taunt4": 9616
+    },
+    "strike": {
+     "strike_1": 3015,
+     "strike_2": 3221,
+     "strike_3": 3130,
+     "strike_4": 3211,
+     "strike_5": 3130
+    },
+    "combo": {
+     "combo_1": 3130,
+     "combo_2": 3013,
+     "combo_3": 3207
+    },
+    "strong": {
+     "strong_1": 11077,
+     "strong_2": 11061
+    },
+    "facelock": {
+     "entry": 112,
+     "throw_1": 4565,
+     "throw_2": 6527,
+     "throw_3": 5319,
+     "throw_4": 4587,
+     "submission": 21008
+    },
+    "headlock": {
+     "entry": 120,
+     "throw_1": 4514,
+     "throw_2": 4554,
+     "throw_3": 5247,
+     "throw_4": 4536,
+     "submission": 21002
+    },
+    "wristlock": {
+     "entry": 116,
+     "throw_1": 4744,
+     "throw_2": 5069,
+     "throw_3": 5247,
+     "throw_4": 5340,
+     "submission": 21002
+    },
+    "waistlock": {
+     "entry": 126,
+     "throw_1": 7364,
+     "throw_2": 7455,
+     "throw_3": 7364,
+     "throw_4": 7455,
+     "submission": 21100
+    },
+    "groggy": {
+     "front_1": 5179,
+     "front_2": 4983,
+     "front_3": 4974,
+     "front_4": 4983,
+     "back_1": 7332,
+     "back_2": 7308
+    },
+    "ground": {
+     "strike_upper": 3860,
+     "strike_lower": 3857,
+     "up_head": 6017,
+     "up_side": 10317,
+     "up_feet": 6173,
+     "down_head": 6060,
+     "down_side": 10514,
+     "down_feet": 6210,
+     "sub_head": 21204,
+     "sub_side": 21450,
+     "sub_feet": 21308
+    },
+    "corner": {
+     "grapple_1": 5734,
+     "strike_1": 23351,
+     "behind_1": 5788
+    },
+    "diving": {
+     "vs_downed_1": 3560,
+     "vs_downed_2": 3560,
+     "vs_standing_1": 3529,
+     "vs_standing_2": 3529
+    },
+    "running": {
+     "grapple_1": 7586,
+     "grapple_2": 7599,
+     "strike": 3485,
+     "ground_strike": 3941,
+     "behind_1": 7212
+    },
+    "rebound": {
+     "a": 4565,
+     "b": 4565,
+     "c": 3295,
+     "d": 1360,
+     "e": 1355
+    },
+    "pullback": {
+     "strike": 11012,
+     "grapple": 11031
+    },
+    "special": {
+     "signature_1": 6686,
+     "signature_2": 6686,
+     "finisher_1": 4561,
+     "finisher_2": 4746
+    }
+   }
+  },
+  "kirby": {
+   "template_record": 123,
+   "template_name": "REY MYSTERIO",
+   "slots": {
+    "base": {
+     "run": 6801
+    },
+    "ring": {
+     "ring_in": 739,
+     "ring_out": 749,
+     "apron_in": 11431,
+     "apron_out": 11453
+    },
+    "taunt": {
+     "taunt1": 9265,
+     "taunt2": 9148,
+     "taunt3": 9265,
+     "taunt4": 9148
+    },
+    "strike": {
+     "strike_1": 3105,
+     "strike_2": 3228,
+     "strike_3": 3013,
+     "strike_4": 3213,
+     "strike_5": 3013
+    },
+    "combo": {
+     "combo_1": 3105,
+     "combo_2": 3230,
+     "combo_3": 3221
+    },
+    "strong": {
+     "strong_1": 11078,
+     "strong_2": 11078
+    },
+    "facelock": {
+     "entry": 110,
+     "throw_1": 4733,
+     "throw_2": 6527,
+     "throw_3": 5319,
+     "throw_4": 4536,
+     "submission": 21006
+    },
+    "headlock": {
+     "entry": 121,
+     "throw_1": 4841,
+     "throw_2": 5143,
+     "throw_3": 4792,
+     "throw_4": 5116,
+     "submission": 21003
+    },
+    "wristlock": {
+     "entry": 115,
+     "throw_1": 5069,
+     "throw_2": 5340,
+     "throw_3": 2800,
+     "throw_4": 4583,
+     "submission": 21003
+    },
+    "waistlock": {
+     "entry": 126,
+     "throw_1": 7212,
+     "throw_2": 7455,
+     "throw_3": 7450,
+     "throw_4": 7455,
+     "submission": 21101
+    },
+    "groggy": {
+     "front_1": 5348,
+     "front_2": 4792,
+     "front_3": 5246,
+     "front_4": 5334,
+     "back_1": 7386,
+     "back_2": 7408
+    },
+    "ground": {
+     "strike_upper": 3860,
+     "strike_lower": 3890,
+     "up_head": 5993,
+     "up_side": 10333,
+     "up_feet": 6134,
+     "down_head": 6060,
+     "down_side": 10513,
+     "down_feet": 6210,
+     "sub_head": 21204,
+     "sub_side": 21450,
+     "sub_feet": 21308
+    },
+    "corner": {
+     "grapple_1": 5659,
+     "strike_1": 23350,
+     "behind_1": 5769
+    },
+    "diving": {
+     "vs_downed_1": 3610,
+     "vs_downed_2": 3596,
+     "vs_standing_1": 3520,
+     "vs_standing_2": 3528
+    },
+    "running": {
+     "grapple_1": 7618,
+     "grapple_2": 7615,
+     "strike": 3484,
+     "ground_strike": 3942,
+     "behind_1": 7408
+    },
+    "rebound": {
+     "a": 5522,
+     "b": 5251,
+     "c": 3412,
+     "d": 1363,
+     "e": 1355
+    },
+    "pullback": {
+     "strike": 11006,
+     "grapple": 11031
+    },
+    "special": {
+     "signature_1": 5251,
+     "signature_2": 5251,
+     "finisher_1": 6605,
+     "finisher_2": 6604
+    }
+   }
+  },
+  "fox": {
+   "template_record": 110,
+   "template_name": "EDGE",
+   "slots": {
+    "base": {
+     "run": 6801
+    },
+    "ring": {
+     "ring_in": 739,
+     "ring_out": 749,
+     "apron_in": 722,
+     "apron_out": 11450
+    },
+    "taunt": {
+     "taunt1": 9631,
+     "taunt2": 9625,
+     "taunt3": 9631,
+     "taunt4": 9625
+    },
+    "strike": {
+     "strike_1": 3128,
+     "strike_2": 3283,
+     "strike_3": 3130,
+     "strike_4": 3211,
+     "strike_5": 3130
+    },
+    "combo": {
+     "combo_1": 3128,
+     "combo_2": 3129,
+     "combo_3": 3283
+    },
+    "strong": {
+     "strong_1": 11063,
+     "strong_2": 11063
+    },
+    "facelock": {
+     "entry": 110,
+     "throw_1": 5247,
+     "throw_2": 5247,
+     "throw_3": 5247,
+     "throw_4": 5247,
+     "submission": 21008
+    },
+    "headlock": {
+     "entry": 122,
+     "throw_1": 5319,
+     "throw_2": 5129,
+     "throw_3": 5319,
+     "throw_4": 5129,
+     "submission": 21008
+    },
+    "wristlock": {
+     "entry": 115,
+     "throw_1": 4619,
+     "throw_2": 4687,
+     "throw_3": 4583,
+     "throw_4": 4615,
+     "submission": 21008
+    },
+    "waistlock": {
+     "entry": 127,
+     "throw_1": 7455,
+     "throw_2": 7455,
+     "throw_3": 7455,
+     "throw_4": 7455,
+     "submission": 21100
+    },
+    "groggy": {
+     "front_1": 4870,
+     "front_2": 5259,
+     "front_3": 5038,
+     "front_4": 5008,
+     "back_1": 7210,
+     "back_2": 7307
+    },
+    "ground": {
+     "strike_upper": 3850,
+     "strike_lower": 3901,
+     "up_head": 6032,
+     "up_side": 10325,
+     "up_feet": 6150,
+     "down_head": 6061,
+     "down_side": 10508,
+     "down_feet": 6210,
+     "sub_head": 21201,
+     "sub_side": 21450,
+     "sub_feet": 21307
+    },
+    "corner": {
+     "grapple_1": 5656,
+     "strike_1": 23352,
+     "behind_1": 5788
+    },
+    "diving": {
+     "vs_downed_1": 3577,
+     "vs_downed_2": 3577,
+     "vs_standing_1": 3505,
+     "vs_standing_2": 3508
+    },
+    "running": {
+     "grapple_1": 7556,
+     "grapple_2": 7556,
+     "strike": 3379,
+     "ground_strike": 3941,
+     "behind_1": 7212
+    },
+    "rebound": {
+     "a": 5516,
+     "b": 4870,
+     "c": 3271,
+     "d": 1360,
+     "e": 1356
+    },
+    "pullback": {
+     "strike": 11010,
+     "grapple": 11041
+    },
+    "special": {
+     "signature_1": 5093,
+     "signature_2": 5093,
+     "finisher_1": 6693,
+     "finisher_2": 7609
+    }
+   }
+  },
+  "pikachu": {
+   "template_record": 100,
+   "template_name": "THE ROCK",
+   "slots": {
+    "base": {
+     "run": 6801
+    },
+    "ring": {
+     "ring_in": 739,
+     "ring_out": 747,
+     "apron_in": 722,
+     "apron_out": 7012
+    },
+    "taunt": {
+     "taunt1": 9629,
+     "taunt2": 9537,
+     "taunt3": 9629,
+     "taunt4": 9537
+    },
+    "strike": {
+     "strike_1": 3129,
+     "strike_2": 3283,
+     "strike_3": 3092,
+     "strike_4": 3071,
+     "strike_5": 3092
+    },
+    "combo": {
+     "combo_1": 3129,
+     "combo_2": 3128,
+     "combo_3": 3071
+    },
+    "strong": {
+     "strong_1": 11073,
+     "strong_2": 11073
+    },
+    "facelock": {
+     "entry": 110,
+     "throw_1": 5247,
+     "throw_2": 4683,
+     "throw_3": 5247,
+     "throw_4": 4683,
+     "submission": 21002
+    },
+    "headlock": {
+     "entry": 120,
+     "throw_1": 4609,
+     "throw_2": 5129,
+     "throw_3": 4609,
+     "throw_4": 5129,
+     "submission": 21000
+    },
+    "wristlock": {
+     "entry": 115,
+     "throw_1": 4619,
+     "throw_2": 5340,
+     "throw_3": 4619,
+     "throw_4": 5340,
+     "submission": 21000
+    },
+    "waistlock": {
+     "entry": 125,
+     "throw_1": 7455,
+     "throw_2": 7455,
+     "throw_3": 7455,
+     "throw_4": 7455,
+     "submission": 21101
+    },
+    "groggy": {
+     "front_1": 4680,
+     "front_2": 4941,
+     "front_3": 5003,
+     "front_4": 4941,
+     "back_1": 7307,
+     "back_2": 7201
+    },
+    "ground": {
+     "strike_upper": 3888,
+     "strike_lower": 3888,
+     "up_head": 6032,
+     "up_side": 10314,
+     "up_feet": 6173,
+     "down_head": 6052,
+     "down_side": 10514,
+     "down_feet": 6210,
+     "sub_head": 21201,
+     "sub_side": 21450,
+     "sub_feet": 21301
+    },
+    "corner": {
+     "grapple_1": 5737,
+     "strike_1": 23351,
+     "behind_1": 5788
+    },
+    "diving": {
+     "vs_downed_1": 3550,
+     "vs_downed_2": 3550,
+     "vs_standing_1": 3508,
+     "vs_standing_2": 3508
+    },
+    "running": {
+     "grapple_1": 7550,
+     "grapple_2": 7588,
+     "strike": 3488,
+     "ground_strike": 3941,
+     "behind_1": 7212
+    },
+    "rebound": {
+     "a": 5500,
+     "b": 5500,
+     "c": 3372,
+     "d": 1360,
+     "e": 1356
+    },
+    "pullback": {
+     "strike": 11009,
+     "grapple": 11040
+    },
+    "special": {
+     "signature_1": 21302,
+     "signature_2": 5562,
+     "finisher_1": 6677,
+     "finisher_2": 5079
+    }
+   }
+  },
+  "captain": {
+   "template_record": 101,
+   "template_name": "STONE COLD",
+   "slots": {
+    "base": {
+     "run": 6801
+    },
+    "ring": {
+     "ring_in": 738,
+     "ring_out": 748,
+     "apron_in": 11426,
+     "apron_out": 11450
+    },
+    "taunt": {
+     "taunt1": 9721,
+     "taunt2": 9721,
+     "taunt3": 9721,
+     "taunt4": 9721
+    },
+    "strike": {
+     "strike_1": 3129,
+     "strike_2": 3128,
+     "strike_3": 3130,
+     "strike_4": 3003,
+     "strike_5": 3130
+    },
+    "combo": {
+     "combo_1": 3129,
+     "combo_2": 3129,
+     "combo_3": 3283
+    },
+    "strong": {
+     "strong_1": 11060,
+     "strong_2": 11066
+    },
+    "facelock": {
+     "entry": 110,
+     "throw_1": 5183,
+     "throw_2": 4603,
+     "throw_3": 5183,
+     "throw_4": 4603,
+     "submission": 21003
+    },
+    "headlock": {
+     "entry": 120,
+     "throw_1": 4683,
+     "throw_2": 5129,
+     "throw_3": 5319,
+     "throw_4": 5129,
+     "submission": 21008
+    },
+    "wristlock": {
+     "entry": 117,
+     "throw_1": 4608,
+     "throw_2": 4687,
+     "throw_3": 2800,
+     "throw_4": 4554,
+     "submission": 21008
+    },
+    "waistlock": {
+     "entry": 127,
+     "throw_1": 7201,
+     "throw_2": 7202,
+     "throw_3": 7364,
+     "throw_4": 7202,
+     "submission": 21101
+    },
+    "groggy": {
+     "front_1": 4987,
+     "front_2": 5259,
+     "front_3": 5110,
+     "front_4": 5008,
+     "back_1": 7307,
+     "back_2": 7307
+    },
+    "ground": {
+     "strike_upper": 3850,
+     "strike_lower": 3883,
+     "up_head": 6661,
+     "up_side": 10314,
+     "up_feet": 6175,
+     "down_head": 6052,
+     "down_side": 10511,
+     "down_feet": 6210,
+     "sub_head": 21201,
+     "sub_side": 21450,
+     "sub_feet": 21301
+    },
+    "corner": {
+     "grapple_1": 5737,
+     "strike_1": 23351,
+     "behind_1": 5788
+    },
+    "diving": {
+     "vs_downed_1": 3551,
+     "vs_downed_2": 3577,
+     "vs_standing_1": 3502,
+     "vs_standing_2": 3502
+    },
+    "running": {
+     "grapple_1": 5517,
+     "grapple_2": 5517,
+     "strike": 3379,
+     "ground_strike": 3940,
+     "behind_1": 7206
+    },
+    "rebound": {
+     "a": 5517,
+     "b": 5516,
+     "c": 3129,
+     "d": 1360,
+     "e": 1356
+    },
+    "pullback": {
+     "strike": 11002,
+     "grapple": 11034
+    },
+    "special": {
+     "signature_1": 5517,
+     "signature_2": 5517,
+     "finisher_1": 5092,
+     "finisher_2": 5235
+    }
+   }
+  },
+  "ness": {
+   "template_record": 218,
+   "template_name": "THE MIZ",
+   "slots": {
+    "base": {
+     "run": 6801
+    },
+    "ring": {
+     "ring_in": 738,
+     "ring_out": 749,
+     "apron_in": 722,
+     "apron_out": 7012
+    },
+    "taunt": {
+     "taunt1": 9570,
+     "taunt2": 9528,
+     "taunt3": 9570,
+     "taunt4": 9528
+    },
+    "strike": {
+     "strike_1": 3015,
+     "strike_2": 3096,
+     "strike_3": 3130,
+     "strike_4": 3206,
+     "strike_5": 3130
+    },
+    "combo": {
+     "combo_1": 3015,
+     "combo_2": 3129,
+     "combo_3": 3206
+    },
+    "strong": {
+     "strong_1": 11088,
+     "strong_2": 11088
+    },
+    "facelock": {
+     "entry": 110,
+     "throw_1": 5050,
+     "throw_2": 5050,
+     "throw_3": 5050,
+     "throw_4": 5050,
+     "submission": 21000
+    },
+    "headlock": {
+     "entry": 120,
+     "throw_1": 4582,
+     "throw_2": 4616,
+     "throw_3": 4582,
+     "throw_4": 4616,
+     "submission": 21003
+    },
+    "wristlock": {
+     "entry": 116,
+     "throw_1": 4615,
+     "throw_2": 4614,
+     "throw_3": 4615,
+     "throw_4": 4614,
+     "submission": 21003
+    },
+    "waistlock": {
+     "entry": 127,
+     "throw_1": 7364,
+     "throw_2": 7364,
+     "throw_3": 7364,
+     "throw_4": 7364,
+     "submission": 21100
+    },
+    "groggy": {
+     "front_1": 5348,
+     "front_2": 4720,
+     "front_3": 5110,
+     "front_4": 5063,
+     "back_1": 7308,
+     "back_2": 7308
+    },
+    "ground": {
+     "strike_upper": 3850,
+     "strike_lower": 3865,
+     "up_head": 5973,
+     "up_side": 10325,
+     "up_feet": 6134,
+     "down_head": 6060,
+     "down_side": 10518,
+     "down_feet": 6210,
+     "sub_head": 21201,
+     "sub_side": 21450,
+     "sub_feet": 21301
+    },
+    "corner": {
+     "grapple_1": 5661,
+     "strike_1": 23351,
+     "behind_1": 5759
+    },
+    "diving": {
+     "vs_downed_1": 3571,
+     "vs_downed_2": 3571,
+     "vs_standing_1": 3508,
+     "vs_standing_2": 3508
+    },
+    "running": {
+     "grapple_1": 5517,
+     "grapple_2": 7610,
+     "strike": 3324,
+     "ground_strike": 3940,
+     "behind_1": 7212
+    },
+    "rebound": {
+     "a": 5532,
+     "b": 5522,
+     "c": 3324,
+     "d": 1360,
+     "e": 1356
+    },
+    "pullback": {
+     "strike": 11007,
+     "grapple": 11041
+    },
+    "special": {
+     "signature_1": 4989,
+     "signature_2": 6862,
+     "finisher_1": 7309,
+     "finisher_2": 7309
+    }
+   }
+  },
+  "purin": {
+   "template_record": 103,
+   "template_name": "UNDERTAKER",
+   "slots": {
+    "base": {
+     "run": 6801
+    },
+    "ring": {
+     "ring_in": 738,
+     "ring_out": 746,
+     "apron_in": 11427,
+     "apron_out": 11450
+    },
+    "taunt": {
+     "taunt1": 9741,
+     "taunt2": 9608,
+     "taunt3": 9727,
+     "taunt4": 9608
+    },
+    "strike": {
+     "strike_1": 3000,
+     "strike_2": 3109,
+     "strike_3": 3130,
+     "strike_4": 3109,
+     "strike_5": 3130
+    },
+    "combo": {
+     "combo_1": 3000,
+     "combo_2": 3128,
+     "combo_3": 3119
+    },
+    "strong": {
+     "strong_1": 11071,
+     "strong_2": 11060
+    },
+    "facelock": {
+     "entry": 113,
+     "throw_1": 4603,
+     "throw_2": 4731,
+     "throw_3": 5050,
+     "throw_4": 4683,
+     "submission": 21008
+    },
+    "headlock": {
+     "entry": 123,
+     "throw_1": 4609,
+     "throw_2": 5129,
+     "throw_3": 5061,
+     "throw_4": 4687,
+     "submission": 21002
+    },
+    "wristlock": {
+     "entry": 115,
+     "throw_1": 4619,
+     "throw_2": 4797,
+     "throw_3": 4619,
+     "throw_4": 4797,
+     "submission": 21002
+    },
+    "waistlock": {
+     "entry": 125,
+     "throw_1": 7364,
+     "throw_2": 7455,
+     "throw_3": 7364,
+     "throw_4": 7455,
+     "submission": 21100
+    },
+    "groggy": {
+     "front_1": 5107,
+     "front_2": 4695,
+     "front_3": 5205,
+     "front_4": 5272,
+     "back_1": 7307,
+     "back_2": 7377
+    },
+    "ground": {
+     "strike_upper": 3862,
+     "strike_lower": 3862,
+     "up_head": 6032,
+     "up_side": 10314,
+     "up_feet": 6173,
+     "down_head": 6080,
+     "down_side": 10513,
+     "down_feet": 6210,
+     "sub_head": 21203,
+     "sub_side": 21450,
+     "sub_feet": 21301
+    },
+    "corner": {
+     "grapple_1": 5737,
+     "strike_1": 23351,
+     "behind_1": 5787
+    },
+    "diving": {
+     "vs_downed_1": 3551,
+     "vs_downed_2": 3551,
+     "vs_standing_1": 3530,
+     "vs_standing_2": 3530
+    },
+    "running": {
+     "grapple_1": 7556,
+     "grapple_2": 7556,
+     "strike": 3304,
+     "ground_strike": 3943,
+     "behind_1": 5612
+    },
+    "rebound": {
+     "a": 5516,
+     "b": 5564,
+     "c": 3271,
+     "d": 1360
+    },
+    "pullback": {
+     "strike": 11009,
+     "grapple": 11033
+    },
+    "special": {
+     "signature_1": 5006,
+     "signature_2": 6525,
+     "finisher_1": 5080,
+     "finisher_2": 5096
+    }
+   }
+  }
+ }
+}

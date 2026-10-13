@@ -1,0 +1,286 @@
+{
+ "kind": "donkey",
+ "source_rig": "extracted/smash_fighters/donkey/donkey_rig.json",
+ "height": 11.72072,
+ "standing_height": 7.47054,
+ "rest_min_y": 0.0,
+ "rest_max_y": 11.72072,
+ "hips_bone": "j05_hips",
+ "hip_height": 4.213936,
+ "mapped": {
+  "hips": "j05_hips",
+  "chest": "j06_chest",
+  "l_clavicle": "j07_l_clavicle",
+  "l_upperarm": "j08_l_upperarm",
+  "l_forearm": "j09_l_forearm",
+  "l_hand": "j10_l_hand",
+  "neck": "j11_neck",
+  "head": "j12_head",
+  "r_clavicle": "j13_r_clavicle",
+  "r_upperarm": "j14_r_upperarm",
+  "r_forearm": "j15_r_forearm",
+  "r_hand": "j16_r_hand",
+  "l_thigh": "j20_l_thigh",
+  "l_shin": "j21_l_shin",
+  "l_foot": "j23_l_foot",
+  "r_thigh": "j25_r_thigh",
+  "r_shin": "j26_r_shin",
+  "r_foot": "j28_r_foot"
+ },
+ "unmapped_svr": [
+  "koshi",
+  "l_tsumasaki",
+  "r_tsumasaki"
+ ],
+ "bones": [
+  {
+   "name": "j00_topn",
+   "src": -1
+  },
+  {
+   "name": "j04_other",
+   "src": -1
+  },
+  {
+   "name": "j05_hips",
+   "src": 0,
+   "gref": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "label": "hips"
+  },
+  {
+   "name": "j06_chest",
+   "src": 2,
+   "gref": [
+    -0.077979,
+    -5e-06,
+    3.5e-05,
+    0.996955
+   ],
+   "label": "chest"
+  },
+  {
+   "name": "j07_l_clavicle",
+   "src": 5,
+   "gref": [
+    -0.711066,
+    0.053345,
+    -0.04211,
+    0.699833
+   ],
+   "label": "l_clavicle"
+  },
+  {
+   "name": "j08_l_upperarm",
+   "src": 6,
+   "gref": [
+    -0.743948,
+    4.1e-05,
+    -3.7e-05,
+    0.668238
+   ],
+   "label": "l_upperarm"
+  },
+  {
+   "name": "j09_l_forearm",
+   "src": 7,
+   "gref": [
+    -0.736934,
+    0.000223,
+    -0.016293,
+    0.675769
+   ],
+   "label": "l_forearm"
+  },
+  {
+   "name": "j10_l_hand",
+   "src": 8,
+   "gref": [
+    -0.736934,
+    0.000223,
+    -0.016293,
+    0.675769
+   ],
+   "label": "l_hand"
+  },
+  {
+   "name": "j11_neck",
+   "src": 3,
+   "gref": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "label": "neck"
+  },
+  {
+   "name": "j12_head",
+   "src": 4,
+   "gref": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "label": "head"
+  },
+  {
+   "name": "j13_r_clavicle",
+   "src": 9,
+   "gref": [
+    -0.043694,
+    0.701314,
+    -0.70961,
+    0.05199
+   ],
+   "label": "r_clavicle"
+  },
+  {
+   "name": "j14_r_upperarm",
+   "src": 10,
+   "gref": [
+    1.3e-05,
+    0.741167,
+    -0.67132,
+    -1.2e-05
+   ],
+   "label": "r_upperarm"
+  },
+  {
+   "name": "j15_r_forearm",
+   "src": 11,
+   "gref": [
+    -0.016161,
+    0.745603,
+    -0.666193,
+    -0.001508
+   ],
+   "label": "r_forearm"
+  },
+  {
+   "name": "j16_r_hand",
+   "src": 12,
+   "gref": [
+    -0.01475,
+    0.674631,
+    -0.738007,
+    0.001202
+   ],
+   "label": "r_hand"
+  },
+  {
+   "name": "j17_weapon",
+   "src": -1
+  },
+  {
+   "name": "j18_other",
+   "src": -1
+  },
+  {
+   "name": "j19_other",
+   "src": -1
+  },
+  {
+   "name": "j20_l_thigh",
+   "src": 13,
+   "gref": [
+    -0.616054,
+    0.616055,
+    -0.347098,
+    0.347098
+   ],
+   "label": "l_thigh"
+  },
+  {
+   "name": "j21_l_shin",
+   "src": 14,
+   "gref": [
+    -0.617329,
+    0.615402,
+    -0.351159,
+    0.341866
+   ],
+   "label": "l_shin"
+  },
+  {
+   "name": "j22_other",
+   "src": -1
+  },
+  {
+   "name": "j23_l_foot",
+   "src": 15,
+   "gref": [
+    0.696998,
+    -0.090671,
+    0.707724,
+    0.071409
+   ],
+   "label": "l_foot"
+  },
+  {
+   "name": "j24_other",
+   "src": -1
+  },
+  {
+   "name": "j25_r_thigh",
+   "src": 17,
+   "gref": [
+    -0.35561,
+    0.35561,
+    -0.611181,
+    0.611181
+   ],
+   "label": "r_thigh"
+  },
+  {
+   "name": "j26_r_shin",
+   "src": 18,
+   "gref": [
+    -0.354005,
+    0.357123,
+    -0.615696,
+    0.606681
+   ],
+   "label": "r_shin"
+  },
+  {
+   "name": "j27_other",
+   "src": -1
+  },
+  {
+   "name": "j28_r_foot",
+   "src": 19,
+   "gref": [
+    0.706135,
+    0.031531,
+    0.704852,
+    -0.059694
+   ],
+   "label": "r_foot"
+  },
+  {
+   "name": "j29_other",
+   "src": -1
+  }
+ ],
+ "notes": [
+  "chest->mune: rest dir [0.0, 0.99, 0.16] vs SvR [-0.0, 1.0, -0.0], swing 8.9 deg",
+  "l_clavicle->l_sakotsu: rest dir [0.13, -0.99, 0.02] vs SvR [1.0, -0.0, 0.0], swing 82.3 deg",
+  "l_upperarm->l_ninoude: rest dir [0.13, -0.99, 0.02] vs SvR [1.0, -0.0, 0.0], swing 82.3 deg",
+  "l_forearm->l_kote: rest dir [0.16, -0.99, -0.01] vs SvR [1.0, -0.0, 0.0], swing 81.0 deg",
+  "neck: zero-length bone, no swing",
+  "r_clavicle->r_sakotsu: rest dir [-0.13, -0.99, 0.01] vs SvR [-1.0, 0.0, 0.0], swing 82.2 deg",
+  "r_upperarm->r_ninoude: rest dir [-0.13, -0.99, 0.01] vs SvR [-1.0, 0.0, 0.0], swing 82.2 deg",
+  "r_forearm->r_kote: rest dir [-0.16, -0.99, -0.0] vs SvR [-1.0, 0.0, 0.0], swing 81.0 deg",
+  "l_thigh->l_momo: rest dir [0.18, -0.98, 0.02] vs SvR [0.0, -1.0, 0.0], swing 10.7 deg",
+  "l_shin->l_sune: rest dir [0.18, -0.98, 0.0] vs SvR [0.0, -1.0, 0.0], swing 10.6 deg",
+  "r_thigh->r_momo: rest dir [-0.18, -0.98, 0.02] vs SvR [0.0, -1.0, 0.0], swing 10.6 deg",
+  "r_shin->r_sune: rest dir [-0.17, -0.99, 0.01] vs SvR [-0.0, -1.0, 0.0], swing 9.8 deg"
+ ],
+ "method": "swing-only T-pose alignment to the SvR reference pose; runtime G = D(src) * gref (custom retargeter)"
+}

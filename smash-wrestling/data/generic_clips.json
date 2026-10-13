@@ -1,0 +1,520 @@
+{
+ "source": "SvR 2011 m.pac STAT clips; labels from the earlier run's render-based identification (tools/svr_moves/visual_motion_names.json); role choice = this game (custom)",
+ "roles": {
+  "idle": {
+   "clip": "STAT_1700_0",
+   "ok": true
+  },
+  "idle_relaxed": {
+   "clip": "STAT_1844_0",
+   "ok": true
+  },
+  "idle_hunched": {
+   "clip": "STAT_1705_0",
+   "ok": true
+  },
+  "walk_f": {
+   "clip": "STAT_9900_0",
+   "ok": true
+  },
+  "walk_b": {
+   "clip": "STAT_9901_0",
+   "ok": true
+  },
+  "walk_l": {
+   "clip": "STAT_9902_0",
+   "ok": true
+  },
+  "walk_r": {
+   "clip": "STAT_9903_0",
+   "ok": true
+  },
+  "walk_hurt_f": {
+   "clip": "STAT_9960_0",
+   "ok": true
+  },
+  "walk_hurt_b": {
+   "clip": "STAT_9961_0",
+   "ok": true
+  },
+  "walk_hurt_l": {
+   "clip": "STAT_9962_0",
+   "ok": true
+  },
+  "walk_hurt_r": {
+   "clip": "STAT_9963_0",
+   "ok": true
+  },
+  "run": {
+   "clip": "STAT_6801_0",
+   "ok": true
+  },
+  "run_stop": {
+   "clip": "STAT_6803_0",
+   "ok": true
+  },
+  "turn": {
+   "clip": "STAT_310_0",
+   "ok": true
+  },
+  "hit_hi": {
+   "clip": "STAT_632_0",
+   "ok": true
+  },
+  "hit_mid": {
+   "clip": "STAT_1277_0",
+   "ok": true
+  },
+  "hit_lo": {
+   "clip": "STAT_330_0",
+   "ok": true
+  },
+  "hit_small": {
+   "clip": "STAT_1274_0",
+   "ok": true
+  },
+  "hit_body": {
+   "clip": "STAT_672_0",
+   "ok": true
+  },
+  "hit_knees": {
+   "clip": "STAT_630_0",
+   "ok": true
+  },
+  "hit_fwd": {
+   "clip": "STAT_370_0",
+   "ok": true
+  },
+  "stumble": {
+   "clip": "STAT_1295_0",
+   "ok": true
+  },
+  "knockdown_back": {
+   "clip": "STAT_601_0",
+   "ok": true
+  },
+  "knockdown_back2": {
+   "clip": "STAT_360_0",
+   "ok": true
+  },
+  "knockdown_back3": {
+   "clip": "STAT_407_0",
+   "ok": true
+  },
+  "knockdown_front": {
+   "clip": "STAT_636_0",
+   "ok": true
+  },
+  "knockdown_front2": {
+   "clip": "STAT_380_0",
+   "ok": true
+  },
+  "knockdown_front3": {
+   "clip": "STAT_666_0",
+   "ok": true
+  },
+  "knockdown_sit": {
+   "clip": "STAT_637_0",
+   "ok": true
+  },
+  "fall_from_height": {
+   "clip": "STAT_405_0",
+   "ok": true
+  },
+  "down_up": {
+   "clip": "STAT_0_0",
+   "ok": true
+  },
+  "down_down": {
+   "clip": "STAT_1_0",
+   "ok": true
+  },
+  "down_fours": {
+   "clip": "STAT_2_0",
+   "ok": true
+  },
+  "getup_up": {
+   "clip": "STAT_20_0",
+   "ok": true
+  },
+  "getup_down": {
+   "clip": "STAT_21_0",
+   "ok": true
+  },
+  "getup_down_slow": {
+   "clip": "STAT_47_0",
+   "ok": true
+  },
+  "getup_roll": {
+   "clip": "STAT_24_0",
+   "ok": true
+  },
+  "getup_roll2": {
+   "clip": "STAT_26_0",
+   "ok": true
+  },
+  "getup_sit": {
+   "clip": "STAT_22_0",
+   "ok": true
+  },
+  "getup_sit_slow": {
+   "clip": "STAT_48_0",
+   "ok": true
+  },
+  "groggy": {
+   "clip": "STAT_513_0",
+   "ok": true
+  },
+  "bent_over": {
+   "clip": "STAT_927_0",
+   "ok": true
+  },
+  "ropes_lean": {
+   "clip": "STAT_150_0",
+   "ok": true
+  },
+  "ropes_hurt": {
+   "clip": "STAT_580_0",
+   "ok": true
+  },
+  "ropes_lean2": {
+   "clip": "STAT_65_0",
+   "ok": true
+  },
+  "rope_rebound": {
+   "clip": "STAT_60_0",
+   "ok": true
+  },
+  "rope_rebound2": {
+   "clip": "STAT_61_0",
+   "ok": true
+  },
+  "rope_rebound3": {
+   "clip": "STAT_62_0",
+   "ok": true
+  },
+  "climb_tb": {
+   "clip": "STAT_156_0",
+   "ok": true
+  },
+  "climb_tb2": {
+   "clip": "STAT_157_0",
+   "ok": true
+  },
+  "climb_tb_l": {
+   "clip": "STAT_160_0",
+   "ok": true
+  },
+  "climb_tb_r": {
+   "clip": "STAT_161_0",
+   "ok": true
+  },
+  "step_down": {
+   "clip": "STAT_162_0",
+   "ok": true
+  },
+  "seated_corner": {
+   "clip": "STAT_23101_0",
+   "ok": true
+  },
+  "lock_facelock_a": {
+   "clip": "STAT_100_0",
+   "ok": true
+  },
+  "lock_facelock_v": {
+   "clip": "STAT_100_1",
+   "ok": true
+  },
+  "lock_wristlock_a": {
+   "clip": "STAT_101_0",
+   "ok": true
+  },
+  "lock_wristlock_v": {
+   "clip": "STAT_101_1",
+   "ok": true
+  },
+  "lock_headlock_a": {
+   "clip": "STAT_102_0",
+   "ok": true
+  },
+  "lock_headlock_v": {
+   "clip": "STAT_102_1",
+   "ok": true
+  },
+  "lock_waistlock_a": {
+   "clip": "STAT_103_0",
+   "ok": true
+  },
+  "lock_waistlock_v": {
+   "clip": "STAT_103_1",
+   "ok": true
+  },
+  "hold_facelock_a": {
+   "clip": "STAT_100_12800",
+   "ok": true
+  },
+  "hold_facelock_v": {
+   "clip": "STAT_100_12801",
+   "ok": true
+  },
+  "hold_wristlock_a": {
+   "clip": "STAT_101_12800",
+   "ok": true
+  },
+  "hold_wristlock_v": {
+   "clip": "STAT_101_12801",
+   "ok": true
+  },
+  "hold_headlock_a": {
+   "clip": "STAT_102_12800",
+   "ok": true
+  },
+  "hold_headlock_v": {
+   "clip": "STAT_102_12801",
+   "ok": true
+  },
+  "hold_waistlock_a": {
+   "clip": "STAT_103_12800",
+   "ok": true
+  },
+  "hold_waistlock_v": {
+   "clip": "STAT_103_12801",
+   "ok": true
+  },
+  "block_punch_a": {
+   "clip": "STAT_1280_256",
+   "ok": true
+  },
+  "block_punch_v": {
+   "clip": "STAT_1280_257",
+   "ok": true
+  },
+  "catch_kick_a": {
+   "clip": "STAT_825_64000",
+   "ok": true
+  },
+  "catch_kick_v": {
+   "clip": "STAT_825_64001",
+   "ok": true
+  },
+  "ground_hold_head": {
+   "clip": "STAT_1011_0",
+   "ok": true
+  },
+  "ground_hold_feet": {
+   "clip": "STAT_1111_0",
+   "ok": true
+  },
+  "pin_cover_a": {
+   "clip": "CORN_3552_7680",
+   "ok": true
+  },
+  "pin_cover_v": {
+   "clip": "CORN_3552_7681",
+   "ok": true
+  },
+  "pin_cover2_a": {
+   "clip": "CORN_3552_10240",
+   "ok": true
+  },
+  "pin_cover2_v": {
+   "clip": "CORN_3552_10241",
+   "ok": true
+  },
+  "whip_grab_a": {
+   "clip": "STAT_900_0",
+   "ok": true
+  },
+  "whip_grab_v": {
+   "clip": "STAT_900_1",
+   "ok": true
+  },
+  "whip_throw": {
+   "clip": "STAT_920_0",
+   "ok": true
+  },
+  "whip_throw2": {
+   "clip": "STAT_921_0",
+   "ok": true
+  },
+  "whipped_start": {
+   "clip": "STAT_925_0",
+   "ok": true
+  },
+  "whipped_run": {
+   "clip": "STAT_925_256",
+   "ok": true
+  },
+  "lift_a": {
+   "clip": "STAT_10280_0",
+   "ok": true
+  },
+  "lift_v": {
+   "clip": "STAT_10280_1",
+   "ok": true
+  },
+  "lift_down_a": {
+   "clip": "STAT_10290_0",
+   "ok": true
+  },
+  "lift_down_v": {
+   "clip": "STAT_10290_1",
+   "ok": true
+  },
+  "roll_over_a": {
+   "clip": "STAT_10292_0",
+   "ok": true
+  },
+  "roll_over_v": {
+   "clip": "STAT_10292_1",
+   "ok": true
+  },
+  "drag_a": {
+   "clip": "STAT_10297_0",
+   "ok": true
+  },
+  "drag_v": {
+   "clip": "STAT_10297_1",
+   "ok": true
+  }
+ },
+ "pairs": {
+  "lock_facelock": {
+   "attacker": "lock_facelock_a",
+   "victim": "lock_facelock_v",
+   "theta_deg": 270,
+   "d_m": 0.7302,
+   "fit_mean_contact_dm": 1.24,
+   "fit_score": 1.24
+  },
+  "lock_wristlock": {
+   "attacker": "lock_wristlock_a",
+   "victim": "lock_wristlock_v",
+   "theta_deg": 90,
+   "d_m": 0.6329,
+   "fit_mean_contact_dm": 1.99,
+   "fit_score": 1.99
+  },
+  "lock_headlock": {
+   "attacker": "lock_headlock_a",
+   "victim": "lock_headlock_v",
+   "theta_deg": 0,
+   "d_m": 0.3895,
+   "fit_mean_contact_dm": 0.98,
+   "fit_score": 0.98
+  },
+  "lock_waistlock": {
+   "attacker": "lock_waistlock_a",
+   "victim": "lock_waistlock_v",
+   "theta_deg": 0,
+   "d_m": 0.2921,
+   "fit_mean_contact_dm": 2.2,
+   "fit_score": 2.2
+  },
+  "hold_facelock": {
+   "attacker": "hold_facelock_a",
+   "victim": "hold_facelock_v",
+   "theta_deg": 180,
+   "d_m": -0.1947,
+   "fit_mean_contact_dm": 0.58,
+   "fit_score": 0.58
+  },
+  "hold_wristlock": {
+   "attacker": "hold_wristlock_a",
+   "victim": "hold_wristlock_v",
+   "theta_deg": 0,
+   "d_m": 0.7302,
+   "fit_mean_contact_dm": 1.39,
+   "fit_score": 1.39
+  },
+  "hold_headlock": {
+   "attacker": "hold_headlock_a",
+   "victim": "hold_headlock_v",
+   "theta_deg": 180,
+   "d_m": -0.3895,
+   "fit_mean_contact_dm": 0.67,
+   "fit_score": 0.67
+  },
+  "hold_waistlock": {
+   "attacker": "hold_waistlock_a",
+   "victim": "hold_waistlock_v",
+   "theta_deg": 180,
+   "d_m": 1.3631,
+   "fit_mean_contact_dm": 1.11,
+   "fit_score": 1.11
+  },
+  "block_punch": {
+   "attacker": "block_punch_a",
+   "victim": "block_punch_v",
+   "theta_deg": 180,
+   "d_m": 1.217,
+   "fit_mean_contact_dm": 0.4,
+   "fit_score": 0.4
+  },
+  "catch_kick": {
+   "attacker": "catch_kick_a",
+   "victim": "catch_kick_v",
+   "theta_deg": 180,
+   "d_m": -0.3895,
+   "fit_mean_contact_dm": 0.52,
+   "fit_score": 0.52
+  },
+  "pin_cover": {
+   "attacker": "pin_cover_a",
+   "victim": "pin_cover_v",
+   "theta_deg": 90,
+   "d_m": -0.3895,
+   "fit_mean_contact_dm": 1.54,
+   "fit_score": 1.54
+  },
+  "pin_cover2": {
+   "attacker": "pin_cover2_a",
+   "victim": "pin_cover2_v",
+   "theta_deg": 270,
+   "d_m": -0.3895,
+   "fit_mean_contact_dm": 1.42,
+   "fit_score": 1.42
+  },
+  "whip_grab": {
+   "attacker": "whip_grab_a",
+   "victim": "whip_grab_v",
+   "theta_deg": 90,
+   "d_m": 0.4868,
+   "fit_mean_contact_dm": 1.41,
+   "fit_score": 1.41
+  },
+  "lift": {
+   "attacker": "lift_a",
+   "victim": "lift_v",
+   "theta_deg": 270,
+   "d_m": 0.8276,
+   "fit_mean_contact_dm": 1.89,
+   "fit_score": 1.89
+  },
+  "lift_down": {
+   "attacker": "lift_down_a",
+   "victim": "lift_down_v",
+   "theta_deg": 270,
+   "d_m": 0.8276,
+   "fit_mean_contact_dm": 3.61,
+   "fit_score": 3.61
+  },
+  "roll_over": {
+   "attacker": "roll_over_a",
+   "victim": "roll_over_v",
+   "theta_deg": 270,
+   "d_m": 0.9736,
+   "fit_mean_contact_dm": 4.51,
+   "fit_score": 4.51
+  },
+  "drag": {
+   "attacker": "drag_a",
+   "victim": "drag_v",
+   "theta_deg": 90,
+   "d_m": -0.1947,
+   "fit_mean_contact_dm": 0.8,
+   "fit_score": 0.8
+  }
+ },
+ "pair_method": "fitted: victim clip frame = attacker clip frame * T(0,0,-d) * Ry(theta) (YOBJ frame) - approximate"
+}

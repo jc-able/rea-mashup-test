@@ -1,0 +1,83 @@
+[gd_scene load_steps=17 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/arena/smackdown/smackdown_ring.glb" id="1_ring"]
+[ext_resource type="PackedScene" path="res://assets/arena/smackdown/smackdown_arena.glb" id="2_arena"]
+[ext_resource type="PackedScene" path="res://assets/arena/smackdown/smackdown_crowd_lod100.glb" id="3_crowd"]
+[ext_resource type="PackedScene" path="res://assets/arena/smackdown/smackdown_screens.glb" id="4_screens"]
+[ext_resource type="PackedScene" path="res://assets/fighters/mario/mario.glb" id="5_mario"]
+[ext_resource type="PackedScene" path="res://assets/fighters/donkey/donkey.glb" id="6_donkey"]
+[ext_resource type="PackedScene" path="res://assets/fighters/link/link.glb" id="7_link"]
+[ext_resource type="PackedScene" path="res://assets/fighters/samus/samus.glb" id="8_samus"]
+[ext_resource type="PackedScene" path="res://assets/fighters/yoshi/yoshi.glb" id="9_yoshi"]
+[ext_resource type="PackedScene" path="res://assets/fighters/kirby/kirby.glb" id="10_kirby"]
+[ext_resource type="PackedScene" path="res://assets/fighters/fox/fox.glb" id="11_fox"]
+[ext_resource type="PackedScene" path="res://assets/fighters/pikachu/pikachu.glb" id="12_pikachu"]
+[ext_resource type="PackedScene" path="res://assets/fighters/luigi/luigi.glb" id="13_luigi"]
+[ext_resource type="PackedScene" path="res://assets/fighters/captain/captain.glb" id="14_captain"]
+[ext_resource type="PackedScene" path="res://assets/fighters/ness/ness.glb" id="15_ness"]
+[ext_resource type="PackedScene" path="res://assets/fighters/purin/purin.glb" id="16_purin"]
+
+[node name="Showcase" type="Node3D"]
+
+[node name="Note" type="Label3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.2, -2.2)
+text = "Asset showcase (editor only): SvR 2011 SmackDown ring/arena + Smash 64 fighters in their ROM bind poses.\nThe game itself starts from res://scenes/Main.tscn (F5)."
+font_size = 64
+pixel_size = 0.006
+
+[node name="Arena" type="Node3D" parent="."]
+transform = Transform3D(0.973633, 0, 0, 0, 0.973633, 0, 0, 0, 0.973633, 0, 0, 0)
+
+[node name="Ring" parent="Arena" instance=ExtResource("1_ring")]
+
+[node name="Arena" parent="Arena" instance=ExtResource("2_arena")]
+
+[node name="Crowd" parent="Arena" instance=ExtResource("3_crowd")]
+
+[node name="Screens" parent="Arena" instance=ExtResource("4_screens")]
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.866, -0.25, 0.433, 0, 0.866, 0.5, -0.5, -0.433, 0.75, 0, 12, 0)
+
+[node name="Fighters" type="Node3D" parent="."]
+
+[node name="Mario" parent="Fighters" instance=ExtResource("5_mario")]
+transform = Transform3D(0.3442, 0, 0, 0, 0.3442, 0, 0, 0, 0.3442, -2.250, 1.1684, 0.900)
+
+[node name="DonkeyKong" parent="Fighters" instance=ExtResource("6_donkey")]
+transform = Transform3D(0.1749, 0, 0, 0, 0.1749, 0, 0, 0, 0.1749, -1.350, 1.1684, 0.900)
+
+[node name="Link" parent="Fighters" instance=ExtResource("7_link")]
+transform = Transform3D(0.2992, 0, 0, 0, 0.2992, 0, 0, 0, 0.2992, -0.450, 1.1684, 0.900)
+
+[node name="Samus" parent="Fighters" instance=ExtResource("8_samus")]
+transform = Transform3D(0.3141, 0, 0, 0, 0.3141, 0, 0, 0, 0.3141, 0.450, 1.1684, 0.900)
+
+[node name="Yoshi" parent="Fighters" instance=ExtResource("9_yoshi")]
+transform = Transform3D(0.3121, 0, 0, 0, 0.3121, 0, 0, 0, 0.3121, 1.350, 1.1684, 0.900)
+
+[node name="Kirby" parent="Fighters" instance=ExtResource("10_kirby")]
+transform = Transform3D(0.4385, 0, 0, 0, 0.4385, 0, 0, 0, 0.4385, 2.250, 1.1684, 0.900)
+
+[node name="Fox" parent="Fighters" instance=ExtResource("11_fox")]
+transform = Transform3D(0.3192, 0, 0, 0, 0.3192, 0, 0, 0, 0.3192, -2.250, 1.1684, -0.900)
+
+[node name="Pikachu" parent="Fighters" instance=ExtResource("12_pikachu")]
+transform = Transform3D(0.3820, 0, 0, 0, 0.3820, 0, 0, 0, 0.3820, -1.350, 1.1684, -0.900)
+
+[node name="Luigi" parent="Fighters" instance=ExtResource("13_luigi")]
+transform = Transform3D(0.3221, 0, 0, 0, 0.3221, 0, 0, 0, 0.3221, -0.450, 1.1684, -0.900)
+
+[node name="CaptainFalcon" parent="Fighters" instance=ExtResource("14_captain")]
+transform = Transform3D(0.2854, 0, 0, 0, 0.2854, 0, 0, 0, 0.2854, 0.450, 1.1684, -0.900)
+
+[node name="Ness" parent="Fighters" instance=ExtResource("15_ness")]
+transform = Transform3D(0.3158, 0, 0, 0, 0.3158, 0, 0, 0, 0.3158, 1.350, 1.1684, -0.900)
+
+[node name="Jigglypuff" parent="Fighters" instance=ExtResource("16_purin")]
+transform = Transform3D(0.3906, 0, 0, 0, 0.3906, 0, 0, 0, 0.3906, 2.250, 1.1684, -0.900)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.94, 0.342, 0, -0.342, 0.94, 0, 3.2, 6.8)
+current = true
+fov = 50.0

@@ -1,0 +1,1957 @@
+{
+ "stage": "Dream Land",
+ "key": "pupupu",
+ "gr_kind": "nGRKindPupupu",
+ "gr_kind_value": 6,
+ "vs_mode_stage": true,
+ "source": {
+  "rom": "baserom.us.z64 (US v1.0, SHA-1 e2929e10fccc0aa84e5776227e798abc07cedabf)",
+  "map_file": {
+   "file_id": 255,
+   "file_name": "GRPupupuMap",
+   "header_offset": "0x14",
+   "rom_offset": "0x640346",
+   "vpk0": true
+  },
+  "geometry_file": {
+   "file_id": 104,
+   "file_name": "StagePupupuFile2",
+   "rom_offset": "0x3EC600",
+   "vpk0": true
+  },
+  "map_nodes_file": {
+   "file_id": 152,
+   "file_name": "StagePupupuFile3",
+   "offset": "0x10F0"
+  },
+  "typed_c": [
+   "sources/ssb-decomp-re/src/relocData/255_GRPupupuMap.c",
+   "sources/ssb-decomp-re/src/relocData/104_StagePupupuFile2.c"
+  ],
+  "loader": "sources/ssb-decomp-re/src/mp/mpcollision.c: mpCollisionInitGroundData (dMPCollisionGroundFileInfos[gkind])"
+ },
+ "ground_data": {
+  "gr_desc": [
+   {
+    "dobjdesc": {
+     "file_id": 104,
+     "file_name": "StagePupupuFile2",
+     "offset": "0x1008"
+    },
+    "anim_joints": null,
+    "p_mobjsubs": null,
+    "p_matanim_joints": null
+   },
+   {
+    "dobjdesc": {
+     "file_id": 104,
+     "file_name": "StagePupupuFile2",
+     "offset": "0x1CE0"
+    },
+    "anim_joints": null,
+    "p_mobjsubs": null,
+    "p_matanim_joints": null
+   },
+   {
+    "dobjdesc": {
+     "file_id": 104,
+     "file_name": "StagePupupuFile2",
+     "offset": "0x2450"
+    },
+    "anim_joints": null,
+    "p_mobjsubs": {
+     "file_id": 104,
+     "file_name": "StagePupupuFile2",
+     "offset": "0x1F50"
+    },
+    "p_matanim_joints": {
+     "file_id": 104,
+     "file_name": "StagePupupuFile2",
+     "offset": "0x2530"
+    }
+   },
+   {
+    "dobjdesc": {
+     "file_id": 104,
+     "file_name": "StagePupupuFile2",
+     "offset": "0x2BF8"
+    },
+    "anim_joints": null,
+    "p_mobjsubs": null,
+    "p_matanim_joints": null
+   }
+  ],
+  "map_geometry": {
+   "file_id": 104,
+   "file_name": "StagePupupuFile2",
+   "offset": "0x1F34"
+  },
+  "layer_mask": 0,
+  "wallpaper": {
+   "file_id": 88,
+   "file_name": "StageDreamLand",
+   "offset": "0x26C88"
+  },
+  "fog_color": {
+   "r": 110,
+   "g": 210,
+   "b": 255
+  },
+  "fog_alpha": 0,
+  "emblem_colors": [
+   {
+    "r": 255,
+    "g": 160,
+    "b": 160
+   },
+   {
+    "r": 180,
+    "g": 180,
+    "b": 255
+   },
+   {
+    "r": 230,
+    "g": 230,
+    "b": 120
+   },
+   {
+    "r": 160,
+    "g": 255,
+    "b": 160
+   }
+  ],
+  "unused": 3705461760,
+  "unused_hex": "0xDCDCDC00",
+  "light_angle": {
+   "x": 20.0,
+   "y": 45.0,
+   "z": -0.1745329350233078
+  },
+  "camera_bound_top": 4000,
+  "camera_bound_bottom": -2000,
+  "camera_bound_right": 3900,
+  "camera_bound_left": -3900,
+  "map_bound_top": 8300,
+  "map_bound_bottom": -3500,
+  "map_bound_right": 9000,
+  "map_bound_left": -9000,
+  "bgm_id": 0,
+  "bgm_name": "nSYAudioBGMPupupu",
+  "map_nodes": {
+   "file_id": 152,
+   "file_name": "StagePupupuFile3",
+   "offset": "0x10F0"
+  },
+  "item_weights": {
+   "file_id": 255,
+   "file_name": "GRPupupuMap",
+   "offset": "0x0"
+  },
+  "item_weights_values": [
+   70,
+   40,
+   120,
+   0,
+   20,
+   4,
+   6,
+   14,
+   7,
+   12,
+   22,
+   7,
+   10,
+   7,
+   10,
+   9,
+   14,
+   5,
+   5,
+   20
+  ],
+  "item_weights_by_kind": {
+   "nITKindBox": 70,
+   "nITKindTaru": 40,
+   "nITKindCapsule": 120,
+   "nITKindEgg": 0,
+   "nITKindTomato": 20,
+   "nITKindHeart": 4,
+   "nITKindStar": 6,
+   "nITKindSword": 14,
+   "nITKindBat": 7,
+   "nITKindHarisen": 12,
+   "nITKindStarRod": 22,
+   "nITKindLGun": 7,
+   "nITKindFFlower": 10,
+   "nITKindHammer": 7,
+   "nITKindMSBomb": 10,
+   "nITKindBombHei": 9,
+   "nITKindNBumper": 14,
+   "nITKindGShell": 5,
+   "nITKindRShell": 5,
+   "nITKindMBall": 20
+  },
+  "alt_warning": -2900,
+  "camera_bound_team_top": 3500,
+  "camera_bound_team_bottom": -1000,
+  "camera_bound_team_right": 2500,
+  "camera_bound_team_left": -2500,
+  "map_bound_team_top": 7000,
+  "map_bound_team_bottom": -3500,
+  "map_bound_team_right": 7500,
+  "map_bound_team_left": -7500,
+  "zoom_start": {
+   "x": 0,
+   "y": 0,
+   "z": 0
+  },
+  "zoom_end": {
+   "x": 0,
+   "y": 0,
+   "z": 15000
+  }
+ },
+ "geometry": {
+  "source": {
+   "file_id": 104,
+   "file_name": "StagePupupuFile2",
+   "offset": "0x1F34"
+  },
+  "yakumono_count": 1,
+  "vertex_data_ref": {
+   "file_id": 104,
+   "offset": "0x1D64"
+  },
+  "vertex_id_ref": {
+   "file_id": 104,
+   "offset": "0x1DD8"
+  },
+  "vertex_links_ref": {
+   "file_id": 104,
+   "offset": "0x1E08"
+  },
+  "line_info_ref": {
+   "file_id": 104,
+   "offset": "0x1E24"
+  },
+  "mapobj_count": 42,
+  "mapobjs_ref": {
+   "file_id": 104,
+   "offset": "0x1E38"
+  },
+  "counts": {
+   "vertex_data": 19,
+   "vertex_data_referenced": 19,
+   "vertex_id": 23,
+   "vertex_links": 7,
+   "line_info": 1,
+   "mapobjs": 42
+  },
+  "layout": {
+   "vertex_data": {
+    "offset": "0x1D64",
+    "next_block": "0x1DD8",
+    "bytes_to_next_block": 116,
+    "element_size": 6,
+    "used_bytes": 114,
+    "slack_bytes": 2,
+    "slack_all_zero": true,
+    "slack_hex": "0000"
+   },
+   "vertex_id": {
+    "offset": "0x1DD8",
+    "next_block": "0x1E08",
+    "bytes_to_next_block": 48,
+    "element_size": 2,
+    "used_bytes": 46,
+    "slack_bytes": 2,
+    "slack_all_zero": true,
+    "slack_hex": "0000"
+   },
+   "vertex_links": {
+    "offset": "0x1E08",
+    "next_block": "0x1E24",
+    "bytes_to_next_block": 28,
+    "element_size": 4,
+    "used_bytes": 28,
+    "slack_bytes": 0,
+    "slack_all_zero": true,
+    "slack_hex": ""
+   },
+   "line_info": {
+    "offset": "0x1E24",
+    "next_block": "0x1E38",
+    "bytes_to_next_block": 20,
+    "element_size": 18,
+    "used_bytes": 18,
+    "slack_bytes": 2,
+    "slack_all_zero": true,
+    "slack_hex": "0000"
+   },
+   "mapobjs": {
+    "offset": "0x1E38",
+    "next_block": "0x1F34",
+    "bytes_to_next_block": 252,
+    "element_size": 6,
+    "used_bytes": 252,
+    "slack_bytes": 0,
+    "slack_all_zero": true,
+    "slack_hex": ""
+   }
+  },
+  "vertex_data": [
+   {
+    "pos": {
+     "x": 1972,
+     "y": -1072
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": -1972,
+     "y": -1072
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": -2075,
+     "y": -834
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": -2290,
+     "y": -331
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": -2307,
+     "y": -124
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": -2318,
+     "y": 0
+    },
+    "vertex_flags": 32768
+   },
+   {
+    "pos": {
+     "x": 2318,
+     "y": 0
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 2307,
+     "y": -124
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 2290,
+     "y": -331
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 2075,
+     "y": -834
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": -951,
+     "y": 904
+    },
+    "vertex_flags": 16384
+   },
+   {
+    "pos": {
+     "x": -1396,
+     "y": 904
+    },
+    "vertex_flags": 16384
+   },
+   {
+    "pos": {
+     "x": -1841,
+     "y": 904
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 1892,
+     "y": 907
+    },
+    "vertex_flags": 16384
+   },
+   {
+    "pos": {
+     "x": 1421,
+     "y": 907
+    },
+    "vertex_flags": 16384
+   },
+   {
+    "pos": {
+     "x": 951,
+     "y": 907
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 570,
+     "y": 1542
+    },
+    "vertex_flags": 16384
+   },
+   {
+    "pos": {
+     "x": 0,
+     "y": 1542
+    },
+    "vertex_flags": 16384
+   },
+   {
+    "pos": {
+     "x": -570,
+     "y": 1542
+    },
+    "vertex_flags": 0
+   }
+  ],
+  "vertex_id": [
+   16,
+   17,
+   18,
+   13,
+   14,
+   15,
+   10,
+   11,
+   12,
+   5,
+   6,
+   0,
+   1,
+   6,
+   7,
+   8,
+   9,
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "vertex_links": [
+   {
+    "vertex1": 0,
+    "vertex2": 3
+   },
+   {
+    "vertex1": 3,
+    "vertex2": 3
+   },
+   {
+    "vertex1": 6,
+    "vertex2": 3
+   },
+   {
+    "vertex1": 9,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 11,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 13,
+    "vertex2": 5
+   },
+   {
+    "vertex1": 18,
+    "vertex2": 5
+   }
+  ],
+  "line_info": [
+   {
+    "yakumono_id": 1,
+    "line_data": [
+     {
+      "group_id": 0,
+      "line_count": 4
+     },
+     {
+      "group_id": 4,
+      "line_count": 1
+     },
+     {
+      "group_id": 5,
+      "line_count": 1
+     },
+     {
+      "group_id": 6,
+      "line_count": 1
+     }
+    ]
+   }
+  ],
+  "mapobjs": [
+   {
+    "mapobj_kind": 37,
+    "pos": {
+     "x": 1,
+     "y": 1545
+    }
+   },
+   {
+    "mapobj_kind": 38,
+    "pos": {
+     "x": -1397,
+     "y": 906
+    }
+   },
+   {
+    "mapobj_kind": 39,
+    "pos": {
+     "x": 1421,
+     "y": 909
+    }
+   },
+   {
+    "mapobj_kind": 33,
+    "pos": {
+     "x": 0,
+     "y": 6
+    }
+   },
+   {
+    "mapobj_kind": 45,
+    "pos": {
+     "x": 1421,
+     "y": 909
+    }
+   },
+   {
+    "mapobj_kind": 44,
+    "pos": {
+     "x": -1397,
+     "y": 906
+    }
+   },
+   {
+    "mapobj_kind": 24,
+    "pos": {
+     "x": 0,
+     "y": 5
+    }
+   },
+   {
+    "mapobj_kind": 25,
+    "pos": {
+     "x": -1398,
+     "y": 909
+    }
+   },
+   {
+    "mapobj_kind": 26,
+    "pos": {
+     "x": 0,
+     "y": 1545
+    }
+   },
+   {
+    "mapobj_kind": 27,
+    "pos": {
+     "x": 1422,
+     "y": 909
+    }
+   },
+   {
+    "mapobj_kind": 28,
+    "pos": {
+     "x": -2009,
+     "y": 6
+    }
+   },
+   {
+    "mapobj_kind": 29,
+    "pos": {
+     "x": -810,
+     "y": 6
+    }
+   },
+   {
+    "mapobj_kind": 30,
+    "pos": {
+     "x": 810,
+     "y": 6
+    }
+   },
+   {
+    "mapobj_kind": 31,
+    "pos": {
+     "x": 2010,
+     "y": 6
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 0,
+     "y": 6006
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": -360,
+     "y": 6006
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": -495,
+     "y": 1209
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 495,
+     "y": 1209
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 164,
+     "y": 1209
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 1095,
+     "y": 606
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": -1694,
+     "y": 606
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": -1094,
+     "y": 606
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 1755,
+     "y": 606
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": -2142,
+     "y": 1479
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 2144,
+     "y": 1479
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 360,
+     "y": 6006
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": -1397,
+     "y": 6006
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": -1757,
+     "y": 6006
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": -1037,
+     "y": 6006
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 1058,
+     "y": 6006
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 1421,
+     "y": 6006
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 1778,
+     "y": 6006
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": -164,
+     "y": 1209
+    }
+   },
+   {
+    "mapobj_kind": 21,
+    "pos": {
+     "x": -942,
+     "y": 276
+    }
+   },
+   {
+    "mapobj_kind": 0,
+    "pos": {
+     "x": 0,
+     "y": 6
+    }
+   },
+   {
+    "mapobj_kind": 1,
+    "pos": {
+     "x": -1397,
+     "y": 906
+    }
+   },
+   {
+    "mapobj_kind": 2,
+    "pos": {
+     "x": 1,
+     "y": 1545
+    }
+   },
+   {
+    "mapobj_kind": 3,
+    "pos": {
+     "x": 1421,
+     "y": 909
+    }
+   },
+   {
+    "mapobj_kind": 32,
+    "pos": {
+     "x": 0,
+     "y": 2526
+    }
+   },
+   {
+    "mapobj_kind": 43,
+    "pos": {
+     "x": 2010,
+     "y": 6
+    }
+   },
+   {
+    "mapobj_kind": 43,
+    "pos": {
+     "x": -2009,
+     "y": 6
+    }
+   },
+   {
+    "mapobj_kind": 43,
+    "pos": {
+     "x": -1398,
+     "y": 909
+    }
+   }
+  ],
+  "derived": {
+   "note": "Runtime tables computed exactly like mpCollisionAllocLinesGetCountTotal/InitLineIDsAll and func_ovl2_800FB04C/mpCollisionInitLineTypesAll/func_ovl2_800FB31C; use them to unit-test the port.",
+   "line_ids_contiguous": true,
+   "gMPCollisionLinesNum": 7,
+   "gMPCollisionLineGroups": [
+    {
+     "line_type": "floor",
+     "line_count": 4,
+     "line_id": [
+      0,
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "line_type": "ceil",
+     "line_count": 1,
+     "line_id": [
+      4
+     ]
+    },
+    {
+     "line_type": "rwall",
+     "line_count": 1,
+     "line_id": [
+      5
+     ]
+    },
+    {
+     "line_type": "lwall",
+     "line_count": 1,
+     "line_id": [
+      6
+     ]
+    }
+   ],
+   "vertex_info": [
+    {
+     "yakumono_id": 1,
+     "line_type": 0,
+     "coll_pos_next": 1542,
+     "coll_pos_prev": 1542,
+     "edge_next_line_id": -1,
+     "edge_prev_line_id": -1
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 0,
+     "coll_pos_next": 907,
+     "coll_pos_prev": 907,
+     "edge_next_line_id": -1,
+     "edge_prev_line_id": -1
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 0,
+     "coll_pos_next": 904,
+     "coll_pos_prev": 904,
+     "edge_next_line_id": -1,
+     "edge_prev_line_id": -1
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 0,
+     "coll_pos_next": 0,
+     "coll_pos_prev": 0,
+     "edge_next_line_id": 5,
+     "edge_prev_line_id": 6
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 1,
+     "coll_pos_next": -1072,
+     "coll_pos_prev": -1072,
+     "edge_next_line_id": 5,
+     "edge_prev_line_id": 6
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 2,
+     "coll_pos_next": 2318,
+     "coll_pos_prev": 1972,
+     "edge_next_line_id": 3,
+     "edge_prev_line_id": 4
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 3,
+     "coll_pos_next": -1972,
+     "coll_pos_prev": -2318,
+     "edge_next_line_id": 3,
+     "edge_prev_line_id": 4
+    }
+   ],
+   "line_range_order": [
+    {
+     "yakumono_id": 1,
+     "kind": "floor",
+     "line_ids": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 1,
+     "kind": "ceil",
+     "line_ids": [
+      4
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 1,
+     "kind": "rwall",
+     "line_ids": [
+      5
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 1,
+     "kind": "lwall",
+     "line_ids": [
+      6
+     ],
+     "ordered_for_early_out": true
+    }
+   ],
+   "line_range_order_note": "mpcollision.c line loops early-out (goto l_break) assuming floor/rwall ranges are ordered by non-increasing coll_pos_next and ceil/lwall ranges by non-decreasing coll_pos_prev; keep the stored line order in the port."
+  },
+  "lines": [
+   {
+    "line_id": 0,
+    "kind": "floor",
+    "line_type": 0,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     16,
+     17,
+     18
+    ],
+    "points": [
+     [
+      570,
+      1542
+     ],
+     [
+      0,
+      1542
+     ],
+     [
+      -570,
+      1542
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       570,
+       1542
+      ],
+      "to": [
+       0,
+       1542
+      ],
+      "vertex_flags": 16384,
+      "coll_bits": 16384,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": true,
+      "cliff": false
+     },
+     {
+      "from": [
+       0,
+       1542
+      ],
+      "to": [
+       -570,
+       1542
+      ],
+      "vertex_flags": 16384,
+      "coll_bits": 16384,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": true,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": -1,
+    "edge_prev_line_id": -1,
+    "left_edge": [
+     -570,
+     1542
+    ],
+    "right_edge": [
+     570,
+     1542
+    ],
+    "ledge_left_grabbable": false,
+    "ledge_right_grabbable": false,
+    "end_segment_cliff": {
+     "left": false,
+     "right": false,
+     "left_material": 0,
+     "right_material": 0
+    },
+    "pass_through": true,
+    "any_pass_through_segment": true
+   },
+   {
+    "line_id": 1,
+    "kind": "floor",
+    "line_type": 0,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     13,
+     14,
+     15
+    ],
+    "points": [
+     [
+      1892,
+      907
+     ],
+     [
+      1421,
+      907
+     ],
+     [
+      951,
+      907
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       1892,
+       907
+      ],
+      "to": [
+       1421,
+       907
+      ],
+      "vertex_flags": 16384,
+      "coll_bits": 16384,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": true,
+      "cliff": false
+     },
+     {
+      "from": [
+       1421,
+       907
+      ],
+      "to": [
+       951,
+       907
+      ],
+      "vertex_flags": 16384,
+      "coll_bits": 16384,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": true,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": -1,
+    "edge_prev_line_id": -1,
+    "left_edge": [
+     951,
+     907
+    ],
+    "right_edge": [
+     1892,
+     907
+    ],
+    "ledge_left_grabbable": false,
+    "ledge_right_grabbable": false,
+    "end_segment_cliff": {
+     "left": false,
+     "right": false,
+     "left_material": 0,
+     "right_material": 0
+    },
+    "pass_through": true,
+    "any_pass_through_segment": true
+   },
+   {
+    "line_id": 2,
+    "kind": "floor",
+    "line_type": 0,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     10,
+     11,
+     12
+    ],
+    "points": [
+     [
+      -951,
+      904
+     ],
+     [
+      -1396,
+      904
+     ],
+     [
+      -1841,
+      904
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       -951,
+       904
+      ],
+      "to": [
+       -1396,
+       904
+      ],
+      "vertex_flags": 16384,
+      "coll_bits": 16384,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": true,
+      "cliff": false
+     },
+     {
+      "from": [
+       -1396,
+       904
+      ],
+      "to": [
+       -1841,
+       904
+      ],
+      "vertex_flags": 16384,
+      "coll_bits": 16384,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": true,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": -1,
+    "edge_prev_line_id": -1,
+    "left_edge": [
+     -1841,
+     904
+    ],
+    "right_edge": [
+     -951,
+     904
+    ],
+    "ledge_left_grabbable": false,
+    "ledge_right_grabbable": false,
+    "end_segment_cliff": {
+     "left": false,
+     "right": false,
+     "left_material": 0,
+     "right_material": 0
+    },
+    "pass_through": true,
+    "any_pass_through_segment": true
+   },
+   {
+    "line_id": 3,
+    "kind": "floor",
+    "line_type": 0,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     5,
+     6
+    ],
+    "points": [
+     [
+      -2318,
+      0
+     ],
+     [
+      2318,
+      0
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       -2318,
+       0
+      ],
+      "to": [
+       2318,
+       0
+      ],
+      "vertex_flags": 32768,
+      "coll_bits": 32768,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": true
+     }
+    ],
+    "edge_next_line_id": 5,
+    "edge_prev_line_id": 6,
+    "left_edge": [
+     -2318,
+     0
+    ],
+    "right_edge": [
+     2318,
+     0
+    ],
+    "ledge_left_grabbable": true,
+    "ledge_right_grabbable": true,
+    "end_segment_cliff": {
+     "left": true,
+     "right": true,
+     "left_material": 0,
+     "right_material": 0
+    },
+    "pass_through": false,
+    "any_pass_through_segment": false
+   },
+   {
+    "line_id": 4,
+    "kind": "ceil",
+    "line_type": 1,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     0,
+     1
+    ],
+    "points": [
+     [
+      1972,
+      -1072
+     ],
+     [
+      -1972,
+      -1072
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       1972,
+       -1072
+      ],
+      "to": [
+       -1972,
+       -1072
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 5,
+    "edge_prev_line_id": 6
+   },
+   {
+    "line_id": 5,
+    "kind": "rwall",
+    "line_type": 2,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     6,
+     7,
+     8,
+     9,
+     0
+    ],
+    "points": [
+     [
+      2318,
+      0
+     ],
+     [
+      2307,
+      -124
+     ],
+     [
+      2290,
+      -331
+     ],
+     [
+      2075,
+      -834
+     ],
+     [
+      1972,
+      -1072
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       2318,
+       0
+      ],
+      "to": [
+       2307,
+       -124
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     },
+     {
+      "from": [
+       2307,
+       -124
+      ],
+      "to": [
+       2290,
+       -331
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     },
+     {
+      "from": [
+       2290,
+       -331
+      ],
+      "to": [
+       2075,
+       -834
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     },
+     {
+      "from": [
+       2075,
+       -834
+      ],
+      "to": [
+       1972,
+       -1072
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 3,
+    "edge_prev_line_id": 4
+   },
+   {
+    "line_id": 6,
+    "kind": "lwall",
+    "line_type": 3,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "points": [
+     [
+      -1972,
+      -1072
+     ],
+     [
+      -2075,
+      -834
+     ],
+     [
+      -2290,
+      -331
+     ],
+     [
+      -2307,
+      -124
+     ],
+     [
+      -2318,
+      0
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       -1972,
+       -1072
+      ],
+      "to": [
+       -2075,
+       -834
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     },
+     {
+      "from": [
+       -2075,
+       -834
+      ],
+      "to": [
+       -2290,
+       -331
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     },
+     {
+      "from": [
+       -2290,
+       -331
+      ],
+      "to": [
+       -2307,
+       -124
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     },
+     {
+      "from": [
+       -2307,
+       -124
+      ],
+      "to": [
+       -2318,
+       0
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 3,
+    "edge_prev_line_id": 4
+   }
+  ]
+ },
+ "map_objects": [
+  {
+   "index": 0,
+   "mapobj_kind": 37,
+   "kind_name": "nMPMapObjKind1PGameEnemy1",
+   "x": 1,
+   "y": 1545
+  },
+  {
+   "index": 1,
+   "mapobj_kind": 38,
+   "kind_name": "nMPMapObjKind1PGameEnemy2",
+   "x": -1397,
+   "y": 906
+  },
+  {
+   "index": 2,
+   "mapobj_kind": 39,
+   "kind_name": "nMPMapObjKind1PGameEnemy3",
+   "x": 1421,
+   "y": 909
+  },
+  {
+   "index": 3,
+   "mapobj_kind": 33,
+   "kind_name": "nMPMapObjKind1PGamePlayer",
+   "x": 0,
+   "y": 6
+  },
+  {
+   "index": 4,
+   "mapobj_kind": 45,
+   "kind_name": "nMPMapObjKind1PGameChallengerEnemy1",
+   "x": 1421,
+   "y": 909
+  },
+  {
+   "index": 5,
+   "mapobj_kind": 44,
+   "kind_name": "nMPMapObjKind1PGameChallengerPlayer",
+   "x": -1397,
+   "y": 906
+  },
+  {
+   "index": 6,
+   "mapobj_kind": 24,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer1",
+   "x": 0,
+   "y": 5
+  },
+  {
+   "index": 7,
+   "mapobj_kind": 25,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer2",
+   "x": -1398,
+   "y": 909
+  },
+  {
+   "index": 8,
+   "mapobj_kind": 26,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer3",
+   "x": 0,
+   "y": 1545
+  },
+  {
+   "index": 9,
+   "mapobj_kind": 27,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer4",
+   "x": 1422,
+   "y": 909
+  },
+  {
+   "index": 10,
+   "mapobj_kind": 28,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer5",
+   "x": -2009,
+   "y": 6
+  },
+  {
+   "index": 11,
+   "mapobj_kind": 29,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer6",
+   "x": -810,
+   "y": 6
+  },
+  {
+   "index": 12,
+   "mapobj_kind": 30,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer7",
+   "x": 810,
+   "y": 6
+  },
+  {
+   "index": 13,
+   "mapobj_kind": 31,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer8",
+   "x": 2010,
+   "y": 6
+  },
+  {
+   "index": 14,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 0,
+   "y": 6006
+  },
+  {
+   "index": 15,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": -360,
+   "y": 6006
+  },
+  {
+   "index": 16,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": -495,
+   "y": 1209
+  },
+  {
+   "index": 17,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 495,
+   "y": 1209
+  },
+  {
+   "index": 18,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 164,
+   "y": 1209
+  },
+  {
+   "index": 19,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 1095,
+   "y": 606
+  },
+  {
+   "index": 20,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": -1694,
+   "y": 606
+  },
+  {
+   "index": 21,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": -1094,
+   "y": 606
+  },
+  {
+   "index": 22,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 1755,
+   "y": 606
+  },
+  {
+   "index": 23,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": -2142,
+   "y": 1479
+  },
+  {
+   "index": 24,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 2144,
+   "y": 1479
+  },
+  {
+   "index": 25,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 360,
+   "y": 6006
+  },
+  {
+   "index": 26,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": -1397,
+   "y": 6006
+  },
+  {
+   "index": 27,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": -1757,
+   "y": 6006
+  },
+  {
+   "index": 28,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": -1037,
+   "y": 6006
+  },
+  {
+   "index": 29,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 1058,
+   "y": 6006
+  },
+  {
+   "index": 30,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 1421,
+   "y": 6006
+  },
+  {
+   "index": 31,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 1778,
+   "y": 6006
+  },
+  {
+   "index": 32,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": -164,
+   "y": 1209
+  },
+  {
+   "index": 33,
+   "mapobj_kind": 21,
+   "kind_name": "nMPMapObjKindMoviePlayer1",
+   "x": -942,
+   "y": 276
+  },
+  {
+   "index": 34,
+   "mapobj_kind": 0,
+   "kind_name": "nMPMapObjKindBattlePlayer1",
+   "x": 0,
+   "y": 6
+  },
+  {
+   "index": 35,
+   "mapobj_kind": 1,
+   "kind_name": "nMPMapObjKindBattlePlayer2",
+   "x": -1397,
+   "y": 906
+  },
+  {
+   "index": 36,
+   "mapobj_kind": 2,
+   "kind_name": "nMPMapObjKindBattlePlayer3",
+   "x": 1,
+   "y": 1545
+  },
+  {
+   "index": 37,
+   "mapobj_kind": 3,
+   "kind_name": "nMPMapObjKindBattlePlayer4",
+   "x": 1421,
+   "y": 909
+  },
+  {
+   "index": 38,
+   "mapobj_kind": 32,
+   "kind_name": "nMPMapObjKindRebirth",
+   "x": 0,
+   "y": 2526
+  },
+  {
+   "index": 39,
+   "mapobj_kind": 43,
+   "kind_name": "nMPMapObjKind1PGameEnemyTeam",
+   "x": 2010,
+   "y": 6
+  },
+  {
+   "index": 40,
+   "mapobj_kind": 43,
+   "kind_name": "nMPMapObjKind1PGameEnemyTeam",
+   "x": -2009,
+   "y": 6
+  },
+  {
+   "index": 41,
+   "mapobj_kind": 43,
+   "kind_name": "nMPMapObjKind1PGameEnemyTeam",
+   "x": -1398,
+   "y": 909
+  }
+ ],
+ "yakumono": [
+  {
+   "yakumono_id": 0,
+   "dobjdesc_index": 0,
+   "dobjdesc": {
+    "offset": "0x1CE0",
+    "id": 0,
+    "id_hex": "0x0",
+    "parent_index": null,
+    "dl": null,
+    "translate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rotate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": false,
+   "line_info_index": null,
+   "line_ids": [],
+   "anim_joint": null,
+   "motion": "no collision lines, not animated (render-only DObj)"
+  },
+  {
+   "yakumono_id": 1,
+   "dobjdesc_index": 1,
+   "dobjdesc": {
+    "offset": "0x1D0C",
+    "id": 1,
+    "id_hex": "0x1",
+    "parent_index": 0,
+    "dl": {
+     "file_id": 104,
+     "file_name": "StagePupupuFile2",
+     "offset": "0x18E0"
+    },
+    "translate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rotate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": true,
+   "line_info_index": [
+    0
+   ],
+   "line_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "anim_joint": null,
+   "motion": "static"
+  }
+ ],
+ "collision_origin_at_start": {
+  "1": {
+   "x": 0.0,
+   "y": 0.0,
+   "applies_offset": false,
+   "status_at_start": "nMPYakumonoStatusNone",
+   "how": "vertices are absolute (no anim joint, status None)"
+  }
+ },
+ "moving_collision": "none: every collision yakumono of this stage is static (no anim joint, status never changed by code)",
+ "hazards_summary": [
+  {
+   "name": "Whispy Woods wind",
+   "functions": [
+    "sources/ssb-decomp-re/src/gr/grcommon/grpupupu.c: grPupupuProcUpdate, grPupupuUpdateWhispyStatus, grPupupuWhispyUpdateWait/Turn/Open/Blow/Stop, grPupupuWhispySetWindPush, grPupupuFlowersFrontUpdateAll"
+   ],
+   "summary": "After GO: wait rand(1140)+960 ticks; blow toward the side with more fighters (fighters with x > -525 count as right side; a tie keeps the current side, initial side = right); turn/open (anim driven), blow rand(80)+240 ticks. While the front-flower wind loop runs, every fighter with -10 <= y <= 1000 on the blown side (left: -2325 <= x <= -525, right: -525 <= x <= 2275) gets vel_push.x = +-(6.0 - |x + 525| * 0.0006) when positive (ftParamSetVelPush).",
+   "constants": {
+    "GRPUPUPU_WHISPY_POS_X": -525.0,
+    "GRPUPUPU_WHISPY_WIND_VEL_BASE": 6.0,
+    "GRPUPUPU_WHISPY_WIND_DIST_DECAY (US)": 0.0006,
+    "GRPUPUPU_WHISPY_WINDBOX_TOP": 1000.0,
+    "GRPUPUPU_WHISPY_WINDBOX_BOTTOM": -10.0,
+    "GRPUPUPU_WHISPY_WINDBOX_EDGELEFT": -2325.0,
+    "GRPUPUPU_WHISPY_WINDBOX_EDGERIGHT": 2275.0,
+    "GRPUPUPU_WHISPY_WAIT_DURATION": "rand(1140) + 960",
+    "GRPUPUPU_WHISPY_WIND_DURATION": "rand(80) + 240",
+    "GRPUPUPU_WHISPY_WIND_RUMBLE_WAIT": 18,
+    "GRPUPUPU_WHISPY_BLINK_WAIT": "rand(270) + 30",
+    "source": "sources/ssb-decomp-re/src/gr/grvars.h"
+   }
+  }
+ ],
+ "hazard_data": {},
+ "crosscheck_typed_c": {
+  "c_file": "sources/ssb-decomp-re/src/relocData/104_StagePupupuFile2.c",
+  "arrays": {
+   "vertex_data": {
+    "c_symbol": "dStagePupupuFile2_gap_0x1D00_MPVertexData_0x1D64",
+    "c_declared_count": 19,
+    "c_values_count": 19,
+    "bytes_compared": 114,
+    "byte_identical": true,
+    "exported_count": 19,
+    "exported_equals_c_prefix": true
+   },
+   "vertex_id": {
+    "c_symbol": "dStagePupupuFile2_gap_0x1D00_MPVertexArray_0x1DD8",
+    "c_declared_count": 24,
+    "c_values_count": 24,
+    "bytes_compared": 48,
+    "byte_identical": true,
+    "exported_count": 23,
+    "exported_equals_c_prefix": true,
+    "c_extra_tail_values": [
+     [
+      0
+     ]
+    ],
+    "note": "C declares more elements than are referenced; extra tail is the alignment pad"
+   },
+   "vertex_links": {
+    "c_symbol": "dStagePupupuFile2_gap_0x1D00_MPVertexLinks_0x1E08",
+    "c_declared_count": 7,
+    "c_values_count": 7,
+    "bytes_compared": 28,
+    "byte_identical": true,
+    "exported_count": 7,
+    "exported_equals_c_prefix": true
+   },
+   "line_info": {
+    "c_symbol": "dStagePupupuFile2_gap_0x1D00_MPLineInfo_0x1E24",
+    "c_declared_count": 1,
+    "c_values_count": 1,
+    "bytes_compared": 18,
+    "byte_identical": true,
+    "exported_count": 1,
+    "exported_equals_c_prefix": true
+   },
+   "mapobjs": {
+    "c_symbol": "dStagePupupuFile2_gap_0x1D00_MPMapObjData_0x1E38",
+    "c_declared_count": 42,
+    "c_values_count": 42,
+    "bytes_compared": 252,
+    "byte_identical": true,
+    "exported_count": 42,
+    "exported_equals_c_prefix": true
+   }
+  },
+  "c_symbol": "dStagePupupuFile2_gap_0x1D00_MPGeometryData_0x1F34",
+  "c_yakumono_count": 1,
+  "c_mapobj_count": 42,
+  "status": "ok"
+ }
+}

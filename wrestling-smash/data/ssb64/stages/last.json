@@ -1,0 +1,1159 @@
+{
+ "stage": "Final Destination",
+ "key": "last",
+ "gr_kind": "nGRKindLast",
+ "gr_kind_value": 16,
+ "vs_mode_stage": false,
+ "source": {
+  "rom": "baserom.us.z64 (US v1.0, SHA-1 e2929e10fccc0aa84e5776227e798abc07cedabf)",
+  "map_file": {
+   "file_id": 266,
+   "file_name": "GRLastMap",
+   "header_offset": "0x0",
+   "rom_offset": "0x640C70",
+   "vpk0": true
+  },
+  "geometry_file": {
+   "file_id": 114,
+   "file_name": "StageLastFile2",
+   "rom_offset": "0x40F712",
+   "vpk0": true
+  },
+  "map_nodes_file": null,
+  "typed_c": [
+   "sources/ssb-decomp-re/src/relocData/266_GRLastMap.c",
+   "sources/ssb-decomp-re/src/relocData/114_StageLastFile2.c"
+  ],
+  "loader": "sources/ssb-decomp-re/src/mp/mpcollision.c: mpCollisionInitGroundData (dMPCollisionGroundFileInfos[gkind])"
+ },
+ "ground_data": {
+  "gr_desc": [
+   {
+    "dobjdesc": null,
+    "anim_joints": null,
+    "p_mobjsubs": null,
+    "p_matanim_joints": null
+   },
+   {
+    "dobjdesc": {
+     "file_id": 114,
+     "file_name": "StageLastFile2",
+     "offset": "0x4D48"
+    },
+    "anim_joints": {
+     "file_id": 114,
+     "file_name": "StageLastFile2",
+     "offset": "0x4F10"
+    },
+    "p_mobjsubs": {
+     "file_id": 114,
+     "file_name": "StageLastFile2",
+     "offset": "0x2078"
+    },
+    "p_matanim_joints": {
+     "file_id": 114,
+     "file_name": "StageLastFile2",
+     "offset": "0x4F40"
+    }
+   },
+   {
+    "dobjdesc": null,
+    "anim_joints": null,
+    "p_mobjsubs": null,
+    "p_matanim_joints": null
+   },
+   {
+    "dobjdesc": null,
+    "anim_joints": null,
+    "p_mobjsubs": null,
+    "p_matanim_joints": null
+   }
+  ],
+  "map_geometry": {
+   "file_id": 114,
+   "file_name": "StageLastFile2",
+   "offset": "0x4EF4"
+  },
+  "layer_mask": 0,
+  "wallpaper": {
+   "file_id": 96,
+   "file_name": "StageLastBackground",
+   "offset": "0x26C88"
+  },
+  "fog_color": {
+   "r": 0,
+   "g": 0,
+   "b": 50
+  },
+  "fog_alpha": 0,
+  "emblem_colors": [
+   {
+    "r": 255,
+    "g": 128,
+    "b": 128
+   },
+   {
+    "r": 140,
+    "g": 140,
+    "b": 255
+   },
+   {
+    "r": 230,
+    "g": 230,
+    "b": 100
+   },
+   {
+    "r": 128,
+    "g": 255,
+    "b": 128
+   }
+  ],
+  "unused": 3368601600,
+  "unused_hex": "0xC8C8C800",
+  "light_angle": {
+   "x": 0.0,
+   "y": -60.0,
+   "z": -0.1745329350233078
+  },
+  "camera_bound_top": 5000,
+  "camera_bound_bottom": -2400,
+  "camera_bound_right": 5500,
+  "camera_bound_left": -5500,
+  "map_bound_top": 9000,
+  "map_bound_bottom": -4200,
+  "map_bound_right": 11000,
+  "map_bound_left": -11000,
+  "bgm_id": 24,
+  "bgm_name": "nSYAudioBGMBossEntry",
+  "map_nodes": null,
+  "item_weights": null,
+  "item_weights_values": null,
+  "alt_warning": -2900,
+  "camera_bound_team_top": 5000,
+  "camera_bound_team_bottom": -2400,
+  "camera_bound_team_right": 5500,
+  "camera_bound_team_left": -5500,
+  "map_bound_team_top": 9000,
+  "map_bound_team_bottom": -4200,
+  "map_bound_team_right": 11000,
+  "map_bound_team_left": -11000,
+  "zoom_start": {
+   "x": 0,
+   "y": 0,
+   "z": 0
+  },
+  "zoom_end": {
+   "x": 0,
+   "y": 0,
+   "z": 15000
+  }
+ },
+ "geometry": {
+  "source": {
+   "file_id": 114,
+   "file_name": "StageLastFile2",
+   "offset": "0x4EF4"
+  },
+  "yakumono_count": 1,
+  "vertex_data_ref": {
+   "file_id": 114,
+   "offset": "0x4E50"
+  },
+  "vertex_id_ref": {
+   "file_id": 114,
+   "offset": "0x4E7C"
+  },
+  "vertex_links_ref": {
+   "file_id": 114,
+   "offset": "0x4E98"
+  },
+  "line_info_ref": {
+   "file_id": 114,
+   "offset": "0x4EB4"
+  },
+  "mapobj_count": 7,
+  "mapobjs_ref": {
+   "file_id": 114,
+   "offset": "0x4EC8"
+  },
+  "counts": {
+   "vertex_data": 7,
+   "vertex_data_referenced": 7,
+   "vertex_id": 14,
+   "vertex_links": 7,
+   "line_info": 1,
+   "mapobjs": 7
+  },
+  "layout": {
+   "vertex_data": {
+    "offset": "0x4E50",
+    "next_block": "0x4E7C",
+    "bytes_to_next_block": 44,
+    "element_size": 6,
+    "used_bytes": 42,
+    "slack_bytes": 2,
+    "slack_all_zero": true,
+    "slack_hex": "0000"
+   },
+   "vertex_id": {
+    "offset": "0x4E7C",
+    "next_block": "0x4E98",
+    "bytes_to_next_block": 28,
+    "element_size": 2,
+    "used_bytes": 28,
+    "slack_bytes": 0,
+    "slack_all_zero": true,
+    "slack_hex": ""
+   },
+   "vertex_links": {
+    "offset": "0x4E98",
+    "next_block": "0x4EB4",
+    "bytes_to_next_block": 28,
+    "element_size": 4,
+    "used_bytes": 28,
+    "slack_bytes": 0,
+    "slack_all_zero": true,
+    "slack_hex": ""
+   },
+   "line_info": {
+    "offset": "0x4EB4",
+    "next_block": "0x4EC8",
+    "bytes_to_next_block": 20,
+    "element_size": 18,
+    "used_bytes": 18,
+    "slack_bytes": 2,
+    "slack_all_zero": true,
+    "slack_hex": "0000"
+   },
+   "mapobjs": {
+    "offset": "0x4EC8",
+    "next_block": "0x4EF4",
+    "bytes_to_next_block": 44,
+    "element_size": 6,
+    "used_bytes": 42,
+    "slack_bytes": 2,
+    "slack_all_zero": true,
+    "slack_hex": "0000"
+   }
+  },
+  "vertex_data": [
+   {
+    "pos": {
+     "x": 1855,
+     "y": -770
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 0,
+     "y": -2520
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": -1855,
+     "y": -770
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": -2331,
+     "y": -761
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": -2508,
+     "y": 0
+    },
+    "vertex_flags": 32768
+   },
+   {
+    "pos": {
+     "x": 2508,
+     "y": 0
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 2331,
+     "y": -761
+    },
+    "vertex_flags": 0
+   }
+  ],
+  "vertex_id": [
+   4,
+   5,
+   2,
+   3,
+   6,
+   0,
+   5,
+   6,
+   0,
+   1,
+   3,
+   4,
+   1,
+   2
+  ],
+  "vertex_links": [
+   {
+    "vertex1": 0,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 2,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 4,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 6,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 8,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 10,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 12,
+    "vertex2": 2
+   }
+  ],
+  "line_info": [
+   {
+    "yakumono_id": 1,
+    "line_data": [
+     {
+      "group_id": 0,
+      "line_count": 1
+     },
+     {
+      "group_id": 1,
+      "line_count": 2
+     },
+     {
+      "group_id": 3,
+      "line_count": 2
+     },
+     {
+      "group_id": 5,
+      "line_count": 2
+     }
+    ]
+   }
+  ],
+  "mapobjs": [
+   {
+    "mapobj_kind": 37,
+    "pos": {
+     "x": 900,
+     "y": 1
+    }
+   },
+   {
+    "mapobj_kind": 33,
+    "pos": {
+     "x": -900,
+     "y": 1
+    }
+   },
+   {
+    "mapobj_kind": 0,
+    "pos": {
+     "x": -900,
+     "y": 1
+    }
+   },
+   {
+    "mapobj_kind": 1,
+    "pos": {
+     "x": 900,
+     "y": 1
+    }
+   },
+   {
+    "mapobj_kind": 2,
+    "pos": {
+     "x": -600,
+     "y": 1
+    }
+   },
+   {
+    "mapobj_kind": 3,
+    "pos": {
+     "x": 600,
+     "y": 1
+    }
+   },
+   {
+    "mapobj_kind": 32,
+    "pos": {
+     "x": 0,
+     "y": 1050
+    }
+   }
+  ],
+  "derived": {
+   "note": "Runtime tables computed exactly like mpCollisionAllocLinesGetCountTotal/InitLineIDsAll and func_ovl2_800FB04C/mpCollisionInitLineTypesAll/func_ovl2_800FB31C; use them to unit-test the port.",
+   "line_ids_contiguous": true,
+   "gMPCollisionLinesNum": 7,
+   "gMPCollisionLineGroups": [
+    {
+     "line_type": "floor",
+     "line_count": 1,
+     "line_id": [
+      0
+     ]
+    },
+    {
+     "line_type": "ceil",
+     "line_count": 2,
+     "line_id": [
+      1,
+      2
+     ]
+    },
+    {
+     "line_type": "rwall",
+     "line_count": 2,
+     "line_id": [
+      3,
+      4
+     ]
+    },
+    {
+     "line_type": "lwall",
+     "line_count": 2,
+     "line_id": [
+      5,
+      6
+     ]
+    }
+   ],
+   "vertex_info": [
+    {
+     "yakumono_id": 1,
+     "line_type": 0,
+     "coll_pos_next": 0,
+     "coll_pos_prev": 0,
+     "edge_next_line_id": 3,
+     "edge_prev_line_id": 5
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 1,
+     "coll_pos_next": -761,
+     "coll_pos_prev": -770,
+     "edge_next_line_id": 6,
+     "edge_prev_line_id": 5
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 1,
+     "coll_pos_next": -761,
+     "coll_pos_prev": -770,
+     "edge_next_line_id": 3,
+     "edge_prev_line_id": 4
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 2,
+     "coll_pos_next": 2508,
+     "coll_pos_prev": 2331,
+     "edge_next_line_id": 0,
+     "edge_prev_line_id": 2
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 2,
+     "coll_pos_next": 1855,
+     "coll_pos_prev": 0,
+     "edge_next_line_id": 2,
+     "edge_prev_line_id": 6
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 3,
+     "coll_pos_next": -2331,
+     "coll_pos_prev": -2508,
+     "edge_next_line_id": 0,
+     "edge_prev_line_id": 1
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 3,
+     "coll_pos_next": 0,
+     "coll_pos_prev": -1855,
+     "edge_next_line_id": 1,
+     "edge_prev_line_id": 4
+    }
+   ],
+   "line_range_order": [
+    {
+     "yakumono_id": 1,
+     "kind": "floor",
+     "line_ids": [
+      0
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 1,
+     "kind": "ceil",
+     "line_ids": [
+      1,
+      2
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 1,
+     "kind": "rwall",
+     "line_ids": [
+      3,
+      4
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 1,
+     "kind": "lwall",
+     "line_ids": [
+      5,
+      6
+     ],
+     "ordered_for_early_out": true
+    }
+   ],
+   "line_range_order_note": "mpcollision.c line loops early-out (goto l_break) assuming floor/rwall ranges are ordered by non-increasing coll_pos_next and ceil/lwall ranges by non-decreasing coll_pos_prev; keep the stored line order in the port."
+  },
+  "lines": [
+   {
+    "line_id": 0,
+    "kind": "floor",
+    "line_type": 0,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     4,
+     5
+    ],
+    "points": [
+     [
+      -2508,
+      0
+     ],
+     [
+      2508,
+      0
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       -2508,
+       0
+      ],
+      "to": [
+       2508,
+       0
+      ],
+      "vertex_flags": 32768,
+      "coll_bits": 32768,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": true
+     }
+    ],
+    "edge_next_line_id": 3,
+    "edge_prev_line_id": 5,
+    "left_edge": [
+     -2508,
+     0
+    ],
+    "right_edge": [
+     2508,
+     0
+    ],
+    "ledge_left_grabbable": true,
+    "ledge_right_grabbable": true,
+    "end_segment_cliff": {
+     "left": true,
+     "right": true,
+     "left_material": 0,
+     "right_material": 0
+    },
+    "pass_through": false,
+    "any_pass_through_segment": false
+   },
+   {
+    "line_id": 1,
+    "kind": "ceil",
+    "line_type": 1,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     2,
+     3
+    ],
+    "points": [
+     [
+      -1855,
+      -770
+     ],
+     [
+      -2331,
+      -761
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       -1855,
+       -770
+      ],
+      "to": [
+       -2331,
+       -761
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 6,
+    "edge_prev_line_id": 5
+   },
+   {
+    "line_id": 2,
+    "kind": "ceil",
+    "line_type": 1,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     6,
+     0
+    ],
+    "points": [
+     [
+      2331,
+      -761
+     ],
+     [
+      1855,
+      -770
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       2331,
+       -761
+      ],
+      "to": [
+       1855,
+       -770
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 3,
+    "edge_prev_line_id": 4
+   },
+   {
+    "line_id": 3,
+    "kind": "rwall",
+    "line_type": 2,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     5,
+     6
+    ],
+    "points": [
+     [
+      2508,
+      0
+     ],
+     [
+      2331,
+      -761
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       2508,
+       0
+      ],
+      "to": [
+       2331,
+       -761
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 0,
+    "edge_prev_line_id": 2
+   },
+   {
+    "line_id": 4,
+    "kind": "rwall",
+    "line_type": 2,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     0,
+     1
+    ],
+    "points": [
+     [
+      1855,
+      -770
+     ],
+     [
+      0,
+      -2520
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       1855,
+       -770
+      ],
+      "to": [
+       0,
+       -2520
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 2,
+    "edge_prev_line_id": 6
+   },
+   {
+    "line_id": 5,
+    "kind": "lwall",
+    "line_type": 3,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     3,
+     4
+    ],
+    "points": [
+     [
+      -2331,
+      -761
+     ],
+     [
+      -2508,
+      0
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       -2331,
+       -761
+      ],
+      "to": [
+       -2508,
+       0
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 0,
+    "edge_prev_line_id": 1
+   },
+   {
+    "line_id": 6,
+    "kind": "lwall",
+    "line_type": 3,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     1,
+     2
+    ],
+    "points": [
+     [
+      0,
+      -2520
+     ],
+     [
+      -1855,
+      -770
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       0,
+       -2520
+      ],
+      "to": [
+       -1855,
+       -770
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 1,
+    "edge_prev_line_id": 4
+   }
+  ]
+ },
+ "map_objects": [
+  {
+   "index": 0,
+   "mapobj_kind": 37,
+   "kind_name": "nMPMapObjKind1PGameEnemy1",
+   "x": 900,
+   "y": 1
+  },
+  {
+   "index": 1,
+   "mapobj_kind": 33,
+   "kind_name": "nMPMapObjKind1PGamePlayer",
+   "x": -900,
+   "y": 1
+  },
+  {
+   "index": 2,
+   "mapobj_kind": 0,
+   "kind_name": "nMPMapObjKindBattlePlayer1",
+   "x": -900,
+   "y": 1
+  },
+  {
+   "index": 3,
+   "mapobj_kind": 1,
+   "kind_name": "nMPMapObjKindBattlePlayer2",
+   "x": 900,
+   "y": 1
+  },
+  {
+   "index": 4,
+   "mapobj_kind": 2,
+   "kind_name": "nMPMapObjKindBattlePlayer3",
+   "x": -600,
+   "y": 1
+  },
+  {
+   "index": 5,
+   "mapobj_kind": 3,
+   "kind_name": "nMPMapObjKindBattlePlayer4",
+   "x": 600,
+   "y": 1
+  },
+  {
+   "index": 6,
+   "mapobj_kind": 32,
+   "kind_name": "nMPMapObjKindRebirth",
+   "x": 0,
+   "y": 1050
+  }
+ ],
+ "yakumono": [
+  {
+   "yakumono_id": 0,
+   "dobjdesc_index": 0,
+   "dobjdesc": {
+    "offset": "0x4D48",
+    "id": 0,
+    "id_hex": "0x0",
+    "parent_index": null,
+    "dl": {
+     "file_id": 114,
+     "file_name": "StageLastFile2",
+     "offset": "0x4078"
+    },
+    "translate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rotate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": false,
+   "line_info_index": null,
+   "line_ids": [],
+   "anim_joint": null,
+   "motion": "no collision lines, not animated (render-only DObj)"
+  },
+  {
+   "yakumono_id": 1,
+   "dobjdesc_index": 1,
+   "dobjdesc": {
+    "offset": "0x4D74",
+    "id": 1,
+    "id_hex": "0x1",
+    "parent_index": 0,
+    "dl": {
+     "file_id": 114,
+     "file_name": "StageLastFile2",
+     "offset": "0x4230"
+    },
+    "translate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rotate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": true,
+   "line_info_index": [
+    0
+   ],
+   "line_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "anim_joint": null,
+   "motion": "static"
+  },
+  {
+   "yakumono_id": 2,
+   "dobjdesc_index": 2,
+   "dobjdesc": {
+    "offset": "0x4DA0",
+    "id": 1,
+    "id_hex": "0x1",
+    "parent_index": 0,
+    "dl": {
+     "file_id": 114,
+     "file_name": "StageLastFile2",
+     "offset": "0x45D8"
+    },
+    "translate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rotate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": false,
+   "line_info_index": null,
+   "line_ids": [],
+   "anim_joint": null,
+   "motion": "no collision lines, not animated (render-only DObj)"
+  },
+  {
+   "yakumono_id": 3,
+   "dobjdesc_index": 3,
+   "dobjdesc": {
+    "offset": "0x4DCC",
+    "id": 2,
+    "id_hex": "0x2",
+    "parent_index": 2,
+    "dl": {
+     "file_id": 114,
+     "file_name": "StageLastFile2",
+     "offset": "0x4980"
+    },
+    "translate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rotate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": false,
+   "line_info_index": null,
+   "line_ids": [],
+   "anim_joint": {
+    "file_id": 114,
+    "file_name": "StageLastFile2",
+    "offset": "0x4F24"
+   },
+   "motion": "render-only animated DObj (no collision lines; animation does not affect collision)",
+   "anim_pass_length_frames": 719
+  },
+  {
+   "yakumono_id": 4,
+   "dobjdesc_index": 4,
+   "dobjdesc": {
+    "offset": "0x4DF8",
+    "id": 1,
+    "id_hex": "0x1",
+    "parent_index": 0,
+    "dl": {
+     "file_id": 114,
+     "file_name": "StageLastFile2",
+     "offset": "0x4D18"
+    },
+    "translate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rotate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": false,
+   "line_info_index": null,
+   "line_ids": [],
+   "anim_joint": null,
+   "motion": "no collision lines, not animated (render-only DObj)"
+  }
+ ],
+ "collision_origin_at_start": {
+  "1": {
+   "x": 0.0,
+   "y": 0.0,
+   "applies_offset": false,
+   "status_at_start": "nMPYakumonoStatusNone",
+   "how": "vertices are absolute (no anim joint, status None)"
+  }
+ },
+ "moving_collision": "none: every collision yakumono of this stage is static (no anim joint, status never changed by code)",
+ "hazards_summary": [
+  {
+   "name": "none ported",
+   "summary": "Extra stage exported only for its collision/bounds; no stage gimmick code reviewed."
+  }
+ ],
+ "hazard_data": {},
+ "crosscheck_typed_c": {
+  "c_file": "sources/ssb-decomp-re/src/relocData/114_StageLastFile2.c",
+  "arrays": {
+   "vertex_data": {
+    "c_symbol": "dStageLastFile2_gap_0x4E50",
+    "c_declared_count": 7,
+    "c_values_count": 7,
+    "bytes_compared": 42,
+    "byte_identical": true,
+    "exported_count": 7,
+    "exported_equals_c_prefix": true
+   },
+   "vertex_id": {
+    "c_symbol": "dStageLastFile2_gap_0x4E50_sub_0x2C",
+    "c_declared_count": 14,
+    "c_values_count": 14,
+    "bytes_compared": 28,
+    "byte_identical": true,
+    "exported_count": 14,
+    "exported_equals_c_prefix": true
+   },
+   "vertex_links": {
+    "c_symbol": "dStageLastFile2_gap_0x4E50_sub_0x48",
+    "c_declared_count": 7,
+    "c_values_count": 7,
+    "bytes_compared": 28,
+    "byte_identical": true,
+    "exported_count": 7,
+    "exported_equals_c_prefix": true
+   },
+   "line_info": {
+    "c_symbol": "dStageLastFile2_gap_0x4E50_sub_0x64",
+    "c_declared_count": 1,
+    "c_values_count": 1,
+    "bytes_compared": 18,
+    "byte_identical": true,
+    "exported_count": 1,
+    "exported_equals_c_prefix": true
+   },
+   "mapobjs": {
+    "c_symbol": "dStageLastFile2_gap_0x4E50_sub_0x78",
+    "c_declared_count": 7,
+    "c_values_count": 7,
+    "bytes_compared": 42,
+    "byte_identical": true,
+    "exported_count": 7,
+    "exported_equals_c_prefix": true
+   }
+  },
+  "c_symbol": "dStageLastFile2_MPGeometryData_0x4EF4",
+  "c_yakumono_count": 1,
+  "c_mapobj_count": 7,
+  "status": "ok"
+ }
+}

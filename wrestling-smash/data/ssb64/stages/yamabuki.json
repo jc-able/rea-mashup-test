@@ -1,0 +1,4554 @@
+{
+ "stage": "Saffron City",
+ "key": "yamabuki",
+ "gr_kind": "nGRKindYamabuki",
+ "gr_kind_value": 7,
+ "vs_mode_stage": true,
+ "source": {
+  "rom": "baserom.us.z64 (US v1.0, SHA-1 e2929e10fccc0aa84e5776227e798abc07cedabf)",
+  "map_file": {
+   "file_id": 264,
+   "file_name": "GRYamabukiMap",
+   "header_offset": "0x14",
+   "rom_offset": "0x6409C0",
+   "vpk0": true
+  },
+  "geometry_file": {
+   "file_id": 112,
+   "file_name": "StageYamabukiFile2",
+   "rom_offset": "0x4067E6",
+   "vpk0": true
+  },
+  "map_nodes_file": {
+   "file_id": 160,
+   "file_name": "StageYamabukiFile4",
+   "offset": "0x8A0"
+  },
+  "typed_c": [
+   "sources/ssb-decomp-re/src/relocData/264_GRYamabukiMap.c",
+   "sources/ssb-decomp-re/src/relocData/112_StageYamabukiFile2.c"
+  ],
+  "loader": "sources/ssb-decomp-re/src/mp/mpcollision.c: mpCollisionInitGroundData (dMPCollisionGroundFileInfos[gkind])"
+ },
+ "ground_data": {
+  "gr_desc": [
+   {
+    "dobjdesc": {
+     "file_id": 112,
+     "file_name": "StageYamabukiFile2",
+     "offset": "0x5058"
+    },
+    "anim_joints": {
+     "file_id": 112,
+     "file_name": "StageYamabukiFile2",
+     "offset": "0x51C0"
+    },
+    "p_mobjsubs": null,
+    "p_matanim_joints": null
+   },
+   {
+    "dobjdesc": {
+     "file_id": 112,
+     "file_name": "StageYamabukiFile2",
+     "offset": "0x6A70"
+    },
+    "anim_joints": {
+     "file_id": 112,
+     "file_name": "StageYamabukiFile2",
+     "offset": "0x6EB0"
+    },
+    "p_mobjsubs": {
+     "file_id": 112,
+     "file_name": "StageYamabukiFile2",
+     "offset": "0x5260"
+    },
+    "p_matanim_joints": {
+     "file_id": 112,
+     "file_name": "StageYamabukiFile2",
+     "offset": "0x7000"
+    }
+   },
+   {
+    "dobjdesc": null,
+    "anim_joints": null,
+    "p_mobjsubs": null,
+    "p_matanim_joints": null
+   },
+   {
+    "dobjdesc": {
+     "file_id": 112,
+     "file_name": "StageYamabukiFile2",
+     "offset": "0x8718"
+    },
+    "anim_joints": null,
+    "p_mobjsubs": null,
+    "p_matanim_joints": null
+   }
+  ],
+  "map_geometry": {
+   "file_id": 112,
+   "file_name": "StageYamabukiFile2",
+   "offset": "0x6E8C"
+  },
+  "layer_mask": 10,
+  "wallpaper": {
+   "file_id": 94,
+   "file_name": "StagePokemon",
+   "offset": "0x26C88"
+  },
+  "fog_color": {
+   "r": 205,
+   "g": 230,
+   "b": 255
+  },
+  "fog_alpha": 0,
+  "emblem_colors": [
+   {
+    "r": 255,
+    "g": 160,
+    "b": 160
+   },
+   {
+    "r": 160,
+    "g": 160,
+    "b": 255
+   },
+   {
+    "r": 240,
+    "g": 240,
+    "b": 100
+   },
+   {
+    "r": 170,
+    "g": 255,
+    "b": 170
+   }
+  ],
+  "unused": 3705461760,
+  "unused_hex": "0xDCDCDC00",
+  "light_angle": {
+   "x": 20.0,
+   "y": 45.0,
+   "z": -0.27925267815589905
+  },
+  "camera_bound_top": 5000,
+  "camera_bound_bottom": -2500,
+  "camera_bound_right": 5700,
+  "camera_bound_left": -5700,
+  "map_bound_top": 9000,
+  "map_bound_bottom": -6000,
+  "map_bound_right": 10000,
+  "map_bound_left": -10000,
+  "bgm_id": 7,
+  "bgm_name": "nSYAudioBGMYamabuki",
+  "map_nodes": {
+   "file_id": 160,
+   "file_name": "StageYamabukiFile4",
+   "offset": "0x8A0"
+  },
+  "item_weights": {
+   "file_id": 264,
+   "file_name": "GRYamabukiMap",
+   "offset": "0x0"
+  },
+  "item_weights_values": [
+   100,
+   40,
+   80,
+   0,
+   12,
+   6,
+   8,
+   10,
+   8,
+   12,
+   9,
+   13,
+   10,
+   10,
+   17,
+   10,
+   18,
+   4,
+   8,
+   40
+  ],
+  "item_weights_by_kind": {
+   "nITKindBox": 100,
+   "nITKindTaru": 40,
+   "nITKindCapsule": 80,
+   "nITKindEgg": 0,
+   "nITKindTomato": 12,
+   "nITKindHeart": 6,
+   "nITKindStar": 8,
+   "nITKindSword": 10,
+   "nITKindBat": 8,
+   "nITKindHarisen": 12,
+   "nITKindStarRod": 9,
+   "nITKindLGun": 13,
+   "nITKindFFlower": 10,
+   "nITKindHammer": 10,
+   "nITKindMSBomb": 17,
+   "nITKindBombHei": 10,
+   "nITKindNBumper": 18,
+   "nITKindGShell": 4,
+   "nITKindRShell": 8,
+   "nITKindMBall": 40
+  },
+  "alt_warning": -2900,
+  "camera_bound_team_top": 5000,
+  "camera_bound_team_bottom": -2500,
+  "camera_bound_team_right": 5300,
+  "camera_bound_team_left": -5300,
+  "map_bound_team_top": 9000,
+  "map_bound_team_bottom": -5700,
+  "map_bound_team_right": 9700,
+  "map_bound_team_left": -9700,
+  "zoom_start": {
+   "x": 0,
+   "y": 0,
+   "z": 0
+  },
+  "zoom_end": {
+   "x": 0,
+   "y": 0,
+   "z": 15000
+  }
+ },
+ "geometry": {
+  "source": {
+   "file_id": 112,
+   "file_name": "StageYamabukiFile2",
+   "offset": "0x6E8C"
+  },
+  "yakumono_count": 4,
+  "vertex_data_ref": {
+   "file_id": 112,
+   "offset": "0x6C28"
+  },
+  "vertex_id_ref": {
+   "file_id": 112,
+   "offset": "0x6CE4"
+  },
+  "vertex_links_ref": {
+   "file_id": 112,
+   "offset": "0x6D38"
+  },
+  "line_info_ref": {
+   "file_id": 112,
+   "offset": "0x6D78"
+  },
+  "mapobj_count": 34,
+  "mapobjs_ref": {
+   "file_id": 112,
+   "offset": "0x6DC0"
+  },
+  "counts": {
+   "vertex_data": 31,
+   "vertex_data_referenced": 31,
+   "vertex_id": 41,
+   "vertex_links": 16,
+   "line_info": 4,
+   "mapobjs": 34
+  },
+  "layout": {
+   "vertex_data": {
+    "offset": "0x6C28",
+    "next_block": "0x6CE4",
+    "bytes_to_next_block": 188,
+    "element_size": 6,
+    "used_bytes": 186,
+    "slack_bytes": 2,
+    "slack_all_zero": true,
+    "slack_hex": "0000"
+   },
+   "vertex_id": {
+    "offset": "0x6CE4",
+    "next_block": "0x6D38",
+    "bytes_to_next_block": 84,
+    "element_size": 2,
+    "used_bytes": 82,
+    "slack_bytes": 2,
+    "slack_all_zero": true,
+    "slack_hex": "0000"
+   },
+   "vertex_links": {
+    "offset": "0x6D38",
+    "next_block": "0x6D78",
+    "bytes_to_next_block": 64,
+    "element_size": 4,
+    "used_bytes": 64,
+    "slack_bytes": 0,
+    "slack_all_zero": true,
+    "slack_hex": ""
+   },
+   "line_info": {
+    "offset": "0x6D78",
+    "next_block": "0x6DC0",
+    "bytes_to_next_block": 72,
+    "element_size": 18,
+    "used_bytes": 72,
+    "slack_bytes": 0,
+    "slack_all_zero": true,
+    "slack_hex": ""
+   },
+   "mapobjs": {
+    "offset": "0x6DC0",
+    "next_block": "0x6E8C",
+    "bytes_to_next_block": 204,
+    "element_size": 6,
+    "used_bytes": 204,
+    "slack_bytes": 0,
+    "slack_all_zero": true,
+    "slack_hex": ""
+   }
+  },
+  "vertex_data": [
+   {
+    "pos": {
+     "x": 1980,
+     "y": -10080
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 1980,
+     "y": 810
+    },
+    "vertex_flags": 32772
+   },
+   {
+    "pos": {
+     "x": 1470,
+     "y": 810
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 960,
+     "y": 810
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 960,
+     "y": 720
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 1890,
+     "y": 720
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 1890,
+     "y": 0
+    },
+    "vertex_flags": 14
+   },
+   {
+    "pos": {
+     "x": 797,
+     "y": 0
+    },
+    "vertex_flags": 32768
+   },
+   {
+    "pos": {
+     "x": 607,
+     "y": 0
+    },
+    "vertex_flags": 32768
+   },
+   {
+    "pos": {
+     "x": 366,
+     "y": -44
+    },
+    "vertex_flags": 32768
+   },
+   {
+    "pos": {
+     "x": -327,
+     "y": -312
+    },
+    "vertex_flags": 32768
+   },
+   {
+    "pos": {
+     "x": -632,
+     "y": -368
+    },
+    "vertex_flags": 32768
+   },
+   {
+    "pos": {
+     "x": -1653,
+     "y": -368
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": -1653,
+     "y": -10079
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 2672,
+     "y": -10079
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 2671,
+     "y": -4810
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 2670,
+     "y": 459
+    },
+    "vertex_flags": 32768
+   },
+   {
+    "pos": {
+     "x": 3641,
+     "y": 458
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 3641,
+     "y": -4810
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 3641,
+     "y": -10079
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": -2460,
+     "y": -10080
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": -2460,
+     "y": -1620
+    },
+    "vertex_flags": 32768
+   },
+   {
+    "pos": {
+     "x": -3600,
+     "y": -1620
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": -3600,
+     "y": -10080
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 0,
+     "y": -360
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 0,
+     "y": -14
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 0,
+     "y": 360
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 527,
+     "y": 165
+    },
+    "vertex_flags": 16384
+   },
+   {
+    "pos": {
+     "x": -552,
+     "y": 165
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 474,
+     "y": 336
+    },
+    "vertex_flags": 16384
+   },
+   {
+    "pos": {
+     "x": -586,
+     "y": 43
+    },
+    "vertex_flags": 0
+   }
+  ],
+  "vertex_id": [
+   1,
+   2,
+   3,
+   16,
+   17,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   21,
+   22,
+   4,
+   5,
+   17,
+   18,
+   19,
+   0,
+   1,
+   20,
+   21,
+   22,
+   23,
+   12,
+   13,
+   3,
+   4,
+   5,
+   6,
+   14,
+   15,
+   16,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30
+  ],
+  "vertex_links": [
+   {
+    "vertex1": 0,
+    "vertex2": 3
+   },
+   {
+    "vertex1": 3,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 5,
+    "vertex2": 7
+   },
+   {
+    "vertex1": 12,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 14,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 16,
+    "vertex2": 3
+   },
+   {
+    "vertex1": 19,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 21,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 23,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 25,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 27,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 29,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 31,
+    "vertex2": 3
+   },
+   {
+    "vertex1": 34,
+    "vertex2": 3
+   },
+   {
+    "vertex1": 37,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 39,
+    "vertex2": 2
+   }
+  ],
+  "line_info": [
+   {
+    "yakumono_id": 1,
+    "line_data": [
+     {
+      "group_id": 0,
+      "line_count": 4
+     },
+     {
+      "group_id": 4,
+      "line_count": 1
+     },
+     {
+      "group_id": 5,
+      "line_count": 3
+     },
+     {
+      "group_id": 8,
+      "line_count": 5
+     }
+    ]
+   },
+   {
+    "yakumono_id": 3,
+    "line_data": [
+     {
+      "group_id": 13,
+      "line_count": 0
+     },
+     {
+      "group_id": 13,
+      "line_count": 0
+     },
+     {
+      "group_id": 13,
+      "line_count": 0
+     },
+     {
+      "group_id": 13,
+      "line_count": 1
+     }
+    ]
+   },
+   {
+    "yakumono_id": 5,
+    "line_data": [
+     {
+      "group_id": 14,
+      "line_count": 1
+     },
+     {
+      "group_id": 15,
+      "line_count": 0
+     },
+     {
+      "group_id": 15,
+      "line_count": 0
+     },
+     {
+      "group_id": 15,
+      "line_count": 0
+     }
+    ]
+   },
+   {
+    "yakumono_id": 7,
+    "line_data": [
+     {
+      "group_id": 15,
+      "line_count": 1
+     },
+     {
+      "group_id": 16,
+      "line_count": 0
+     },
+     {
+      "group_id": 16,
+      "line_count": 0
+     },
+     {
+      "group_id": 16,
+      "line_count": 0
+     }
+    ]
+   }
+  ],
+  "mapobjs": [
+   {
+    "mapobj_kind": 37,
+    "pos": {
+     "x": 1470,
+     "y": 930
+    }
+   },
+   {
+    "mapobj_kind": 33,
+    "pos": {
+     "x": -960,
+     "y": -240
+    }
+   },
+   {
+    "mapobj_kind": 45,
+    "pos": {
+     "x": 1470,
+     "y": 930
+    }
+   },
+   {
+    "mapobj_kind": 44,
+    "pos": {
+     "x": -960,
+     "y": -240
+    }
+   },
+   {
+    "mapobj_kind": 24,
+    "pos": {
+     "x": -510,
+     "y": -240
+    }
+   },
+   {
+    "mapobj_kind": 25,
+    "pos": {
+     "x": 0,
+     "y": -30
+    }
+   },
+   {
+    "mapobj_kind": 26,
+    "pos": {
+     "x": 705,
+     "y": 165
+    }
+   },
+   {
+    "mapobj_kind": 27,
+    "pos": {
+     "x": 1455,
+     "y": 945
+    }
+   },
+   {
+    "mapobj_kind": 28,
+    "pos": {
+     "x": 3135,
+     "y": 585
+    }
+   },
+   {
+    "mapobj_kind": 29,
+    "pos": {
+     "x": -3030,
+     "y": -1425
+    }
+   },
+   {
+    "mapobj_kind": 30,
+    "pos": {
+     "x": -1440,
+     "y": -210
+    }
+   },
+   {
+    "mapobj_kind": 31,
+    "pos": {
+     "x": -2340,
+     "y": 1140
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 1161,
+     "y": 1670
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 401,
+     "y": 822
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": -2417,
+     "y": 8355
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": -978,
+     "y": 143
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": -156,
+     "y": 492
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 3221,
+     "y": 5300
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 136,
+     "y": 7137
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": -1222,
+     "y": 1180
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": -4260,
+     "y": -120
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": -3054,
+     "y": -1104
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 3210,
+     "y": 1020
+    }
+   },
+   {
+    "mapobj_kind": 21,
+    "pos": {
+     "x": -2940,
+     "y": 4170
+    }
+   },
+   {
+    "mapobj_kind": 18,
+    "pos": {
+     "x": 1500,
+     "y": 360
+    }
+   },
+   {
+    "mapobj_kind": 17,
+    "pos": {
+     "x": 1290,
+     "y": 255
+    }
+   },
+   {
+    "mapobj_kind": 14,
+    "pos": {
+     "x": 1320,
+     "y": 270
+    }
+   },
+   {
+    "mapobj_kind": 16,
+    "pos": {
+     "x": 1260,
+     "y": 225
+    }
+   },
+   {
+    "mapobj_kind": 15,
+    "pos": {
+     "x": 1365,
+     "y": 270
+    }
+   },
+   {
+    "mapobj_kind": 0,
+    "pos": {
+     "x": 1200,
+     "y": 810
+    }
+   },
+   {
+    "mapobj_kind": 1,
+    "pos": {
+     "x": -660,
+     "y": -270
+    }
+   },
+   {
+    "mapobj_kind": 2,
+    "pos": {
+     "x": 510,
+     "y": 90
+    }
+   },
+   {
+    "mapobj_kind": 3,
+    "pos": {
+     "x": -1200,
+     "y": -270
+    }
+   },
+   {
+    "mapobj_kind": 32,
+    "pos": {
+     "x": 0,
+     "y": 1150
+    }
+   }
+  ],
+  "derived": {
+   "note": "Runtime tables computed exactly like mpCollisionAllocLinesGetCountTotal/InitLineIDsAll and func_ovl2_800FB04C/mpCollisionInitLineTypesAll/func_ovl2_800FB31C; use them to unit-test the port.",
+   "line_ids_contiguous": true,
+   "gMPCollisionLinesNum": 16,
+   "gMPCollisionLineGroups": [
+    {
+     "line_type": "floor",
+     "line_count": 6,
+     "line_id": [
+      0,
+      1,
+      2,
+      3,
+      14,
+      15
+     ]
+    },
+    {
+     "line_type": "ceil",
+     "line_count": 1,
+     "line_id": [
+      4
+     ]
+    },
+    {
+     "line_type": "rwall",
+     "line_count": 3,
+     "line_id": [
+      5,
+      6,
+      7
+     ]
+    },
+    {
+     "line_type": "lwall",
+     "line_count": 6,
+     "line_id": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+     ]
+    }
+   ],
+   "vertex_info": [
+    {
+     "yakumono_id": 1,
+     "line_type": 0,
+     "coll_pos_next": 810,
+     "coll_pos_prev": 810,
+     "edge_next_line_id": 6,
+     "edge_prev_line_id": 10
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 0,
+     "coll_pos_next": 459,
+     "coll_pos_prev": 458,
+     "edge_next_line_id": 5,
+     "edge_prev_line_id": 12
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 0,
+     "coll_pos_next": 0,
+     "coll_pos_prev": -368,
+     "edge_next_line_id": 11,
+     "edge_prev_line_id": 9
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 0,
+     "coll_pos_next": -1620,
+     "coll_pos_prev": -1620,
+     "edge_next_line_id": 7,
+     "edge_prev_line_id": 8
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 1,
+     "coll_pos_next": 720,
+     "coll_pos_prev": 720,
+     "edge_next_line_id": 11,
+     "edge_prev_line_id": 10
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 2,
+     "coll_pos_next": 3641,
+     "coll_pos_prev": 3641,
+     "edge_next_line_id": 1,
+     "edge_prev_line_id": -1
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 2,
+     "coll_pos_next": 1980,
+     "coll_pos_prev": 1980,
+     "edge_next_line_id": 0,
+     "edge_prev_line_id": -1
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 2,
+     "coll_pos_next": -2460,
+     "coll_pos_prev": -2460,
+     "edge_next_line_id": 3,
+     "edge_prev_line_id": -1
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 3,
+     "coll_pos_next": -3600,
+     "coll_pos_prev": -3600,
+     "edge_next_line_id": 3,
+     "edge_prev_line_id": -1
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 3,
+     "coll_pos_next": -1653,
+     "coll_pos_prev": -1653,
+     "edge_next_line_id": 2,
+     "edge_prev_line_id": -1
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 3,
+     "coll_pos_next": 960,
+     "coll_pos_prev": 960,
+     "edge_next_line_id": 0,
+     "edge_prev_line_id": 4
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 3,
+     "coll_pos_next": 1890,
+     "coll_pos_prev": 1890,
+     "edge_next_line_id": 4,
+     "edge_prev_line_id": 2
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 3,
+     "coll_pos_next": 2672,
+     "coll_pos_prev": 2670,
+     "edge_next_line_id": 1,
+     "edge_prev_line_id": -1
+    },
+    {
+     "yakumono_id": 3,
+     "line_type": 3,
+     "coll_pos_next": 0,
+     "coll_pos_prev": 0,
+     "edge_next_line_id": -1,
+     "edge_prev_line_id": -1
+    },
+    {
+     "yakumono_id": 5,
+     "line_type": 0,
+     "coll_pos_next": 165,
+     "coll_pos_prev": 165,
+     "edge_next_line_id": -1,
+     "edge_prev_line_id": -1
+    },
+    {
+     "yakumono_id": 7,
+     "line_type": 0,
+     "coll_pos_next": 336,
+     "coll_pos_prev": 43,
+     "edge_next_line_id": -1,
+     "edge_prev_line_id": -1
+    }
+   ],
+   "line_range_order": [
+    {
+     "yakumono_id": 1,
+     "kind": "floor",
+     "line_ids": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 1,
+     "kind": "ceil",
+     "line_ids": [
+      4
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 1,
+     "kind": "rwall",
+     "line_ids": [
+      5,
+      6,
+      7
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 1,
+     "kind": "lwall",
+     "line_ids": [
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 3,
+     "kind": "floor",
+     "line_ids": [],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 3,
+     "kind": "ceil",
+     "line_ids": [],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 3,
+     "kind": "rwall",
+     "line_ids": [],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 3,
+     "kind": "lwall",
+     "line_ids": [
+      13
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 5,
+     "kind": "floor",
+     "line_ids": [
+      14
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 5,
+     "kind": "ceil",
+     "line_ids": [],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 5,
+     "kind": "rwall",
+     "line_ids": [],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 5,
+     "kind": "lwall",
+     "line_ids": [],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 7,
+     "kind": "floor",
+     "line_ids": [
+      15
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 7,
+     "kind": "ceil",
+     "line_ids": [],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 7,
+     "kind": "rwall",
+     "line_ids": [],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 7,
+     "kind": "lwall",
+     "line_ids": [],
+     "ordered_for_early_out": true
+    }
+   ],
+   "line_range_order_note": "mpcollision.c line loops early-out (goto l_break) assuming floor/rwall ranges are ordered by non-increasing coll_pos_next and ceil/lwall ranges by non-decreasing coll_pos_prev; keep the stored line order in the port."
+  },
+  "lines": [
+   {
+    "line_id": 0,
+    "kind": "floor",
+    "line_type": 0,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     1,
+     2,
+     3
+    ],
+    "points": [
+     [
+      1980,
+      810
+     ],
+     [
+      1470,
+      810
+     ],
+     [
+      960,
+      810
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       1980,
+       810
+      ],
+      "to": [
+       1470,
+       810
+      ],
+      "vertex_flags": 32772,
+      "coll_bits": 32768,
+      "material": 4,
+      "material_name": "nMPMaterial4",
+      "pass_through": false,
+      "cliff": true
+     },
+     {
+      "from": [
+       1470,
+       810
+      ],
+      "to": [
+       960,
+       810
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 6,
+    "edge_prev_line_id": 10,
+    "left_edge": [
+     960,
+     810
+    ],
+    "right_edge": [
+     1980,
+     810
+    ],
+    "ledge_left_grabbable": false,
+    "ledge_right_grabbable": true,
+    "end_segment_cliff": {
+     "left": false,
+     "right": true,
+     "left_material": 0,
+     "right_material": 4
+    },
+    "pass_through": false,
+    "any_pass_through_segment": false
+   },
+   {
+    "line_id": 1,
+    "kind": "floor",
+    "line_type": 0,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     16,
+     17
+    ],
+    "points": [
+     [
+      2670,
+      459
+     ],
+     [
+      3641,
+      458
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       2670,
+       459
+      ],
+      "to": [
+       3641,
+       458
+      ],
+      "vertex_flags": 32768,
+      "coll_bits": 32768,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": true
+     }
+    ],
+    "edge_next_line_id": 5,
+    "edge_prev_line_id": 12,
+    "left_edge": [
+     2670,
+     459
+    ],
+    "right_edge": [
+     3641,
+     458
+    ],
+    "ledge_left_grabbable": true,
+    "ledge_right_grabbable": true,
+    "end_segment_cliff": {
+     "left": true,
+     "right": true,
+     "left_material": 0,
+     "right_material": 0
+    },
+    "pass_through": false,
+    "any_pass_through_segment": false
+   },
+   {
+    "line_id": 2,
+    "kind": "floor",
+    "line_type": 0,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "points": [
+     [
+      1890,
+      0
+     ],
+     [
+      797,
+      0
+     ],
+     [
+      607,
+      0
+     ],
+     [
+      366,
+      -44
+     ],
+     [
+      -327,
+      -312
+     ],
+     [
+      -632,
+      -368
+     ],
+     [
+      -1653,
+      -368
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       1890,
+       0
+      ],
+      "to": [
+       797,
+       0
+      ],
+      "vertex_flags": 14,
+      "coll_bits": 0,
+      "material": 14,
+      "material_name": "nMPMaterialDetect",
+      "pass_through": false,
+      "cliff": false
+     },
+     {
+      "from": [
+       797,
+       0
+      ],
+      "to": [
+       607,
+       0
+      ],
+      "vertex_flags": 32768,
+      "coll_bits": 32768,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": true
+     },
+     {
+      "from": [
+       607,
+       0
+      ],
+      "to": [
+       366,
+       -44
+      ],
+      "vertex_flags": 32768,
+      "coll_bits": 32768,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": true
+     },
+     {
+      "from": [
+       366,
+       -44
+      ],
+      "to": [
+       -327,
+       -312
+      ],
+      "vertex_flags": 32768,
+      "coll_bits": 32768,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": true
+     },
+     {
+      "from": [
+       -327,
+       -312
+      ],
+      "to": [
+       -632,
+       -368
+      ],
+      "vertex_flags": 32768,
+      "coll_bits": 32768,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": true
+     },
+     {
+      "from": [
+       -632,
+       -368
+      ],
+      "to": [
+       -1653,
+       -368
+      ],
+      "vertex_flags": 32768,
+      "coll_bits": 32768,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": true
+     }
+    ],
+    "edge_next_line_id": 11,
+    "edge_prev_line_id": 9,
+    "left_edge": [
+     -1653,
+     -368
+    ],
+    "right_edge": [
+     1890,
+     0
+    ],
+    "ledge_left_grabbable": true,
+    "ledge_right_grabbable": false,
+    "end_segment_cliff": {
+     "left": true,
+     "right": false,
+     "left_material": 0,
+     "right_material": 14
+    },
+    "pass_through": false,
+    "any_pass_through_segment": false
+   },
+   {
+    "line_id": 3,
+    "kind": "floor",
+    "line_type": 0,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     21,
+     22
+    ],
+    "points": [
+     [
+      -2460,
+      -1620
+     ],
+     [
+      -3600,
+      -1620
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       -2460,
+       -1620
+      ],
+      "to": [
+       -3600,
+       -1620
+      ],
+      "vertex_flags": 32768,
+      "coll_bits": 32768,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": true
+     }
+    ],
+    "edge_next_line_id": 7,
+    "edge_prev_line_id": 8,
+    "left_edge": [
+     -3600,
+     -1620
+    ],
+    "right_edge": [
+     -2460,
+     -1620
+    ],
+    "ledge_left_grabbable": true,
+    "ledge_right_grabbable": true,
+    "end_segment_cliff": {
+     "left": true,
+     "right": true,
+     "left_material": 0,
+     "right_material": 0
+    },
+    "pass_through": false,
+    "any_pass_through_segment": false
+   },
+   {
+    "line_id": 4,
+    "kind": "ceil",
+    "line_type": 1,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     4,
+     5
+    ],
+    "points": [
+     [
+      960,
+      720
+     ],
+     [
+      1890,
+      720
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       960,
+       720
+      ],
+      "to": [
+       1890,
+       720
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 11,
+    "edge_prev_line_id": 10
+   },
+   {
+    "line_id": 5,
+    "kind": "rwall",
+    "line_type": 2,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     17,
+     18,
+     19
+    ],
+    "points": [
+     [
+      3641,
+      458
+     ],
+     [
+      3641,
+      -4810
+     ],
+     [
+      3641,
+      -10079
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       3641,
+       458
+      ],
+      "to": [
+       3641,
+       -4810
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     },
+     {
+      "from": [
+       3641,
+       -4810
+      ],
+      "to": [
+       3641,
+       -10079
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 1,
+    "edge_prev_line_id": -1
+   },
+   {
+    "line_id": 6,
+    "kind": "rwall",
+    "line_type": 2,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     0,
+     1
+    ],
+    "points": [
+     [
+      1980,
+      -10080
+     ],
+     [
+      1980,
+      810
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       1980,
+       -10080
+      ],
+      "to": [
+       1980,
+       810
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 0,
+    "edge_prev_line_id": -1
+   },
+   {
+    "line_id": 7,
+    "kind": "rwall",
+    "line_type": 2,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     20,
+     21
+    ],
+    "points": [
+     [
+      -2460,
+      -10080
+     ],
+     [
+      -2460,
+      -1620
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       -2460,
+       -10080
+      ],
+      "to": [
+       -2460,
+       -1620
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 3,
+    "edge_prev_line_id": -1
+   },
+   {
+    "line_id": 8,
+    "kind": "lwall",
+    "line_type": 3,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     22,
+     23
+    ],
+    "points": [
+     [
+      -3600,
+      -1620
+     ],
+     [
+      -3600,
+      -10080
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       -3600,
+       -1620
+      ],
+      "to": [
+       -3600,
+       -10080
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 3,
+    "edge_prev_line_id": -1
+   },
+   {
+    "line_id": 9,
+    "kind": "lwall",
+    "line_type": 3,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     12,
+     13
+    ],
+    "points": [
+     [
+      -1653,
+      -368
+     ],
+     [
+      -1653,
+      -10079
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       -1653,
+       -368
+      ],
+      "to": [
+       -1653,
+       -10079
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 2,
+    "edge_prev_line_id": -1
+   },
+   {
+    "line_id": 10,
+    "kind": "lwall",
+    "line_type": 3,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     3,
+     4
+    ],
+    "points": [
+     [
+      960,
+      810
+     ],
+     [
+      960,
+      720
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       960,
+       810
+      ],
+      "to": [
+       960,
+       720
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 0,
+    "edge_prev_line_id": 4
+   },
+   {
+    "line_id": 11,
+    "kind": "lwall",
+    "line_type": 3,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     5,
+     6
+    ],
+    "points": [
+     [
+      1890,
+      720
+     ],
+     [
+      1890,
+      0
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       1890,
+       720
+      ],
+      "to": [
+       1890,
+       0
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 4,
+    "edge_prev_line_id": 2
+   },
+   {
+    "line_id": 12,
+    "kind": "lwall",
+    "line_type": 3,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     14,
+     15,
+     16
+    ],
+    "points": [
+     [
+      2672,
+      -10079
+     ],
+     [
+      2671,
+      -4810
+     ],
+     [
+      2670,
+      459
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       2672,
+       -10079
+      ],
+      "to": [
+       2671,
+       -4810
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     },
+     {
+      "from": [
+       2671,
+       -4810
+      ],
+      "to": [
+       2670,
+       459
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 1,
+    "edge_prev_line_id": -1
+   },
+   {
+    "line_id": 13,
+    "kind": "lwall",
+    "line_type": 3,
+    "yakumono_id": 3,
+    "vertex_ids": [
+     24,
+     25,
+     26
+    ],
+    "points": [
+     [
+      0,
+      -360
+     ],
+     [
+      0,
+      -14
+     ],
+     [
+      0,
+      360
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       0,
+       -360
+      ],
+      "to": [
+       0,
+       -14
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     },
+     {
+      "from": [
+       0,
+       -14
+      ],
+      "to": [
+       0,
+       360
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": -1,
+    "edge_prev_line_id": -1
+   },
+   {
+    "line_id": 14,
+    "kind": "floor",
+    "line_type": 0,
+    "yakumono_id": 5,
+    "vertex_ids": [
+     27,
+     28
+    ],
+    "points": [
+     [
+      527,
+      165
+     ],
+     [
+      -552,
+      165
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       527,
+       165
+      ],
+      "to": [
+       -552,
+       165
+      ],
+      "vertex_flags": 16384,
+      "coll_bits": 16384,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": true,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": -1,
+    "edge_prev_line_id": -1,
+    "left_edge": [
+     -552,
+     165
+    ],
+    "right_edge": [
+     527,
+     165
+    ],
+    "ledge_left_grabbable": false,
+    "ledge_right_grabbable": false,
+    "end_segment_cliff": {
+     "left": false,
+     "right": false,
+     "left_material": 0,
+     "right_material": 0
+    },
+    "pass_through": true,
+    "any_pass_through_segment": true
+   },
+   {
+    "line_id": 15,
+    "kind": "floor",
+    "line_type": 0,
+    "yakumono_id": 7,
+    "vertex_ids": [
+     29,
+     30
+    ],
+    "points": [
+     [
+      474,
+      336
+     ],
+     [
+      -586,
+      43
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       474,
+       336
+      ],
+      "to": [
+       -586,
+       43
+      ],
+      "vertex_flags": 16384,
+      "coll_bits": 16384,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": true,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": -1,
+    "edge_prev_line_id": -1,
+    "left_edge": [
+     -586,
+     43
+    ],
+    "right_edge": [
+     474,
+     336
+    ],
+    "ledge_left_grabbable": false,
+    "ledge_right_grabbable": false,
+    "end_segment_cliff": {
+     "left": false,
+     "right": false,
+     "left_material": 0,
+     "right_material": 0
+    },
+    "pass_through": true,
+    "any_pass_through_segment": true
+   }
+  ]
+ },
+ "map_objects": [
+  {
+   "index": 0,
+   "mapobj_kind": 37,
+   "kind_name": "nMPMapObjKind1PGameEnemy1",
+   "x": 1470,
+   "y": 930
+  },
+  {
+   "index": 1,
+   "mapobj_kind": 33,
+   "kind_name": "nMPMapObjKind1PGamePlayer",
+   "x": -960,
+   "y": -240
+  },
+  {
+   "index": 2,
+   "mapobj_kind": 45,
+   "kind_name": "nMPMapObjKind1PGameChallengerEnemy1",
+   "x": 1470,
+   "y": 930
+  },
+  {
+   "index": 3,
+   "mapobj_kind": 44,
+   "kind_name": "nMPMapObjKind1PGameChallengerPlayer",
+   "x": -960,
+   "y": -240
+  },
+  {
+   "index": 4,
+   "mapobj_kind": 24,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer1",
+   "x": -510,
+   "y": -240
+  },
+  {
+   "index": 5,
+   "mapobj_kind": 25,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer2",
+   "x": 0,
+   "y": -30
+  },
+  {
+   "index": 6,
+   "mapobj_kind": 26,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer3",
+   "x": 705,
+   "y": 165
+  },
+  {
+   "index": 7,
+   "mapobj_kind": 27,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer4",
+   "x": 1455,
+   "y": 945
+  },
+  {
+   "index": 8,
+   "mapobj_kind": 28,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer5",
+   "x": 3135,
+   "y": 585
+  },
+  {
+   "index": 9,
+   "mapobj_kind": 29,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer6",
+   "x": -3030,
+   "y": -1425
+  },
+  {
+   "index": 10,
+   "mapobj_kind": 30,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer7",
+   "x": -1440,
+   "y": -210
+  },
+  {
+   "index": 11,
+   "mapobj_kind": 31,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer8",
+   "x": -2340,
+   "y": 1140
+  },
+  {
+   "index": 12,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 1161,
+   "y": 1670
+  },
+  {
+   "index": 13,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 401,
+   "y": 822
+  },
+  {
+   "index": 14,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": -2417,
+   "y": 8355
+  },
+  {
+   "index": 15,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": -978,
+   "y": 143
+  },
+  {
+   "index": 16,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": -156,
+   "y": 492
+  },
+  {
+   "index": 17,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 3221,
+   "y": 5300
+  },
+  {
+   "index": 18,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 136,
+   "y": 7137
+  },
+  {
+   "index": 19,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": -1222,
+   "y": 1180
+  },
+  {
+   "index": 20,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": -4260,
+   "y": -120
+  },
+  {
+   "index": 21,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": -3054,
+   "y": -1104
+  },
+  {
+   "index": 22,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 3210,
+   "y": 1020
+  },
+  {
+   "index": 23,
+   "mapobj_kind": 21,
+   "kind_name": "nMPMapObjKindMoviePlayer1",
+   "x": -2940,
+   "y": 4170
+  },
+  {
+   "index": 24,
+   "mapobj_kind": 18,
+   "kind_name": "nMPMapObjKindMonsterUnused4",
+   "x": 1500,
+   "y": 360
+  },
+  {
+   "index": 25,
+   "mapobj_kind": 17,
+   "kind_name": "nMPMapObjKindMonsterUnused3",
+   "x": 1290,
+   "y": 255
+  },
+  {
+   "index": 26,
+   "mapobj_kind": 14,
+   "kind_name": "nMPMapObjKindMonster",
+   "x": 1320,
+   "y": 270
+  },
+  {
+   "index": 27,
+   "mapobj_kind": 16,
+   "kind_name": "nMPMapObjKindMonsterUnused2",
+   "x": 1260,
+   "y": 225
+  },
+  {
+   "index": 28,
+   "mapobj_kind": 15,
+   "kind_name": "nMPMapObjKindMonsterUnused1",
+   "x": 1365,
+   "y": 270
+  },
+  {
+   "index": 29,
+   "mapobj_kind": 0,
+   "kind_name": "nMPMapObjKindBattlePlayer1",
+   "x": 1200,
+   "y": 810
+  },
+  {
+   "index": 30,
+   "mapobj_kind": 1,
+   "kind_name": "nMPMapObjKindBattlePlayer2",
+   "x": -660,
+   "y": -270
+  },
+  {
+   "index": 31,
+   "mapobj_kind": 2,
+   "kind_name": "nMPMapObjKindBattlePlayer3",
+   "x": 510,
+   "y": 90
+  },
+  {
+   "index": 32,
+   "mapobj_kind": 3,
+   "kind_name": "nMPMapObjKindBattlePlayer4",
+   "x": -1200,
+   "y": -270
+  },
+  {
+   "index": 33,
+   "mapobj_kind": 32,
+   "kind_name": "nMPMapObjKindRebirth",
+   "x": 0,
+   "y": 1150
+  }
+ ],
+ "yakumono": [
+  {
+   "yakumono_id": 0,
+   "dobjdesc_index": 0,
+   "dobjdesc": {
+    "offset": "0x6A70",
+    "id": 0,
+    "id_hex": "0x0",
+    "parent_index": null,
+    "dl": null,
+    "translate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rotate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": false,
+   "line_info_index": null,
+   "line_ids": [],
+   "anim_joint": null,
+   "motion": "no collision lines, not animated (render-only DObj)"
+  },
+  {
+   "yakumono_id": 1,
+   "dobjdesc_index": 1,
+   "dobjdesc": {
+    "offset": "0x6A9C",
+    "id": 1,
+    "id_hex": "0x1",
+    "parent_index": 0,
+    "dl": {
+     "file_id": 112,
+     "file_name": "StageYamabukiFile2",
+     "offset": "0x69F0"
+    },
+    "translate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rotate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": true,
+   "line_info_index": [
+    0
+   ],
+   "line_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "anim_joint": null,
+   "motion": "static"
+  },
+  {
+   "yakumono_id": 2,
+   "dobjdesc_index": 2,
+   "dobjdesc": {
+    "offset": "0x6AC8",
+    "id": 8194,
+    "id_hex": "0x2002",
+    "parent_index": 1,
+    "dl": {
+     "file_id": 112,
+     "file_name": "StageYamabukiFile2",
+     "offset": "0x6A00"
+    },
+    "translate": [
+     1784.4000244140625,
+     802.0511474609375,
+     -426.7783203125
+    ],
+    "rotate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": false,
+   "line_info_index": null,
+   "line_ids": [],
+   "anim_joint": null,
+   "motion": "no collision lines, not animated (render-only DObj)"
+  },
+  {
+   "yakumono_id": 3,
+   "dobjdesc_index": 3,
+   "dobjdesc": {
+    "offset": "0x6AF4",
+    "id": 1,
+    "id_hex": "0x1",
+    "parent_index": 0,
+    "dl": null,
+    "translate": [
+     1740.0,
+     360.0,
+     0.0
+    ],
+    "rotate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": true,
+   "line_info_index": [
+    1
+   ],
+   "line_ids": [
+    13
+   ],
+   "anim_joint": null,
+   "motion": "code_driven",
+   "code": {
+    "driver": "code",
+    "functions": [
+     "sources/ssb-decomp-re/src/gr/grcommon/gryamabuki.c: grYamabukiGateUpdateYakumonoPos",
+     "sources/ssb-decomp-re/src/gr/grcommon/gryamabuki.c: grYamabukiGateUpdateOpen",
+     "sources/ssb-decomp-re/src/gr/grcommon/gryamabuki.c: grYamabukiGateSetPositionNear/Far",
+     "sources/ssb-decomp-re/src/gr/grcommon/gryamabuki.c: grYamabukiInitGroundVars"
+    ],
+    "summary": "Poke-centre gate collision. Status On at init; each tick (Wait/Open states) mpCollisionSetYakumonoPosID(3, gate_pos) with gate_pos.y = yakumono DObj 3 translate.y and gate_pos.x = 960 (closed/near), 1600 (open/far), or while a Pokemon is emerging monster.x - monster.map_coll.width clamped to [960, 1600].",
+    "position_formula": "x in {960 (closed), 1600 (open)} or clamp(monster.x - map_coll.width, 960, 1600); y = DObj3.translate.y",
+    "constants": {
+     "gate_x_near": 960.0,
+     "gate_x_far": 1600.0,
+     "gate_reopen_wait": 1000,
+     "monster_wait": "syUtilsRandIntRange(1000) + 1000"
+    },
+    "initial_collision_origin": {
+     "x": 960.0,
+     "y": 360.0,
+     "applies_offset": true,
+     "status_at_start": "nMPYakumonoStatusOn",
+     "how": "grYamabukiInitGroundVars: SetYakumonoOnID(3); grYamabukiGateSetPositionNear -> gate_pos = (960, DObj3.translate.y); grYamabukiGateUpdateYakumonoPos (DObjDesc x 1740.0 is replaced)"
+    }
+   }
+  },
+  {
+   "yakumono_id": 4,
+   "dobjdesc_index": 4,
+   "dobjdesc": {
+    "offset": "0x6B20",
+    "id": 1,
+    "id_hex": "0x1",
+    "parent_index": 0,
+    "dl": {
+     "file_id": 112,
+     "file_name": "StageYamabukiFile2",
+     "offset": "0x6A10"
+    },
+    "translate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rotate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": false,
+   "line_info_index": null,
+   "line_ids": [],
+   "anim_joint": null,
+   "motion": "no collision lines, not animated (render-only DObj)"
+  },
+  {
+   "yakumono_id": 5,
+   "dobjdesc_index": 5,
+   "dobjdesc": {
+    "offset": "0x6B4C",
+    "id": 1,
+    "id_hex": "0x1",
+    "parent_index": 0,
+    "dl": {
+     "file_id": 112,
+     "file_name": "StageYamabukiFile2",
+     "offset": "0x6A20"
+    },
+    "translate": [
+     -2325.599853515625,
+     840.0,
+     -76.02198028564453
+    ],
+    "rotate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": true,
+   "line_info_index": [
+    2
+   ],
+   "line_ids": [
+    14
+   ],
+   "anim_joint": {
+    "file_id": 112,
+    "file_name": "StageYamabukiFile2",
+    "offset": "0x6ED4"
+   },
+   "motion": "aobj_anim",
+   "driver": {
+    "functions": [
+     "sources/ssb-decomp-re/src/mp/mpcollision.c: mpCollisionPlayYakumonoAnim (process of the layer-1 ground GObj, see src/gr/grdisplay.c dGRDisplayDescs[1])",
+     "sources/ssb-decomp-re/src/sys/objanim.c: gcParseDObjAnimJoint, gcPlayDObjAnimJoint (+ gcGetInterpValueCubic for the cubic form)"
+    ],
+    "summary": "Layer-1 DObj AObjEvent32 animation advanced once per tick by mpCollisionPlayYakumonoAnim; collision vertices are offset by dobj->translate (x,y)."
+   },
+   "animation": {
+    "anim_joint": {
+     "file_id": 112,
+     "file_name": "StageYamabukiFile2",
+     "offset": "0x6ED4"
+    },
+    "label": "yakumono 5",
+    "interpreter": {
+     "parser": "sources/ssb-decomp-re/src/sys/objanim.c: gcParseDObjAnimJoint, gcPlayDObjAnimJoint (+ gcGetInterpValueCubic for the cubic form)",
+     "add": "sources/ssb-decomp-re/src/sys/objanim.c: gcAddDObjAnimJoint / gcAddAnimAll / gcAddAnimJointAll",
+     "yakumono_driver": "sources/ssb-decomp-re/src/mp/mpcollision.c: mpCollisionPlayYakumonoAnim (process of the layer-1 ground GObj, see src/gr/grdisplay.c dGRDisplayDescs[1])",
+     "encoding": "u32 command = (opcode<<25)|(flags<<15)|payload; flags bit i = joint track nGCAnimTrack(i+1): 0 RotX,1 RotY,2 RotZ,3 TraI(spline param),4 TraX,5 TraY,6 TraZ,7 ScaX,8 ScaY,9 ScaZ; one f32 per set bit follows (two for SetValRate*: value, rate). Block variants add payload to anim_wait. Jump/SetAnim/SetInterp are followed by a pointer word (resolved here as file_id/offset).",
+     "spline": "sources/ssb-decomp-re/src/sys/interp.c: syInterpCubic (TraI track)",
+     "python_port": "tools/ssb64/stages/ssb64_aobj.py (DObjSim, single-precision port used for the baked tables)"
+    },
+    "streams": [
+     {
+      "file_id": 112,
+      "file_name": "StageYamabukiFile2",
+      "offset": "0x6ED4",
+      "events": [
+       {
+        "offset": "0x6ED4",
+        "opcode": 6,
+        "name": "SetValRate",
+        "flags": 32,
+        "payload": 0,
+        "raw": [
+         "0C100000",
+         "44520000",
+         "C08C0925"
+        ],
+        "tracks": [
+         "TraY"
+        ],
+        "values": [
+         {
+          "value": 840.0,
+          "rate": -4.3761162757873535
+         }
+        ]
+       },
+       {
+        "offset": "0x6EE0",
+        "opcode": 10,
+        "name": "SetValAfterBlock",
+        "flags": 983,
+        "payload": 0,
+        "raw": [
+         "15EB8000",
+         "00000000",
+         "00000000",
+         "00000000",
+         "C5115999",
+         "C2980B41",
+         "3F800000",
+         "3F800000",
+         "3F800000"
+        ],
+        "tracks": [
+         "RotX",
+         "RotY",
+         "RotZ",
+         "TraX",
+         "TraZ",
+         "ScaX",
+         "ScaY",
+         "ScaZ"
+        ],
+        "values": [
+         0.0,
+         0.0,
+         0.0,
+         -2325.599853515625,
+         -76.02198028564453,
+         1.0,
+         1.0,
+         1.0
+        ]
+       },
+       {
+        "offset": "0x6F04",
+        "opcode": 8,
+        "name": "SetVal0RateBlock",
+        "flags": 32,
+        "payload": 60,
+        "raw": [
+         "1010003C",
+         "44160000"
+        ],
+        "tracks": [
+         "TraY"
+        ],
+        "values": [
+         600.0
+        ]
+       },
+       {
+        "offset": "0x6F0C",
+        "opcode": 5,
+        "name": "SetValRateBlock",
+        "flags": 32,
+        "payload": 70,
+        "raw": [
+         "0A100046",
+         "44160000",
+         "C13ECD0B"
+        ],
+        "tracks": [
+         "TraY"
+        ],
+        "values": [
+         {
+          "value": 600.0,
+          "rate": -11.92505931854248
+         }
+        ]
+       },
+       {
+        "offset": "0x6F18",
+        "opcode": 5,
+        "name": "SetValRateBlock",
+        "flags": 32,
+        "payload": 13,
+        "raw": [
+         "0A10000D",
+         "43D20000",
+         "C1B0D982"
+        ],
+        "tracks": [
+         "TraY"
+        ],
+        "values": [
+         {
+          "value": 420.0,
+          "rate": -22.106204986572266
+         }
+        ]
+       },
+       {
+        "offset": "0x6F24",
+        "opcode": 5,
+        "name": "SetValRateBlock",
+        "flags": 32,
+        "payload": 25,
+        "raw": [
+         "0A100019",
+         "C4070000",
+         "C0FFFA2E"
+        ],
+        "tracks": [
+         "TraY"
+        ],
+        "values": [
+         {
+          "value": -540.0,
+          "rate": -7.999289512634277
+         }
+        ]
+       },
+       {
+        "offset": "0x6F30",
+        "opcode": 8,
+        "name": "SetVal0RateBlock",
+        "flags": 32,
+        "payload": 32,
+        "raw": [
+         "10100020",
+         "C3C30000"
+        ],
+        "tracks": [
+         "TraY"
+        ],
+        "values": [
+         -390.0
+        ]
+       },
+       {
+        "offset": "0x6F38",
+        "opcode": 8,
+        "name": "SetVal0RateBlock",
+        "flags": 32,
+        "payload": 30,
+        "raw": [
+         "1010001E",
+         "C4070000"
+        ],
+        "tracks": [
+         "TraY"
+        ],
+        "values": [
+         -540.0
+        ]
+       },
+       {
+        "offset": "0x6F40",
+        "opcode": 8,
+        "name": "SetVal0RateBlock",
+        "flags": 32,
+        "payload": 30,
+        "raw": [
+         "1010001E",
+         "C3C30000"
+        ],
+        "tracks": [
+         "TraY"
+        ],
+        "values": [
+         -390.0
+        ]
+       },
+       {
+        "offset": "0x6F48",
+        "opcode": 5,
+        "name": "SetValRateBlock",
+        "flags": 32,
+        "payload": 30,
+        "raw": [
+         "0A10001E",
+         "C4070000",
+         "BF313B12"
+        ],
+        "tracks": [
+         "TraY"
+        ],
+        "values": [
+         {
+          "value": -540.0,
+          "rate": -0.6923075914382935
+         }
+        ]
+       },
+       {
+        "offset": "0x6F54",
+        "opcode": 5,
+        "name": "SetValRateBlock",
+        "flags": 32,
+        "payload": 35,
+        "raw": [
+         "0A100023",
+         "C3D98000",
+         "40A805FB"
+        ],
+        "tracks": [
+         "TraY"
+        ],
+        "values": [
+         {
+          "value": -435.0,
+          "rate": 5.250730037689209
+         }
+        ]
+       },
+       {
+        "offset": "0x6F60",
+        "opcode": 5,
+        "name": "SetValRateBlock",
+        "flags": 32,
+        "payload": 15,
+        "raw": [
+         "0A10000F",
+         "C3700000",
+         "41D09D89"
+        ],
+        "tracks": [
+         "TraY"
+        ],
+        "values": [
+         {
+          "value": -240.0,
+          "rate": 26.076921463012695
+         }
+        ]
+       },
+       {
+        "offset": "0x6F6C",
+        "opcode": 5,
+        "name": "SetValRateBlock",
+        "flags": 32,
+        "payload": 50,
+        "raw": [
+         "0A100032",
+         "44610000",
+         "C02D8145"
+        ],
+        "tracks": [
+         "TraY"
+        ],
+        "values": [
+         {
+          "value": 900.0,
+          "rate": -2.711014986038208
+         }
+        ]
+       },
+       {
+        "offset": "0x6F78",
+        "opcode": 5,
+        "name": "SetValRateBlock",
+        "flags": 32,
+        "payload": 30,
+        "raw": [
+         "0A10001E",
+         "44520000",
+         "C0759225"
+        ],
+        "tracks": [
+         "TraY"
+        ],
+        "values": [
+         {
+          "value": 840.0,
+          "rate": -3.8370449542999268
+         }
+        ]
+       },
+       {
+        "offset": "0x6F84",
+        "opcode": 14,
+        "name": "SetAnim",
+        "flags": 0,
+        "payload": 0,
+        "raw": [
+         "1C000000",
+         "1BFE1BB5"
+        ],
+        "target": {
+         "file_id": 112,
+         "offset": "0x6ED4"
+        }
+       }
+      ]
+     }
+    ],
+    "pass_length_frames": 420,
+    "baked_60hz": {
+     "frames_simulated": 1261,
+     "ended_at_frame": null,
+     "loop_events": [
+      {
+       "frame": 420,
+       "kind": "SetAnim",
+       "target": {
+        "file_id": 112,
+        "offset": "0x6ED4"
+       }
+      },
+      {
+       "frame": 840,
+       "kind": "SetAnim",
+       "target": {
+        "file_id": 112,
+        "offset": "0x6ED4"
+       }
+      },
+      {
+       "frame": 1260,
+       "kind": "SetAnim",
+       "target": {
+        "file_id": 112,
+        "offset": "0x6ED4"
+       }
+      }
+     ],
+     "loops": true,
+     "cycle_start": 0,
+     "cycle_length": 420,
+     "first_loop_frame": 420,
+     "frame0_equals_loop_restart": true,
+     "max_abs_deviation_between_cycles": 0.0,
+     "length": 420,
+     "fps": 60,
+     "frame0": "state after the creation-time gcPlayAnimAll (one parse+play); frame n = n animation ticks later",
+     "translate": {
+      "x": {
+       "constant": -2325.599853515625
+      },
+      "y": [
+       840.0,
+       835.5707397460938,
+       831.039306640625,
+       826.41162109375,
+       821.6939086914062,
+       816.8920288085938,
+       812.0120239257812,
+       807.06005859375,
+       802.0421752929688,
+       796.9642944335938,
+       791.83251953125,
+       786.6529541015625,
+       781.431396484375,
+       776.1741943359375,
+       770.88720703125,
+       765.5765380859375,
+       760.2481689453125,
+       754.908203125,
+       749.5626831054688,
+       744.2175903320312,
+       738.8790283203125,
+       733.5529174804688,
+       728.2454833984375,
+       722.9625854492188,
+       717.7103881835938,
+       712.494873046875,
+       707.3220825195312,
+       702.197998046875,
+       697.1288452148438,
+       692.1205444335938,
+       687.1791381835938,
+       682.3106079101562,
+       677.5211181640625,
+       672.8165283203125,
+       668.203125,
+       663.6867065429688,
+       659.2735595703125,
+       654.969482421875,
+       650.7807006835938,
+       646.7130737304688,
+       642.7727661132812,
+       638.9658203125,
+       635.2982788085938,
+       631.7760620117188,
+       628.4053344726562,
+       625.192138671875,
+       622.1425170898438,
+       619.2623901367188,
+       616.557861328125,
+       614.0350341796875,
+       611.6998291015625,
+       609.558349609375,
+       607.6167602539062,
+       605.8809204101562,
+       604.35693359375,
+       603.0507202148438,
+       601.9686279296875,
+       601.1163330078125,
+       600.5001831054688,
+       600.1260986328125,
+       600.0,
+       600.1679077148438,
+       600.6619873046875,
+       601.467529296875,
+       602.5699462890625,
+       603.9547119140625,
+       605.6072387695312,
+       607.5128173828125,
+       609.6568603515625,
+       612.0248413085938,
+       614.6021118164062,
+       617.3740844726562,
+       620.326171875,
+       623.4436645507812,
+       626.7122192382812,
+       630.1168823242188,
+       633.6432495117188,
+       637.2767333984375,
+       641.0027465820312,
+       644.8065795898438,
+       648.6737060546875,
+       652.5895385742188,
+       656.5393676757812,
+       660.5087280273438,
+       664.48291015625,
+       668.4473876953125,
+       672.3875732421875,
+       676.2887573242188,
+       680.1364135742188,
+       683.9158935546875,
+       687.6126708984375,
+       691.2120971679688,
+       694.6995849609375,
+       698.0604858398438,
+       701.2802734375,
+       704.34423828125,
+       707.2379150390625,
+       709.9465942382812,
+       712.4557495117188,
+       714.750732421875,
+       716.81689453125,
+       718.6397705078125,
+       720.20458984375,
+       721.4968872070312,
+       722.5020141601562,
+       723.205322265625,
+       723.59228515625,
+       723.6482543945312,
+       723.3587036132812,
+       722.7088623046875,
+       721.6842651367188,
+       720.2703247070312,
+       718.4523315429688,
+       716.2158203125,
+       713.5460205078125,
+       710.428466796875,
+       706.8485107421875,
+       702.7915649414062,
+       698.2430419921875,
+       693.1882934570312,
+       687.6126708984375,
+       681.5016479492188,
+       674.8406982421875,
+       667.6151123046875,
+       659.8102416992188,
+       651.41162109375,
+       642.404541015625,
+       632.7744140625,
+       622.5067749023438,
+       611.5867919921875,
+       600.0,
+       588.3772583007812,
+       577.2091674804688,
+       566.2705688476562,
+       555.3366088867188,
+       544.1820068359375,
+       532.5818481445312,
+       520.3110961914062,
+       507.14459228515625,
+       492.8573913574219,
+       477.22430419921875,
+       460.0204772949219,
+       441.0207214355469,
+       420.0,
+       395.4489440917969,
+       366.30712890625,
+       333.0227966308594,
+       296.044189453125,
+       255.81956481933594,
+       212.7972412109375,
+       167.42547607421875,
+       120.1524658203125,
+       71.42654418945312,
+       21.695960998535156,
+       -28.591022491455078,
+       -78.98609924316406,
+       -129.04104614257812,
+       -178.3075714111328,
+       -226.3373260498047,
+       -272.6823425292969,
+       -316.89410400390625,
+       -358.5242614746094,
+       -397.1248779296875,
+       -432.24725341796875,
+       -463.44342041015625,
+       -490.26513671875,
+       -512.2637939453125,
+       -528.9915771484375,
+       -540.0,
+       -547.0768432617188,
+       -552.376708984375,
+       -556.0012817382812,
+       -558.052490234375,
+       -558.6321411132812,
+       -557.8419189453125,
+       -555.78369140625,
+       -552.559326171875,
+       -548.2705078125,
+       -543.0191040039062,
+       -536.9069213867188,
+       -530.0357055664062,
+       -522.5073852539062,
+       -514.423583984375,
+       -505.88629150390625,
+       -496.9971618652344,
+       -487.8580627441406,
+       -478.57080078125,
+       -469.2371520996094,
+       -459.95892333984375,
+       -450.83795166015625,
+       -441.97601318359375,
+       -433.47491455078125,
+       -425.4364318847656,
+       -417.96240234375,
+       -411.1546325683594,
+       -405.1148986816406,
+       -399.94500732421875,
+       -395.74676513671875,
+       -392.6219787597656,
+       -390.6724548339844,
+       -390.0,
+       -390.4888916015625,
+       -391.9111328125,
+       -394.1999816894531,
+       -397.28887939453125,
+       -401.1111145019531,
+       -405.6000061035156,
+       -410.68890380859375,
+       -416.3111572265625,
+       -422.3999938964844,
+       -428.888916015625,
+       -435.71112060546875,
+       -442.8000183105469,
+       -450.0888977050781,
+       -457.5111083984375,
+       -465.0,
+       -472.4888916015625,
+       -479.9111328125,
+       -487.20001220703125,
+       -494.28887939453125,
+       -501.11114501953125,
+       -507.6000061035156,
+       -513.6889038085938,
+       -519.3110961914062,
+       -524.4000244140625,
+       -528.888916015625,
+       -532.7111206054688,
+       -535.7999877929688,
+       -538.0888671875,
+       -539.5111083984375,
+       -540.0,
+       -539.5111083984375,
+       -538.0888671875,
+       -535.7999877929688,
+       -532.7111206054688,
+       -528.888916015625,
+       -524.4000244140625,
+       -519.3110961914062,
+       -513.6889038085938,
+       -507.5999755859375,
+       -501.1111145019531,
+       -494.28887939453125,
+       -487.20001220703125,
+       -479.9111328125,
+       -472.4888916015625,
+       -465.0,
+       -457.5111083984375,
+       -450.0888977050781,
+       -442.79998779296875,
+       -435.71112060546875,
+       -428.888916015625,
+       -422.3999938964844,
+       -416.31109619140625,
+       -410.68890380859375,
+       -405.5999755859375,
+       -401.111083984375,
+       -397.28887939453125,
+       -394.1999816894531,
+       -391.9111328125,
+       -390.4888610839844,
+       -390.0,
+       -390.4665832519531,
+       -391.8249816894531,
+       -394.0130615234375,
+       -396.9688720703125,
+       -400.6303405761719,
+       -404.9353942871094,
+       -409.8219909667969,
+       -415.22808837890625,
+       -421.0915222167969,
+       -427.3504638671875,
+       -433.9426574707031,
+       -440.8061828613281,
+       -447.87890625,
+       -455.09881591796875,
+       -462.4038391113281,
+       -469.7319641113281,
+       -477.0211181640625,
+       -484.2092590332031,
+       -491.2342529296875,
+       -498.0342102050781,
+       -504.54693603515625,
+       -510.71044921875,
+       -516.462646484375,
+       -521.7415771484375,
+       -526.4850463867188,
+       -530.631103515625,
+       -534.11767578125,
+       -536.8826904296875,
+       -538.8641967773438,
+       -540.0,
+       -540.546875,
+       -540.8073120117188,
+       -540.7885131835938,
+       -540.4976196289062,
+       -539.9415283203125,
+       -539.12744140625,
+       -538.0623779296875,
+       -536.7532958984375,
+       -535.2073974609375,
+       -533.4315795898438,
+       -531.4331665039062,
+       -529.2189331054688,
+       -526.7960815429688,
+       -524.1716918945312,
+       -521.352783203125,
+       -518.3463745117188,
+       -515.1596069335938,
+       -511.7995300292969,
+       -508.27313232421875,
+       -504.58758544921875,
+       -500.7498474121094,
+       -496.7669982910156,
+       -492.64617919921875,
+       -488.3943786621094,
+       -484.0186462402344,
+       -479.5260925292969,
+       -474.9237365722656,
+       -470.2186279296875,
+       -465.41796875,
+       -460.5285949707031,
+       -455.5577087402344,
+       -450.5123291015625,
+       -445.3995666503906,
+       -440.2264404296875,
+       -435.0,
+       -429.56414794921875,
+       -423.6633605957031,
+       -417.155517578125,
+       -409.89862060546875,
+       -401.7505187988281,
+       -392.5692138671875,
+       -382.2125549316406,
+       -370.53851318359375,
+       -357.40509033203125,
+       -342.67010498046875,
+       -326.1915283203125,
+       -307.82733154296875,
+       -287.4353942871094,
+       -264.87359619140625,
+       -240.0,
+       -213.55284118652344,
+       -186.40074157714844,
+       -158.59707641601562,
+       -130.19520568847656,
+       -101.2485122680664,
+       -71.81034088134766,
+       -41.934043884277344,
+       -11.67300796508789,
+       18.919458389282227,
+       49.7899169921875,
+       80.88505554199219,
+       112.1514892578125,
+       143.535888671875,
+       174.98486328125,
+       206.44505310058594,
+       237.86312866210938,
+       269.1856689453125,
+       300.359375,
+       331.33087158203125,
+       362.04669189453125,
+       392.45361328125,
+       422.4982604980469,
+       452.127197265625,
+       481.2870788574219,
+       509.92462158203125,
+       537.986328125,
+       565.4189453125,
+       592.1691284179688,
+       618.1834106445312,
+       643.4083251953125,
+       667.7911987304688,
+       691.2776489257812,
+       713.8150024414062,
+       735.3496704101562,
+       755.828125,
+       775.1975708007812,
+       793.404052734375,
+       810.3945922851562,
+       826.1152954101562,
+       840.5135498046875,
+       853.5355224609375,
+       865.1279296875,
+       875.2373657226562,
+       883.810791015625,
+       890.7940673828125,
+       896.1347045898438,
+       899.7791137695312,
+       901.673583984375,
+       901.764892578125,
+       900.0,
+       897.3948974609375,
+       894.9898071289062,
+       892.7682495117188,
+       890.7129516601562,
+       888.806884765625,
+       887.033203125,
+       885.375,
+       883.8150634765625,
+       882.33642578125,
+       880.9223022460938,
+       879.555419921875,
+       878.2191162109375,
+       876.8961791992188,
+       875.5697631835938,
+       874.2225952148438,
+       872.8380126953125,
+       871.3988647460938,
+       869.8883056640625,
+       868.2891845703125,
+       866.5845947265625,
+       864.757568359375,
+       862.7910766601562,
+       860.6680908203125,
+       858.3716430664062,
+       855.8848876953125,
+       853.190673828125,
+       850.2720336914062,
+       847.112060546875,
+       843.6937255859375
+      ],
+      "z": {
+       "constant": -76.02198028564453
+      }
+     },
+     "rotate": {
+      "x": {
+       "constant": 0.0
+      },
+      "y": {
+       "constant": 0.0
+      },
+      "z": {
+       "constant": 0.0
+      }
+     },
+     "scale": {
+      "x": {
+       "constant": 1.0
+      },
+      "y": {
+       "constant": 1.0
+      },
+      "z": {
+       "constant": 1.0
+      }
+     },
+     "dobj_flags": {
+      "constant": 0
+     }
+    }
+   }
+  },
+  {
+   "yakumono_id": 6,
+   "dobjdesc_index": 6,
+   "dobjdesc": {
+    "offset": "0x6B78",
+    "id": 8194,
+    "id_hex": "0x2002",
+    "parent_index": 5,
+    "dl": {
+     "file_id": 112,
+     "file_name": "StageYamabukiFile2",
+     "offset": "0x6A38"
+    },
+    "translate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rotate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": false,
+   "line_info_index": null,
+   "line_ids": [],
+   "anim_joint": null,
+   "motion": "no collision lines, not animated (render-only DObj)"
+  },
+  {
+   "yakumono_id": 7,
+   "dobjdesc_index": 7,
+   "dobjdesc": {
+    "offset": "0x6BA4",
+    "id": 1,
+    "id_hex": "0x1",
+    "parent_index": 0,
+    "dl": {
+     "file_id": 112,
+     "file_name": "StageYamabukiFile2",
+     "offset": "0x6A48"
+    },
+    "translate": [
+     -4173.40380859375,
+     -900.0,
+     -76.02198028564453
+    ],
+    "rotate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": true,
+   "line_info_index": [
+    3
+   ],
+   "line_ids": [
+    15
+   ],
+   "anim_joint": {
+    "file_id": 112,
+    "file_name": "StageYamabukiFile2",
+    "offset": "0x6F8C"
+   },
+   "motion": "aobj_anim",
+   "driver": {
+    "functions": [
+     "sources/ssb-decomp-re/src/mp/mpcollision.c: mpCollisionPlayYakumonoAnim (process of the layer-1 ground GObj, see src/gr/grdisplay.c dGRDisplayDescs[1])",
+     "sources/ssb-decomp-re/src/sys/objanim.c: gcParseDObjAnimJoint, gcPlayDObjAnimJoint (+ gcGetInterpValueCubic for the cubic form)"
+    ],
+    "summary": "Layer-1 DObj AObjEvent32 animation advanced once per tick by mpCollisionPlayYakumonoAnim; collision vertices are offset by dobj->translate (x,y)."
+   },
+   "animation": {
+    "anim_joint": {
+     "file_id": 112,
+     "file_name": "StageYamabukiFile2",
+     "offset": "0x6F8C"
+    },
+    "label": "yakumono 7",
+    "interpreter": {
+     "parser": "sources/ssb-decomp-re/src/sys/objanim.c: gcParseDObjAnimJoint, gcPlayDObjAnimJoint (+ gcGetInterpValueCubic for the cubic form)",
+     "add": "sources/ssb-decomp-re/src/sys/objanim.c: gcAddDObjAnimJoint / gcAddAnimAll / gcAddAnimJointAll",
+     "yakumono_driver": "sources/ssb-decomp-re/src/mp/mpcollision.c: mpCollisionPlayYakumonoAnim (process of the layer-1 ground GObj, see src/gr/grdisplay.c dGRDisplayDescs[1])",
+     "encoding": "u32 command = (opcode<<25)|(flags<<15)|payload; flags bit i = joint track nGCAnimTrack(i+1): 0 RotX,1 RotY,2 RotZ,3 TraI(spline param),4 TraX,5 TraY,6 TraZ,7 ScaX,8 ScaY,9 ScaZ; one f32 per set bit follows (two for SetValRate*: value, rate). Block variants add payload to anim_wait. Jump/SetAnim/SetInterp are followed by a pointer word (resolved here as file_id/offset).",
+     "spline": "sources/ssb-decomp-re/src/sys/interp.c: syInterpCubic (TraI track)",
+     "python_port": "tools/ssb64/stages/ssb64_aobj.py (DObjSim, single-precision port used for the baked tables)"
+    },
+    "streams": [
+     {
+      "file_id": 112,
+      "file_name": "StageYamabukiFile2",
+      "offset": "0x6F8C",
+      "events": [
+       {
+        "offset": "0x6F8C",
+        "opcode": 9,
+        "name": "SetVal0Rate",
+        "flags": 32,
+        "payload": 0,
+        "raw": [
+         "12100000",
+         "C4610000"
+        ],
+        "tracks": [
+         "TraY"
+        ],
+        "values": [
+         -900.0
+        ]
+       },
+       {
+        "offset": "0x6F94",
+        "opcode": 10,
+        "name": "SetValAfterBlock",
+        "flags": 80,
+        "payload": 0,
+        "raw": [
+         "14280000",
+         "C5826B3B",
+         "C2980B41"
+        ],
+        "tracks": [
+         "TraX",
+         "TraZ"
+        ],
+        "values": [
+         -4173.40380859375,
+         -76.02198028564453
+        ]
+       },
+       {
+        "offset": "0x6FA0",
+        "opcode": 5,
+        "name": "SetValRateBlock",
+        "flags": 32,
+        "payload": 42,
+        "raw": [
+         "0A10002A",
+         "C4520000",
+         "3FF45D17"
+        ],
+        "tracks": [
+         "TraY"
+        ],
+        "values": [
+         {
+          "value": -840.0,
+          "rate": 1.9090908765792847
+         }
+        ]
+       },
+       {
+        "offset": "0x6FAC",
+        "opcode": 5,
+        "name": "SetValRateBlock",
+        "flags": 32,
+        "payload": 68,
+        "raw": [
+         "0A100044",
+         "C42C8000",
+         "BF1E59BC"
+        ],
+        "tracks": [
+         "TraY"
+        ],
+        "values": [
+         {
+          "value": -690.0,
+          "rate": -0.6185567378997803
+         }
+        ]
+       },
+       {
+        "offset": "0x6FB8",
+        "opcode": 5,
+        "name": "SetValRateBlock",
+        "flags": 32,
+        "payload": 29,
+        "raw": [
+         "0A10001D",
+         "C4610000",
+         "C1828000"
+        ],
+        "tracks": [
+         "TraY"
+        ],
+        "values": [
+         {
+          "value": -900.0,
+          "rate": -16.3125
+         }
+        ]
+       },
+       {
+        "offset": "0x6FC4",
+        "opcode": 5,
+        "name": "SetValRateBlock",
+        "flags": 32,
+        "payload": 51,
+        "raw": [
+         "0A100033",
+         "C4F96000",
+         "C0A238E3"
+        ],
+        "tracks": [
+         "TraY"
+        ],
+        "values": [
+         {
+          "value": -1995.0,
+          "rate": -5.069444179534912
+         }
+        ]
+       },
+       {
+        "offset": "0x6FD0",
+        "opcode": 5,
+        "name": "SetValRateBlock",
+        "flags": 32,
+        "payload": 165,
+        "raw": [
+         "0A1000A5",
+         "C4F96000",
+         "40CB40F6"
+        ],
+        "tracks": [
+         "TraY"
+        ],
+        "values": [
+         {
+          "value": -1995.0,
+          "rate": 6.351679801940918
+         }
+        ]
+       },
+       {
+        "offset": "0x6FDC",
+        "opcode": 5,
+        "name": "SetValRateBlock",
+        "flags": 32,
+        "payload": 20,
+        "raw": [
+         "0A100014",
+         "C4D98000",
+         "4186C4EB"
+        ],
+        "tracks": [
+         "TraY"
+        ],
+        "values": [
+         {
+          "value": -1740.0,
+          "rate": 16.84615135192871
+         }
+        ]
+       },
+       {
+        "offset": "0x6FE8",
+        "opcode": 5,
+        "name": "SetValRateBlock",
+        "flags": 32,
+        "payload": 45,
+        "raw": [
+         "0A10002D",
+         "C4610000",
+         "40671CDD"
+        ],
+        "tracks": [
+         "TraY"
+        ],
+        "values": [
+         {
+          "value": -900.0,
+          "rate": 3.6111366748809814
+         }
+        ]
+       },
+       {
+        "offset": "0x6FF4",
+        "opcode": 14,
+        "name": "SetAnim",
+        "flags": 0,
+        "payload": 0,
+        "raw": [
+         "1C000000",
+         "1C051BE3"
+        ],
+        "target": {
+         "file_id": 112,
+         "offset": "0x6F8C"
+        }
+       }
+      ]
+     }
+    ],
+    "pass_length_frames": 420,
+    "baked_60hz": {
+     "frames_simulated": 1261,
+     "ended_at_frame": null,
+     "loop_events": [
+      {
+       "frame": 420,
+       "kind": "SetAnim",
+       "target": {
+        "file_id": 112,
+        "offset": "0x6F8C"
+       }
+      },
+      {
+       "frame": 840,
+       "kind": "SetAnim",
+       "target": {
+        "file_id": 112,
+        "offset": "0x6F8C"
+       }
+      },
+      {
+       "frame": 1260,
+       "kind": "SetAnim",
+       "target": {
+        "file_id": 112,
+        "offset": "0x6F8C"
+       }
+      }
+     ],
+     "loops": true,
+     "cycle_start": 0,
+     "cycle_length": 420,
+     "first_loop_frame": 420,
+     "frame0_equals_loop_restart": true,
+     "max_abs_deviation_between_cycles": 0.0,
+     "length": 420,
+     "fps": 60,
+     "frame0": "state after the creation-time gcPlayAnimAll (one parse+play); frame n = n animation ticks later",
+     "translate": {
+      "x": {
+       "constant": -4173.40380859375
+      },
+      "y": [
+       -900.0,
+       -899.9439086914062,
+       -899.7779541015625,
+       -899.5051879882812,
+       -899.1290283203125,
+       -898.6525268554688,
+       -898.0789794921875,
+       -897.41162109375,
+       -896.6536865234375,
+       -895.808349609375,
+       -894.8788452148438,
+       -893.8683471679688,
+       -892.7803344726562,
+       -891.6177368164062,
+       -890.3838500976562,
+       -889.0819702148438,
+       -887.71533203125,
+       -886.2870483398438,
+       -884.8004760742188,
+       -883.2586669921875,
+       -881.6650390625,
+       -880.022705078125,
+       -878.3349609375,
+       -876.60498046875,
+       -874.8359375,
+       -873.0311279296875,
+       -871.1937866210938,
+       -869.3271484375,
+       -867.434326171875,
+       -865.5187377929688,
+       -863.5833129882812,
+       -861.6316528320312,
+       -859.6666259765625,
+       -857.691650390625,
+       -855.7099609375,
+       -853.7247924804688,
+       -851.7391967773438,
+       -849.756591796875,
+       -847.7800903320312,
+       -845.8129272460938,
+       -843.8583984375,
+       -841.9197387695312,
+       -840.0,
+       -838.0413818359375,
+       -835.9861450195312,
+       -833.8385009765625,
+       -831.6026000976562,
+       -829.2823486328125,
+       -826.8817138671875,
+       -824.4049072265625,
+       -821.85595703125,
+       -819.23876953125,
+       -816.5575561523438,
+       -813.8163452148438,
+       -811.0191040039062,
+       -808.1699829101562,
+       -805.2730102539062,
+       -802.3321533203125,
+       -799.3515014648438,
+       -796.3351440429688,
+       -793.287109375,
+       -790.21142578125,
+       -787.1121826171875,
+       -783.9935302734375,
+       -780.8591918945312,
+       -777.7135009765625,
+       -774.5604248046875,
+       -771.404052734375,
+       -768.2484741210938,
+       -765.0975341796875,
+       -761.9553833007812,
+       -758.826171875,
+       -755.7139282226562,
+       -752.6226806640625,
+       -749.5563354492188,
+       -746.51904296875,
+       -743.5149536132812,
+       -740.5480346679688,
+       -737.6224365234375,
+       -734.7418823242188,
+       -731.9107666015625,
+       -729.133056640625,
+       -726.4127807617188,
+       -723.75390625,
+       -721.1605834960938,
+       -718.6368408203125,
+       -716.1866455078125,
+       -713.8141479492188,
+       -711.5234375,
+       -709.3184814453125,
+       -707.203369140625,
+       -705.1820678710938,
+       -703.2586669921875,
+       -701.4373168945312,
+       -699.721923828125,
+       -698.1167602539062,
+       -696.62548828125,
+       -695.2525024414062,
+       -694.0017700195312,
+       -692.877197265625,
+       -691.883056640625,
+       -691.0232543945312,
+       -690.3018798828125,
+       -689.7229614257812,
+       -689.2905883789062,
+       -689.0087280273438,
+       -688.8815307617188,
+       -688.9130249023438,
+       -689.1072387695312,
+       -689.4682006835938,
+       -690.0,
+       -690.7654418945312,
+       -691.836181640625,
+       -693.2297973632812,
+       -694.9637451171875,
+       -697.055419921875,
+       -699.5222778320312,
+       -702.3819580078125,
+       -705.6517333984375,
+       -709.3491821289062,
+       -713.4916381835938,
+       -718.0967407226562,
+       -723.181884765625,
+       -728.7644653320312,
+       -734.8621215820312,
+       -741.4921264648438,
+       -748.6719970703125,
+       -756.41943359375,
+       -764.75146484375,
+       -773.6859741210938,
+       -783.2401733398438,
+       -793.431640625,
+       -804.2777709960938,
+       -815.796142578125,
+       -828.004150390625,
+       -840.919189453125,
+       -854.5588989257812,
+       -868.9405517578125,
+       -884.081787109375,
+       -900.0,
+       -916.8280639648438,
+       -934.6541137695312,
+       -953.4285278320312,
+       -973.1013793945312,
+       -993.6231689453125,
+       -1014.9439086914062,
+       -1037.013916015625,
+       -1059.78369140625,
+       -1083.203369140625,
+       -1107.2230224609375,
+       -1131.793212890625,
+       -1156.864013671875,
+       -1182.3857421875,
+       -1208.308837890625,
+       -1234.5831298828125,
+       -1261.159423828125,
+       -1287.9876708984375,
+       -1315.0181884765625,
+       -1342.2012939453125,
+       -1369.487060546875,
+       -1396.825927734375,
+       -1424.168212890625,
+       -1451.464111328125,
+       -1478.6639404296875,
+       -1505.7177734375,
+       -1532.5760498046875,
+       -1559.189208984375,
+       -1585.507080078125,
+       -1611.4803466796875,
+       -1637.058837890625,
+       -1662.193359375,
+       -1686.8336181640625,
+       -1710.9306640625,
+       -1734.43359375,
+       -1757.293701171875,
+       -1779.4608154296875,
+       -1800.8853759765625,
+       -1821.517578125,
+       -1841.3074951171875,
+       -1860.20556640625,
+       -1878.162353515625,
+       -1895.1273193359375,
+       -1911.0516357421875,
+       -1925.88525390625,
+       -1939.578125,
+       -1952.0809326171875,
+       -1963.343505859375,
+       -1973.316650390625,
+       -1981.9501953125,
+       -1989.1944580078125,
+       -1995.0,
+       -2000.0465087890625,
+       -2005.046630859375,
+       -2010.00048828125,
+       -2014.9073486328125,
+       -2019.767578125,
+       -2024.5802001953125,
+       -2029.3453369140625,
+       -2034.0625,
+       -2038.7313232421875,
+       -2043.35205078125,
+       -2047.9239501953125,
+       -2052.44677734375,
+       -2056.92041015625,
+       -2061.34423828125,
+       -2065.71826171875,
+       -2070.042236328125,
+       -2074.31591796875,
+       -2078.538818359375,
+       -2082.71044921875,
+       -2086.830810546875,
+       -2090.900146484375,
+       -2094.917236328125,
+       -2098.88232421875,
+       -2102.794921875,
+       -2106.65478515625,
+       -2110.461669921875,
+       -2114.21533203125,
+       -2117.91552734375,
+       -2121.56201171875,
+       -2125.154296875,
+       -2128.692138671875,
+       -2132.17529296875,
+       -2135.603515625,
+       -2138.9765625,
+       -2142.294189453125,
+       -2145.555908203125,
+       -2148.76123046875,
+       -2151.91064453125,
+       -2155.00341796875,
+       -2158.0390625,
+       -2161.017578125,
+       -2163.938720703125,
+       -2166.802001953125,
+       -2169.60693359375,
+       -2172.353759765625,
+       -2175.0419921875,
+       -2177.67138671875,
+       -2180.241455078125,
+       -2182.752197265625,
+       -2185.203125,
+       -2187.593994140625,
+       -2189.92431640625,
+       -2192.194580078125,
+       -2194.403564453125,
+       -2196.55126953125,
+       -2198.6376953125,
+       -2200.66259765625,
+       -2202.625244140625,
+       -2204.52587890625,
+       -2206.363525390625,
+       -2208.138671875,
+       -2209.8505859375,
+       -2211.498779296875,
+       -2213.08349609375,
+       -2214.60400390625,
+       -2216.060546875,
+       -2217.452392578125,
+       -2218.779541015625,
+       -2220.041259765625,
+       -2221.23779296875,
+       -2222.368896484375,
+       -2223.43359375,
+       -2224.432373046875,
+       -2225.364501953125,
+       -2226.229736328125,
+       -2227.02783203125,
+       -2227.758544921875,
+       -2228.421630859375,
+       -2229.016845703125,
+       -2229.543701171875,
+       -2230.001953125,
+       -2230.3916015625,
+       -2230.712158203125,
+       -2230.96337890625,
+       -2231.14501953125,
+       -2231.2568359375,
+       -2231.298095703125,
+       -2231.26904296875,
+       -2231.169189453125,
+       -2230.998291015625,
+       -2230.755859375,
+       -2230.442138671875,
+       -2230.056396484375,
+       -2229.598388671875,
+       -2229.068115234375,
+       -2228.46484375,
+       -2227.78857421875,
+       -2227.0390625,
+       -2226.216064453125,
+       -2225.31884765625,
+       -2224.34765625,
+       -2223.302001953125,
+       -2222.181640625,
+       -2220.986328125,
+       -2219.7158203125,
+       -2218.36962890625,
+       -2216.947265625,
+       -2215.448974609375,
+       -2213.874755859375,
+       -2212.22314453125,
+       -2210.494873046875,
+       -2208.689208984375,
+       -2206.80615234375,
+       -2204.844970703125,
+       -2202.805908203125,
+       -2200.688232421875,
+       -2198.491943359375,
+       -2196.216796875,
+       -2193.8623046875,
+       -2191.428466796875,
+       -2188.91455078125,
+       -2186.32080078125,
+       -2183.646484375,
+       -2180.8916015625,
+       -2178.0556640625,
+       -2175.138427734375,
+       -2172.139892578125,
+       -2169.059326171875,
+       -2165.89697265625,
+       -2162.652099609375,
+       -2159.32470703125,
+       -2155.9140625,
+       -2152.42041015625,
+       -2148.84326171875,
+       -2145.182373046875,
+       -2141.4375,
+       -2137.608154296875,
+       -2133.6943359375,
+       -2129.695556640625,
+       -2125.611572265625,
+       -2121.442138671875,
+       -2117.18701171875,
+       -2112.845703125,
+       -2108.418212890625,
+       -2103.904052734375,
+       -2099.302978515625,
+       -2094.61474609375,
+       -2089.839111328125,
+       -2084.975830078125,
+       -2080.024169921875,
+       -2074.984619140625,
+       -2069.8564453125,
+       -2064.63916015625,
+       -2059.3330078125,
+       -2053.9375,
+       -2048.451904296875,
+       -2042.8765869140625,
+       -2037.2108154296875,
+       -2031.4547119140625,
+       -2025.607666015625,
+       -2019.6695556640625,
+       -2013.6400146484375,
+       -2007.518798828125,
+       -2001.305419921875,
+       -1995.0,
+       -1988.218994140625,
+       -1980.6026611328125,
+       -1972.18505859375,
+       -1963.001220703125,
+       -1953.0853271484375,
+       -1942.47216796875,
+       -1931.1961669921875,
+       -1919.291748046875,
+       -1906.7935791015625,
+       -1893.7362060546875,
+       -1880.154052734375,
+       -1866.081787109375,
+       -1851.5537109375,
+       -1836.6044921875,
+       -1821.268798828125,
+       -1805.5810546875,
+       -1789.57568359375,
+       -1773.2874755859375,
+       -1756.750732421875,
+       -1740.0,
+       -1722.746826171875,
+       -1704.71240234375,
+       -1685.947265625,
+       -1666.5010986328125,
+       -1646.424072265625,
+       -1625.765869140625,
+       -1604.576904296875,
+       -1582.906982421875,
+       -1560.8062744140625,
+       -1538.3243408203125,
+       -1515.51171875,
+       -1492.4180908203125,
+       -1469.0933837890625,
+       -1445.5880126953125,
+       -1421.95166015625,
+       -1398.234375,
+       -1374.486083984375,
+       -1350.757080078125,
+       -1327.096923828125,
+       -1303.55615234375,
+       -1280.184326171875,
+       -1257.03173828125,
+       -1234.1480712890625,
+       -1211.5836181640625,
+       -1189.38818359375,
+       -1167.6119384765625,
+       -1146.3046875,
+       -1125.516845703125,
+       -1105.2979736328125,
+       -1085.6981201171875,
+       -1066.767578125,
+       -1048.55615234375,
+       -1031.11376953125,
+       -1014.4905395507812,
+       -998.7366943359375,
+       -983.9017944335938,
+       -970.0359497070312,
+       -957.189453125,
+       -945.411865234375,
+       -934.7537231445312,
+       -925.2647705078125,
+       -916.994873046875,
+       -909.9939575195312,
+       -904.3126831054688
+      ],
+      "z": {
+       "constant": -76.02198028564453
+      }
+     },
+     "rotate": {
+      "x": {
+       "constant": 0.0
+      },
+      "y": {
+       "constant": 0.0
+      },
+      "z": {
+       "constant": 0.0
+      }
+     },
+     "scale": {
+      "x": {
+       "constant": 1.0
+      },
+      "y": {
+       "constant": 1.0
+      },
+      "z": {
+       "constant": 1.0
+      }
+     },
+     "dobj_flags": {
+      "constant": 0
+     }
+    }
+   }
+  },
+  {
+   "yakumono_id": 8,
+   "dobjdesc_index": 8,
+   "dobjdesc": {
+    "offset": "0x6BD0",
+    "id": 8194,
+    "id_hex": "0x2002",
+    "parent_index": 7,
+    "dl": {
+     "file_id": 112,
+     "file_name": "StageYamabukiFile2",
+     "offset": "0x6A60"
+    },
+    "translate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rotate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": false,
+   "line_info_index": null,
+   "line_ids": [],
+   "anim_joint": null,
+   "motion": "no collision lines, not animated (render-only DObj)"
+  }
+ ],
+ "collision_origin_at_start": {
+  "1": {
+   "x": 0.0,
+   "y": 0.0,
+   "applies_offset": false,
+   "status_at_start": "nMPYakumonoStatusNone",
+   "how": "vertices are absolute (no anim joint, status None)"
+  },
+  "3": {
+   "x": 960.0,
+   "y": 360.0,
+   "applies_offset": true,
+   "status_at_start": "nMPYakumonoStatusOn",
+   "how": "grYamabukiInitGroundVars: SetYakumonoOnID(3); grYamabukiGateSetPositionNear -> gate_pos = (960, DObj3.translate.y); grYamabukiGateUpdateYakumonoPos (DObjDesc x 1740.0 is replaced)"
+  },
+  "5": {
+   "x": -2325.599853515625,
+   "y": 840.0,
+   "applies_offset": true,
+   "status_at_start": "nMPYakumonoStatusNone",
+   "how": "baked animation frame 0 translate"
+  },
+  "7": {
+   "x": -4173.40380859375,
+   "y": -900.0,
+   "applies_offset": true,
+   "status_at_start": "nMPYakumonoStatusNone",
+   "how": "baked animation frame 0 translate"
+  }
+ },
+ "moving_collision": [
+  {
+   "yakumono_id": 3,
+   "motion": "code_driven",
+   "line_ids": [
+    13
+   ],
+   "driver": "Poke-centre gate collision. Status On at init; each tick (Wait/Open states) mpCollisionSetYakumonoPosID(3, gate_pos) with gate_pos.y = yakumono DObj 3 translate.y and gate_pos.x = 960 (closed/near), 1600 (open/far), or while a Pokemon is emerging monster.x - monster.map_coll.width clamped to [960, 1600].",
+   "functions": [
+    "sources/ssb-decomp-re/src/gr/grcommon/gryamabuki.c: grYamabukiGateUpdateYakumonoPos",
+    "sources/ssb-decomp-re/src/gr/grcommon/gryamabuki.c: grYamabukiGateUpdateOpen",
+    "sources/ssb-decomp-re/src/gr/grcommon/gryamabuki.c: grYamabukiGateSetPositionNear/Far",
+    "sources/ssb-decomp-re/src/gr/grcommon/gryamabuki.c: grYamabukiInitGroundVars"
+   ]
+  },
+  {
+   "yakumono_id": 5,
+   "motion": "aobj_anim",
+   "line_ids": [
+    14
+   ],
+   "driver": "AObjEvent32 anim 0x6ED4 (loop 420 frames), advanced by mpCollisionPlayYakumonoAnim"
+  },
+  {
+   "yakumono_id": 7,
+   "motion": "aobj_anim",
+   "line_ids": [
+    15
+   ],
+   "driver": "AObjEvent32 anim 0x6F8C (loop 420 frames), advanced by mpCollisionPlayYakumonoAnim"
+  }
+ ],
+ "hazards_summary": [
+  {
+   "name": "Poke-centre gate and Pokemon",
+   "functions": [
+    "sources/ssb-decomp-re/src/gr/grcommon/gryamabuki.c: grYamabukiGateProcUpdate, grYamabukiGateUpdateWait, grYamabukiGateMakeMonster, grYamabukiGateUpdateOpen, grYamabukiGateSetClosedWait",
+    "sources/ssb-decomp-re/src/it/itground/itglucky.c, itmarumine.c, itporygon.c, ithitokage.c, itfushigibana.c"
+   ],
+   "summary": "After GO: monster_wait = rand(1000)+1000. gate_wait starts at 1 so the gate opens (anim GateOpen, gate collision moves to x=1600) on the first Wait tick; while gate_wait == 0 a grounded fighter standing on a nMPMaterialDetect floor makes a Pokemon appear immediately, otherwise one appears when monster_wait hits 0. Pokemon = random of 5 ground monsters (no immediate repeat) at the nMPMapObjKindMonster mapobj; when it is gone: close (x=960), gate_wait 1000, monster_wait rand(1000)+1000.",
+   "monster_spawn": [
+    {
+     "index": 24,
+     "mapobj_kind": 18,
+     "kind_name": "nMPMapObjKindMonsterUnused4",
+     "x": 1500,
+     "y": 360
+    },
+    {
+     "index": 25,
+     "mapobj_kind": 17,
+     "kind_name": "nMPMapObjKindMonsterUnused3",
+     "x": 1290,
+     "y": 255
+    },
+    {
+     "index": 26,
+     "mapobj_kind": 14,
+     "kind_name": "nMPMapObjKindMonster",
+     "x": 1320,
+     "y": 270
+    },
+    {
+     "index": 27,
+     "mapobj_kind": 16,
+     "kind_name": "nMPMapObjKindMonsterUnused2",
+     "x": 1260,
+     "y": 225
+    },
+    {
+     "index": 28,
+     "mapobj_kind": 15,
+     "kind_name": "nMPMapObjKindMonsterUnused1",
+     "x": 1365,
+     "y": 270
+    }
+   ],
+   "detect_material_line_ids": [
+    2
+   ],
+   "item_attributes_in_map_file": {
+    "GLucky (Chansey)": "0xBC",
+    "Marumine (Electrode)": "0x104",
+    "Porygon": "0x16C",
+    "Hitokage (Charmander)": "0x1FC",
+    "HitokageFlame weapon": "0x244",
+    "Fushigibana (Venusaur)": "0x278",
+    "FushigibanaRazor weapon": "0x308",
+    "typed_c": "sources/ssb-decomp-re/src/relocData/264_GRYamabukiMap.c (ITAttributes / WPAttributes initializers)"
+   }
+  }
+ ],
+ "hazard_data": {},
+ "crosscheck_typed_c": {
+  "c_file": "sources/ssb-decomp-re/src/relocData/112_StageYamabukiFile2.c",
+  "arrays": {
+   "vertex_data": {
+    "c_symbol": "dStageYamabukiFile2_gap_0x6AC8_sub_0x160",
+    "c_declared_count": 31,
+    "c_values_count": 31,
+    "bytes_compared": 186,
+    "byte_identical": true,
+    "exported_count": 31,
+    "exported_equals_c_prefix": true
+   },
+   "vertex_id": {
+    "c_symbol": "dStageYamabukiFile2_gap_0x6AC8_sub_0x21C",
+    "c_declared_count": 42,
+    "c_values_count": 42,
+    "bytes_compared": 84,
+    "byte_identical": true,
+    "exported_count": 41,
+    "exported_equals_c_prefix": true,
+    "c_extra_tail_values": [
+     [
+      0
+     ]
+    ],
+    "note": "C declares more elements than are referenced; extra tail is the alignment pad"
+   },
+   "vertex_links": {
+    "c_symbol": "dStageYamabukiFile2_gap_0x6AC8_sub_0x270",
+    "c_declared_count": 16,
+    "c_values_count": 16,
+    "bytes_compared": 64,
+    "byte_identical": true,
+    "exported_count": 16,
+    "exported_equals_c_prefix": true
+   },
+   "line_info": {
+    "c_symbol": "dStageYamabukiFile2_gap_0x6AC8_sub_0x2B0",
+    "c_declared_count": 4,
+    "c_values_count": 4,
+    "bytes_compared": 72,
+    "byte_identical": true,
+    "exported_count": 4,
+    "exported_equals_c_prefix": true
+   },
+   "mapobjs": {
+    "c_symbol": "dStageYamabukiFile2_gap_0x6AC8_sub_0x2F8",
+    "c_declared_count": 34,
+    "c_values_count": 34,
+    "bytes_compared": 204,
+    "byte_identical": true,
+    "exported_count": 34,
+    "exported_equals_c_prefix": true
+   }
+  },
+  "c_symbol": "dStageYamabukiFile2_MPGeometryData_0x6E8C",
+  "c_yakumono_count": 4,
+  "c_mapobj_count": 34,
+  "status": "ok"
+ }
+}

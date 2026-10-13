@@ -1,0 +1,18 @@
+# Godot generates these caches locally; keep .uid and .import metadata tracked.
+.godot/
+.DS_Store
+
+# Local credentials and private editor settings are never repository inputs.
+.env
+.env.local
+.env.*.local
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Local exports and editor scratch files.
+exports/
+*.tmp
+*.bak

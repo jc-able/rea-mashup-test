@@ -1,0 +1,195 @@
+{
+ "source": "SvR 2011 reference T-pose (guest table 0x82da0b10) over the john_cena reference skeleton (earlier run), canonical space (Y up, +Z forward, +X left, metres), hips (SvR root) at ref_hip_height",
+ "ref_hip_height": 0.9157991998,
+ "joints": [
+  {
+   "name": "root",
+   "parent": null,
+   "pos": [
+    0.0,
+    0.9158,
+    0.0
+   ]
+  },
+  {
+   "name": "koshi",
+   "parent": "root",
+   "pos": [
+    0.0,
+    1.09778,
+    -0.0
+   ]
+  },
+  {
+   "name": "mune",
+   "parent": "koshi",
+   "pos": [
+    -0.0,
+    1.31504,
+    -0.0
+   ]
+  },
+  {
+   "name": "kubi",
+   "parent": "mune",
+   "pos": [
+    -2e-05,
+    1.60209,
+    -4e-05
+   ]
+  },
+  {
+   "name": "atama",
+   "parent": "kubi",
+   "pos": [
+    -2e-05,
+    1.68868,
+    0.02663
+   ]
+  },
+  {
+   "name": "l_sakotsu",
+   "parent": "mune",
+   "pos": [
+    -1e-05,
+    1.48676,
+    1e-05
+   ]
+  },
+  {
+   "name": "l_ninoude",
+   "parent": "l_sakotsu",
+   "pos": [
+    0.19471,
+    1.48675,
+    1e-05
+   ]
+  },
+  {
+   "name": "l_kote",
+   "parent": "l_ninoude",
+   "pos": [
+    0.46878,
+    1.48672,
+    1e-05
+   ]
+  },
+  {
+   "name": "l_te",
+   "parent": "l_kote",
+   "pos": [
+    0.74286,
+    1.4867,
+    1e-05
+   ]
+  },
+  {
+   "name": "r_sakotsu",
+   "parent": "mune",
+   "pos": [
+    -1e-05,
+    1.48676,
+    1e-05
+   ]
+  },
+  {
+   "name": "r_ninoude",
+   "parent": "r_sakotsu",
+   "pos": [
+    -0.19474,
+    1.48676,
+    1e-05
+   ]
+  },
+  {
+   "name": "r_kote",
+   "parent": "r_ninoude",
+   "pos": [
+    -0.46881,
+    1.48677,
+    1e-05
+   ]
+  },
+  {
+   "name": "r_te",
+   "parent": "r_kote",
+   "pos": [
+    -0.7429,
+    1.48677,
+    1e-05
+   ]
+  },
+  {
+   "name": "l_momo",
+   "parent": "root",
+   "pos": [
+    0.11119,
+    0.9158,
+    1e-05
+   ]
+  },
+  {
+   "name": "l_sune",
+   "parent": "l_momo",
+   "pos": [
+    0.11119,
+    0.49246,
+    1e-05
+   ]
+  },
+  {
+   "name": "l_ashi",
+   "parent": "l_sune",
+   "pos": [
+    0.11122,
+    0.06913,
+    1e-05
+   ]
+  },
+  {
+   "name": "l_tsumasaki",
+   "parent": "l_ashi",
+   "pos": [
+    0.11122,
+    -0.01176,
+    0.11587
+   ]
+  },
+  {
+   "name": "r_momo",
+   "parent": "root",
+   "pos": [
+    -0.11117,
+    0.9158,
+    1e-05
+   ]
+  },
+  {
+   "name": "r_sune",
+   "parent": "r_momo",
+   "pos": [
+    -0.11117,
+    0.49246,
+    1e-05
+   ]
+  },
+  {
+   "name": "r_ashi",
+   "parent": "r_sune",
+   "pos": [
+    -0.11119,
+    0.06913,
+    1e-05
+   ]
+  },
+  {
+   "name": "r_tsumasaki",
+   "parent": "r_ashi",
+   "pos": [
+    -0.11118,
+    -0.01176,
+    0.11587
+   ]
+  }
+ ]
+}

@@ -1,0 +1,523 @@
+{
+ "notes": [
+  "Per-fighter joint-role map used by scripts/render/Retarget.gd to drive the SVR2011 wrestler skeletons from the SSB64 joint trees.",
+  "Joint ids are fp.joints[] indices (== hitbox/hurtbox joint_id). Coordinates quoted below are bind-pose world positions (DObjDesc, TopN unrotated, x attr.size) computed from data/ssb64/fighters/<kind>.json: SSB +X = character's left, +Z = facing, so l_* roles use the +X joints.",
+  "Limb roles (upper arm, forearm, thigh, shin) are direction-aligned: the wrestler bone axis is kept on the SSB segment joint -> limb_child (child bind translate in the joint frame, every SSB limb runs along local +X) and twist follows the SSB joint frame via a rest-pose canonical frame (axis + facing reference). Other roles (hips, chest, neck, head, hands, feet) transfer the world rotation delta relative to the bind pose. 'spine' (koshi) gets the halfway slerp between hips and chest deltas.",
+  "Same joint for upper arm and forearm (Pikachu) = single-segment SSB arm, wrestler arm kept straight. Missing roles (null) leave the wrestler bone at its rest pose relative to its parent.",
+  "measured.* (SSB world units, Wait pose frame 0, lr=+1) are written by scripts/test/measure_retarget.gd: standing_height = top of the highest hurtbox, hip_height = hips joint height, used for the wrestler scale (standing height match) and the hip-height ratio that maps the SSB hips position onto the wrestler pelvis.",
+  "blend (optional, per role): 0..1 slerp from the wrestler's rest local rotation to the SSB-driven one, used to tame the very short, wildly swinging limbs of the ball-shaped / quadruped fighters (Kirby, Jigglypuff arms+legs, Pikachu arms) on a full-size human body."
+ ],
+ "wrestler_bones": {
+  "hips": "root",
+  "spine": "koshi",
+  "chest": "mune",
+  "neck": "kubi",
+  "head": "atama",
+  "l_upperarm": "l_ninoude",
+  "l_forearm": "l_kote",
+  "l_hand": "l_te",
+  "r_upperarm": "r_ninoude",
+  "r_forearm": "r_kote",
+  "r_hand": "r_te",
+  "l_thigh": "l_momo",
+  "l_shin": "l_sune",
+  "l_foot": "l_ashi",
+  "r_thigh": "r_momo",
+  "r_shin": "r_sune",
+  "r_foot": "r_ashi"
+ },
+ "limb_end": {
+  "l_upperarm": "l_kote",
+  "l_forearm": "l_te",
+  "r_upperarm": "r_kote",
+  "r_forearm": "r_te",
+  "l_thigh": "l_sune",
+  "l_shin": "l_ashi",
+  "r_thigh": "r_sune",
+  "r_shin": "r_ashi"
+ },
+ "fighters": {
+  "0": {
+   "data": "mario",
+   "slug": "john_cena",
+   "roles": {
+    "hips": 5.0,
+    "chest": 6.0,
+    "neck": 11.0,
+    "head": 12.0,
+    "l_upperarm": 8.0,
+    "l_forearm": 9.0,
+    "l_hand": 10.0,
+    "r_upperarm": 14.0,
+    "r_forearm": 15.0,
+    "r_hand": 16.0,
+    "l_thigh": 19.0,
+    "l_shin": 20.0,
+    "l_foot": 22.0,
+    "r_thigh": 24.0,
+    "r_shin": 25.0,
+    "r_foot": 27.0
+   },
+   "limb_child": {
+    "l_upperarm": 9.0,
+    "l_forearm": 10.0,
+    "r_upperarm": 15.0,
+    "r_forearm": 16.0,
+    "l_thigh": 20.0,
+    "l_shin": 21.0,
+    "r_thigh": 25.0,
+    "r_shin": 26.0
+   },
+   "evidence": "4 root (y168) -> 5 lower body (legs 18/23 hang off it) -> 6 upper body (hurtbox 1, arms 7/13, neck 11); 11 neck y249, 12 head (head hurtbox, placement high). Arms: 7/13 shoulders at x=+-57 y228, 8/14 upper arm (hurtbox), 9/15 forearm (+40.3 x, hurtbox), 10/16 wrist (+36 x); 17 = joint_itemlight_id child of 16 (right hand). Legs: 18/23 hip pivots (joint_lfoot_id 18 / rfoot 23), 19/24 thigh (hurtbox), 20/25 knee y83 (+55.6 x, hurtbox), 21/26 ankle y9 (+66.1 x), 22/27 foot frame. effect_joint_ids [12,15,20,25,9] = head/limbs.",
+   "measured": {
+    "standing_height": 412.0,
+    "hip_height": 151.2,
+    "head_joint_height": 246.5
+   }
+  },
+  "1": {
+   "data": "fox",
+   "slug": "kofi_kingston",
+   "roles": {
+    "hips": 5.0,
+    "chest": 6.0,
+    "neck": 11.0,
+    "head": 12.0,
+    "l_upperarm": 8.0,
+    "l_forearm": 9.0,
+    "l_hand": 10.0,
+    "r_upperarm": 14.0,
+    "r_forearm": 15.0,
+    "r_hand": 16.0,
+    "l_thigh": 19.0,
+    "l_shin": 20.0,
+    "l_foot": 22.0,
+    "r_thigh": 24.0,
+    "r_shin": 25.0,
+    "r_foot": 27.0
+   },
+   "limb_child": {
+    "l_upperarm": 9.0,
+    "l_forearm": 10.0,
+    "r_upperarm": 15.0,
+    "r_forearm": 16.0,
+    "l_thigh": 20.0,
+    "l_shin": 21.0,
+    "r_thigh": 25.0,
+    "r_shin": 26.0
+   },
+   "evidence": "5 hips y249 (hurtbox, legs 18/23), 6 chest (hurtbox), 11 neck y333, 12 head (head hurtbox). Arms 8/14 (hurtbox) -> 9/15 (+47.7 x, hurtbox) -> 10/16 (+67.4 x); 17 item point of right hand. Legs 19/24 thigh (hurtbox) -> 20/25 knee y110 (+106.6) -> 21/26 ankle y13 (+97.2) -> 22/27 foot. 28/29 = tail (not mapped).",
+   "measured": {
+    "standing_height": 474.1,
+    "hip_height": 228.0,
+    "head_joint_height": 324.4
+   }
+  },
+  "2": {
+   "data": "donkey",
+   "slug": "mark_henry",
+   "roles": {
+    "hips": 5.0,
+    "chest": 6.0,
+    "neck": 11.0,
+    "head": 12.0,
+    "l_upperarm": 8.0,
+    "l_forearm": 9.0,
+    "l_hand": 10.0,
+    "r_upperarm": 14.0,
+    "r_forearm": 15.0,
+    "r_hand": 16.0,
+    "l_thigh": 20.0,
+    "l_shin": 21.0,
+    "l_foot": 23.0,
+    "r_thigh": 25.0,
+    "r_shin": 26.0,
+    "r_foot": 28.0
+   },
+   "limb_child": {
+    "l_upperarm": 9.0,
+    "l_forearm": 10.0,
+    "r_upperarm": 15.0,
+    "r_forearm": 16.0,
+    "l_thigh": 21.0,
+    "l_shin": 22.0,
+    "r_thigh": 26.0,
+    "r_shin": 27.0
+   },
+   "evidence": "size 1.25. 5 hips y418 (hurtbox, legs 19/24), 6 chest (big hurtbox), 11 neck y941 -> 12 head (head hurtbox). Arms 7/13 shoulders y806 -> 8/14 (hurtbox) -> 9/15 elbow (+166 x, hurtbox) -> 10/16 wrist (+175.5 x, y383); 17 item point (right). 18 = chest ornament (tie). Legs 19/24 hip pivots (joint_lfoot_id 19) -> 20/25 thigh (hurtbox) -> 21/26 knee (+132.6, hurtbox) -> 22/27 ankle (+165.3) -> 23/28 foot.",
+   "measured": {
+    "standing_height": 676.1,
+    "hip_height": 255.3,
+    "head_joint_height": 512.0
+   }
+  },
+  "3": {
+   "data": "samus",
+   "slug": "kane",
+   "roles": {
+    "hips": 5.0,
+    "chest": 6.0,
+    "neck": 12.0,
+    "head": 13.0,
+    "l_upperarm": 8.0,
+    "l_forearm": 9.0,
+    "l_hand": 10.0,
+    "r_upperarm": 15.0,
+    "r_forearm": 16.0,
+    "r_hand": 16.0,
+    "l_thigh": 27.0,
+    "l_shin": 28.0,
+    "l_foot": 30.0,
+    "r_thigh": 32.0,
+    "r_shin": 33.0,
+    "r_foot": 35.0
+   },
+   "limb_child": {
+    "l_upperarm": 9.0,
+    "l_forearm": 10.0,
+    "r_upperarm": 16.0,
+    "r_forearm": 25.0,
+    "l_thigh": 28.0,
+    "l_shin": 29.0,
+    "r_thigh": 33.0,
+    "r_shin": 34.0
+   },
+   "evidence": "5 hips y445 (hurtbox, legs 26/31), 6 chest (hurtbox), 12 neck y565 -> 13 head (head hurtbox). Left arm 8 (hurtbox) -> 9 (+122.2, hurtbox) -> 10 wrist (+106.1); 11 = joint_itemlight_id (left hand). Right arm 15 (hurtbox) -> 16 (+122.2, hurtbox) = arm cannon forearm; its children 17 (cannon, hidden part 4), 24, 25 (hidden parts 11/12, 25 at +106.2 x) -> the forearm points at 25, the wrestler right hand follows the cannon frame (r_hand = 16). Legs 27/32 thigh (hurtbox) -> 28/33 knee (+160.9, hurtbox) -> 29/34 ankle (+190.7) -> 30/35 foot. 18-23 = grapple-beam chain hidden parts (not mapped).",
+   "measured": {
+    "standing_height": 544.5,
+    "hip_height": 400.0,
+    "head_joint_height": 520.0
+   }
+  },
+  "4": {
+   "data": "luigi",
+   "slug": "the_miz",
+   "roles": {
+    "hips": 5.0,
+    "chest": 6.0,
+    "neck": 11.0,
+    "head": 12.0,
+    "l_upperarm": 8.0,
+    "l_forearm": 9.0,
+    "l_hand": 10.0,
+    "r_upperarm": 14.0,
+    "r_forearm": 15.0,
+    "r_hand": 16.0,
+    "l_thigh": 19.0,
+    "l_shin": 20.0,
+    "l_foot": 22.0,
+    "r_thigh": 24.0,
+    "r_shin": 25.0,
+    "r_foot": 27.0
+   },
+   "limb_child": {
+    "l_upperarm": 9.0,
+    "l_forearm": 10.0,
+    "r_upperarm": 15.0,
+    "r_forearm": 16.0,
+    "l_thigh": 20.0,
+    "l_shin": 21.0,
+    "r_thigh": 25.0,
+    "r_shin": 26.0
+   },
+   "evidence": "Same tree as Mario (identical ids, taller torso: shoulders y265, neck 11 y269 -> 12 head y313 with head hurtbox). Hurtboxes on 6, 12, 8/14, 9/15, 19/24, 20/25; joint_itemlight_id 17 under the right wrist 16.",
+   "measured": {
+    "standing_height": 486.6,
+    "hip_height": 151.2,
+    "head_joint_height": 291.6
+   }
+  },
+  "5": {
+   "data": "link",
+   "slug": "undertaker",
+   "roles": {
+    "hips": 5.0,
+    "chest": 6.0,
+    "neck": 22.0,
+    "head": 23.0,
+    "l_upperarm": 8.0,
+    "l_forearm": 9.0,
+    "l_hand": 10.0,
+    "r_upperarm": 13.0,
+    "r_forearm": 14.0,
+    "r_hand": 15.0,
+    "l_thigh": 26.0,
+    "l_shin": 27.0,
+    "l_foot": 29.0,
+    "r_thigh": 31.0,
+    "r_shin": 32.0,
+    "r_foot": 34.0
+   },
+   "limb_child": {
+    "l_upperarm": 9.0,
+    "l_forearm": 10.0,
+    "r_upperarm": 14.0,
+    "r_forearm": 15.0,
+    "l_thigh": 27.0,
+    "l_shin": 28.0,
+    "r_thigh": 32.0,
+    "r_shin": 33.0
+   },
+   "evidence": "size 1.24, T-pose bind (wrists at shoulder height y443). 5 hips y309 (hurtbox, legs 25/30), 6 chest (+32.7 y, hurtbox), 22 neck y462 -> 23 head (head hurtbox) -> 24 cap tip. Left arm 7 shoulder -> 8 (hurtbox) -> 9 (+63.2, hurtbox) -> 10 wrist (+56.5) -> 11 shield hand. Right arm 12 -> 13 (hurtbox) -> 14 (+63.6, hurtbox) -> 15 wrist (+56.1) -> 16 = joint_itemlight_id (sword hand). 20/21 = sheath/shield on the back. Legs 26/31 thigh (hurtbox) -> 27/32 knee (+91.7, hurtbox) -> 28/33 ankle (+100.3) -> 29/34 foot.",
+   "measured": {
+    "standing_height": 559.2,
+    "hip_height": 279.3,
+    "head_joint_height": 454.7
+   }
+  },
+  "6": {
+   "data": "yoshi",
+   "slug": "batista",
+   "roles": {
+    "hips": 5.0,
+    "chest": 6.0,
+    "neck": null,
+    "head": 7.0,
+    "l_upperarm": 11.0,
+    "l_forearm": 12.0,
+    "l_hand": 13.0,
+    "r_upperarm": 15.0,
+    "r_forearm": 16.0,
+    "r_hand": 17.0,
+    "l_thigh": 22.0,
+    "l_shin": 23.0,
+    "l_foot": 25.0,
+    "r_thigh": 27.0,
+    "r_shin": 28.0,
+    "r_foot": 30.0
+   },
+   "limb_child": {
+    "l_upperarm": 12.0,
+    "l_forearm": 13.0,
+    "r_upperarm": 16.0,
+    "r_forearm": 17.0,
+    "l_thigh": 23.0,
+    "l_shin": 24.0,
+    "r_thigh": 28.0,
+    "r_shin": 29.0
+   },
+   "evidence": "Non-humanoid (dinosaur). 5 body root y185 (big body hurtbox, legs 21/26, tail 19 -> 20), 6 chest (+43 z, hurtbox), 7 head (0,350,138) forward of the chest (head hurtbox, placement high), 8 snout, 9 head top (hidden part 4). No separate neck joint: the 6 -> 7 span is the neck, so kubi stays at rest relative to the chest. Small arms 10/14 shoulder -> 11/15 upper arm -> 12/16 (+43.2, hurtbox) -> 13/17 (+43.2); 18 = joint_itemlight_id. Legs 21/26 hip pivots (joint_lfoot_id 21) -> 22/27 thigh (hurtbox) -> 23/28 shin (+55.2, hurtbox) -> 24/29 ankle (+82.6) -> 25/30 foot.",
+   "measured": {
+    "standing_height": 527.0,
+    "hip_height": 193.1,
+    "head_joint_height": 354.8
+   }
+  },
+  "7": {
+   "data": "captain",
+   "slug": "the_rock",
+   "roles": {
+    "hips": 5.0,
+    "chest": 6.0,
+    "neck": 11.0,
+    "head": 12.0,
+    "l_upperarm": 8.0,
+    "l_forearm": 9.0,
+    "l_hand": 10.0,
+    "r_upperarm": 14.0,
+    "r_forearm": 15.0,
+    "r_hand": 16.0,
+    "l_thigh": 20.0,
+    "l_shin": 21.0,
+    "l_foot": 23.0,
+    "r_thigh": 25.0,
+    "r_shin": 26.0,
+    "r_foot": 28.0
+   },
+   "limb_child": {
+    "l_upperarm": 9.0,
+    "l_forearm": 10.0,
+    "r_upperarm": 15.0,
+    "r_forearm": 16.0,
+    "l_thigh": 21.0,
+    "l_shin": 22.0,
+    "r_thigh": 26.0,
+    "r_shin": 27.0
+   },
+   "evidence": "5 hips y467 (hurtbox, legs 19/24), 6 chest (hurtbox), 11 neck y562 -> 12 head (head hurtbox). Arms 8/14 (hurtbox) -> 9/15 elbow (+122.2, hurtbox) -> 10/16 wrist (+106.1); 17 = joint_itemlight_id (right hand). 18 = holster on the hip. Legs 19/24 hip pivots (joint_lfoot_id 19) -> 20/25 thigh (hurtbox) -> 21/26 knee (+160.9, hurtbox) -> 22/27 ankle (+190.7) -> 23/28 foot.",
+   "measured": {
+    "standing_height": 595.1,
+    "hip_height": 400.0,
+    "head_joint_height": 519.7
+   }
+  },
+  "8": {
+   "data": "kirby",
+   "slug": "rey_mysterio",
+   "roles": {
+    "hips": 5.0,
+    "chest": 6.0,
+    "neck": null,
+    "head": null,
+    "l_upperarm": 10.0,
+    "l_forearm": 11.0,
+    "l_hand": 11.0,
+    "r_upperarm": 15.0,
+    "r_forearm": 16.0,
+    "r_hand": 16.0,
+    "l_thigh": 21.0,
+    "l_shin": 22.0,
+    "l_foot": 24.0,
+    "r_thigh": 26.0,
+    "r_shin": 27.0,
+    "r_foot": 29.0
+   },
+   "limb_child": {
+    "l_upperarm": 11.0,
+    "l_forearm": 12.0,
+    "r_upperarm": 16.0,
+    "r_forearm": 17.0,
+    "l_thigh": 22.0,
+    "l_shin": 23.0,
+    "r_thigh": 27.0,
+    "r_shin": 28.0
+   },
+   "evidence": "Non-humanoid (ball). 4 root y137 -> 5 base y66 (legs 20/25 re-attach at y137) -> 6 body centre y137 = the single 260-unit body/head hurtbox (placement high): no neck/head joints, so the wrestler head follows the chest. Arms 8/13 pivots -> 9/14 shoulders (x=+-120, y212) -> 10/15 (hurtbox) -> 11/16 (+72.1, hurtbox) -> 12 (hidden part 6) / 17 (+45.6). Legs 20/25 pivots at the body centre -> 21/26 -> 22/27 (+61.8) -> 23/28 (+60) -> 24/29 feet (the only leg hurtboxes, joint_lfoot_id 20). Inflate/rolling poses come through the 4/5/6 rotations.",
+   "measured": {
+    "standing_height": 282.1,
+    "hip_height": 65.5,
+    "head_joint_height": 136.5
+   },
+   "blend": {
+    "l_upperarm": 0.6,
+    "l_forearm": 0.6,
+    "r_upperarm": 0.6,
+    "r_forearm": 0.6,
+    "l_thigh": 0.6,
+    "l_shin": 0.6,
+    "r_thigh": 0.6,
+    "r_shin": 0.6
+   }
+  },
+  "9": {
+   "data": "pikachu",
+   "slug": "r_truth",
+   "roles": {
+    "hips": 5.0,
+    "chest": 6.0,
+    "neck": null,
+    "head": 11.0,
+    "l_upperarm": 9.0,
+    "l_forearm": 9.0,
+    "l_hand": 10.0,
+    "r_upperarm": 17.0,
+    "r_forearm": 17.0,
+    "r_hand": 18.0,
+    "l_thigh": 20.0,
+    "l_shin": 21.0,
+    "l_foot": 23.0,
+    "r_thigh": 25.0,
+    "r_shin": 26.0,
+    "r_foot": 28.0
+   },
+   "limb_child": {
+    "l_upperarm": 10.0,
+    "l_forearm": 10.0,
+    "r_upperarm": 18.0,
+    "r_forearm": 18.0,
+    "l_thigh": 21.0,
+    "l_shin": 22.0,
+    "r_thigh": 26.0,
+    "r_shin": 27.0
+   },
+   "evidence": "Non-humanoid (quadruped-capable). 5 hips y91 (hurtbox, legs 19/24, tail 29), 6 chest (hurtbox), 11 head (big head hurtbox, ears 13/14, 12 = joint_itemlight_id on the ground below the head). One-segment arms: 7/15 shoulder -> 8/16 -> 9/17 (hurtbox) -> 10/18 paw (+37.8) => upper arm and forearm both use 9/17 (straight arm). Digitigrade legs 19/24 pivots (joint_lfoot_id 19) -> 20/25 thigh (hurtbox) -> 21/26 shin (+63.4, hurtbox) -> 22/27 foot (+80.4) -> 23/28 foot frame.",
+   "measured": {
+    "standing_height": 349.7,
+    "hip_height": 109.6,
+    "head_joint_height": 229.9
+   },
+   "blend": {
+    "l_upperarm": 0.75,
+    "l_forearm": 0.75,
+    "r_upperarm": 0.75,
+    "r_forearm": 0.75
+   }
+  },
+  "10": {
+   "data": "purin",
+   "slug": "edge",
+   "roles": {
+    "hips": 5.0,
+    "chest": 6.0,
+    "neck": null,
+    "head": null,
+    "l_upperarm": 10.0,
+    "l_forearm": 11.0,
+    "l_hand": 11.0,
+    "r_upperarm": 14.0,
+    "r_forearm": 15.0,
+    "r_hand": 15.0,
+    "l_thigh": 20.0,
+    "l_shin": 21.0,
+    "l_foot": 23.0,
+    "r_thigh": 25.0,
+    "r_shin": 26.0,
+    "r_foot": 28.0
+   },
+   "limb_child": {
+    "l_upperarm": 11.0,
+    "l_forearm": null,
+    "r_upperarm": 15.0,
+    "r_forearm": 16.0,
+    "l_thigh": 21.0,
+    "l_shin": 22.0,
+    "r_thigh": 26.0,
+    "r_shin": 27.0
+   },
+   "evidence": "Non-humanoid (balloon). Same layout as Kirby: 6 body centre y158 = the single 260-unit hurtbox (no neck/head). Arm pivots 8/12 below the body (rot y -+60deg) -> 9/13 shoulders forward (z=88) -> 10/14 (hurtbox) -> 11/15 (+72.1, hurtbox) -> 16 (+45.6, right only; left forearm has no child -> local +X). Legs 19/24 -> 20/25 -> 21/26 (+61.8) -> 22/27 (+60) -> 23/28 feet (hurtboxes, joint_lfoot_id 19). 7, 17, 18 never instantiated per the extraction notes.",
+   "measured": {
+    "standing_height": 334.1,
+    "hip_height": 73.0,
+    "head_joint_height": 154.5
+   },
+   "blend": {
+    "l_upperarm": 0.6,
+    "l_forearm": 0.6,
+    "r_upperarm": 0.6,
+    "r_forearm": 0.6,
+    "l_thigh": 0.6,
+    "l_shin": 0.6,
+    "r_thigh": 0.6,
+    "r_shin": 0.6
+   }
+  },
+  "11": {
+   "data": "ness",
+   "slug": "stone_cold",
+   "roles": {
+    "hips": 5.0,
+    "chest": 6.0,
+    "neck": 11.0,
+    "head": 12.0,
+    "l_upperarm": 8.0,
+    "l_forearm": 9.0,
+    "l_hand": 10.0,
+    "r_upperarm": 14.0,
+    "r_forearm": 15.0,
+    "r_hand": 16.0,
+    "l_thigh": 19.0,
+    "l_shin": 20.0,
+    "l_foot": 22.0,
+    "r_thigh": 25.0,
+    "r_shin": 26.0,
+    "r_foot": 28.0
+   },
+   "limb_child": {
+    "l_upperarm": 9.0,
+    "l_forearm": 10.0,
+    "r_upperarm": 15.0,
+    "r_forearm": 16.0,
+    "l_thigh": 20.0,
+    "l_shin": 21.0,
+    "r_thigh": 26.0,
+    "r_shin": 27.0
+   },
+   "evidence": "Mario-like tree. 5 hips y158 (hurtbox), 6 chest (hurtbox), 11 neck y236 -> 12 head (big head hurtbox). Arms 8/14 (hurtbox) -> 9/15 (+40.3, hurtbox) -> 10/16 (+36); 17 = joint_itemlight_id. Legs 18/24 hip pivots (joint_lfoot_id 18, rfoot 24) -> 19/25 thigh (hurtbox) -> 20/26 knee (+55.6, hurtbox) -> 21/27 ankle (+66.1) -> 22/28 foot. 23/29 = unrotated duplicates of the hip pivots (shorts), not mapped.",
+   "measured": {
+    "standing_height": 399.8,
+    "hip_height": 141.0,
+    "head_joint_height": 219.5
+   }
+  }
+ }
+}

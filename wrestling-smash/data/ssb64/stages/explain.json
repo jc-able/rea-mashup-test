@@ -1,0 +1,1095 @@
+{
+ "stage": "How to Play stage",
+ "key": "explain",
+ "gr_kind": "nGRKindExplain",
+ "gr_kind_value": 11,
+ "vs_mode_stage": false,
+ "source": {
+  "rom": "baserom.us.z64 (US v1.0, SHA-1 e2929e10fccc0aa84e5776227e798abc07cedabf)",
+  "map_file": {
+   "file_id": 267,
+   "file_name": "GRExplainMap",
+   "header_offset": "0x0",
+   "rom_offset": "0x640CEC",
+   "vpk0": true
+  },
+  "geometry_file": {
+   "file_id": 115,
+   "file_name": "StageExplainFile2",
+   "rom_offset": "0x4195C2",
+   "vpk0": true
+  },
+  "map_nodes_file": null,
+  "typed_c": [
+   "sources/ssb-decomp-re/src/relocData/267_GRExplainMap.c",
+   "sources/ssb-decomp-re/src/relocData/115_StageExplainFile2.c"
+  ],
+  "loader": "sources/ssb-decomp-re/src/mp/mpcollision.c: mpCollisionInitGroundData (dMPCollisionGroundFileInfos[gkind])"
+ },
+ "ground_data": {
+  "gr_desc": [
+   {
+    "dobjdesc": {
+     "file_id": 115,
+     "file_name": "StageExplainFile2",
+     "offset": "0x108"
+    },
+    "anim_joints": null,
+    "p_mobjsubs": null,
+    "p_matanim_joints": null
+   },
+   {
+    "dobjdesc": {
+     "file_id": 115,
+     "file_name": "StageExplainFile2",
+     "offset": "0x720"
+    },
+    "anim_joints": null,
+    "p_mobjsubs": null,
+    "p_matanim_joints": null
+   },
+   {
+    "dobjdesc": {
+     "file_id": 115,
+     "file_name": "StageExplainFile2",
+     "offset": "0x9B8"
+    },
+    "anim_joints": null,
+    "p_mobjsubs": null,
+    "p_matanim_joints": null
+   },
+   {
+    "dobjdesc": {
+     "file_id": 115,
+     "file_name": "StageExplainFile2",
+     "offset": "0xDD0"
+    },
+    "anim_joints": null,
+    "p_mobjsubs": null,
+    "p_matanim_joints": null
+   }
+  ],
+  "map_geometry": {
+   "file_id": 115,
+   "file_name": "StageExplainFile2",
+   "offset": "0x854"
+  },
+  "layer_mask": 0,
+  "wallpaper": {
+   "file_id": 88,
+   "file_name": "StageDreamLand",
+   "offset": "0x26C88"
+  },
+  "fog_color": {
+   "r": 110,
+   "g": 210,
+   "b": 255
+  },
+  "fog_alpha": 0,
+  "emblem_colors": [
+   {
+    "r": 255,
+    "g": 160,
+    "b": 160
+   },
+   {
+    "r": 180,
+    "g": 180,
+    "b": 255
+   },
+   {
+    "r": 230,
+    "g": 230,
+    "b": 120
+   },
+   {
+    "r": 160,
+    "g": 255,
+    "b": 160
+   }
+  ],
+  "unused": 3705461760,
+  "unused_hex": "0xDCDCDC00",
+  "light_angle": {
+   "x": 20.0,
+   "y": 45.0,
+   "z": -0.1745329350233078
+  },
+  "camera_bound_top": 2300,
+  "camera_bound_bottom": -1400,
+  "camera_bound_right": 2600,
+  "camera_bound_left": -1500,
+  "map_bound_top": 6000,
+  "map_bound_bottom": -3000,
+  "map_bound_right": 6300,
+  "map_bound_left": -10000,
+  "bgm_id": 34,
+  "bgm_name": "nSYAudioBGMExplain",
+  "map_nodes": null,
+  "item_weights": null,
+  "item_weights_values": null,
+  "alt_warning": -1900,
+  "camera_bound_team_top": 2300,
+  "camera_bound_team_bottom": -1400,
+  "camera_bound_team_right": 2600,
+  "camera_bound_team_left": -1500,
+  "map_bound_team_top": 6000,
+  "map_bound_team_bottom": -3000,
+  "map_bound_team_right": 6300,
+  "map_bound_team_left": -10000,
+  "zoom_start": {
+   "x": 0,
+   "y": 0,
+   "z": 0
+  },
+  "zoom_end": {
+   "x": 0,
+   "y": 0,
+   "z": 15000
+  }
+ },
+ "geometry": {
+  "source": {
+   "file_id": 115,
+   "file_name": "StageExplainFile2",
+   "offset": "0x854"
+  },
+  "yakumono_count": 1,
+  "vertex_data_ref": {
+   "file_id": 115,
+   "offset": "0x7A4"
+  },
+  "vertex_id_ref": {
+   "file_id": 115,
+   "offset": "0x7F4"
+  },
+  "vertex_links_ref": {
+   "file_id": 115,
+   "offset": "0x818"
+  },
+  "line_info_ref": {
+   "file_id": 115,
+   "offset": "0x82C"
+  },
+  "mapobj_count": 3,
+  "mapobjs_ref": {
+   "file_id": 115,
+   "offset": "0x840"
+  },
+  "counts": {
+   "vertex_data": 13,
+   "vertex_data_referenced": 13,
+   "vertex_id": 17,
+   "vertex_links": 5,
+   "line_info": 1,
+   "mapobjs": 3
+  },
+  "layout": {
+   "vertex_data": {
+    "offset": "0x7A4",
+    "next_block": "0x7F4",
+    "bytes_to_next_block": 80,
+    "element_size": 6,
+    "used_bytes": 78,
+    "slack_bytes": 2,
+    "slack_all_zero": true,
+    "slack_hex": "0000"
+   },
+   "vertex_id": {
+    "offset": "0x7F4",
+    "next_block": "0x818",
+    "bytes_to_next_block": 36,
+    "element_size": 2,
+    "used_bytes": 34,
+    "slack_bytes": 2,
+    "slack_all_zero": true,
+    "slack_hex": "0000"
+   },
+   "vertex_links": {
+    "offset": "0x818",
+    "next_block": "0x82C",
+    "bytes_to_next_block": 20,
+    "element_size": 4,
+    "used_bytes": 20,
+    "slack_bytes": 0,
+    "slack_all_zero": true,
+    "slack_hex": ""
+   },
+   "line_info": {
+    "offset": "0x82C",
+    "next_block": "0x840",
+    "bytes_to_next_block": 20,
+    "element_size": 18,
+    "used_bytes": 18,
+    "slack_bytes": 2,
+    "slack_all_zero": true,
+    "slack_hex": "0000"
+   },
+   "mapobjs": {
+    "offset": "0x840",
+    "next_block": "0x854",
+    "bytes_to_next_block": 20,
+    "element_size": 6,
+    "used_bytes": 18,
+    "slack_bytes": 2,
+    "slack_all_zero": true,
+    "slack_hex": "0000"
+   }
+  },
+  "vertex_data": [
+   {
+    "pos": {
+     "x": -1972,
+     "y": -1079
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 1972,
+     "y": -1079
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 2074,
+     "y": -841
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 2290,
+     "y": -337
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 2307,
+     "y": -132
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 2318,
+     "y": -6
+    },
+    "vertex_flags": 32768
+   },
+   {
+    "pos": {
+     "x": -2318,
+     "y": -6
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": -2307,
+     "y": -132
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": -2290,
+     "y": -337
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": -2074,
+     "y": -841
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": -951,
+     "y": 897
+    },
+    "vertex_flags": 16384
+   },
+   {
+    "pos": {
+     "x": -1396,
+     "y": 897
+    },
+    "vertex_flags": 16384
+   },
+   {
+    "pos": {
+     "x": -1841,
+     "y": 897
+    },
+    "vertex_flags": 0
+   }
+  ],
+  "vertex_id": [
+   10,
+   11,
+   12,
+   5,
+   6,
+   0,
+   1,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "vertex_links": [
+   {
+    "vertex1": 0,
+    "vertex2": 3
+   },
+   {
+    "vertex1": 3,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 5,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 7,
+    "vertex2": 5
+   },
+   {
+    "vertex1": 12,
+    "vertex2": 5
+   }
+  ],
+  "line_info": [
+   {
+    "yakumono_id": 1,
+    "line_data": [
+     {
+      "group_id": 0,
+      "line_count": 2
+     },
+     {
+      "group_id": 2,
+      "line_count": 1
+     },
+     {
+      "group_id": 3,
+      "line_count": 1
+     },
+     {
+      "group_id": 4,
+      "line_count": 1
+     }
+    ]
+   }
+  ],
+  "mapobjs": [
+   {
+    "mapobj_kind": 0,
+    "pos": {
+     "x": 660,
+     "y": 0
+    }
+   },
+   {
+    "mapobj_kind": 1,
+    "pos": {
+     "x": 1440,
+     "y": 0
+    }
+   },
+   {
+    "mapobj_kind": 32,
+    "pos": {
+     "x": 1050,
+     "y": 1020
+    }
+   }
+  ],
+  "derived": {
+   "note": "Runtime tables computed exactly like mpCollisionAllocLinesGetCountTotal/InitLineIDsAll and func_ovl2_800FB04C/mpCollisionInitLineTypesAll/func_ovl2_800FB31C; use them to unit-test the port.",
+   "line_ids_contiguous": true,
+   "gMPCollisionLinesNum": 5,
+   "gMPCollisionLineGroups": [
+    {
+     "line_type": "floor",
+     "line_count": 2,
+     "line_id": [
+      0,
+      1
+     ]
+    },
+    {
+     "line_type": "ceil",
+     "line_count": 1,
+     "line_id": [
+      2
+     ]
+    },
+    {
+     "line_type": "rwall",
+     "line_count": 1,
+     "line_id": [
+      3
+     ]
+    },
+    {
+     "line_type": "lwall",
+     "line_count": 1,
+     "line_id": [
+      4
+     ]
+    }
+   ],
+   "vertex_info": [
+    {
+     "yakumono_id": 1,
+     "line_type": 0,
+     "coll_pos_next": 897,
+     "coll_pos_prev": 897,
+     "edge_next_line_id": -1,
+     "edge_prev_line_id": -1
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 0,
+     "coll_pos_next": -6,
+     "coll_pos_prev": -6,
+     "edge_next_line_id": 3,
+     "edge_prev_line_id": 4
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 1,
+     "coll_pos_next": -1079,
+     "coll_pos_prev": -1079,
+     "edge_next_line_id": 3,
+     "edge_prev_line_id": 4
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 2,
+     "coll_pos_next": 2318,
+     "coll_pos_prev": 1972,
+     "edge_next_line_id": 1,
+     "edge_prev_line_id": 2
+    },
+    {
+     "yakumono_id": 1,
+     "line_type": 3,
+     "coll_pos_next": -1972,
+     "coll_pos_prev": -2318,
+     "edge_next_line_id": 1,
+     "edge_prev_line_id": 2
+    }
+   ],
+   "line_range_order": [
+    {
+     "yakumono_id": 1,
+     "kind": "floor",
+     "line_ids": [
+      0,
+      1
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 1,
+     "kind": "ceil",
+     "line_ids": [
+      2
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 1,
+     "kind": "rwall",
+     "line_ids": [
+      3
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 1,
+     "kind": "lwall",
+     "line_ids": [
+      4
+     ],
+     "ordered_for_early_out": true
+    }
+   ],
+   "line_range_order_note": "mpcollision.c line loops early-out (goto l_break) assuming floor/rwall ranges are ordered by non-increasing coll_pos_next and ceil/lwall ranges by non-decreasing coll_pos_prev; keep the stored line order in the port."
+  },
+  "lines": [
+   {
+    "line_id": 0,
+    "kind": "floor",
+    "line_type": 0,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     10,
+     11,
+     12
+    ],
+    "points": [
+     [
+      -951,
+      897
+     ],
+     [
+      -1396,
+      897
+     ],
+     [
+      -1841,
+      897
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       -951,
+       897
+      ],
+      "to": [
+       -1396,
+       897
+      ],
+      "vertex_flags": 16384,
+      "coll_bits": 16384,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": true,
+      "cliff": false
+     },
+     {
+      "from": [
+       -1396,
+       897
+      ],
+      "to": [
+       -1841,
+       897
+      ],
+      "vertex_flags": 16384,
+      "coll_bits": 16384,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": true,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": -1,
+    "edge_prev_line_id": -1,
+    "left_edge": [
+     -1841,
+     897
+    ],
+    "right_edge": [
+     -951,
+     897
+    ],
+    "ledge_left_grabbable": false,
+    "ledge_right_grabbable": false,
+    "end_segment_cliff": {
+     "left": false,
+     "right": false,
+     "left_material": 0,
+     "right_material": 0
+    },
+    "pass_through": true,
+    "any_pass_through_segment": true
+   },
+   {
+    "line_id": 1,
+    "kind": "floor",
+    "line_type": 0,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     5,
+     6
+    ],
+    "points": [
+     [
+      2318,
+      -6
+     ],
+     [
+      -2318,
+      -6
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       2318,
+       -6
+      ],
+      "to": [
+       -2318,
+       -6
+      ],
+      "vertex_flags": 32768,
+      "coll_bits": 32768,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": true
+     }
+    ],
+    "edge_next_line_id": 3,
+    "edge_prev_line_id": 4,
+    "left_edge": [
+     -2318,
+     -6
+    ],
+    "right_edge": [
+     2318,
+     -6
+    ],
+    "ledge_left_grabbable": true,
+    "ledge_right_grabbable": true,
+    "end_segment_cliff": {
+     "left": true,
+     "right": true,
+     "left_material": 0,
+     "right_material": 0
+    },
+    "pass_through": false,
+    "any_pass_through_segment": false
+   },
+   {
+    "line_id": 2,
+    "kind": "ceil",
+    "line_type": 1,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     0,
+     1
+    ],
+    "points": [
+     [
+      -1972,
+      -1079
+     ],
+     [
+      1972,
+      -1079
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       -1972,
+       -1079
+      ],
+      "to": [
+       1972,
+       -1079
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 3,
+    "edge_prev_line_id": 4
+   },
+   {
+    "line_id": 3,
+    "kind": "rwall",
+    "line_type": 2,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "points": [
+     [
+      1972,
+      -1079
+     ],
+     [
+      2074,
+      -841
+     ],
+     [
+      2290,
+      -337
+     ],
+     [
+      2307,
+      -132
+     ],
+     [
+      2318,
+      -6
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       1972,
+       -1079
+      ],
+      "to": [
+       2074,
+       -841
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     },
+     {
+      "from": [
+       2074,
+       -841
+      ],
+      "to": [
+       2290,
+       -337
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     },
+     {
+      "from": [
+       2290,
+       -337
+      ],
+      "to": [
+       2307,
+       -132
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     },
+     {
+      "from": [
+       2307,
+       -132
+      ],
+      "to": [
+       2318,
+       -6
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 1,
+    "edge_prev_line_id": 2
+   },
+   {
+    "line_id": 4,
+    "kind": "lwall",
+    "line_type": 3,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     6,
+     7,
+     8,
+     9,
+     0
+    ],
+    "points": [
+     [
+      -2318,
+      -6
+     ],
+     [
+      -2307,
+      -132
+     ],
+     [
+      -2290,
+      -337
+     ],
+     [
+      -2074,
+      -841
+     ],
+     [
+      -1972,
+      -1079
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       -2318,
+       -6
+      ],
+      "to": [
+       -2307,
+       -132
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     },
+     {
+      "from": [
+       -2307,
+       -132
+      ],
+      "to": [
+       -2290,
+       -337
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     },
+     {
+      "from": [
+       -2290,
+       -337
+      ],
+      "to": [
+       -2074,
+       -841
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     },
+     {
+      "from": [
+       -2074,
+       -841
+      ],
+      "to": [
+       -1972,
+       -1079
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 1,
+    "edge_prev_line_id": 2
+   }
+  ]
+ },
+ "map_objects": [
+  {
+   "index": 0,
+   "mapobj_kind": 0,
+   "kind_name": "nMPMapObjKindBattlePlayer1",
+   "x": 660,
+   "y": 0
+  },
+  {
+   "index": 1,
+   "mapobj_kind": 1,
+   "kind_name": "nMPMapObjKindBattlePlayer2",
+   "x": 1440,
+   "y": 0
+  },
+  {
+   "index": 2,
+   "mapobj_kind": 32,
+   "kind_name": "nMPMapObjKindRebirth",
+   "x": 1050,
+   "y": 1020
+  }
+ ],
+ "yakumono": [
+  {
+   "yakumono_id": 0,
+   "dobjdesc_index": 0,
+   "dobjdesc": {
+    "offset": "0x720",
+    "id": 0,
+    "id_hex": "0x0",
+    "parent_index": null,
+    "dl": null,
+    "translate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rotate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": false,
+   "line_info_index": null,
+   "line_ids": [],
+   "anim_joint": null,
+   "motion": "no collision lines, not animated (render-only DObj)"
+  },
+  {
+   "yakumono_id": 1,
+   "dobjdesc_index": 1,
+   "dobjdesc": {
+    "offset": "0x74C",
+    "id": 1,
+    "id_hex": "0x1",
+    "parent_index": 0,
+    "dl": {
+     "file_id": 115,
+     "file_name": "StageExplainFile2",
+     "offset": "0x400"
+    },
+    "translate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rotate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": true,
+   "line_info_index": [
+    0
+   ],
+   "line_ids": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "anim_joint": null,
+   "motion": "static"
+  }
+ ],
+ "collision_origin_at_start": {
+  "1": {
+   "x": 0.0,
+   "y": 0.0,
+   "applies_offset": false,
+   "status_at_start": "nMPYakumonoStatusNone",
+   "how": "vertices are absolute (no anim joint, status None)"
+  }
+ },
+ "moving_collision": "none: every collision yakumono of this stage is static (no anim joint, status never changed by code)",
+ "hazards_summary": [
+  {
+   "name": "none ported",
+   "summary": "Extra stage exported only for its collision/bounds; no stage gimmick code reviewed."
+  }
+ ],
+ "hazard_data": {},
+ "crosscheck_typed_c": {
+  "c_file": "sources/ssb-decomp-re/src/relocData/115_StageExplainFile2.c",
+  "arrays": {
+   "vertex_data": {
+    "c_symbol": "dStageExplainFile2_gap_0x07A4",
+    "c_declared_count": 13,
+    "c_values_count": 13,
+    "bytes_compared": 78,
+    "byte_identical": true,
+    "exported_count": 13,
+    "exported_equals_c_prefix": true
+   },
+   "vertex_id": {
+    "c_symbol": "dStageExplainFile2_gap_0x07A4_sub_0x50",
+    "c_declared_count": 18,
+    "c_values_count": 18,
+    "bytes_compared": 36,
+    "byte_identical": true,
+    "exported_count": 17,
+    "exported_equals_c_prefix": true,
+    "c_extra_tail_values": [
+     [
+      0
+     ]
+    ],
+    "note": "C declares more elements than are referenced; extra tail is the alignment pad"
+   },
+   "vertex_links": {
+    "c_symbol": "dStageExplainFile2_gap_0x07A4_sub_0x74",
+    "c_declared_count": 5,
+    "c_values_count": 5,
+    "bytes_compared": 20,
+    "byte_identical": true,
+    "exported_count": 5,
+    "exported_equals_c_prefix": true
+   },
+   "line_info": {
+    "c_symbol": "dStageExplainFile2_gap_0x07A4_sub_0x88",
+    "c_declared_count": 1,
+    "c_values_count": 1,
+    "bytes_compared": 18,
+    "byte_identical": true,
+    "exported_count": 1,
+    "exported_equals_c_prefix": true
+   },
+   "mapobjs": {
+    "c_symbol": "dStageExplainFile2_gap_0x07A4_sub_0x9C",
+    "c_declared_count": 3,
+    "c_values_count": 3,
+    "bytes_compared": 18,
+    "byte_identical": true,
+    "exported_count": 3,
+    "exported_equals_c_prefix": true
+   }
+  },
+  "c_symbol": "dStageExplainFile2_MPGeometryData_0x0854",
+  "c_yakumono_count": 1,
+  "c_mapobj_count": 3,
+  "status": "ok"
+ }
+}

@@ -1,0 +1,2434 @@
+{
+ "stage": "Yoshi's Island",
+ "key": "yoster",
+ "gr_kind": "nGRKindYoster",
+ "gr_kind_value": 5,
+ "vs_mode_stage": true,
+ "source": {
+  "rom": "baserom.us.z64 (US v1.0, SHA-1 e2929e10fccc0aa84e5776227e798abc07cedabf)",
+  "map_file": {
+   "file_id": 263,
+   "file_name": "GRYosterMap",
+   "header_offset": "0x14",
+   "rom_offset": "0x640914",
+   "vpk0": true
+  },
+  "geometry_file": {
+   "file_id": 111,
+   "file_name": "StageYosterFile2",
+   "rom_offset": "0x4040F2",
+   "vpk0": true
+  },
+  "map_nodes_file": {
+   "file_id": 154,
+   "file_name": "StageYosterFile3",
+   "offset": "0x100"
+  },
+  "typed_c": [
+   "sources/ssb-decomp-re/src/relocData/263_GRYosterMap.c",
+   "sources/ssb-decomp-re/src/relocData/111_StageYosterFile2.c"
+  ],
+  "loader": "sources/ssb-decomp-re/src/mp/mpcollision.c: mpCollisionInitGroundData (dMPCollisionGroundFileInfos[gkind])"
+ },
+ "ground_data": {
+  "gr_desc": [
+   {
+    "dobjdesc": {
+     "file_id": 111,
+     "file_name": "StageYosterFile2",
+     "offset": "0xE00"
+    },
+    "anim_joints": {
+     "file_id": 111,
+     "file_name": "StageYosterFile2",
+     "offset": "0x1150"
+    },
+    "p_mobjsubs": {
+     "file_id": 111,
+     "file_name": "StageYosterFile2",
+     "offset": "0x0"
+    },
+    "p_matanim_joints": {
+     "file_id": 111,
+     "file_name": "StageYosterFile2",
+     "offset": "0x3780"
+    }
+   },
+   {
+    "dobjdesc": {
+     "file_id": 111,
+     "file_name": "StageYosterFile2",
+     "offset": "0x4E78"
+    },
+    "anim_joints": null,
+    "p_mobjsubs": null,
+    "p_matanim_joints": null
+   },
+   {
+    "dobjdesc": {
+     "file_id": 111,
+     "file_name": "StageYosterFile2",
+     "offset": "0x5448"
+    },
+    "anim_joints": null,
+    "p_mobjsubs": null,
+    "p_matanim_joints": null
+   },
+   {
+    "dobjdesc": {
+     "file_id": 111,
+     "file_name": "StageYosterFile2",
+     "offset": "0x5C38"
+    },
+    "anim_joints": null,
+    "p_mobjsubs": null,
+    "p_matanim_joints": null
+   }
+  ],
+  "map_geometry": {
+   "file_id": 111,
+   "file_name": "StageYosterFile2",
+   "offset": "0x5188"
+  },
+  "layer_mask": 0,
+  "wallpaper": {
+   "file_id": 93,
+   "file_name": "StageYoshi",
+   "offset": "0x26C88"
+  },
+  "fog_color": {
+   "r": 243,
+   "g": 199,
+   "b": 165
+  },
+  "fog_alpha": 0,
+  "emblem_colors": [
+   {
+    "r": 255,
+    "g": 160,
+    "b": 160
+   },
+   {
+    "r": 160,
+    "g": 160,
+    "b": 255
+   },
+   {
+    "r": 240,
+    "g": 240,
+    "b": 100
+   },
+   {
+    "r": 170,
+    "g": 255,
+    "b": 170
+   }
+  ],
+  "unused": 3705461760,
+  "unused_hex": "0xDCDCDC00",
+  "light_angle": {
+   "x": 20.0,
+   "y": 45.0,
+   "z": -0.1745329350233078
+  },
+  "camera_bound_top": 4300,
+  "camera_bound_bottom": -2000,
+  "camera_bound_right": 7000,
+  "camera_bound_left": -4300,
+  "map_bound_top": 8200,
+  "map_bound_bottom": -4000,
+  "map_bound_right": 10500,
+  "map_bound_left": -7800,
+  "bgm_id": 8,
+  "bgm_name": "nSYAudioBGMYoster",
+  "map_nodes": {
+   "file_id": 154,
+   "file_name": "StageYosterFile3",
+   "offset": "0x100"
+  },
+  "item_weights": {
+   "file_id": 263,
+   "file_name": "GRYosterMap",
+   "offset": "0x0"
+  },
+  "item_weights_values": [
+   60,
+   40,
+   0,
+   150,
+   14,
+   7,
+   8,
+   10,
+   6,
+   14,
+   15,
+   8,
+   12,
+   10,
+   12,
+   13,
+   8,
+   8,
+   10,
+   20
+  ],
+  "item_weights_by_kind": {
+   "nITKindBox": 60,
+   "nITKindTaru": 40,
+   "nITKindCapsule": 0,
+   "nITKindEgg": 150,
+   "nITKindTomato": 14,
+   "nITKindHeart": 7,
+   "nITKindStar": 8,
+   "nITKindSword": 10,
+   "nITKindBat": 6,
+   "nITKindHarisen": 14,
+   "nITKindStarRod": 15,
+   "nITKindLGun": 8,
+   "nITKindFFlower": 12,
+   "nITKindHammer": 10,
+   "nITKindMSBomb": 12,
+   "nITKindBombHei": 13,
+   "nITKindNBumper": 8,
+   "nITKindGShell": 8,
+   "nITKindRShell": 10,
+   "nITKindMBall": 20
+  },
+  "alt_warning": -2500,
+  "camera_bound_team_top": 4300,
+  "camera_bound_team_bottom": -2000,
+  "camera_bound_team_right": 7000,
+  "camera_bound_team_left": -4300,
+  "map_bound_team_top": 8200,
+  "map_bound_team_bottom": -4000,
+  "map_bound_team_right": 10500,
+  "map_bound_team_left": -7800,
+  "zoom_start": {
+   "x": 0,
+   "y": 0,
+   "z": 0
+  },
+  "zoom_end": {
+   "x": 0,
+   "y": 0,
+   "z": 15000
+  }
+ },
+ "geometry": {
+  "source": {
+   "file_id": 111,
+   "file_name": "StageYosterFile2",
+   "offset": "0x5188"
+  },
+  "yakumono_count": 4,
+  "vertex_data_ref": {
+   "file_id": 111,
+   "offset": "0x4F80"
+  },
+  "vertex_id_ref": {
+   "file_id": 111,
+   "offset": "0x5000"
+  },
+  "vertex_links_ref": {
+   "file_id": 111,
+   "offset": "0x5034"
+  },
+  "line_info_ref": {
+   "file_id": 111,
+   "offset": "0x505C"
+  },
+  "mapobj_count": 38,
+  "mapobjs_ref": {
+   "file_id": 111,
+   "offset": "0x50A4"
+  },
+  "counts": {
+   "vertex_data": 21,
+   "vertex_data_referenced": 21,
+   "vertex_id": 25,
+   "vertex_links": 10,
+   "line_info": 4,
+   "mapobjs": 38
+  },
+  "layout": {
+   "vertex_data": {
+    "offset": "0x4F80",
+    "next_block": "0x5000",
+    "bytes_to_next_block": 128,
+    "element_size": 6,
+    "used_bytes": 126,
+    "slack_bytes": 2,
+    "slack_all_zero": true,
+    "slack_hex": "0000"
+   },
+   "vertex_id": {
+    "offset": "0x5000",
+    "next_block": "0x5034",
+    "bytes_to_next_block": 52,
+    "element_size": 2,
+    "used_bytes": 50,
+    "slack_bytes": 2,
+    "slack_all_zero": true,
+    "slack_hex": "0000"
+   },
+   "vertex_links": {
+    "offset": "0x5034",
+    "next_block": "0x505C",
+    "bytes_to_next_block": 40,
+    "element_size": 4,
+    "used_bytes": 40,
+    "slack_bytes": 0,
+    "slack_all_zero": true,
+    "slack_hex": ""
+   },
+   "line_info": {
+    "offset": "0x505C",
+    "next_block": "0x50A4",
+    "bytes_to_next_block": 72,
+    "element_size": 18,
+    "used_bytes": 72,
+    "slack_bytes": 0,
+    "slack_all_zero": true,
+    "slack_hex": ""
+   },
+   "mapobjs": {
+    "offset": "0x50A4",
+    "next_block": "0x5188",
+    "bytes_to_next_block": 228,
+    "element_size": 6,
+    "used_bytes": 228,
+    "slack_bytes": 0,
+    "slack_all_zero": true,
+    "slack_hex": ""
+   }
+  },
+  "vertex_data": [
+   {
+    "pos": {
+     "x": 735,
+     "y": -240
+    },
+    "vertex_flags": 16384
+   },
+   {
+    "pos": {
+     "x": -735,
+     "y": -240
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 704,
+     "y": -240
+    },
+    "vertex_flags": 16384
+   },
+   {
+    "pos": {
+     "x": -705,
+     "y": -240
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 720,
+     "y": -239
+    },
+    "vertex_flags": 16384
+   },
+   {
+    "pos": {
+     "x": -719,
+     "y": -239
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": -2125,
+     "y": -708
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 0,
+     "y": -975
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 2126,
+     "y": -711
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 2023,
+     "y": -51
+    },
+    "vertex_flags": 32768
+   },
+   {
+    "pos": {
+     "x": 156,
+     "y": -384
+    },
+    "vertex_flags": 32768
+   },
+   {
+    "pos": {
+     "x": -156,
+     "y": -384
+    },
+    "vertex_flags": 32768
+   },
+   {
+    "pos": {
+     "x": -2029,
+     "y": -40
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": -821,
+     "y": 2181
+    },
+    "vertex_flags": 16384
+   },
+   {
+    "pos": {
+     "x": -556,
+     "y": 2181
+    },
+    "vertex_flags": 16384
+   },
+   {
+    "pos": {
+     "x": 474,
+     "y": 2235
+    },
+    "vertex_flags": 16384
+   },
+   {
+    "pos": {
+     "x": 803,
+     "y": 2235
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": -528,
+     "y": 719
+    },
+    "vertex_flags": 16384
+   },
+   {
+    "pos": {
+     "x": -1545,
+     "y": 943
+    },
+    "vertex_flags": 0
+   },
+   {
+    "pos": {
+     "x": 1655,
+     "y": 1490
+    },
+    "vertex_flags": 16384
+   },
+   {
+    "pos": {
+     "x": 454,
+     "y": 1205
+    },
+    "vertex_flags": 0
+   }
+  ],
+  "vertex_id": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   13,
+   14,
+   15,
+   16,
+   19,
+   20,
+   17,
+   18,
+   9,
+   10,
+   11,
+   12,
+   6,
+   7,
+   8,
+   8,
+   9,
+   12,
+   6
+  ],
+  "vertex_links": [
+   {
+    "vertex1": 0,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 2,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 4,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 6,
+    "vertex2": 4
+   },
+   {
+    "vertex1": 10,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 12,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 14,
+    "vertex2": 4
+   },
+   {
+    "vertex1": 18,
+    "vertex2": 3
+   },
+   {
+    "vertex1": 21,
+    "vertex2": 2
+   },
+   {
+    "vertex1": 23,
+    "vertex2": 2
+   }
+  ],
+  "line_info": [
+   {
+    "yakumono_id": 1,
+    "line_data": [
+     {
+      "group_id": 0,
+      "line_count": 1
+     },
+     {
+      "group_id": 1,
+      "line_count": 0
+     },
+     {
+      "group_id": 1,
+      "line_count": 0
+     },
+     {
+      "group_id": 1,
+      "line_count": 0
+     }
+    ]
+   },
+   {
+    "yakumono_id": 2,
+    "line_data": [
+     {
+      "group_id": 1,
+      "line_count": 1
+     },
+     {
+      "group_id": 2,
+      "line_count": 0
+     },
+     {
+      "group_id": 2,
+      "line_count": 0
+     },
+     {
+      "group_id": 2,
+      "line_count": 0
+     }
+    ]
+   },
+   {
+    "yakumono_id": 3,
+    "line_data": [
+     {
+      "group_id": 2,
+      "line_count": 1
+     },
+     {
+      "group_id": 3,
+      "line_count": 0
+     },
+     {
+      "group_id": 3,
+      "line_count": 0
+     },
+     {
+      "group_id": 3,
+      "line_count": 0
+     }
+    ]
+   },
+   {
+    "yakumono_id": 4,
+    "line_data": [
+     {
+      "group_id": 3,
+      "line_count": 4
+     },
+     {
+      "group_id": 7,
+      "line_count": 1
+     },
+     {
+      "group_id": 8,
+      "line_count": 1
+     },
+     {
+      "group_id": 9,
+      "line_count": 1
+     }
+    ]
+   }
+  ],
+  "mapobjs": [
+   {
+    "mapobj_kind": 37,
+    "pos": {
+     "x": -1110,
+     "y": 1050
+    }
+   },
+   {
+    "mapobj_kind": 38,
+    "pos": {
+     "x": 1259,
+     "y": 1589
+    }
+   },
+   {
+    "mapobj_kind": 39,
+    "pos": {
+     "x": 0,
+     "y": 2400
+    }
+   },
+   {
+    "mapobj_kind": 33,
+    "pos": {
+     "x": 0,
+     "y": -180
+    }
+   },
+   {
+    "mapobj_kind": 24,
+    "pos": {
+     "x": 749,
+     "y": -120
+    }
+   },
+   {
+    "mapobj_kind": 25,
+    "pos": {
+     "x": 1529,
+     "y": 59
+    }
+   },
+   {
+    "mapobj_kind": 26,
+    "pos": {
+     "x": -630,
+     "y": -155
+    }
+   },
+   {
+    "mapobj_kind": 27,
+    "pos": {
+     "x": -1200,
+     "y": -41
+    }
+   },
+   {
+    "mapobj_kind": 28,
+    "pos": {
+     "x": -840,
+     "y": 942
+    }
+   },
+   {
+    "mapobj_kind": 29,
+    "pos": {
+     "x": 990,
+     "y": 1485
+    }
+   },
+   {
+    "mapobj_kind": 30,
+    "pos": {
+     "x": -119,
+     "y": 2391
+    }
+   },
+   {
+    "mapobj_kind": 31,
+    "pos": {
+     "x": -60,
+     "y": -212
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": -421,
+     "y": 3759
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 3168,
+     "y": 5443
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 4172,
+     "y": 2775
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 7407,
+     "y": 5459
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": -3859,
+     "y": 5046
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 52,
+     "y": 946
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 1897,
+     "y": 1598
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 185,
+     "y": 5911
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 1222,
+     "y": 5044
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": -1431,
+     "y": 2105
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": -726,
+     "y": 1616
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 1250,
+     "y": 3619
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 34,
+     "y": 1773
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": -1875,
+     "y": 1202
+    }
+   },
+   {
+    "mapobj_kind": 4,
+    "pos": {
+     "x": 1694,
+     "y": 1004
+    }
+   },
+   {
+    "mapobj_kind": 21,
+    "pos": {
+     "x": 29,
+     "y": -258
+    }
+   },
+   {
+    "mapobj_kind": 0,
+    "pos": {
+     "x": 629,
+     "y": -96
+    }
+   },
+   {
+    "mapobj_kind": 1,
+    "pos": {
+     "x": 90,
+     "y": 2409
+    }
+   },
+   {
+    "mapobj_kind": 2,
+    "pos": {
+     "x": 756,
+     "y": 1513
+    }
+   },
+   {
+    "mapobj_kind": 3,
+    "pos": {
+     "x": -990,
+     "y": 1032
+    }
+   },
+   {
+    "mapobj_kind": 32,
+    "pos": {
+     "x": 0,
+     "y": 2970
+    }
+   },
+   {
+    "mapobj_kind": 43,
+    "pos": {
+     "x": 1583,
+     "y": 3641
+    }
+   },
+   {
+    "mapobj_kind": 43,
+    "pos": {
+     "x": 2736,
+     "y": 3629
+    }
+   },
+   {
+    "mapobj_kind": 43,
+    "pos": {
+     "x": -1245,
+     "y": 3644
+    }
+   },
+   {
+    "mapobj_kind": 43,
+    "pos": {
+     "x": -2532,
+     "y": 3539
+    }
+   },
+   {
+    "mapobj_kind": 43,
+    "pos": {
+     "x": 0,
+     "y": 3720
+    }
+   }
+  ],
+  "derived": {
+   "note": "Runtime tables computed exactly like mpCollisionAllocLinesGetCountTotal/InitLineIDsAll and func_ovl2_800FB04C/mpCollisionInitLineTypesAll/func_ovl2_800FB31C; use them to unit-test the port.",
+   "line_ids_contiguous": true,
+   "gMPCollisionLinesNum": 10,
+   "gMPCollisionLineGroups": [
+    {
+     "line_type": "floor",
+     "line_count": 7,
+     "line_id": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ]
+    },
+    {
+     "line_type": "ceil",
+     "line_count": 1,
+     "line_id": [
+      7
+     ]
+    },
+    {
+     "line_type": "rwall",
+     "line_count": 1,
+     "line_id": [
+      8
+     ]
+    },
+    {
+     "line_type": "lwall",
+     "line_count": 1,
+     "line_id": [
+      9
+     ]
+    }
+   ],
+   "vertex_info": [
+    {
+     "yakumono_id": 1,
+     "line_type": 0,
+     "coll_pos_next": -240,
+     "coll_pos_prev": -240,
+     "edge_next_line_id": -1,
+     "edge_prev_line_id": -1
+    },
+    {
+     "yakumono_id": 2,
+     "line_type": 0,
+     "coll_pos_next": -240,
+     "coll_pos_prev": -240,
+     "edge_next_line_id": -1,
+     "edge_prev_line_id": -1
+    },
+    {
+     "yakumono_id": 3,
+     "line_type": 0,
+     "coll_pos_next": -239,
+     "coll_pos_prev": -239,
+     "edge_next_line_id": -1,
+     "edge_prev_line_id": -1
+    },
+    {
+     "yakumono_id": 4,
+     "line_type": 0,
+     "coll_pos_next": 2235,
+     "coll_pos_prev": 2181,
+     "edge_next_line_id": -1,
+     "edge_prev_line_id": -1
+    },
+    {
+     "yakumono_id": 4,
+     "line_type": 0,
+     "coll_pos_next": 1490,
+     "coll_pos_prev": 1205,
+     "edge_next_line_id": -1,
+     "edge_prev_line_id": -1
+    },
+    {
+     "yakumono_id": 4,
+     "line_type": 0,
+     "coll_pos_next": 943,
+     "coll_pos_prev": 719,
+     "edge_next_line_id": -1,
+     "edge_prev_line_id": -1
+    },
+    {
+     "yakumono_id": 4,
+     "line_type": 0,
+     "coll_pos_next": -40,
+     "coll_pos_prev": -384,
+     "edge_next_line_id": 8,
+     "edge_prev_line_id": 9
+    },
+    {
+     "yakumono_id": 4,
+     "line_type": 1,
+     "coll_pos_next": -708,
+     "coll_pos_prev": -975,
+     "edge_next_line_id": 8,
+     "edge_prev_line_id": 9
+    },
+    {
+     "yakumono_id": 4,
+     "line_type": 2,
+     "coll_pos_next": 2126,
+     "coll_pos_prev": 2023,
+     "edge_next_line_id": 6,
+     "edge_prev_line_id": 7
+    },
+    {
+     "yakumono_id": 4,
+     "line_type": 3,
+     "coll_pos_next": -2029,
+     "coll_pos_prev": -2125,
+     "edge_next_line_id": 6,
+     "edge_prev_line_id": 7
+    }
+   ],
+   "line_range_order": [
+    {
+     "yakumono_id": 1,
+     "kind": "floor",
+     "line_ids": [
+      0
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 1,
+     "kind": "ceil",
+     "line_ids": [],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 1,
+     "kind": "rwall",
+     "line_ids": [],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 1,
+     "kind": "lwall",
+     "line_ids": [],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 2,
+     "kind": "floor",
+     "line_ids": [
+      1
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 2,
+     "kind": "ceil",
+     "line_ids": [],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 2,
+     "kind": "rwall",
+     "line_ids": [],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 2,
+     "kind": "lwall",
+     "line_ids": [],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 3,
+     "kind": "floor",
+     "line_ids": [
+      2
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 3,
+     "kind": "ceil",
+     "line_ids": [],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 3,
+     "kind": "rwall",
+     "line_ids": [],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 3,
+     "kind": "lwall",
+     "line_ids": [],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 4,
+     "kind": "floor",
+     "line_ids": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 4,
+     "kind": "ceil",
+     "line_ids": [
+      7
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 4,
+     "kind": "rwall",
+     "line_ids": [
+      8
+     ],
+     "ordered_for_early_out": true
+    },
+    {
+     "yakumono_id": 4,
+     "kind": "lwall",
+     "line_ids": [
+      9
+     ],
+     "ordered_for_early_out": true
+    }
+   ],
+   "line_range_order_note": "mpcollision.c line loops early-out (goto l_break) assuming floor/rwall ranges are ordered by non-increasing coll_pos_next and ceil/lwall ranges by non-decreasing coll_pos_prev; keep the stored line order in the port."
+  },
+  "lines": [
+   {
+    "line_id": 0,
+    "kind": "floor",
+    "line_type": 0,
+    "yakumono_id": 1,
+    "vertex_ids": [
+     0,
+     1
+    ],
+    "points": [
+     [
+      735,
+      -240
+     ],
+     [
+      -735,
+      -240
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       735,
+       -240
+      ],
+      "to": [
+       -735,
+       -240
+      ],
+      "vertex_flags": 16384,
+      "coll_bits": 16384,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": true,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": -1,
+    "edge_prev_line_id": -1,
+    "left_edge": [
+     -735,
+     -240
+    ],
+    "right_edge": [
+     735,
+     -240
+    ],
+    "ledge_left_grabbable": false,
+    "ledge_right_grabbable": false,
+    "end_segment_cliff": {
+     "left": false,
+     "right": false,
+     "left_material": 0,
+     "right_material": 0
+    },
+    "pass_through": true,
+    "any_pass_through_segment": true
+   },
+   {
+    "line_id": 1,
+    "kind": "floor",
+    "line_type": 0,
+    "yakumono_id": 2,
+    "vertex_ids": [
+     2,
+     3
+    ],
+    "points": [
+     [
+      704,
+      -240
+     ],
+     [
+      -705,
+      -240
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       704,
+       -240
+      ],
+      "to": [
+       -705,
+       -240
+      ],
+      "vertex_flags": 16384,
+      "coll_bits": 16384,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": true,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": -1,
+    "edge_prev_line_id": -1,
+    "left_edge": [
+     -705,
+     -240
+    ],
+    "right_edge": [
+     704,
+     -240
+    ],
+    "ledge_left_grabbable": false,
+    "ledge_right_grabbable": false,
+    "end_segment_cliff": {
+     "left": false,
+     "right": false,
+     "left_material": 0,
+     "right_material": 0
+    },
+    "pass_through": true,
+    "any_pass_through_segment": true
+   },
+   {
+    "line_id": 2,
+    "kind": "floor",
+    "line_type": 0,
+    "yakumono_id": 3,
+    "vertex_ids": [
+     4,
+     5
+    ],
+    "points": [
+     [
+      720,
+      -239
+     ],
+     [
+      -719,
+      -239
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       720,
+       -239
+      ],
+      "to": [
+       -719,
+       -239
+      ],
+      "vertex_flags": 16384,
+      "coll_bits": 16384,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": true,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": -1,
+    "edge_prev_line_id": -1,
+    "left_edge": [
+     -719,
+     -239
+    ],
+    "right_edge": [
+     720,
+     -239
+    ],
+    "ledge_left_grabbable": false,
+    "ledge_right_grabbable": false,
+    "end_segment_cliff": {
+     "left": false,
+     "right": false,
+     "left_material": 0,
+     "right_material": 0
+    },
+    "pass_through": true,
+    "any_pass_through_segment": true
+   },
+   {
+    "line_id": 3,
+    "kind": "floor",
+    "line_type": 0,
+    "yakumono_id": 4,
+    "vertex_ids": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "points": [
+     [
+      -821,
+      2181
+     ],
+     [
+      -556,
+      2181
+     ],
+     [
+      474,
+      2235
+     ],
+     [
+      803,
+      2235
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       -821,
+       2181
+      ],
+      "to": [
+       -556,
+       2181
+      ],
+      "vertex_flags": 16384,
+      "coll_bits": 16384,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": true,
+      "cliff": false
+     },
+     {
+      "from": [
+       -556,
+       2181
+      ],
+      "to": [
+       474,
+       2235
+      ],
+      "vertex_flags": 16384,
+      "coll_bits": 16384,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": true,
+      "cliff": false
+     },
+     {
+      "from": [
+       474,
+       2235
+      ],
+      "to": [
+       803,
+       2235
+      ],
+      "vertex_flags": 16384,
+      "coll_bits": 16384,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": true,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": -1,
+    "edge_prev_line_id": -1,
+    "left_edge": [
+     -821,
+     2181
+    ],
+    "right_edge": [
+     803,
+     2235
+    ],
+    "ledge_left_grabbable": false,
+    "ledge_right_grabbable": false,
+    "end_segment_cliff": {
+     "left": false,
+     "right": false,
+     "left_material": 0,
+     "right_material": 0
+    },
+    "pass_through": true,
+    "any_pass_through_segment": true
+   },
+   {
+    "line_id": 4,
+    "kind": "floor",
+    "line_type": 0,
+    "yakumono_id": 4,
+    "vertex_ids": [
+     19,
+     20
+    ],
+    "points": [
+     [
+      1655,
+      1490
+     ],
+     [
+      454,
+      1205
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       1655,
+       1490
+      ],
+      "to": [
+       454,
+       1205
+      ],
+      "vertex_flags": 16384,
+      "coll_bits": 16384,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": true,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": -1,
+    "edge_prev_line_id": -1,
+    "left_edge": [
+     454,
+     1205
+    ],
+    "right_edge": [
+     1655,
+     1490
+    ],
+    "ledge_left_grabbable": false,
+    "ledge_right_grabbable": false,
+    "end_segment_cliff": {
+     "left": false,
+     "right": false,
+     "left_material": 0,
+     "right_material": 0
+    },
+    "pass_through": true,
+    "any_pass_through_segment": true
+   },
+   {
+    "line_id": 5,
+    "kind": "floor",
+    "line_type": 0,
+    "yakumono_id": 4,
+    "vertex_ids": [
+     17,
+     18
+    ],
+    "points": [
+     [
+      -528,
+      719
+     ],
+     [
+      -1545,
+      943
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       -528,
+       719
+      ],
+      "to": [
+       -1545,
+       943
+      ],
+      "vertex_flags": 16384,
+      "coll_bits": 16384,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": true,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": -1,
+    "edge_prev_line_id": -1,
+    "left_edge": [
+     -1545,
+     943
+    ],
+    "right_edge": [
+     -528,
+     719
+    ],
+    "ledge_left_grabbable": false,
+    "ledge_right_grabbable": false,
+    "end_segment_cliff": {
+     "left": false,
+     "right": false,
+     "left_material": 0,
+     "right_material": 0
+    },
+    "pass_through": true,
+    "any_pass_through_segment": true
+   },
+   {
+    "line_id": 6,
+    "kind": "floor",
+    "line_type": 0,
+    "yakumono_id": 4,
+    "vertex_ids": [
+     9,
+     10,
+     11,
+     12
+    ],
+    "points": [
+     [
+      2023,
+      -51
+     ],
+     [
+      156,
+      -384
+     ],
+     [
+      -156,
+      -384
+     ],
+     [
+      -2029,
+      -40
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       2023,
+       -51
+      ],
+      "to": [
+       156,
+       -384
+      ],
+      "vertex_flags": 32768,
+      "coll_bits": 32768,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": true
+     },
+     {
+      "from": [
+       156,
+       -384
+      ],
+      "to": [
+       -156,
+       -384
+      ],
+      "vertex_flags": 32768,
+      "coll_bits": 32768,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": true
+     },
+     {
+      "from": [
+       -156,
+       -384
+      ],
+      "to": [
+       -2029,
+       -40
+      ],
+      "vertex_flags": 32768,
+      "coll_bits": 32768,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": true
+     }
+    ],
+    "edge_next_line_id": 8,
+    "edge_prev_line_id": 9,
+    "left_edge": [
+     -2029,
+     -40
+    ],
+    "right_edge": [
+     2023,
+     -51
+    ],
+    "ledge_left_grabbable": true,
+    "ledge_right_grabbable": true,
+    "end_segment_cliff": {
+     "left": true,
+     "right": true,
+     "left_material": 0,
+     "right_material": 0
+    },
+    "pass_through": false,
+    "any_pass_through_segment": false
+   },
+   {
+    "line_id": 7,
+    "kind": "ceil",
+    "line_type": 1,
+    "yakumono_id": 4,
+    "vertex_ids": [
+     6,
+     7,
+     8
+    ],
+    "points": [
+     [
+      -2125,
+      -708
+     ],
+     [
+      0,
+      -975
+     ],
+     [
+      2126,
+      -711
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       -2125,
+       -708
+      ],
+      "to": [
+       0,
+       -975
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     },
+     {
+      "from": [
+       0,
+       -975
+      ],
+      "to": [
+       2126,
+       -711
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 8,
+    "edge_prev_line_id": 9
+   },
+   {
+    "line_id": 8,
+    "kind": "rwall",
+    "line_type": 2,
+    "yakumono_id": 4,
+    "vertex_ids": [
+     8,
+     9
+    ],
+    "points": [
+     [
+      2126,
+      -711
+     ],
+     [
+      2023,
+      -51
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       2126,
+       -711
+      ],
+      "to": [
+       2023,
+       -51
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 6,
+    "edge_prev_line_id": 7
+   },
+   {
+    "line_id": 9,
+    "kind": "lwall",
+    "line_type": 3,
+    "yakumono_id": 4,
+    "vertex_ids": [
+     12,
+     6
+    ],
+    "points": [
+     [
+      -2029,
+      -40
+     ],
+     [
+      -2125,
+      -708
+     ]
+    ],
+    "segments": [
+     {
+      "from": [
+       -2029,
+       -40
+      ],
+      "to": [
+       -2125,
+       -708
+      ],
+      "vertex_flags": 0,
+      "coll_bits": 0,
+      "material": 0,
+      "material_name": "nMPMaterialCommon",
+      "pass_through": false,
+      "cliff": false
+     }
+    ],
+    "edge_next_line_id": 6,
+    "edge_prev_line_id": 7
+   }
+  ]
+ },
+ "map_objects": [
+  {
+   "index": 0,
+   "mapobj_kind": 37,
+   "kind_name": "nMPMapObjKind1PGameEnemy1",
+   "x": -1110,
+   "y": 1050
+  },
+  {
+   "index": 1,
+   "mapobj_kind": 38,
+   "kind_name": "nMPMapObjKind1PGameEnemy2",
+   "x": 1259,
+   "y": 1589
+  },
+  {
+   "index": 2,
+   "mapobj_kind": 39,
+   "kind_name": "nMPMapObjKind1PGameEnemy3",
+   "x": 0,
+   "y": 2400
+  },
+  {
+   "index": 3,
+   "mapobj_kind": 33,
+   "kind_name": "nMPMapObjKind1PGamePlayer",
+   "x": 0,
+   "y": -180
+  },
+  {
+   "index": 4,
+   "mapobj_kind": 24,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer1",
+   "x": 749,
+   "y": -120
+  },
+  {
+   "index": 5,
+   "mapobj_kind": 25,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer2",
+   "x": 1529,
+   "y": 59
+  },
+  {
+   "index": 6,
+   "mapobj_kind": 26,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer3",
+   "x": -630,
+   "y": -155
+  },
+  {
+   "index": 7,
+   "mapobj_kind": 27,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer4",
+   "x": -1200,
+   "y": -41
+  },
+  {
+   "index": 8,
+   "mapobj_kind": 28,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer5",
+   "x": -840,
+   "y": 942
+  },
+  {
+   "index": 9,
+   "mapobj_kind": 29,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer6",
+   "x": 990,
+   "y": 1485
+  },
+  {
+   "index": 10,
+   "mapobj_kind": 30,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer7",
+   "x": -119,
+   "y": 2391
+  },
+  {
+   "index": 11,
+   "mapobj_kind": 31,
+   "kind_name": "nMPMapObjKindAutoDemoPlayer8",
+   "x": -60,
+   "y": -212
+  },
+  {
+   "index": 12,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": -421,
+   "y": 3759
+  },
+  {
+   "index": 13,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 3168,
+   "y": 5443
+  },
+  {
+   "index": 14,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 4172,
+   "y": 2775
+  },
+  {
+   "index": 15,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 7407,
+   "y": 5459
+  },
+  {
+   "index": 16,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": -3859,
+   "y": 5046
+  },
+  {
+   "index": 17,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 52,
+   "y": 946
+  },
+  {
+   "index": 18,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 1897,
+   "y": 1598
+  },
+  {
+   "index": 19,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 185,
+   "y": 5911
+  },
+  {
+   "index": 20,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 1222,
+   "y": 5044
+  },
+  {
+   "index": 21,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": -1431,
+   "y": 2105
+  },
+  {
+   "index": 22,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": -726,
+   "y": 1616
+  },
+  {
+   "index": 23,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 1250,
+   "y": 3619
+  },
+  {
+   "index": 24,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 34,
+   "y": 1773
+  },
+  {
+   "index": 25,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": -1875,
+   "y": 1202
+  },
+  {
+   "index": 26,
+   "mapobj_kind": 4,
+   "kind_name": "nMPMapObjKindItem",
+   "x": 1694,
+   "y": 1004
+  },
+  {
+   "index": 27,
+   "mapobj_kind": 21,
+   "kind_name": "nMPMapObjKindMoviePlayer1",
+   "x": 29,
+   "y": -258
+  },
+  {
+   "index": 28,
+   "mapobj_kind": 0,
+   "kind_name": "nMPMapObjKindBattlePlayer1",
+   "x": 629,
+   "y": -96
+  },
+  {
+   "index": 29,
+   "mapobj_kind": 1,
+   "kind_name": "nMPMapObjKindBattlePlayer2",
+   "x": 90,
+   "y": 2409
+  },
+  {
+   "index": 30,
+   "mapobj_kind": 2,
+   "kind_name": "nMPMapObjKindBattlePlayer3",
+   "x": 756,
+   "y": 1513
+  },
+  {
+   "index": 31,
+   "mapobj_kind": 3,
+   "kind_name": "nMPMapObjKindBattlePlayer4",
+   "x": -990,
+   "y": 1032
+  },
+  {
+   "index": 32,
+   "mapobj_kind": 32,
+   "kind_name": "nMPMapObjKindRebirth",
+   "x": 0,
+   "y": 2970
+  },
+  {
+   "index": 33,
+   "mapobj_kind": 43,
+   "kind_name": "nMPMapObjKind1PGameEnemyTeam",
+   "x": 1583,
+   "y": 3641
+  },
+  {
+   "index": 34,
+   "mapobj_kind": 43,
+   "kind_name": "nMPMapObjKind1PGameEnemyTeam",
+   "x": 2736,
+   "y": 3629
+  },
+  {
+   "index": 35,
+   "mapobj_kind": 43,
+   "kind_name": "nMPMapObjKind1PGameEnemyTeam",
+   "x": -1245,
+   "y": 3644
+  },
+  {
+   "index": 36,
+   "mapobj_kind": 43,
+   "kind_name": "nMPMapObjKind1PGameEnemyTeam",
+   "x": -2532,
+   "y": 3539
+  },
+  {
+   "index": 37,
+   "mapobj_kind": 43,
+   "kind_name": "nMPMapObjKind1PGameEnemyTeam",
+   "x": 0,
+   "y": 3720
+  }
+ ],
+ "yakumono": [
+  {
+   "yakumono_id": 0,
+   "dobjdesc_index": 0,
+   "dobjdesc": {
+    "offset": "0x4E78",
+    "id": 0,
+    "id_hex": "0x0",
+    "parent_index": null,
+    "dl": null,
+    "translate": [
+     0.0001140000022132881,
+     0.0,
+     0.0002859999949578196
+    ],
+    "rotate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": false,
+   "line_info_index": null,
+   "line_ids": [],
+   "anim_joint": null,
+   "motion": "no collision lines, not animated (render-only DObj)"
+  },
+  {
+   "yakumono_id": 1,
+   "dobjdesc_index": 1,
+   "dobjdesc": {
+    "offset": "0x4EA4",
+    "id": 1,
+    "id_hex": "0x1",
+    "parent_index": 0,
+    "dl": null,
+    "translate": [
+     7335.0,
+     -60.00140380859375,
+     0.0
+    ],
+    "rotate": [
+     9.999999974752427e-07,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": true,
+   "line_info_index": [
+    0
+   ],
+   "line_ids": [
+    0
+   ],
+   "anim_joint": null,
+   "motion": "code_driven",
+   "code": {
+    "driver": "code",
+    "functions": [
+     "sources/ssb-decomp-re/src/gr/grcommon/gryoster.c: grYosterUpdateCloudSolid",
+     "sources/ssb-decomp-re/src/gr/grcommon/gryoster.c: grYosterUpdateCloudEvaporate",
+     "sources/ssb-decomp-re/src/gr/grcommon/gryoster.c: grYosterInitAll"
+    ],
+    "summary": "Three clouds (dGRYosterCloudLineIDs = {1,2,3}). Status On at init. Each tick: y = altitude - pressure (altitude = yakumono DObjDesc translate.y), mpCollisionSetYakumonoPosID(id, cloud_dobj.translate). pressure += 5 per tick while any grounded fighter stands on the cloud (max 180), else -= 5 (min 0). pressure_timer starts at 120 when first stood on, counts down while stood on; at 0 the cloud evaporates: status Off for 180 ticks (evaporate_wait), then Solid again (collision re-enabled once the CloudSolid matanim finished).",
+    "position_formula": "x = DObjDesc.translate.x; y = DObjDesc.translate.y - pressure",
+    "constants": {
+     "pressure_step": 5.0,
+     "pressure_max": 180.0,
+     "evaporate_after_ticks_stood": 120,
+     "evaporate_duration": 180,
+     "vapor_effect_offset": [
+      -750.0,
+      -350.0
+     ]
+    },
+    "initial_collision_origin": {
+     "x": 7335.0,
+     "y": -60.00140380859375,
+     "applies_offset": true,
+     "status_at_start": "nMPYakumonoStatusOn",
+     "how": "grYosterInitAll: cloud altitude = yakumono DObj translate (pressure 0); SetYakumonoOnID"
+    }
+   }
+  },
+  {
+   "yakumono_id": 2,
+   "dobjdesc_index": 2,
+   "dobjdesc": {
+    "offset": "0x4ED0",
+    "id": 1,
+    "id_hex": "0x1",
+    "parent_index": 0,
+    "dl": null,
+    "translate": [
+     3855.0,
+     1919.9989013671875,
+     0.0
+    ],
+    "rotate": [
+     9.999999974752427e-07,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": true,
+   "line_info_index": [
+    1
+   ],
+   "line_ids": [
+    1
+   ],
+   "anim_joint": null,
+   "motion": "code_driven",
+   "code": {
+    "driver": "code",
+    "functions": [
+     "sources/ssb-decomp-re/src/gr/grcommon/gryoster.c: grYosterUpdateCloudSolid",
+     "sources/ssb-decomp-re/src/gr/grcommon/gryoster.c: grYosterUpdateCloudEvaporate",
+     "sources/ssb-decomp-re/src/gr/grcommon/gryoster.c: grYosterInitAll"
+    ],
+    "summary": "Three clouds (dGRYosterCloudLineIDs = {1,2,3}). Status On at init. Each tick: y = altitude - pressure (altitude = yakumono DObjDesc translate.y), mpCollisionSetYakumonoPosID(id, cloud_dobj.translate). pressure += 5 per tick while any grounded fighter stands on the cloud (max 180), else -= 5 (min 0). pressure_timer starts at 120 when first stood on, counts down while stood on; at 0 the cloud evaporates: status Off for 180 ticks (evaporate_wait), then Solid again (collision re-enabled once the CloudSolid matanim finished).",
+    "position_formula": "x = DObjDesc.translate.x; y = DObjDesc.translate.y - pressure",
+    "constants": {
+     "pressure_step": 5.0,
+     "pressure_max": 180.0,
+     "evaporate_after_ticks_stood": 120,
+     "evaporate_duration": 180,
+     "vapor_effect_offset": [
+      -750.0,
+      -350.0
+     ]
+    },
+    "initial_collision_origin": {
+     "x": 3855.0,
+     "y": 1919.9989013671875,
+     "applies_offset": true,
+     "status_at_start": "nMPYakumonoStatusOn",
+     "how": "grYosterInitAll: cloud altitude = yakumono DObj translate (pressure 0); SetYakumonoOnID"
+    }
+   }
+  },
+  {
+   "yakumono_id": 3,
+   "dobjdesc_index": 3,
+   "dobjdesc": {
+    "offset": "0x4EFC",
+    "id": 1,
+    "id_hex": "0x1",
+    "parent_index": 0,
+    "dl": null,
+    "translate": [
+     -3960.01318359375,
+     779.99951171875,
+     0.0
+    ],
+    "rotate": [
+     9.999999974752427e-07,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": true,
+   "line_info_index": [
+    2
+   ],
+   "line_ids": [
+    2
+   ],
+   "anim_joint": null,
+   "motion": "code_driven",
+   "code": {
+    "driver": "code",
+    "functions": [
+     "sources/ssb-decomp-re/src/gr/grcommon/gryoster.c: grYosterUpdateCloudSolid",
+     "sources/ssb-decomp-re/src/gr/grcommon/gryoster.c: grYosterUpdateCloudEvaporate",
+     "sources/ssb-decomp-re/src/gr/grcommon/gryoster.c: grYosterInitAll"
+    ],
+    "summary": "Three clouds (dGRYosterCloudLineIDs = {1,2,3}). Status On at init. Each tick: y = altitude - pressure (altitude = yakumono DObjDesc translate.y), mpCollisionSetYakumonoPosID(id, cloud_dobj.translate). pressure += 5 per tick while any grounded fighter stands on the cloud (max 180), else -= 5 (min 0). pressure_timer starts at 120 when first stood on, counts down while stood on; at 0 the cloud evaporates: status Off for 180 ticks (evaporate_wait), then Solid again (collision re-enabled once the CloudSolid matanim finished).",
+    "position_formula": "x = DObjDesc.translate.x; y = DObjDesc.translate.y - pressure",
+    "constants": {
+     "pressure_step": 5.0,
+     "pressure_max": 180.0,
+     "evaporate_after_ticks_stood": 120,
+     "evaporate_duration": 180,
+     "vapor_effect_offset": [
+      -750.0,
+      -350.0
+     ]
+    },
+    "initial_collision_origin": {
+     "x": -3960.01318359375,
+     "y": 779.99951171875,
+     "applies_offset": true,
+     "status_at_start": "nMPYakumonoStatusOn",
+     "how": "grYosterInitAll: cloud altitude = yakumono DObj translate (pressure 0); SetYakumonoOnID"
+    }
+   }
+  },
+  {
+   "yakumono_id": 4,
+   "dobjdesc_index": 4,
+   "dobjdesc": {
+    "offset": "0x4F28",
+    "id": 1,
+    "id_hex": "0x1",
+    "parent_index": 0,
+    "dl": {
+     "file_id": 111,
+     "file_name": "StageYosterFile2",
+     "offset": "0x49A0"
+    },
+    "translate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rotate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "has_collision_lines": true,
+   "line_info_index": [
+    3
+   ],
+   "line_ids": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "anim_joint": null,
+   "motion": "static"
+  }
+ ],
+ "collision_origin_at_start": {
+  "1": {
+   "x": 7335.0,
+   "y": -60.00140380859375,
+   "applies_offset": true,
+   "status_at_start": "nMPYakumonoStatusOn",
+   "how": "grYosterInitAll: cloud altitude = yakumono DObj translate (pressure 0); SetYakumonoOnID"
+  },
+  "2": {
+   "x": 3855.0,
+   "y": 1919.9989013671875,
+   "applies_offset": true,
+   "status_at_start": "nMPYakumonoStatusOn",
+   "how": "grYosterInitAll: cloud altitude = yakumono DObj translate (pressure 0); SetYakumonoOnID"
+  },
+  "3": {
+   "x": -3960.01318359375,
+   "y": 779.99951171875,
+   "applies_offset": true,
+   "status_at_start": "nMPYakumonoStatusOn",
+   "how": "grYosterInitAll: cloud altitude = yakumono DObj translate (pressure 0); SetYakumonoOnID"
+  },
+  "4": {
+   "x": 0.0,
+   "y": 0.0,
+   "applies_offset": false,
+   "status_at_start": "nMPYakumonoStatusNone",
+   "how": "vertices are absolute (no anim joint, status None)"
+  }
+ },
+ "moving_collision": [
+  {
+   "yakumono_id": 1,
+   "motion": "code_driven",
+   "line_ids": [
+    0
+   ],
+   "driver": "Three clouds (dGRYosterCloudLineIDs = {1,2,3}). Status On at init. Each tick: y = altitude - pressure (altitude = yakumono DObjDesc translate.y), mpCollisionSetYakumonoPosID(id, cloud_dobj.translate). pressure += 5 per tick while any grounded fighter stands on the cloud (max 180), else -= 5 (min 0). pressure_timer starts at 120 when first stood on, counts down while stood on; at 0 the cloud evaporates: status Off for 180 ticks (evaporate_wait), then Solid again (collision re-enabled once the CloudSolid matanim finished).",
+   "functions": [
+    "sources/ssb-decomp-re/src/gr/grcommon/gryoster.c: grYosterUpdateCloudSolid",
+    "sources/ssb-decomp-re/src/gr/grcommon/gryoster.c: grYosterUpdateCloudEvaporate",
+    "sources/ssb-decomp-re/src/gr/grcommon/gryoster.c: grYosterInitAll"
+   ]
+  },
+  {
+   "yakumono_id": 2,
+   "motion": "code_driven",
+   "line_ids": [
+    1
+   ],
+   "driver": "Three clouds (dGRYosterCloudLineIDs = {1,2,3}). Status On at init. Each tick: y = altitude - pressure (altitude = yakumono DObjDesc translate.y), mpCollisionSetYakumonoPosID(id, cloud_dobj.translate). pressure += 5 per tick while any grounded fighter stands on the cloud (max 180), else -= 5 (min 0). pressure_timer starts at 120 when first stood on, counts down while stood on; at 0 the cloud evaporates: status Off for 180 ticks (evaporate_wait), then Solid again (collision re-enabled once the CloudSolid matanim finished).",
+   "functions": [
+    "sources/ssb-decomp-re/src/gr/grcommon/gryoster.c: grYosterUpdateCloudSolid",
+    "sources/ssb-decomp-re/src/gr/grcommon/gryoster.c: grYosterUpdateCloudEvaporate",
+    "sources/ssb-decomp-re/src/gr/grcommon/gryoster.c: grYosterInitAll"
+   ]
+  },
+  {
+   "yakumono_id": 3,
+   "motion": "code_driven",
+   "line_ids": [
+    2
+   ],
+   "driver": "Three clouds (dGRYosterCloudLineIDs = {1,2,3}). Status On at init. Each tick: y = altitude - pressure (altitude = yakumono DObjDesc translate.y), mpCollisionSetYakumonoPosID(id, cloud_dobj.translate). pressure += 5 per tick while any grounded fighter stands on the cloud (max 180), else -= 5 (min 0). pressure_timer starts at 120 when first stood on, counts down while stood on; at 0 the cloud evaporates: status Off for 180 ticks (evaporate_wait), then Solid again (collision re-enabled once the CloudSolid matanim finished).",
+   "functions": [
+    "sources/ssb-decomp-re/src/gr/grcommon/gryoster.c: grYosterUpdateCloudSolid",
+    "sources/ssb-decomp-re/src/gr/grcommon/gryoster.c: grYosterUpdateCloudEvaporate",
+    "sources/ssb-decomp-re/src/gr/grcommon/gryoster.c: grYosterInitAll"
+   ]
+  }
+ ],
+ "hazards_summary": [
+  {
+   "name": "Evaporating clouds (collision yakumono 1-3, see yakumono[].code)",
+   "functions": [
+    "sources/ssb-decomp-re/src/gr/grcommon/gryoster.c: grYosterProcUpdate, grYosterUpdateCloudSolid, grYosterUpdateCloudEvaporate"
+   ],
+   "summary": "No damaging hazard. Clouds sink while stood on and vanish after 120 ticks of continuous use for 180 ticks.",
+   "constants": {
+    "pressure_step": 5.0,
+    "pressure_max": 180.0,
+    "evaporate_after_ticks_stood": 120,
+    "evaporate_duration": 180,
+    "vapor_effect_offset": [
+     -750.0,
+     -350.0
+    ]
+   }
+  }
+ ],
+ "hazard_data": {},
+ "crosscheck_typed_c": {
+  "c_file": "sources/ssb-decomp-re/src/relocData/111_StageYosterFile2.c",
+  "arrays": {
+   "vertex_data": {
+    "c_symbol": "dStageYosterFile2_gap_0x4F80",
+    "c_declared_count": 21,
+    "c_values_count": 21,
+    "bytes_compared": 126,
+    "byte_identical": true,
+    "exported_count": 21,
+    "exported_equals_c_prefix": true
+   },
+   "vertex_id": {
+    "c_symbol": "dStageYosterFile2_gap_0x4F80_sub_0x80",
+    "c_declared_count": 26,
+    "c_values_count": 26,
+    "bytes_compared": 52,
+    "byte_identical": true,
+    "exported_count": 25,
+    "exported_equals_c_prefix": true,
+    "c_extra_tail_values": [
+     [
+      0
+     ]
+    ],
+    "note": "C declares more elements than are referenced; extra tail is the alignment pad"
+   },
+   "vertex_links": {
+    "c_symbol": "dStageYosterFile2_gap_0x4F80_sub_0xB4",
+    "c_declared_count": 10,
+    "c_values_count": 10,
+    "bytes_compared": 40,
+    "byte_identical": true,
+    "exported_count": 10,
+    "exported_equals_c_prefix": true
+   },
+   "line_info": {
+    "c_symbol": "dStageYosterFile2_gap_0x4F80_sub_0xDC",
+    "c_declared_count": 4,
+    "c_values_count": 4,
+    "bytes_compared": 72,
+    "byte_identical": true,
+    "exported_count": 4,
+    "exported_equals_c_prefix": true
+   },
+   "mapobjs": {
+    "c_symbol": "dStageYosterFile2_gap_0x4F80_sub_0x124",
+    "c_declared_count": 38,
+    "c_values_count": 38,
+    "bytes_compared": 228,
+    "byte_identical": true,
+    "exported_count": 38,
+    "exported_equals_c_prefix": true
+   }
+  },
+  "c_symbol": "dStageYosterFile2_MPGeometryData_0x5188",
+  "c_yakumono_count": 4,
+  "c_mapobj_count": 38,
+  "status": "ok"
+ }
+}

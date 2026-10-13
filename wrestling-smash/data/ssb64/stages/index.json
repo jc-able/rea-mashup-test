@@ -1,0 +1,416 @@
+{
+ "generated_by": "tools/ssb64/stages/extract_stages.py",
+ "rom_sha1": "e2929e10fccc0aa84e5776227e798abc07cedabf",
+ "relocData_rom_offset": "0x1AC870",
+ "notes": "Positions are raw game world units exactly as stored (s16 vertex/mapobj coords, f32 DObj translates), y up; animation tables are per 60 Hz game tick.",
+ "engine_constants": {
+  "dMPCollisionMaterialFrictions": {
+   "source": "sources/ssb-decomp-re/src/mp/mpcollision.c (0x8012C4E0)",
+   "index": "floor_flags & MAP_VERTEX_MAT_MASK (material id)",
+   "values": [
+    4.0,
+    3.0,
+    3.0,
+    1.0,
+    2.0,
+    2.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0
+   ]
+  },
+  "dFTMainGroundHitCollisionAttributes": {
+   "source": "sources/ssb-decomp-re/src/ft/ftmain.c ftMainGetGroundHitObstacle (material -> GRAttackColl)",
+   "fields": [
+    "kind",
+    "damage",
+    "angle",
+    "knockback_scale",
+    "knockback_weight",
+    "knockback_base",
+    "element"
+   ],
+   "by_material": {
+    "nMPMaterialFireWeakS1": [
+     4,
+     1,
+     361,
+     100,
+     100,
+     0,
+     "nGMHitElementFire"
+    ],
+    "nMPMaterialFireStrongS1": [
+     5,
+     10,
+     90,
+     100,
+     200,
+     0,
+     "nGMHitElementFire"
+    ],
+    "nMPMaterialFireWeakHi1": [
+     6,
+     10,
+     90,
+     100,
+     100,
+     0,
+     "nGMHitElementFire"
+    ],
+    "nMPMaterialSpikes": [
+     7,
+     10,
+     361,
+     100,
+     80,
+     0,
+     "nGMHitElementSlash"
+    ],
+    "nMPMaterialFireWeakHi2": [
+     8,
+     1,
+     90,
+     100,
+     100,
+     0,
+     "nGMHitElementFire"
+    ],
+    "nMPMaterialFireWeakHi3": [
+     9,
+     1,
+     90,
+     100,
+     100,
+     0,
+     "nGMHitElementFire"
+    ]
+   }
+  },
+  "map_flags": {
+   "source": "sources/ssb-decomp-re/src/mp/mpdef.h",
+   "MAP_VERTEX_COLL_PASS": 16384,
+   "MAP_VERTEX_COLL_CLIFF": 32768,
+   "MAP_VERTEX_COLL_BITS": 65280,
+   "MAP_VERTEX_MAT_BITS": 255,
+   "MAP_VERTEX_MAT_MASK (as used: flags & ~0xFF00)": "0xFFFF00FF",
+   "MAP_FLAG_LWALL": 1,
+   "MAP_FLAG_RWALL": 32,
+   "MAP_FLAG_CEIL": 1024,
+   "MAP_FLAG_FLOOR": 2048,
+   "MAP_FLAG_LCLIFF": 4096,
+   "MAP_FLAG_RCLIFF": 8192,
+   "MAP_FLAG_CEILHEAVY": 16384,
+   "MAP_FLAG_FLOOREDGE": 32768
+  },
+  "cliff_catch_rule": "mpProcessCheckTestLCliffCollision/RCliffCollision (src/mp/mpprocess.c): the ledge-grab probe (pos + cliffcatch_coll) must hit a FLOOR segment whose vertex_flags has MAP_VERTEX_COLL_CLIFF (0x8000); the grabbed point is the line's left (min x of first/last vertex, mpCollisionGetFloorEdgeL) or right edge, and must be within 800.0 units in x of the probe. The LEFT-edge test additionally requires material != nMPMaterial4; the RIGHT-edge test does not.",
+  "pass_through_rule": "floor_flags & MAP_VERTEX_COLL_PASS (0x4000) marks a drop-through floor segment (ftcommonpass.c, mpprocess.c lines using MAP_VERTEX_COLL_PASS).",
+  "segment_flags_rule": "A line is a polyline: vertex_links[line_id] = {vertex1 = first index into vertex_id[], vertex2 = vertex count}. The flags of segment k (vertex_id[vertex1+k] -> vertex_id[vertex1+k+1]) are vertex_data[vertex_id[vertex1+k]].vertex_flags (mpCollisionGetFCCommon / GetLRCommon read pv[0]); the last vertex's flags are never used as segment flags.",
+  "yakumono_offset_rule": "Collision vertices of a yakumono are offset by its DObj translate (x,y) only when dobj->anim_joint.event32 != NULL or dobj->user_data.s (MPYakumonoStatus) != None; otherwise vertex positions are absolute and the DObj translate is ignored (mpCollisionGetFCCommon et al.). Only the local translate of that DObj is used (no parent transform, no rotation/scale).",
+  "yakumono_status_rule": "MPYakumonoStatus {None=0, On=1, Show=2, Off=3, Hidden=4}: status >= Off means no collision. mpCollisionPlayYakumonoAnim only advances the AObj animation of yakumono DObjs whose status is not On/Off; an animated SetFlags turning dobj->flags from 0 to non-0 sets Hidden, non-0 to 0 sets Show. gMPCollisionSpeeds[yakumono] = translate delta per tick."
+ },
+ "stages": [
+  {
+   "key": "castle",
+   "display_name": "Peach's Castle",
+   "vs_mode": true,
+   "gr_kind": "nGRKindCastle",
+   "gr_kind_value": 0,
+   "file_ids": {
+    "map": 259,
+    "map_name": "GRCastleMap",
+    "geometry_and_model": 106,
+    "geometry_and_model_name": "StageCastleFile2",
+    "map_nodes": 156,
+    "map_nodes_name": "StageCastleFile3",
+    "wallpaper": 90
+   },
+   "map_header_offset": "0x14",
+   "json": "game/data/ssb64/stages/castle.json",
+   "svg": "evidence/stages/castle.svg",
+   "lines": 16,
+   "moving_collision": [
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "key": "sector",
+   "display_name": "Sector Z",
+   "vs_mode": true,
+   "gr_kind": "nGRKindSector",
+   "gr_kind_value": 1,
+   "file_ids": {
+    "map": 262,
+    "map_name": "GRSectorMap",
+    "geometry_and_model": 109,
+    "geometry_and_model_name": "StageSectorFile2",
+    "map_nodes": 153,
+    "map_nodes_name": "StageSectorFile3",
+    "wallpaper": 99
+   },
+   "map_header_offset": "0x14",
+   "json": "game/data/ssb64/stages/sector.json",
+   "svg": "evidence/stages/sector.svg",
+   "lines": 9,
+   "moving_collision": [
+    1
+   ]
+  },
+  {
+   "key": "jungle",
+   "display_name": "Congo Jungle",
+   "vs_mode": true,
+   "gr_kind": "nGRKindJungle",
+   "gr_kind_value": 2,
+   "file_ids": {
+    "map": 261,
+    "map_name": "GRJungleMap",
+    "geometry_and_model": 108,
+    "geometry_and_model_name": "StageJungleFile2",
+    "map_nodes": 158,
+    "map_nodes_name": "StageJungleFile3",
+    "wallpaper": 92
+   },
+   "map_header_offset": "0x14",
+   "json": "game/data/ssb64/stages/jungle.json",
+   "svg": "evidence/stages/jungle.svg",
+   "lines": 5,
+   "moving_collision": [
+    1,
+    2
+   ]
+  },
+  {
+   "key": "zebes",
+   "display_name": "Planet Zebes",
+   "vs_mode": true,
+   "gr_kind": "nGRKindZebes",
+   "gr_kind_value": 3,
+   "file_ids": {
+    "map": 257,
+    "map_name": "GRZebesMap",
+    "geometry_and_model": 105,
+    "geometry_and_model_name": "StageZebesFile2",
+    "map_nodes": 157,
+    "map_nodes_name": "StageZebesFile3",
+    "wallpaper": 89
+   },
+   "map_header_offset": "0x14",
+   "json": "game/data/ssb64/stages/zebes.json",
+   "svg": "evidence/stages/zebes.svg",
+   "lines": 5,
+   "moving_collision": [
+    2
+   ]
+  },
+  {
+   "key": "hyrule",
+   "display_name": "Hyrule Castle",
+   "vs_mode": true,
+   "gr_kind": "nGRKindHyrule",
+   "gr_kind_value": 4,
+   "file_ids": {
+    "map": 265,
+    "map_name": "GRHyruleMap",
+    "geometry_and_model": 113,
+    "geometry_and_model_name": "StageHyruleFile2",
+    "map_nodes": null,
+    "map_nodes_name": null,
+    "wallpaper": 95
+   },
+   "map_header_offset": "0x14",
+   "json": "game/data/ssb64/stages/hyrule.json",
+   "svg": "evidence/stages/hyrule.svg",
+   "lines": 15,
+   "moving_collision": []
+  },
+  {
+   "key": "yoster",
+   "display_name": "Yoshi's Island",
+   "vs_mode": true,
+   "gr_kind": "nGRKindYoster",
+   "gr_kind_value": 5,
+   "file_ids": {
+    "map": 263,
+    "map_name": "GRYosterMap",
+    "geometry_and_model": 111,
+    "geometry_and_model_name": "StageYosterFile2",
+    "map_nodes": 154,
+    "map_nodes_name": "StageYosterFile3",
+    "wallpaper": 93
+   },
+   "map_header_offset": "0x14",
+   "json": "game/data/ssb64/stages/yoster.json",
+   "svg": "evidence/stages/yoster.svg",
+   "lines": 10,
+   "moving_collision": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "key": "pupupu",
+   "display_name": "Dream Land",
+   "vs_mode": true,
+   "gr_kind": "nGRKindPupupu",
+   "gr_kind_value": 6,
+   "file_ids": {
+    "map": 255,
+    "map_name": "GRPupupuMap",
+    "geometry_and_model": 104,
+    "geometry_and_model_name": "StagePupupuFile2",
+    "map_nodes": 152,
+    "map_nodes_name": "StagePupupuFile3",
+    "wallpaper": 88
+   },
+   "map_header_offset": "0x14",
+   "json": "game/data/ssb64/stages/pupupu.json",
+   "svg": "evidence/stages/pupupu.svg",
+   "lines": 7,
+   "moving_collision": []
+  },
+  {
+   "key": "yamabuki",
+   "display_name": "Saffron City",
+   "vs_mode": true,
+   "gr_kind": "nGRKindYamabuki",
+   "gr_kind_value": 7,
+   "file_ids": {
+    "map": 264,
+    "map_name": "GRYamabukiMap",
+    "geometry_and_model": 112,
+    "geometry_and_model_name": "StageYamabukiFile2",
+    "map_nodes": 160,
+    "map_nodes_name": "StageYamabukiFile4",
+    "wallpaper": 94
+   },
+   "map_header_offset": "0x14",
+   "json": "game/data/ssb64/stages/yamabuki.json",
+   "svg": "evidence/stages/yamabuki.svg",
+   "lines": 16,
+   "moving_collision": [
+    3,
+    5,
+    7
+   ]
+  },
+  {
+   "key": "inishie",
+   "display_name": "Mushroom Kingdom",
+   "vs_mode": true,
+   "gr_kind": "nGRKindInishie",
+   "gr_kind_value": 8,
+   "file_ids": {
+    "map": 260,
+    "map_name": "GRInishieMap",
+    "geometry_and_model": 107,
+    "geometry_and_model_name": "StageInishieFile2",
+    "map_nodes": 155,
+    "map_nodes_name": "StageInishieFile3",
+    "wallpaper": 91
+   },
+   "map_header_offset": "0x14",
+   "json": "game/data/ssb64/stages/inishie.json",
+   "svg": "evidence/stages/inishie.svg",
+   "lines": 19,
+   "moving_collision": [
+    1,
+    2
+   ]
+  },
+  {
+   "key": "explain",
+   "display_name": "How to Play stage",
+   "vs_mode": false,
+   "gr_kind": "nGRKindExplain",
+   "gr_kind_value": 11,
+   "file_ids": {
+    "map": 267,
+    "map_name": "GRExplainMap",
+    "geometry_and_model": 115,
+    "geometry_and_model_name": "StageExplainFile2",
+    "map_nodes": null,
+    "map_nodes_name": null,
+    "wallpaper": 88
+   },
+   "map_header_offset": "0x0",
+   "json": "game/data/ssb64/stages/explain.json",
+   "svg": "evidence/stages/explain.svg",
+   "lines": 5,
+   "moving_collision": []
+  },
+  {
+   "key": "metal",
+   "display_name": "Meta Crystal",
+   "vs_mode": false,
+   "gr_kind": "nGRKindMetal",
+   "gr_kind_value": 13,
+   "file_ids": {
+    "map": 269,
+    "map_name": "GRMetalMap",
+    "geometry_and_model": 117,
+    "geometry_and_model_name": "StageMetalFile2",
+    "map_nodes": null,
+    "map_nodes_name": null,
+    "wallpaper": 98
+   },
+   "map_header_offset": "0x14",
+   "json": "game/data/ssb64/stages/metal.json",
+   "svg": "evidence/stages/metal.svg",
+   "lines": 7,
+   "moving_collision": []
+  },
+  {
+   "key": "zako",
+   "display_name": "Battlefield (Duel Zone, 1P Fighting Polygon Team)",
+   "vs_mode": false,
+   "gr_kind": "nGRKindZako",
+   "gr_kind_value": 14,
+   "file_ids": {
+    "map": 268,
+    "map_name": "GRZakoMap",
+    "geometry_and_model": 116,
+    "geometry_and_model_name": "StageBattlefieldFile2",
+    "map_nodes": null,
+    "map_nodes_name": null,
+    "wallpaper": 97
+   },
+   "map_header_offset": "0x14",
+   "json": "game/data/ssb64/stages/zako.json",
+   "svg": "evidence/stages/zako.svg",
+   "lines": 15,
+   "moving_collision": []
+  },
+  {
+   "key": "last",
+   "display_name": "Final Destination",
+   "vs_mode": false,
+   "gr_kind": "nGRKindLast",
+   "gr_kind_value": 16,
+   "file_ids": {
+    "map": 266,
+    "map_name": "GRLastMap",
+    "geometry_and_model": 114,
+    "geometry_and_model_name": "StageLastFile2",
+    "map_nodes": null,
+    "map_nodes_name": null,
+    "wallpaper": 96
+   },
+   "map_header_offset": "0x0",
+   "json": "game/data/ssb64/stages/last.json",
+   "svg": "evidence/stages/last.svg",
+   "lines": 7,
+   "moving_collision": []
+  }
+ ]
+}

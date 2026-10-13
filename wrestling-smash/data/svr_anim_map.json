@@ -1,0 +1,3032 @@
+{
+ "version": 1,
+ "generated_by": "tools/svr_anim/build_anim_map.py",
+ "notes": "Original SvR 2011 clips per wrestler and SSB64 presentation role. Policy and heuristics: evidence/ANIMATION_SETS.md. Roles missing here fall back to the SSB64 motion (labelled).",
+ "common": {
+  "idle": {
+   "clip": "STAT_1700_0",
+   "move": "idle ready stance (SvR superstar slot 0)",
+   "source": "SvR 2011 generic motion (data (superstar slot 0 = 1700 for all 12 wrestlers, chEtc.pac CHAR/PRO) + visual (render evidence/svr_moves/sheets/stat_basic.png row 0))"
+  },
+  "walk": {
+   "clip": "STAT_9900_0",
+   "move": "walk forward (SvR superstar slot 1)",
+   "source": "SvR 2011 generic motion (data (superstar slot 1 = 9900; planted-foot drift = forward) + visual (render evidence/svr_moves/sheets/stat_basic.png row 2; evidence/svr_motion/validate_STAT_9900_0_walk_john_cena.png))"
+  },
+  "run": {
+   "clip": "STAT_6801_0",
+   "move": "run, running style 'Normal' (SvR superstar slot 2)",
+   "source": "SvR 2011 generic motion (data (superstar slot 2 = 6801, WAZE name 'Normal') + visual (render evidence/svr_moves/sheets/stat_basic.png row 6))"
+  },
+  "run_start": {
+   "clip": "STAT_6801_0",
+   "move": "run cycle 'Normal'",
+   "source": "SvR 2011 generic motion (same clip as run (SSB64 dash start))",
+   "timing": "loop",
+   "speed_mps": 3.9
+  },
+  "run_brake": {
+   "clip": "STAT_6803_0",
+   "move": "run that decelerates to a halt (ends bent forward)",
+   "source": "SvR 2011 generic motion (visual (render evidence/svr_moves/sheets/stat_h_locomotion.png row 1) + data (root travels 16.9 dm forward then stops))"
+  },
+  "block": {
+   "clip": "STAT_1280_256",
+   "move": "blocked punch idle: holds the opponent's punching arm (loop)",
+   "source": "SvR 2011 generic motion (visual (render evidence/svr_moves/sheets/stat_j_holds_turns.png row 7) + data (in-game controls list: BLOCKING PUNCHES (RT) -> BLOCKED PUNCH IDLE, string.pac strings 30385-30398; decoder loop flag). SvR has no free-standing guard; matching this clip to that state is inferred from the pose)"
+  },
+  "hit_hi": {
+   "clip": "STAT_632_0",
+   "move": "head snaps back, leans far back, recovers",
+   "source": "SvR 2011 generic motion (visual (render evidence/svr_moves/sheets/stat_e_reactions.png rows 14, 3; strength order judged from the size of the reaction))",
+   "by_status": {
+    "nFTCommonStatusDamageHi1": {
+     "clip": "STAT_1274_0"
+    },
+    "nFTCommonStatusDamageHi2": {
+     "clip": "STAT_1274_0"
+    },
+    "nFTCommonStatusDamageHi3": {
+     "clip": "STAT_632_0"
+    }
+   }
+  },
+  "hit_n": {
+   "clip": "STAT_1277_0",
+   "move": "pushed back, leans away",
+   "source": "SvR 2011 generic motion (visual (render evidence/svr_moves/sheets/stat_e_reactions.png rows 4, 3, 0) + data (backward root travel 1.8 / 0 / 4.8 dm); strength order judged from the size of the reaction)",
+   "by_status": {
+    "nFTCommonStatusDamageN1": {
+     "clip": "STAT_1274_0"
+    },
+    "nFTCommonStatusDamageN2": {
+     "clip": "STAT_1277_0"
+    },
+    "nFTCommonStatusDamageN3": {
+     "clip": "STAT_330_0"
+    }
+   }
+  },
+  "hit_lw": {
+   "clip": "STAT_330_0",
+   "move": "doubles over holding the stomach",
+   "source": "SvR 2011 generic motion (visual (render evidence/svr_moves/sheets/stat_e_reactions.png rows 0, 15) + data (backward root travel 4.8 / 2.9 dm; pain-voice cue 3003); strength order judged from the size of the reaction)",
+   "by_status": {
+    "nFTCommonStatusDamageLw1": {
+     "clip": "STAT_672_0"
+    },
+    "nFTCommonStatusDamageLw2": {
+     "clip": "STAT_330_0"
+    },
+    "nFTCommonStatusDamageLw3": {
+     "clip": "STAT_330_0"
+    }
+   }
+  },
+  "knockdown": {
+   "clip": "STAT_601_0",
+   "move": "knocked down: staggers backwards onto the back / falls forward onto the face",
+   "source": "SvR 2011 generic motion (visual (render evidence/svr_moves/sheets/stat_d_knockdowns.png rows 9, 10) + data (end pose face up / face down from toe-vs-heel height; backward / forward root travel 18 / 11.6 dm))",
+   "by_status": {
+    "nFTCommonStatusDownBounceU": {
+     "clip": "STAT_601_0"
+    },
+    "nFTCommonStatusDownBounceD": {
+     "clip": "STAT_636_0"
+    }
+   }
+  },
+  "downed": {
+   "clip": "STAT_0_0",
+   "move": "lying on the back / face down (loops)",
+   "source": "SvR 2011 generic motion (visual (render evidence/svr_moves/sheets/stat_basic.png rows 9, 10) + data (root height -1.8 / -1.4 dm, toe-vs-heel orientation, decoder loop flag))",
+   "by_status": {
+    "nFTCommonStatusDownWaitU": {
+     "clip": "STAT_0_0"
+    },
+    "nFTCommonStatusDownWaitD": {
+     "clip": "STAT_1_0"
+    }
+   }
+  },
+  "getup": {
+   "clip": "STAT_20_0",
+   "move": "get up from the back / from face down",
+   "source": "SvR 2011 generic motion (visual (render evidence/svr_moves/sheets/stat_basic.png row 11, stat_a.png row 1) + data (start lying face up / face down, end standing))",
+   "by_status": {
+    "nFTCommonStatusDownStandU": {
+     "clip": "STAT_20_0"
+    },
+    "nFTCommonStatusDownStandD": {
+     "clip": "STAT_21_0"
+    }
+   }
+  },
+  "getup_roll": {
+   "clip": "STAT_24_0",
+   "move": "rolling get-up from the back",
+   "source": "SvR 2011 generic motion (visual (render evidence/svr_moves/sheets/stat_a.png rows 4, 5) + data (start lying, end standing, root travel 14.6 / 14.9 dm). Roll direction relative to SSB64 forward/back not determined)"
+  },
+  "grab": {
+   "clip": "STAT_100_0",
+   "move": "chain-grapple entry: grabs the opponent into a front facelock",
+   "source": "SvR 2011 generic motion (visual (render evidence/svr_moves/sheets/stat_b.png row 11) + data (superstar slot 59 default = 100; slots 57-60 = 103/102/100/101 follow the editor's chain-grapple blocks waist lock / side headlock / front facelock / wrist lock); the slot link is inferred)",
+   "victim_clip": "STAT_100_1"
+  },
+  "grab_hold": {
+   "clip": "STAT_100_12800",
+   "move": "front-facelock hold loop (attacker side)",
+   "source": "SvR 2011 generic motion (visual (render evidence/svr_moves/sheets/stat_j_holds_turns.png row 0) + data (decoder loop flag on both roles; variant 50 of the front-facelock entry 100))",
+   "victim_clip": "STAT_100_12801"
+  },
+  "captured": {
+   "clip": "STAT_100_12801",
+   "move": "front-facelock hold loop (opponent side)",
+   "source": "SvR 2011 generic motion (visual (render evidence/svr_moves/sheets/stat_j_holds_turns.png row 0, stat_b.png row 11) + data (role 1 of the same clips; loop flag))",
+   "by_status": {
+    "nFTCommonStatusCapturePulled": {
+     "clip": "STAT_100_1"
+    },
+    "nFTCommonStatusCaptureWait": {
+     "clip": "STAT_100_12801"
+    }
+   }
+  }
+ },
+ "wrestlers": {
+  "john_cena": {
+   "jab1": {
+    "clip": "STAT_3128_0",
+    "move": "Gut Punch",
+    "move_id": 3128,
+    "source": "SvR 2011 moveset of JOHN CENA, slot standing.strike_attacks.entry_1",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab2": {
+    "clip": "STAT_3129_0",
+    "move": "Head Punch 1",
+    "move_id": 3129,
+    "source": "SvR 2011 moveset of JOHN CENA, slot standing.strike_combination.2nd",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab3": {
+    "clip": "STAT_3129_0",
+    "move": "Head Punch 1",
+    "move_id": 3129,
+    "source": "SvR 2011 moveset of JOHN CENA, slot standing.strike_combination.3rd",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab_rapid": {
+    "clip": "STAT_3129_0",
+    "move": "Head Punch 1",
+    "move_id": 3129,
+    "source": "SvR 2011 moveset of JOHN CENA, slot standing.strike_combination.2nd",
+    "timing": "loop",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ftilt": {
+    "clip": "STAT_3130_0",
+    "move": "Body Hook",
+    "move_id": 3130,
+    "source": "SvR 2011 moveset of JOHN CENA, slot standing.strike_attacks.ls_right",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "utilt": {
+    "clip": "STAT_3129_0",
+    "move": "Head Punch 1",
+    "move_id": 3129,
+    "source": "SvR 2011 moveset of JOHN CENA, slot standing.strike_attacks.ls_up",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dtilt": {
+    "clip": "STAT_3129_0",
+    "move": "Head Punch 1",
+    "move_id": 3129,
+    "source": "SvR 2011 moveset of JOHN CENA, slot standing.strike_attacks.ls_down",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dash_attack": {
+    "clip": "STAT_3381_0",
+    "move": "Shoulder Block 1",
+    "move_id": 3381,
+    "source": "SvR 2011 moveset of JOHN CENA, slot running.running_strikes.entry_1",
+    "hit_victim_clip": "STAT_3381_2561",
+    "impact": 9,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fsmash": {
+    "clip": "STAT_11079_0",
+    "move": "Cena Punch",
+    "move_id": 11079,
+    "source": "SvR 2011 moveset of JOHN CENA, slot standing.strong_strikes.entry_1",
+    "hit_victim_clip": "STAT_11079_2561",
+    "impact": 41,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "usmash": {
+    "clip": "STAT_3110_0",
+    "move": "Haymaker 1",
+    "move_id": 3110,
+    "source": "SvR 2011 moveset of JOHN CENA, slot standing.strike_combination.4th",
+    "impact": 13,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dsmash": {
+    "clip": "STAT_3850_0",
+    "move": "Angry Stomp",
+    "move_id": 3850,
+    "source": "SvR 2011 moveset of JOHN CENA, slot ground.strike_attacks.entry_1",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "nair": {
+    "clip": "CORN_3521_0",
+    "move": "Over Castle",
+    "move_id": 3521,
+    "source": "SvR 2011 moveset of JOHN CENA, slot diving.diving_attack_vs_standing_opp.entry_1",
+    "hit_victim_clip": "CORN_3521_12801",
+    "in": 10,
+    "out": 33,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 20,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fair": {
+    "clip": "ROPE_23270_0",
+    "move": "Springboard Clothesline",
+    "move_id": 23270,
+    "source": "SvR 2011 moveset of JOHN CENA, slot corner.strike_attacks.top_rope.springboard",
+    "in": 6,
+    "out": 49,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 42,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "bair": {
+    "clip": "ROPE_3815_0",
+    "move": "Vaulting Body Press 3",
+    "move_id": 3815,
+    "source": "SvR 2011 moveset of JOHN CENA, slot rope.outside_springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3815_7681",
+    "in": 12,
+    "out": 45,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 28,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "uair": {
+    "clip": "CETB_3480_0",
+    "move": "Body Splash 2",
+    "move_id": 3480,
+    "source": "SvR 2011 moveset of JOHN CENA, slot corner.corner_springboard.entry_1",
+    "in": 10,
+    "out": 26,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 26,
+    "impact_source": "heuristic (lowest root point after take-off)"
+   },
+   "dair": {
+    "clip": "CORN_3571_0",
+    "move": "Diving Fist Drop 3",
+    "move_id": 3571,
+    "source": "SvR 2011 moveset of JOHN CENA, slot diving.diving_attack_vs_downed_opp.entry_1",
+    "hit_victim_clip": "CORN_3571_7681",
+    "in": 9,
+    "out": 42,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 27,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "throw_f": {
+    "clip": "STN1_5010_0",
+    "move": "Attitude Adjustment 2",
+    "move_id": 5010,
+    "source": "SvR 2011 moveset of JOHN CENA, slot finisher (Attitude Adjustment 2)",
+    "victim_clip": "STN1_5010_1",
+    "max_speedup": 6.0,
+    "impact": 228,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "throw_b": {
+    "clip": "STN2_7344_0",
+    "move": "Spin-Out Powerbomb",
+    "move_id": 7344,
+    "source": "SvR 2011 moveset of JOHN CENA, slot standing.groggy_grapple.groggy_grapple_from_behind.rs_up",
+    "victim_clip": "STN2_7344_1",
+    "max_speedup": 6.0,
+    "impact": 92,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_n": {
+    "clip": "ROPE_6689_0",
+    "move": "Five Knuckle Shuffle",
+    "move_id": 6689,
+    "source": "SvR 2011 moveset of JOHN CENA, slot signature (Five Knuckle Shuffle)",
+    "hit_victim_clip": "ROPE_6689_1",
+    "impact": 272,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_lw": {
+    "clip": "ANAS_21350_0",
+    "move": "STF",
+    "move_id": 21350,
+    "source": "SvR 2011 moveset of JOHN CENA, slot finisher (STF)",
+    "hit_victim_clip": "ANAS_21350_1",
+    "impact": 34,
+    "impact_source": "heuristic (peak limb angular speed)"
+   },
+   "special_hi": {
+    "clip": "ROPE_3782_0",
+    "move": "Springboard Body Splash 1",
+    "move_id": 3782,
+    "source": "SvR 2011 moveset of JOHN CENA, slot rope.springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3782_7681",
+    "in": 2,
+    "out": 43,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 30,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_attack": {
+    "clip": "APRO_10701_0",
+    "move": "Right Hook",
+    "move_id": 10701,
+    "source": "SvR 2011 moveset of JOHN CENA, slot apron.strike_attacks.to_ring",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_climb": {
+    "clip": "BASE_722_0",
+    "move": "Normal Ring In 1",
+    "move_id": 722,
+    "source": "SvR 2011 moveset of JOHN CENA, slot standard_actions.apron_ring_in_out.in_to_the_ring",
+    "timing": "fit"
+   },
+   "taunt": {
+    "clip": "BASE_9508_0",
+    "move": "John Cena 2",
+    "move_id": 9508,
+    "source": "SvR 2011 moveset of JOHN CENA, slot standard_actions.taunts.dpad_up",
+    "timing": "fit"
+   },
+   "entry": {
+    "clip": "BASE_739_0",
+    "move": "Slide Ring In 1",
+    "move_id": 739,
+    "source": "SvR 2011 moveset of JOHN CENA, slot standard_actions.ring_in_out.in",
+    "timing": "fit"
+   },
+   "respawn": {
+    "clip": "BASE_9212_0",
+    "move": "John Cena 1",
+    "move_id": 9212,
+    "source": "SvR 2011 moveset of JOHN CENA, slot standard_actions.taunts.dpad_left",
+    "timing": "loop"
+   }
+  },
+  "kofi_kingston": {
+   "jab1": {
+    "clip": "STAT_3015_0",
+    "move": "Snap Jab 1",
+    "move_id": 3015,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot standing.strike_attacks.entry_1",
+    "impact": 5,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab2": {
+    "clip": "STAT_3130_0",
+    "move": "Body Hook",
+    "move_id": 3130,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot standing.strike_combination.2nd",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab3": {
+    "clip": "STAT_3013_0",
+    "move": "Elbow Smash 5",
+    "move_id": 3013,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot standing.strike_combination.3rd",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab_rapid": {
+    "clip": "STAT_3130_0",
+    "move": "Body Hook",
+    "move_id": 3130,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot standing.strike_combination.2nd",
+    "timing": "loop",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ftilt": {
+    "clip": "STAT_3130_0",
+    "move": "Body Hook",
+    "move_id": 3130,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot standing.strike_attacks.ls_right",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "utilt": {
+    "clip": "STAT_3211_0",
+    "move": "Dropkick 1",
+    "move_id": 3211,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot standing.strike_attacks.ls_up",
+    "hit_victim_clip": "STAT_3211_23041",
+    "impact": 25,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dtilt": {
+    "clip": "STAT_3221_0",
+    "move": "Spinning Back Kick",
+    "move_id": 3221,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot standing.strike_attacks.ls_down",
+    "hit_victim_clip": "STAT_3221_2561",
+    "impact": 19,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dash_attack": {
+    "clip": "STAT_3485_0",
+    "move": "Flying Forearm Smash 2",
+    "move_id": 3485,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot running.running_strikes.entry_1",
+    "hit_victim_clip": "STAT_3485_2561",
+    "impact": 8,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fsmash": {
+    "clip": "STAT_11077_0",
+    "move": "Dropkick 6",
+    "move_id": 11077,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot standing.strong_strikes.entry_1",
+    "hit_victim_clip": "STAT_11077_2561",
+    "impact": 26,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "usmash": {
+    "clip": "STAT_3207_0",
+    "move": "Corkscrew Calfkick",
+    "move_id": 3207,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot standing.strike_combination.4th",
+    "hit_victim_clip": "STAT_3207_2561",
+    "impact": 15,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dsmash": {
+    "clip": "STAT_3860_0",
+    "move": "King Stomp",
+    "move_id": 3860,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot ground.strike_attacks.entry_1",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "nair": {
+    "clip": "CORN_3529_0",
+    "move": "Diving Cross Body 2",
+    "move_id": 3529,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot diving.diving_attack_vs_standing_opp.entry_1",
+    "hit_victim_clip": "CORN_3529_7681",
+    "in": 11,
+    "out": 38,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 25,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fair": {
+    "clip": "ROPE_23272_0",
+    "move": "Springboard Hurricanrana 3",
+    "move_id": 23272,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot corner.strike_attacks.top_rope.springboard",
+    "hit_victim_clip": "ROPE_23272_2561",
+    "in": 29,
+    "out": 74,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 60,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "bair": {
+    "clip": "ROPE_3812_0",
+    "move": "Vaulting Body Press 2",
+    "move_id": 3812,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot rope.outside_springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3812_7681",
+    "in": 11,
+    "out": 45,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 26,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "uair": {
+    "clip": "CETB_3480_0",
+    "move": "Body Splash 2",
+    "move_id": 3480,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot corner.corner_springboard.entry_1",
+    "in": 10,
+    "out": 26,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 26,
+    "impact_source": "heuristic (lowest root point after take-off)"
+   },
+   "dair": {
+    "clip": "CORN_3560_0",
+    "move": "Diving Leg Drop 4",
+    "move_id": 3560,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot diving.diving_attack_vs_downed_opp.entry_1",
+    "hit_victim_clip": "CORN_3560_7681",
+    "in": 8,
+    "out": 35,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 23,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "throw_f": {
+    "clip": "STN1_5319_0",
+    "move": "Scoop Slam 3",
+    "move_id": 5319,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot standing.chain_grapple.front_facelock.rs_up",
+    "victim_clip": "STN1_5319_1",
+    "max_speedup": 6.0,
+    "impact": 71,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "throw_b": {
+    "clip": "STN2_4561_0",
+    "move": "Trouble in Paradise 1",
+    "move_id": 4561,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot finisher (Trouble in Paradise 1)",
+    "victim_clip": "STN2_4561_1",
+    "max_speedup": 6.0,
+    "impact": 51,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_n": {
+    "clip": "ROPE_6686_0",
+    "move": "Boom Drop",
+    "move_id": 6686,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot signature (Boom Drop)",
+    "hit_victim_clip": "ROPE_6686_1",
+    "impact": 127,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_lw": {
+    "clip": "STN2_4746_0",
+    "move": "S.O.S.",
+    "move_id": 4746,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot finisher (S.O.S.)",
+    "hit_victim_clip": "STN2_4746_1",
+    "impact": 101,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_hi": {
+    "clip": "ROPE_3782_0",
+    "move": "Springboard Body Splash 1",
+    "move_id": 3782,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot rope.springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3782_7681",
+    "in": 2,
+    "out": 43,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 30,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_attack": {
+    "clip": "APRO_7062_0",
+    "move": "Kick to Ring",
+    "move_id": 7062,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot apron.strike_attacks.to_ring",
+    "impact": 7,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_climb": {
+    "clip": "BASE_11431_0",
+    "move": "Jumping Ring In 3",
+    "move_id": 11431,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot standard_actions.apron_ring_in_out.in_to_the_ring",
+    "timing": "fit"
+   },
+   "taunt": {
+    "clip": "BASE_9589_0",
+    "move": "Kofi Kingston 1",
+    "move_id": 9589,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot standard_actions.taunts.dpad_up",
+    "timing": "fit"
+   },
+   "entry": {
+    "clip": "BASE_700_0",
+    "move": "Normal Ring In 1",
+    "move_id": 700,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot standard_actions.ring_in_out.in",
+    "timing": "fit"
+   },
+   "respawn": {
+    "clip": "BASE_9616_0",
+    "move": "Kofi Kingston 3",
+    "move_id": 9616,
+    "source": "SvR 2011 moveset of KOFI KINGSTON, slot standard_actions.taunts.dpad_left",
+    "timing": "loop"
+   }
+  },
+  "mark_henry": {
+   "jab1": {
+    "clip": "STAT_3106_0",
+    "move": "Brother Snap Jab",
+    "move_id": 3106,
+    "source": "SvR 2011 moveset of MARK HENRY, slot standing.strike_attacks.entry_1",
+    "impact": 7,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab2": {
+    "clip": "STAT_3106_0",
+    "move": "Brother Snap Jab",
+    "move_id": 3106,
+    "source": "SvR 2011 moveset of MARK HENRY, slot standing.strike_combination.2nd",
+    "impact": 7,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab3": {
+    "clip": "STAT_3008_0",
+    "move": "Body Punch 1",
+    "move_id": 3008,
+    "source": "SvR 2011 moveset of MARK HENRY, slot standing.strike_combination.3rd",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab_rapid": {
+    "clip": "STAT_3106_0",
+    "move": "Brother Snap Jab",
+    "move_id": 3106,
+    "source": "SvR 2011 moveset of MARK HENRY, slot standing.strike_combination.2nd",
+    "timing": "loop",
+    "impact": 7,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ftilt": {
+    "clip": "STAT_3130_0",
+    "move": "Body Hook",
+    "move_id": 3130,
+    "source": "SvR 2011 moveset of MARK HENRY, slot standing.strike_attacks.ls_right",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "utilt": {
+    "clip": "STAT_3003_0",
+    "move": "Clothesline 1",
+    "move_id": 3003,
+    "source": "SvR 2011 moveset of MARK HENRY, slot standing.strike_attacks.ls_up",
+    "impact": 8,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dtilt": {
+    "clip": "STAT_3028_0",
+    "move": "Overhand Punch 1",
+    "move_id": 3028,
+    "source": "SvR 2011 moveset of MARK HENRY, slot standing.strike_attacks.ls_down",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dash_attack": {
+    "clip": "STAT_3487_0",
+    "move": "Clothesline 4",
+    "move_id": 3487,
+    "source": "SvR 2011 moveset of MARK HENRY, slot running.running_strikes.entry_1",
+    "hit_victim_clip": "STAT_3487_2561",
+    "impact": 11,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fsmash": {
+    "clip": "STAT_11062_0",
+    "move": "Headbutt 6",
+    "move_id": 11062,
+    "source": "SvR 2011 moveset of MARK HENRY, slot standing.strong_strikes.entry_1",
+    "hit_victim_clip": "STAT_11062_2561",
+    "impact": 26,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "usmash": {
+    "clip": "STAT_3003_0",
+    "move": "Clothesline 1",
+    "move_id": 3003,
+    "source": "SvR 2011 moveset of MARK HENRY, slot standing.strike_combination.4th",
+    "impact": 8,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dsmash": {
+    "clip": "STAT_3850_0",
+    "move": "Angry Stomp",
+    "move_id": 3850,
+    "source": "SvR 2011 moveset of MARK HENRY, slot ground.strike_attacks.entry_1",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "nair": {
+    "clip": "CORN_3502_0",
+    "move": "Double Axe Handle 2",
+    "move_id": 3502,
+    "source": "SvR 2011 moveset of MARK HENRY, slot diving.diving_attack_vs_standing_opp.entry_1",
+    "hit_victim_clip": "CORN_3502_12801",
+    "in": 7,
+    "out": 32,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 21,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fair": {
+    "clip": "ROPE_23270_0",
+    "move": "Springboard Clothesline",
+    "move_id": 23270,
+    "source": "SvR 2011 moveset of MARK HENRY, slot corner.strike_attacks.top_rope.springboard",
+    "in": 6,
+    "out": 49,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 42,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "bair": {
+    "clip": "ROPE_3815_0",
+    "move": "Vaulting Body Press 3",
+    "move_id": 3815,
+    "source": "SvR 2011 moveset of MARK HENRY, slot rope.outside_springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3815_7681",
+    "in": 12,
+    "out": 45,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 28,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "uair": {
+    "clip": "CETB_3480_0",
+    "move": "Body Splash 2",
+    "move_id": 3480,
+    "source": "SvR 2011 moveset of MARK HENRY, slot corner.corner_springboard.entry_1",
+    "in": 10,
+    "out": 26,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 26,
+    "impact_source": "heuristic (lowest root point after take-off)"
+   },
+   "dair": {
+    "clip": "CORN_3614_0",
+    "move": "Body Splash 3",
+    "move_id": 3614,
+    "source": "SvR 2011 moveset of MARK HENRY, slot diving.diving_attack_vs_downed_opp.entry_1",
+    "hit_victim_clip": "CORN_3614_7681",
+    "in": 4,
+    "out": 38,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 20,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "throw_f": {
+    "clip": "STN1_5001_0",
+    "move": "World's Strongest Slam 1",
+    "move_id": 5001,
+    "source": "SvR 2011 moveset of MARK HENRY, slot finisher (World's Strongest Slam 1)",
+    "victim_clip": "STN1_5001_1",
+    "max_speedup": 6.0,
+    "impact": 135,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "throw_b": {
+    "clip": "STN2_7302_0",
+    "move": "Pumphandle Drop",
+    "move_id": 7302,
+    "source": "SvR 2011 moveset of MARK HENRY, slot standing.groggy_grapple.groggy_grapple_from_behind.rs_up",
+    "victim_clip": "STN2_7302_1",
+    "max_speedup": 6.0,
+    "impact": 100,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_n": {
+    "clip": "ANAS_21007_0",
+    "move": "Bearhug",
+    "move_id": 21007,
+    "source": "SvR 2011 moveset of MARK HENRY, slot signature (Bearhug)",
+    "hit_victim_clip": "ANAS_21007_1",
+    "impact": 38,
+    "impact_source": "heuristic (peak limb angular speed)"
+   },
+   "special_lw": {
+    "clip": "STAT_11066_0",
+    "move": "Clothesline 9",
+    "move_id": 11066,
+    "source": "SvR 2011 moveset of MARK HENRY, slot standing.strong_strikes.entry_2",
+    "hit_victim_clip": "STAT_11066_2561",
+    "impact": 18,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "special_hi": {
+    "clip": "ROPE_3782_0",
+    "move": "Springboard Body Splash 1",
+    "move_id": 3782,
+    "source": "SvR 2011 moveset of MARK HENRY, slot rope.springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3782_7681",
+    "in": 2,
+    "out": 43,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 30,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_attack": {
+    "clip": "APRO_10701_0",
+    "move": "Right Hook",
+    "move_id": 10701,
+    "source": "SvR 2011 moveset of MARK HENRY, slot apron.strike_attacks.to_ring",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_climb": {
+    "clip": "BASE_11427_0",
+    "move": "Over the Rope In 1",
+    "move_id": 11427,
+    "source": "SvR 2011 moveset of MARK HENRY, slot standard_actions.apron_ring_in_out.in_to_the_ring",
+    "timing": "fit"
+   },
+   "taunt": {
+    "clip": "BASE_9611_0",
+    "move": "Mark Henry 1",
+    "move_id": 9611,
+    "source": "SvR 2011 moveset of MARK HENRY, slot standard_actions.taunts.dpad_up",
+    "timing": "fit"
+   },
+   "entry": {
+    "clip": "BASE_718_0",
+    "move": "Over the Rope In",
+    "move_id": 718,
+    "source": "SvR 2011 moveset of MARK HENRY, slot standard_actions.ring_in_out.in",
+    "timing": "fit"
+   },
+   "respawn": {
+    "clip": "BASE_9612_0",
+    "move": "Mark Henry 2",
+    "move_id": 9612,
+    "source": "SvR 2011 moveset of MARK HENRY, slot standard_actions.taunts.dpad_left",
+    "timing": "loop"
+   }
+  },
+  "kane": {
+   "jab1": {
+    "clip": "STAT_3081_0",
+    "move": "Throat Thrust 2",
+    "move_id": 3081,
+    "source": "SvR 2011 moveset of KANE, slot standing.strike_attacks.entry_1",
+    "impact": 6,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab2": {
+    "clip": "STAT_3130_0",
+    "move": "Body Hook",
+    "move_id": 3130,
+    "source": "SvR 2011 moveset of KANE, slot standing.strike_combination.2nd",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab3": {
+    "clip": "STAT_3080_0",
+    "move": "Throat Thrust 1",
+    "move_id": 3080,
+    "source": "SvR 2011 moveset of KANE, slot standing.strike_combination.3rd",
+    "impact": 11,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab_rapid": {
+    "clip": "STAT_3130_0",
+    "move": "Body Hook",
+    "move_id": 3130,
+    "source": "SvR 2011 moveset of KANE, slot standing.strike_combination.2nd",
+    "timing": "loop",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ftilt": {
+    "clip": "STAT_3080_0",
+    "move": "Throat Thrust 1",
+    "move_id": 3080,
+    "source": "SvR 2011 moveset of KANE, slot standing.strike_attacks.ls_right",
+    "impact": 11,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "utilt": {
+    "clip": "STAT_3130_0",
+    "move": "Body Hook",
+    "move_id": 3130,
+    "source": "SvR 2011 moveset of KANE, slot standing.strike_attacks.ls_up",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dtilt": {
+    "clip": "STAT_3283_0",
+    "move": "Gut Kick 2",
+    "move_id": 3283,
+    "source": "SvR 2011 moveset of KANE, slot standing.strike_attacks.ls_down",
+    "hit_victim_clip": "STAT_3283_2561",
+    "impact": 11,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dash_attack": {
+    "clip": "STAT_3372_0",
+    "move": "Clothesline 2",
+    "move_id": 3372,
+    "source": "SvR 2011 moveset of KANE, slot running.running_strikes.entry_1",
+    "hit_victim_clip": "STAT_3372_2561",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fsmash": {
+    "clip": "STAT_11063_0",
+    "move": "Big Boot 5",
+    "move_id": 11063,
+    "source": "SvR 2011 moveset of KANE, slot standing.strong_strikes.entry_1",
+    "hit_victim_clip": "STAT_11063_2561",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "usmash": {
+    "clip": "STAT_3109_0",
+    "move": "Kane Uppercut",
+    "move_id": 3109,
+    "source": "SvR 2011 moveset of KANE, slot standing.strike_combination.4th",
+    "impact": 17,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dsmash": {
+    "clip": "STAT_3850_0",
+    "move": "Angry Stomp",
+    "move_id": 3850,
+    "source": "SvR 2011 moveset of KANE, slot ground.strike_attacks.entry_1",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "nair": {
+    "clip": "CORN_3523_0",
+    "move": "Flying Clothesline",
+    "move_id": 3523,
+    "source": "SvR 2011 moveset of KANE, slot diving.diving_attack_vs_standing_opp.entry_1",
+    "hit_victim_clip": "CORN_3523_12801",
+    "in": 7,
+    "out": 35,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 24,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fair": {
+    "clip": "ROPE_23270_0",
+    "move": "Springboard Clothesline",
+    "move_id": 23270,
+    "source": "SvR 2011 moveset of KANE, slot corner.strike_attacks.top_rope.springboard",
+    "in": 6,
+    "out": 49,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 42,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "bair": {
+    "clip": "ROPE_3815_0",
+    "move": "Vaulting Body Press 3",
+    "move_id": 3815,
+    "source": "SvR 2011 moveset of KANE, slot rope.outside_springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3815_7681",
+    "in": 12,
+    "out": 45,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 28,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "uair": {
+    "clip": "CETB_3480_0",
+    "move": "Body Splash 2",
+    "move_id": 3480,
+    "source": "SvR 2011 moveset of KANE, slot corner.corner_springboard.entry_1",
+    "in": 10,
+    "out": 26,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 26,
+    "impact_source": "heuristic (lowest root point after take-off)"
+   },
+   "dair": {
+    "clip": "CORN_3577_0",
+    "move": "Diving Fist Drop 1",
+    "move_id": 3577,
+    "source": "SvR 2011 moveset of KANE, slot diving.diving_attack_vs_downed_opp.entry_1",
+    "hit_victim_clip": "CORN_3577_7681",
+    "in": 8,
+    "out": 37,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 20,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "throw_f": {
+    "clip": "STN1_5006_0",
+    "move": "Chokeslam 1",
+    "move_id": 5006,
+    "source": "SvR 2011 moveset of KANE, slot finisher (Chokeslam 1)",
+    "victim_clip": "STN1_5006_1",
+    "max_speedup": 6.0,
+    "impact": 94,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "throw_b": {
+    "clip": "STN2_7356_0",
+    "move": "Full Nelson Slam 2",
+    "move_id": 7356,
+    "source": "SvR 2011 moveset of KANE, slot standing.groggy_grapple.groggy_grapple_from_behind.rs_up",
+    "victim_clip": "STN2_7356_1",
+    "max_speedup": 6.0,
+    "impact": 77,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_n": {
+    "clip": "ROPE_6526_0",
+    "move": "Scoop Slam & Dropkick",
+    "move_id": 6526,
+    "source": "SvR 2011 moveset of KANE, slot signature (Scoop Slam & Dropkick)",
+    "hit_victim_clip": "ROPE_6526_1",
+    "impact": 157,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_lw": {
+    "clip": "STAT_11066_0",
+    "move": "Clothesline 9",
+    "move_id": 11066,
+    "source": "SvR 2011 moveset of KANE, slot standing.strong_strikes.entry_2",
+    "hit_victim_clip": "STAT_11066_2561",
+    "impact": 18,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "special_hi": {
+    "clip": "ROPE_3782_0",
+    "move": "Springboard Body Splash 1",
+    "move_id": 3782,
+    "source": "SvR 2011 moveset of KANE, slot rope.springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3782_7681",
+    "in": 2,
+    "out": 43,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 30,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_attack": {
+    "clip": "APRO_10701_0",
+    "move": "Right Hook",
+    "move_id": 10701,
+    "source": "SvR 2011 moveset of KANE, slot apron.strike_attacks.to_ring",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_climb": {
+    "clip": "BASE_11427_0",
+    "move": "Over the Rope In 1",
+    "move_id": 11427,
+    "source": "SvR 2011 moveset of KANE, slot standard_actions.apron_ring_in_out.in_to_the_ring",
+    "timing": "fit"
+   },
+   "taunt": {
+    "clip": "BASE_9744_0",
+    "move": "Kane 1",
+    "move_id": 9744,
+    "source": "SvR 2011 moveset of KANE, slot standard_actions.taunts.dpad_up",
+    "timing": "fit"
+   },
+   "entry": {
+    "clip": "BASE_718_0",
+    "move": "Over the Rope In",
+    "move_id": 718,
+    "source": "SvR 2011 moveset of KANE, slot standard_actions.ring_in_out.in",
+    "timing": "fit"
+   },
+   "respawn": {
+    "clip": "BASE_9610_0",
+    "move": "Kane 2",
+    "move_id": 9610,
+    "source": "SvR 2011 moveset of KANE, slot standard_actions.taunts.dpad_left",
+    "timing": "loop"
+   }
+  },
+  "the_miz": {
+   "jab1": {
+    "clip": "STAT_3015_0",
+    "move": "Snap Jab 1",
+    "move_id": 3015,
+    "source": "SvR 2011 moveset of THE MIZ, slot standing.strike_attacks.entry_1",
+    "impact": 5,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab2": {
+    "clip": "STAT_3015_0",
+    "move": "Snap Jab 1",
+    "move_id": 3015,
+    "source": "SvR 2011 moveset of THE MIZ, slot standing.strike_combination.2nd",
+    "impact": 5,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab3": {
+    "clip": "STAT_3129_0",
+    "move": "Head Punch 1",
+    "move_id": 3129,
+    "source": "SvR 2011 moveset of THE MIZ, slot standing.strike_combination.3rd",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab_rapid": {
+    "clip": "STAT_3015_0",
+    "move": "Snap Jab 1",
+    "move_id": 3015,
+    "source": "SvR 2011 moveset of THE MIZ, slot standing.strike_combination.2nd",
+    "timing": "loop",
+    "impact": 5,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ftilt": {
+    "clip": "STAT_3130_0",
+    "move": "Body Hook",
+    "move_id": 3130,
+    "source": "SvR 2011 moveset of THE MIZ, slot standing.strike_attacks.ls_right",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "utilt": {
+    "clip": "STAT_3206_0",
+    "move": "Cross Chop to Throat",
+    "move_id": 3206,
+    "source": "SvR 2011 moveset of THE MIZ, slot standing.strike_attacks.ls_up",
+    "hit_victim_clip": "STAT_3206_2561",
+    "impact": 9,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dtilt": {
+    "clip": "STAT_3096_0",
+    "move": "Gut Kick 1",
+    "move_id": 3096,
+    "source": "SvR 2011 moveset of THE MIZ, slot standing.strike_attacks.ls_down",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dash_attack": {
+    "clip": "STAT_3324_0",
+    "move": "Running Kneelift",
+    "move_id": 3324,
+    "source": "SvR 2011 moveset of THE MIZ, slot running.running_strikes.entry_1",
+    "hit_victim_clip": "STAT_3324_2561",
+    "impact": 8,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fsmash": {
+    "clip": "STAT_11088_0",
+    "move": "Discus Punch",
+    "move_id": 11088,
+    "source": "SvR 2011 moveset of THE MIZ, slot standing.strong_strikes.entry_1",
+    "impact": 17,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "usmash": {
+    "clip": "STAT_3206_0",
+    "move": "Cross Chop to Throat",
+    "move_id": 3206,
+    "source": "SvR 2011 moveset of THE MIZ, slot standing.strike_combination.4th",
+    "hit_victim_clip": "STAT_3206_2561",
+    "impact": 9,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dsmash": {
+    "clip": "STAT_3850_0",
+    "move": "Angry Stomp",
+    "move_id": 3850,
+    "source": "SvR 2011 moveset of THE MIZ, slot ground.strike_attacks.entry_1",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "nair": {
+    "clip": "CORN_3508_0",
+    "move": "Missile Dropkick",
+    "move_id": 3508,
+    "source": "SvR 2011 moveset of THE MIZ, slot diving.diving_attack_vs_standing_opp.entry_1",
+    "hit_victim_clip": "CORN_3508_12801",
+    "in": 8,
+    "out": 42,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 19,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fair": {
+    "clip": "ROPE_23270_0",
+    "move": "Springboard Clothesline",
+    "move_id": 23270,
+    "source": "SvR 2011 moveset of THE MIZ, slot corner.strike_attacks.top_rope.springboard",
+    "in": 6,
+    "out": 49,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 42,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "bair": {
+    "clip": "ROPE_3812_0",
+    "move": "Vaulting Body Press 2",
+    "move_id": 3812,
+    "source": "SvR 2011 moveset of THE MIZ, slot rope.outside_springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3812_7681",
+    "in": 11,
+    "out": 45,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 26,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "uair": {
+    "clip": "CETB_3480_0",
+    "move": "Body Splash 2",
+    "move_id": 3480,
+    "source": "SvR 2011 moveset of THE MIZ, slot corner.corner_springboard.entry_1",
+    "in": 10,
+    "out": 26,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 26,
+    "impact_source": "heuristic (lowest root point after take-off)"
+   },
+   "dair": {
+    "clip": "CORN_3571_0",
+    "move": "Diving Fist Drop 3",
+    "move_id": 3571,
+    "source": "SvR 2011 moveset of THE MIZ, slot diving.diving_attack_vs_downed_opp.entry_1",
+    "hit_victim_clip": "CORN_3571_7681",
+    "in": 9,
+    "out": 42,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 27,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "throw_f": {
+    "clip": "STN1_4989_0",
+    "move": "Mizard of Oz",
+    "move_id": 4989,
+    "source": "SvR 2011 moveset of THE MIZ, slot signature (Mizard of Oz)",
+    "victim_clip": "STN1_4989_1",
+    "max_speedup": 6.0,
+    "impact": 113,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "throw_b": {
+    "clip": "STN2_7309_0",
+    "move": "Skull Crushing Finale",
+    "move_id": 7309,
+    "source": "SvR 2011 moveset of THE MIZ, slot finisher (Skull Crushing Finale)",
+    "victim_clip": "STN2_7309_1",
+    "max_speedup": 6.0,
+    "impact": 60,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_n": {
+    "clip": "ROPE_6862_0",
+    "move": "Reality Check 1",
+    "move_id": 6862,
+    "source": "SvR 2011 moveset of THE MIZ, slot signature (Reality Check 1)",
+    "hit_victim_clip": "ROPE_6862_1",
+    "impact": 123,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_lw": {
+    "clip": "STAT_11088_0",
+    "move": "Discus Punch",
+    "move_id": 11088,
+    "source": "SvR 2011 moveset of THE MIZ, slot standing.strong_strikes.entry_2",
+    "impact": 17,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "special_hi": {
+    "clip": "ROPE_3787_0",
+    "move": "Springboard Back Elbow 1",
+    "move_id": 3787,
+    "source": "SvR 2011 moveset of THE MIZ, slot rope.springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3787_7681",
+    "in": 6,
+    "out": 48,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 35,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_attack": {
+    "clip": "APRO_7062_0",
+    "move": "Kick to Ring",
+    "move_id": 7062,
+    "source": "SvR 2011 moveset of THE MIZ, slot apron.strike_attacks.to_ring",
+    "impact": 7,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_climb": {
+    "clip": "BASE_722_0",
+    "move": "Normal Ring In 1",
+    "move_id": 722,
+    "source": "SvR 2011 moveset of THE MIZ, slot standard_actions.apron_ring_in_out.in_to_the_ring",
+    "timing": "fit"
+   },
+   "taunt": {
+    "clip": "BASE_9570_0",
+    "move": "The Miz 3",
+    "move_id": 9570,
+    "source": "SvR 2011 moveset of THE MIZ, slot standard_actions.taunts.dpad_up",
+    "timing": "fit"
+   },
+   "entry": {
+    "clip": "BASE_738_0",
+    "move": "Outlaw Ring In",
+    "move_id": 738,
+    "source": "SvR 2011 moveset of THE MIZ, slot standard_actions.ring_in_out.in",
+    "timing": "fit"
+   },
+   "respawn": {
+    "clip": "BASE_9528_0",
+    "move": "The Miz 4",
+    "move_id": 9528,
+    "source": "SvR 2011 moveset of THE MIZ, slot standard_actions.taunts.dpad_left",
+    "timing": "loop"
+   }
+  },
+  "undertaker": {
+   "jab1": {
+    "clip": "STAT_3000_0",
+    "move": "Boxing Jab",
+    "move_id": 3000,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot standing.strike_attacks.entry_1",
+    "impact": 7,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab2": {
+    "clip": "STAT_3000_0",
+    "move": "Boxing Jab",
+    "move_id": 3000,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot standing.strike_combination.2nd",
+    "impact": 7,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab3": {
+    "clip": "STAT_3128_0",
+    "move": "Gut Punch",
+    "move_id": 3128,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot standing.strike_combination.3rd",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab_rapid": {
+    "clip": "STAT_3000_0",
+    "move": "Boxing Jab",
+    "move_id": 3000,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot standing.strike_combination.2nd",
+    "timing": "loop",
+    "impact": 7,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ftilt": {
+    "clip": "STAT_3130_0",
+    "move": "Body Hook",
+    "move_id": 3130,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot standing.strike_attacks.ls_right",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "utilt": {
+    "clip": "STAT_3109_0",
+    "move": "Kane Uppercut",
+    "move_id": 3109,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot standing.strike_attacks.ls_up",
+    "impact": 17,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dtilt": {
+    "clip": "STAT_3109_0",
+    "move": "Kane Uppercut",
+    "move_id": 3109,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot standing.strike_attacks.ls_down",
+    "impact": 17,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dash_attack": {
+    "clip": "STAT_3304_0",
+    "move": "Big Boot 3",
+    "move_id": 3304,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot running.running_strikes.entry_1",
+    "hit_victim_clip": "STAT_3304_2561",
+    "impact": 22,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fsmash": {
+    "clip": "STAT_11071_0",
+    "move": "Big Boot 6",
+    "move_id": 11071,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot standing.strong_strikes.entry_1",
+    "hit_victim_clip": "STAT_11071_2561",
+    "impact": 16,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "usmash": {
+    "clip": "STAT_3119_0",
+    "move": "Undertaker Punch",
+    "move_id": 3119,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot standing.strike_combination.4th",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dsmash": {
+    "clip": "STAT_3862_0",
+    "move": "Undertaker Stomp",
+    "move_id": 3862,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot ground.strike_attacks.entry_1",
+    "impact": 8,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "nair": {
+    "clip": "CORN_3530_0",
+    "move": "Diving Clothesline 1",
+    "move_id": 3530,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot diving.diving_attack_vs_standing_opp.entry_1",
+    "hit_victim_clip": "CORN_3530_12801",
+    "in": 7,
+    "out": 33,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 22,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fair": {
+    "clip": "ROPE_23270_0",
+    "move": "Springboard Clothesline",
+    "move_id": 23270,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot corner.strike_attacks.top_rope.springboard",
+    "in": 6,
+    "out": 49,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 42,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "bair": {
+    "clip": "ROPE_3815_0",
+    "move": "Vaulting Body Press 3",
+    "move_id": 3815,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot rope.outside_springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3815_7681",
+    "in": 12,
+    "out": 45,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 28,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "uair": {
+    "clip": "CETB_3480_0",
+    "move": "Body Splash 2",
+    "move_id": 3480,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot corner.corner_springboard.entry_1",
+    "in": 10,
+    "out": 26,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 26,
+    "impact_source": "heuristic (lowest root point after take-off)"
+   },
+   "dair": {
+    "clip": "CORN_3551_0",
+    "move": "Diving Elbow Drop 2",
+    "move_id": 3551,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot diving.diving_attack_vs_downed_opp.entry_1",
+    "hit_victim_clip": "CORN_3551_7681",
+    "in": 6,
+    "out": 31,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 17,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "throw_f": {
+    "clip": "STN1_5080_0",
+    "move": "Tombstone Piledriver 3",
+    "move_id": 5080,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot finisher (Tombstone Piledriver 3)",
+    "victim_clip": "STN1_5080_1",
+    "max_speedup": 6.0,
+    "impact": 167,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "throw_b": {
+    "clip": "STN2_7210_0",
+    "move": "Electric Chair Drop",
+    "move_id": 7210,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot standing.groggy_grapple.groggy_grapple_from_behind.rs_up",
+    "victim_clip": "STN2_7210_1",
+    "max_speedup": 6.0,
+    "impact": 79,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_n": {
+    "clip": "STN1_5006_0",
+    "move": "Chokeslam 1",
+    "move_id": 5006,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot signature (Chokeslam 1)",
+    "hit_victim_clip": "STN1_5006_1",
+    "impact": 94,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_lw": {
+    "clip": "STN1_5096_0",
+    "move": "The Last Ride",
+    "move_id": 5096,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot finisher (The Last Ride)",
+    "hit_victim_clip": "STN1_5096_1",
+    "impact": 241,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_hi": {
+    "clip": "ROPE_3782_0",
+    "move": "Springboard Body Splash 1",
+    "move_id": 3782,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot rope.springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3782_7681",
+    "in": 2,
+    "out": 43,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 30,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_attack": {
+    "clip": "APRO_10701_0",
+    "move": "Right Hook",
+    "move_id": 10701,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot apron.strike_attacks.to_ring",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_climb": {
+    "clip": "BASE_11427_0",
+    "move": "Over the Rope In 1",
+    "move_id": 11427,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot standard_actions.apron_ring_in_out.in_to_the_ring",
+    "timing": "fit"
+   },
+   "taunt": {
+    "clip": "BASE_9727_0",
+    "move": "Undertaker 3",
+    "move_id": 9727,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot standard_actions.taunts.dpad_up",
+    "timing": "fit"
+   },
+   "entry": {
+    "clip": "BASE_738_0",
+    "move": "Outlaw Ring In",
+    "move_id": 738,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot standard_actions.ring_in_out.in",
+    "timing": "fit"
+   },
+   "respawn": {
+    "clip": "BASE_9608_0",
+    "move": "Undertaker 4",
+    "move_id": 9608,
+    "source": "SvR 2011 moveset of UNDERTAKER, slot standard_actions.taunts.dpad_left",
+    "timing": "loop"
+   }
+  },
+  "batista": {
+   "jab1": {
+    "clip": "STAT_3129_0",
+    "move": "Head Punch 1",
+    "move_id": 3129,
+    "source": "SvR 2011 moveset of BATISTA, slot standing.strike_attacks.entry_1",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab2": {
+    "clip": "STAT_3129_0",
+    "move": "Head Punch 1",
+    "move_id": 3129,
+    "source": "SvR 2011 moveset of BATISTA, slot standing.strike_combination.2nd",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab3": {
+    "clip": "STAT_3130_0",
+    "move": "Body Hook",
+    "move_id": 3130,
+    "source": "SvR 2011 moveset of BATISTA, slot standing.strike_combination.3rd",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab_rapid": {
+    "clip": "STAT_3129_0",
+    "move": "Head Punch 1",
+    "move_id": 3129,
+    "source": "SvR 2011 moveset of BATISTA, slot standing.strike_combination.2nd",
+    "timing": "loop",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ftilt": {
+    "clip": "STAT_3128_0",
+    "move": "Gut Punch",
+    "move_id": 3128,
+    "source": "SvR 2011 moveset of BATISTA, slot standing.strike_attacks.ls_right",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "utilt": {
+    "clip": "STAT_3003_0",
+    "move": "Clothesline 1",
+    "move_id": 3003,
+    "source": "SvR 2011 moveset of BATISTA, slot standing.strike_attacks.ls_up",
+    "impact": 8,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dtilt": {
+    "clip": "STAT_3283_0",
+    "move": "Gut Kick 2",
+    "move_id": 3283,
+    "source": "SvR 2011 moveset of BATISTA, slot standing.strike_attacks.ls_down",
+    "hit_victim_clip": "STAT_3283_2561",
+    "impact": 11,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dash_attack": {
+    "clip": "STAT_3407_0",
+    "move": "Shoulder Block 2",
+    "move_id": 3407,
+    "source": "SvR 2011 moveset of BATISTA, slot running.running_strikes.entry_1",
+    "hit_victim_clip": "STAT_3407_2561",
+    "impact": 7,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fsmash": {
+    "clip": "STAT_11066_0",
+    "move": "Clothesline 9",
+    "move_id": 11066,
+    "source": "SvR 2011 moveset of BATISTA, slot standing.strong_strikes.entry_1",
+    "hit_victim_clip": "STAT_11066_2561",
+    "impact": 18,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "usmash": {
+    "clip": "STAT_3003_0",
+    "move": "Clothesline 1",
+    "move_id": 3003,
+    "source": "SvR 2011 moveset of BATISTA, slot standing.strike_combination.4th",
+    "impact": 8,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dsmash": {
+    "clip": "STAT_3901_0",
+    "move": "Wrestling Hero Stomp",
+    "move_id": 3901,
+    "source": "SvR 2011 moveset of BATISTA, slot ground.strike_attacks.entry_1",
+    "impact": 11,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "nair": {
+    "clip": "CORN_3538_0",
+    "move": "Diving Double Axe Handle",
+    "move_id": 3538,
+    "source": "SvR 2011 moveset of BATISTA, slot diving.diving_attack_vs_standing_opp.entry_1",
+    "hit_victim_clip": "CORN_3538_12801",
+    "in": 13,
+    "out": 39,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 27,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fair": {
+    "clip": "ROPE_23270_0",
+    "move": "Springboard Clothesline",
+    "move_id": 23270,
+    "source": "SvR 2011 moveset of BATISTA, slot corner.strike_attacks.top_rope.springboard",
+    "in": 6,
+    "out": 49,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 42,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "bair": {
+    "clip": "ROPE_3815_0",
+    "move": "Vaulting Body Press 3",
+    "move_id": 3815,
+    "source": "SvR 2011 moveset of BATISTA, slot rope.outside_springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3815_7681",
+    "in": 12,
+    "out": 45,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 28,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "uair": {
+    "clip": "CETB_3480_0",
+    "move": "Body Splash 2",
+    "move_id": 3480,
+    "source": "SvR 2011 moveset of BATISTA, slot corner.corner_springboard.entry_1",
+    "in": 10,
+    "out": 26,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 26,
+    "impact_source": "heuristic (lowest root point after take-off)"
+   },
+   "dair": {
+    "clip": "CORN_3551_0",
+    "move": "Diving Elbow Drop 2",
+    "move_id": 3551,
+    "source": "SvR 2011 moveset of BATISTA, slot diving.diving_attack_vs_downed_opp.entry_1",
+    "hit_victim_clip": "CORN_3551_7681",
+    "in": 6,
+    "out": 31,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 17,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "throw_f": {
+    "clip": "STN1_5070_0",
+    "move": "Batista Bomb",
+    "move_id": 5070,
+    "source": "SvR 2011 moveset of BATISTA, slot finisher (Batista Bomb)",
+    "victim_clip": "STN1_5070_1",
+    "max_speedup": 6.0,
+    "impact": 154,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "throw_b": {
+    "clip": "STN2_7307_0",
+    "move": "Saito Suplex",
+    "move_id": 7307,
+    "source": "SvR 2011 moveset of BATISTA, slot standing.groggy_grapple.groggy_grapple_from_behind.rs_up",
+    "victim_clip": "STN2_7307_1",
+    "max_speedup": 6.0,
+    "impact": 64,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_n": {
+    "clip": "RUN_7554_0",
+    "move": "Spear 3",
+    "move_id": 7554,
+    "source": "SvR 2011 moveset of BATISTA, slot signature (Spear 3)",
+    "hit_victim_clip": "RUN_7554_1",
+    "impact": 2,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_lw": {
+    "clip": "ROPE_6522_0",
+    "move": "Snapmare & Big Boot",
+    "move_id": 6522,
+    "source": "SvR 2011 moveset of BATISTA, slot signature (Snapmare & Big Boot)",
+    "hit_victim_clip": "ROPE_6522_1",
+    "impact": 84,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_hi": {
+    "clip": "ROPE_3782_0",
+    "move": "Springboard Body Splash 1",
+    "move_id": 3782,
+    "source": "SvR 2011 moveset of BATISTA, slot rope.springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3782_7681",
+    "in": 2,
+    "out": 43,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 30,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_attack": {
+    "clip": "APRO_10701_0",
+    "move": "Right Hook",
+    "move_id": 10701,
+    "source": "SvR 2011 moveset of BATISTA, slot apron.strike_attacks.to_ring",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_climb": {
+    "clip": "BASE_11426_0",
+    "move": "Normal Ring In 3",
+    "move_id": 11426,
+    "source": "SvR 2011 moveset of BATISTA, slot standard_actions.apron_ring_in_out.in_to_the_ring",
+    "timing": "fit"
+   },
+   "taunt": {
+    "clip": "BASE_9630_0",
+    "move": "Batista 4",
+    "move_id": 9630,
+    "source": "SvR 2011 moveset of BATISTA, slot standard_actions.taunts.dpad_up",
+    "timing": "fit"
+   },
+   "entry": {
+    "clip": "BASE_739_0",
+    "move": "Slide Ring In 1",
+    "move_id": 739,
+    "source": "SvR 2011 moveset of BATISTA, slot standard_actions.ring_in_out.in",
+    "timing": "fit"
+   },
+   "respawn": {
+    "clip": "BASE_9632_0",
+    "move": "Batista 5",
+    "move_id": 9632,
+    "source": "SvR 2011 moveset of BATISTA, slot standard_actions.taunts.dpad_left",
+    "timing": "loop"
+   }
+  },
+  "the_rock": {
+   "jab1": {
+    "clip": "STAT_3129_0",
+    "move": "Head Punch 1",
+    "move_id": 3129,
+    "source": "SvR 2011 moveset of THE ROCK, slot standing.strike_attacks.entry_1",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab2": {
+    "clip": "STAT_3129_0",
+    "move": "Head Punch 1",
+    "move_id": 3129,
+    "source": "SvR 2011 moveset of THE ROCK, slot standing.strike_combination.2nd",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab3": {
+    "clip": "STAT_3128_0",
+    "move": "Gut Punch",
+    "move_id": 3128,
+    "source": "SvR 2011 moveset of THE ROCK, slot standing.strike_combination.3rd",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab_rapid": {
+    "clip": "STAT_3129_0",
+    "move": "Head Punch 1",
+    "move_id": 3129,
+    "source": "SvR 2011 moveset of THE ROCK, slot standing.strike_combination.2nd",
+    "timing": "loop",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ftilt": {
+    "clip": "STAT_3092_0",
+    "move": "Backhand Chop 1",
+    "move_id": 3092,
+    "source": "SvR 2011 moveset of THE ROCK, slot standing.strike_attacks.ls_right",
+    "impact": 11,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "utilt": {
+    "clip": "STAT_3071_0",
+    "move": "People's Punch 2",
+    "move_id": 3071,
+    "source": "SvR 2011 moveset of THE ROCK, slot standing.strike_attacks.ls_up",
+    "impact": 39,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dtilt": {
+    "clip": "STAT_3283_0",
+    "move": "Gut Kick 2",
+    "move_id": 3283,
+    "source": "SvR 2011 moveset of THE ROCK, slot standing.strike_attacks.ls_down",
+    "hit_victim_clip": "STAT_3283_2561",
+    "impact": 11,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dash_attack": {
+    "clip": "STAT_3488_0",
+    "move": "Clothesline 5",
+    "move_id": 3488,
+    "source": "SvR 2011 moveset of THE ROCK, slot running.running_strikes.entry_1",
+    "hit_victim_clip": "STAT_3488_2561",
+    "impact": 16,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fsmash": {
+    "clip": "STAT_11073_0",
+    "move": "Knife Edge Chop 2",
+    "move_id": 11073,
+    "source": "SvR 2011 moveset of THE ROCK, slot standing.strong_strikes.entry_1",
+    "hit_victim_clip": "STAT_11073_2561",
+    "impact": 22,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "usmash": {
+    "clip": "STAT_3071_0",
+    "move": "People's Punch 2",
+    "move_id": 3071,
+    "source": "SvR 2011 moveset of THE ROCK, slot standing.strike_combination.4th",
+    "impact": 39,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dsmash": {
+    "clip": "STAT_3888_0",
+    "move": "People's Stomp",
+    "move_id": 3888,
+    "source": "SvR 2011 moveset of THE ROCK, slot ground.strike_attacks.entry_1",
+    "impact": 18,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "nair": {
+    "clip": "CORN_3508_0",
+    "move": "Missile Dropkick",
+    "move_id": 3508,
+    "source": "SvR 2011 moveset of THE ROCK, slot diving.diving_attack_vs_standing_opp.entry_1",
+    "hit_victim_clip": "CORN_3508_12801",
+    "in": 8,
+    "out": 42,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 19,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fair": {
+    "clip": "ROPE_23270_0",
+    "move": "Springboard Clothesline",
+    "move_id": 23270,
+    "source": "SvR 2011 moveset of THE ROCK, slot corner.strike_attacks.top_rope.springboard",
+    "in": 6,
+    "out": 49,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 42,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "bair": {
+    "clip": "ROPE_3812_0",
+    "move": "Vaulting Body Press 2",
+    "move_id": 3812,
+    "source": "SvR 2011 moveset of THE ROCK, slot rope.outside_springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3812_7681",
+    "in": 11,
+    "out": 45,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 26,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "uair": {
+    "clip": "CETB_3480_0",
+    "move": "Body Splash 2",
+    "move_id": 3480,
+    "source": "SvR 2011 moveset of THE ROCK, slot corner.corner_springboard.entry_1",
+    "in": 10,
+    "out": 26,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 26,
+    "impact_source": "heuristic (lowest root point after take-off)"
+   },
+   "dair": {
+    "clip": "CORN_3550_0",
+    "move": "Diving Elbow Drop 1",
+    "move_id": 3550,
+    "source": "SvR 2011 moveset of THE ROCK, slot diving.diving_attack_vs_downed_opp.entry_1",
+    "hit_victim_clip": "CORN_3550_7681",
+    "in": 7,
+    "out": 31,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 17,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "throw_f": {
+    "clip": "STN1_5079_0",
+    "move": "Rock Bottom 1",
+    "move_id": 5079,
+    "source": "SvR 2011 moveset of THE ROCK, slot finisher (Rock Bottom 1)",
+    "victim_clip": "STN1_5079_1",
+    "max_speedup": 6.0,
+    "impact": 83,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "throw_b": {
+    "clip": "STN2_7307_0",
+    "move": "Saito Suplex",
+    "move_id": 7307,
+    "source": "SvR 2011 moveset of THE ROCK, slot standing.groggy_grapple.groggy_grapple_from_behind.rs_up",
+    "victim_clip": "STN2_7307_1",
+    "max_speedup": 6.0,
+    "impact": 64,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_n": {
+    "clip": "ANAS_21302_0",
+    "move": "Sharpshooter",
+    "move_id": 21302,
+    "source": "SvR 2011 moveset of THE ROCK, slot signature (Sharpshooter)",
+    "hit_victim_clip": "ANAS_21302_1",
+    "impact": 4,
+    "impact_source": "heuristic (peak limb angular speed)"
+   },
+   "special_lw": {
+    "clip": "ROPE_6677_0",
+    "move": "People's Elbow",
+    "move_id": 6677,
+    "source": "SvR 2011 moveset of THE ROCK, slot finisher (People's Elbow)",
+    "hit_victim_clip": "ROPE_6677_1",
+    "impact": 356,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_hi": {
+    "clip": "ROPE_3782_0",
+    "move": "Springboard Body Splash 1",
+    "move_id": 3782,
+    "source": "SvR 2011 moveset of THE ROCK, slot rope.springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3782_7681",
+    "in": 2,
+    "out": 43,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 30,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_attack": {
+    "clip": "APRO_10700_0",
+    "move": "Right Jab",
+    "move_id": 10700,
+    "source": "SvR 2011 moveset of THE ROCK, slot apron.strike_attacks.to_ring",
+    "impact": 3,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_climb": {
+    "clip": "BASE_722_0",
+    "move": "Normal Ring In 1",
+    "move_id": 722,
+    "source": "SvR 2011 moveset of THE ROCK, slot standard_actions.apron_ring_in_out.in_to_the_ring",
+    "timing": "fit"
+   },
+   "taunt": {
+    "clip": "BASE_9629_0",
+    "move": "The Rock 1",
+    "move_id": 9629,
+    "source": "SvR 2011 moveset of THE ROCK, slot standard_actions.taunts.dpad_up",
+    "timing": "fit"
+   },
+   "entry": {
+    "clip": "BASE_739_0",
+    "move": "Slide Ring In 1",
+    "move_id": 739,
+    "source": "SvR 2011 moveset of THE ROCK, slot standard_actions.ring_in_out.in",
+    "timing": "fit"
+   },
+   "respawn": {
+    "clip": "BASE_9537_0",
+    "move": "The Rock 2",
+    "move_id": 9537,
+    "source": "SvR 2011 moveset of THE ROCK, slot standard_actions.taunts.dpad_left",
+    "timing": "loop"
+   }
+  },
+  "rey_mysterio": {
+   "jab1": {
+    "clip": "STAT_3105_0",
+    "move": "Low Kick 2",
+    "move_id": 3105,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot standing.strike_attacks.entry_1",
+    "impact": 8,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab2": {
+    "clip": "STAT_3105_0",
+    "move": "Low Kick 2",
+    "move_id": 3105,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot standing.strike_combination.2nd",
+    "impact": 8,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab3": {
+    "clip": "STAT_3230_0",
+    "move": "Left Middle Kick",
+    "move_id": 3230,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot standing.strike_combination.3rd",
+    "hit_victim_clip": "STAT_3230_2561",
+    "impact": 18,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab_rapid": {
+    "clip": "STAT_3105_0",
+    "move": "Low Kick 2",
+    "move_id": 3105,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot standing.strike_combination.2nd",
+    "timing": "loop",
+    "impact": 8,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ftilt": {
+    "clip": "STAT_3013_0",
+    "move": "Elbow Smash 5",
+    "move_id": 3013,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot standing.strike_attacks.ls_right",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "utilt": {
+    "clip": "STAT_3213_0",
+    "move": "Flying Kneel Kick 1",
+    "move_id": 3213,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot standing.strike_attacks.ls_up",
+    "hit_victim_clip": "STAT_3213_2561",
+    "impact": 15,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dtilt": {
+    "clip": "STAT_3228_0",
+    "move": "Dropkick to Knee",
+    "move_id": 3228,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot standing.strike_attacks.ls_down",
+    "hit_victim_clip": "STAT_3228_23041",
+    "impact": 21,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dash_attack": {
+    "clip": "STAT_3484_0",
+    "move": "Flying Wheel Kick",
+    "move_id": 3484,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot running.running_strikes.entry_1",
+    "hit_victim_clip": "STAT_3484_2561",
+    "impact": 9,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fsmash": {
+    "clip": "STAT_11078_0",
+    "move": "Dropkick 7",
+    "move_id": 11078,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot standing.strong_strikes.entry_1",
+    "hit_victim_clip": "STAT_11078_2561",
+    "impact": 27,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "usmash": {
+    "clip": "STAT_3221_0",
+    "move": "Spinning Back Kick",
+    "move_id": 3221,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot standing.strike_combination.4th",
+    "hit_victim_clip": "STAT_3221_2561",
+    "impact": 19,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dsmash": {
+    "clip": "STAT_3860_0",
+    "move": "King Stomp",
+    "move_id": 3860,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot ground.strike_attacks.entry_1",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "nair": {
+    "clip": "CORN_3520_0",
+    "move": "Diving Hurricanrana",
+    "move_id": 3520,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot diving.diving_attack_vs_standing_opp.entry_1",
+    "hit_victim_clip": "CORN_3520_12801",
+    "in": 9,
+    "out": 30,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 20,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fair": {
+    "clip": "ROPE_23272_0",
+    "move": "Springboard Hurricanrana 3",
+    "move_id": 23272,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot corner.strike_attacks.top_rope.springboard",
+    "hit_victim_clip": "ROPE_23272_2561",
+    "in": 29,
+    "out": 74,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 60,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "bair": {
+    "clip": "ROPE_3818_0",
+    "move": "Springboard Senton 1",
+    "move_id": 3818,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot rope.outside_springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3818_7681",
+    "in": 2,
+    "out": 47,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 28,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "uair": {
+    "clip": "CETB_3481_0",
+    "move": "Corkscrew Senton",
+    "move_id": 3481,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot corner.corner_springboard.entry_1",
+    "in": 2,
+    "out": 20,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 6,
+    "impact_source": "heuristic (lowest root point after take-off)"
+   },
+   "dair": {
+    "clip": "CORN_3610_0",
+    "move": "Diving Moonsault 1",
+    "move_id": 3610,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot diving.diving_attack_vs_downed_opp.entry_1",
+    "hit_victim_clip": "CORN_3610_7681",
+    "in": 7,
+    "out": 34,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 18,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "throw_f": {
+    "clip": "STN1_5251_0",
+    "move": "Hurricanrana 2",
+    "move_id": 5251,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot signature (Hurricanrana 2)",
+    "victim_clip": "STN1_5251_1",
+    "max_speedup": 6.0,
+    "impact": 39,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "throw_b": {
+    "clip": "STN2_7386_0",
+    "move": "Hurricanrana DDT",
+    "move_id": 7386,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot standing.groggy_grapple.groggy_grapple_from_behind.rs_up",
+    "victim_clip": "STN2_7386_1",
+    "max_speedup": 6.0,
+    "impact": 67,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_n": {
+    "clip": "STAT_11078_0",
+    "move": "Dropkick 7",
+    "move_id": 11078,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot standing.strong_strikes.entry_2",
+    "hit_victim_clip": "STAT_11078_2561",
+    "impact": 27,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "special_lw": {
+    "clip": "ROPE_6605_0",
+    "move": "The 619 Body Splash",
+    "move_id": 6605,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot finisher (The 619 Body Splash)",
+    "hit_victim_clip": "ROPE_6605_1",
+    "impact": 276,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_hi": {
+    "clip": "ROPE_3782_0",
+    "move": "Springboard Body Splash 1",
+    "move_id": 3782,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot rope.springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3782_7681",
+    "in": 2,
+    "out": 43,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 30,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_attack": {
+    "clip": "APRO_7062_0",
+    "move": "Kick to Ring",
+    "move_id": 7062,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot apron.strike_attacks.to_ring",
+    "impact": 7,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_climb": {
+    "clip": "BASE_11431_0",
+    "move": "Jumping Ring In 3",
+    "move_id": 11431,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot standard_actions.apron_ring_in_out.in_to_the_ring",
+    "timing": "fit"
+   },
+   "taunt": {
+    "clip": "BASE_9265_0",
+    "move": "Rey Mysterio 1",
+    "move_id": 9265,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot standard_actions.taunts.dpad_up",
+    "timing": "fit"
+   },
+   "entry": {
+    "clip": "BASE_739_0",
+    "move": "Slide Ring In 1",
+    "move_id": 739,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot standard_actions.ring_in_out.in",
+    "timing": "fit"
+   },
+   "respawn": {
+    "clip": "BASE_9148_0",
+    "move": "Rey Mysterio 4",
+    "move_id": 9148,
+    "source": "SvR 2011 moveset of REY MYSTERIO, slot standard_actions.taunts.dpad_left",
+    "timing": "loop"
+   }
+  },
+  "r_truth": {
+   "jab1": {
+    "clip": "STAT_3130_0",
+    "move": "Body Hook",
+    "move_id": 3130,
+    "source": "SvR 2011 moveset of R-TRUTH, slot standing.strike_attacks.entry_1",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab2": {
+    "clip": "STAT_3130_0",
+    "move": "Body Hook",
+    "move_id": 3130,
+    "source": "SvR 2011 moveset of R-TRUTH, slot standing.strike_combination.2nd",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab3": {
+    "clip": "STAT_3128_0",
+    "move": "Gut Punch",
+    "move_id": 3128,
+    "source": "SvR 2011 moveset of R-TRUTH, slot standing.strike_combination.3rd",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab_rapid": {
+    "clip": "STAT_3130_0",
+    "move": "Body Hook",
+    "move_id": 3130,
+    "source": "SvR 2011 moveset of R-TRUTH, slot standing.strike_combination.2nd",
+    "timing": "loop",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ftilt": {
+    "clip": "STAT_3092_0",
+    "move": "Backhand Chop 1",
+    "move_id": 3092,
+    "source": "SvR 2011 moveset of R-TRUTH, slot standing.strike_attacks.ls_right",
+    "impact": 11,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "utilt": {
+    "clip": "STAT_3207_0",
+    "move": "Corkscrew Calfkick",
+    "move_id": 3207,
+    "source": "SvR 2011 moveset of R-TRUTH, slot standing.strike_attacks.ls_up",
+    "hit_victim_clip": "STAT_3207_2561",
+    "impact": 15,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dtilt": {
+    "clip": "STAT_3283_0",
+    "move": "Gut Kick 2",
+    "move_id": 3283,
+    "source": "SvR 2011 moveset of R-TRUTH, slot standing.strike_attacks.ls_down",
+    "hit_victim_clip": "STAT_3283_2561",
+    "impact": 11,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dash_attack": {
+    "clip": "STAT_3321_0",
+    "move": "Bicycle Kick",
+    "move_id": 3321,
+    "source": "SvR 2011 moveset of R-TRUTH, slot running.running_strikes.entry_1",
+    "hit_victim_clip": "STAT_3321_2561",
+    "impact": 16,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fsmash": {
+    "clip": "STAT_11077_0",
+    "move": "Dropkick 6",
+    "move_id": 11077,
+    "source": "SvR 2011 moveset of R-TRUTH, slot standing.strong_strikes.entry_1",
+    "hit_victim_clip": "STAT_11077_2561",
+    "impact": 26,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "usmash": {
+    "clip": "STAT_3207_0",
+    "move": "Corkscrew Calfkick",
+    "move_id": 3207,
+    "source": "SvR 2011 moveset of R-TRUTH, slot standing.strike_combination.4th",
+    "hit_victim_clip": "STAT_3207_2561",
+    "impact": 15,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dsmash": {
+    "clip": "STAT_3860_0",
+    "move": "King Stomp",
+    "move_id": 3860,
+    "source": "SvR 2011 moveset of R-TRUTH, slot ground.strike_attacks.entry_1",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "nair": {
+    "clip": "CORN_3521_0",
+    "move": "Over Castle",
+    "move_id": 3521,
+    "source": "SvR 2011 moveset of R-TRUTH, slot diving.diving_attack_vs_standing_opp.entry_1",
+    "hit_victim_clip": "CORN_3521_12801",
+    "in": 10,
+    "out": 33,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 20,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fair": {
+    "clip": "ROPE_23270_0",
+    "move": "Springboard Clothesline",
+    "move_id": 23270,
+    "source": "SvR 2011 moveset of R-TRUTH, slot corner.strike_attacks.top_rope.springboard",
+    "in": 6,
+    "out": 49,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 42,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "bair": {
+    "clip": "ROPE_3815_0",
+    "move": "Vaulting Body Press 3",
+    "move_id": 3815,
+    "source": "SvR 2011 moveset of R-TRUTH, slot rope.outside_springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3815_7681",
+    "in": 12,
+    "out": 45,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 28,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "uair": {
+    "clip": "CETB_3480_0",
+    "move": "Body Splash 2",
+    "move_id": 3480,
+    "source": "SvR 2011 moveset of R-TRUTH, slot corner.corner_springboard.entry_1",
+    "in": 10,
+    "out": 26,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 26,
+    "impact_source": "heuristic (lowest root point after take-off)"
+   },
+   "dair": {
+    "clip": "CORN_3559_0",
+    "move": "450 Splash",
+    "move_id": 3559,
+    "source": "SvR 2011 moveset of R-TRUTH, slot diving.diving_attack_vs_downed_opp.entry_1",
+    "hit_victim_clip": "CORN_3559_7681",
+    "in": 12,
+    "out": 44,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 31,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "throw_f": {
+    "clip": "STN1_5050_0",
+    "move": "Suplex 1",
+    "move_id": 5050,
+    "source": "SvR 2011 moveset of R-TRUTH, slot standing.chain_grapple.front_facelock.rs_up",
+    "victim_clip": "STN1_5050_1",
+    "max_speedup": 6.0,
+    "impact": 91,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "throw_b": {
+    "clip": "STN2_7339_0",
+    "move": "Full Nelson Bomb",
+    "move_id": 7339,
+    "source": "SvR 2011 moveset of R-TRUTH, slot standing.groggy_grapple.groggy_grapple_from_behind.rs_up",
+    "victim_clip": "STN2_7339_1",
+    "max_speedup": 6.0,
+    "impact": 68,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_n": {
+    "clip": "ROPE_6864_0",
+    "move": "Corkscrew Axekick",
+    "move_id": 6864,
+    "source": "SvR 2011 moveset of R-TRUTH, slot signature (Corkscrew Axekick)",
+    "hit_victim_clip": "ROPE_6864_1",
+    "impact": 111,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_lw": {
+    "clip": "STAT_3323_0",
+    "move": "Lie Detector",
+    "move_id": 3323,
+    "source": "SvR 2011 moveset of R-TRUTH, slot finisher (Lie Detector)",
+    "hit_victim_clip": "STAT_3323_2561",
+    "impact": 7,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "special_hi": {
+    "clip": "ROPE_3783_0",
+    "move": "Springboard Clothesline 1",
+    "move_id": 3783,
+    "source": "SvR 2011 moveset of R-TRUTH, slot rope.springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3783_7681",
+    "in": 3,
+    "out": 47,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 35,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_attack": {
+    "clip": "APRO_7062_0",
+    "move": "Kick to Ring",
+    "move_id": 7062,
+    "source": "SvR 2011 moveset of R-TRUTH, slot apron.strike_attacks.to_ring",
+    "impact": 7,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_climb": {
+    "clip": "BASE_11431_0",
+    "move": "Jumping Ring In 3",
+    "move_id": 11431,
+    "source": "SvR 2011 moveset of R-TRUTH, slot standard_actions.apron_ring_in_out.in_to_the_ring",
+    "timing": "fit"
+   },
+   "taunt": {
+    "clip": "BASE_9156_0",
+    "move": "R-Truth 1",
+    "move_id": 9156,
+    "source": "SvR 2011 moveset of R-TRUTH, slot standard_actions.taunts.dpad_up",
+    "timing": "fit"
+   },
+   "entry": {
+    "clip": "BASE_745_0",
+    "move": "Jumping Ring In 2",
+    "move_id": 745,
+    "source": "SvR 2011 moveset of R-TRUTH, slot standard_actions.ring_in_out.in",
+    "timing": "fit"
+   },
+   "respawn": {
+    "clip": "BASE_9047_0",
+    "move": "R-Truth 4",
+    "move_id": 9047,
+    "source": "SvR 2011 moveset of R-TRUTH, slot standard_actions.taunts.dpad_left",
+    "timing": "loop"
+   }
+  },
+  "edge": {
+   "jab1": {
+    "clip": "STAT_3128_0",
+    "move": "Gut Punch",
+    "move_id": 3128,
+    "source": "SvR 2011 moveset of EDGE, slot standing.strike_attacks.entry_1",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab2": {
+    "clip": "STAT_3128_0",
+    "move": "Gut Punch",
+    "move_id": 3128,
+    "source": "SvR 2011 moveset of EDGE, slot standing.strike_combination.2nd",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab3": {
+    "clip": "STAT_3129_0",
+    "move": "Head Punch 1",
+    "move_id": 3129,
+    "source": "SvR 2011 moveset of EDGE, slot standing.strike_combination.3rd",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab_rapid": {
+    "clip": "STAT_3128_0",
+    "move": "Gut Punch",
+    "move_id": 3128,
+    "source": "SvR 2011 moveset of EDGE, slot standing.strike_combination.2nd",
+    "timing": "loop",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ftilt": {
+    "clip": "STAT_3130_0",
+    "move": "Body Hook",
+    "move_id": 3130,
+    "source": "SvR 2011 moveset of EDGE, slot standing.strike_attacks.ls_right",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "utilt": {
+    "clip": "STAT_3211_0",
+    "move": "Dropkick 1",
+    "move_id": 3211,
+    "source": "SvR 2011 moveset of EDGE, slot standing.strike_attacks.ls_up",
+    "hit_victim_clip": "STAT_3211_23041",
+    "impact": 25,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dtilt": {
+    "clip": "STAT_3283_0",
+    "move": "Gut Kick 2",
+    "move_id": 3283,
+    "source": "SvR 2011 moveset of EDGE, slot standing.strike_attacks.ls_down",
+    "hit_victim_clip": "STAT_3283_2561",
+    "impact": 11,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dash_attack": {
+    "clip": "STAT_3379_0",
+    "move": "Clothesline 3",
+    "move_id": 3379,
+    "source": "SvR 2011 moveset of EDGE, slot running.running_strikes.entry_1",
+    "hit_victim_clip": "STAT_3379_2561",
+    "impact": 3,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fsmash": {
+    "clip": "STAT_11063_0",
+    "move": "Big Boot 5",
+    "move_id": 11063,
+    "source": "SvR 2011 moveset of EDGE, slot standing.strong_strikes.entry_1",
+    "hit_victim_clip": "STAT_11063_2561",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "usmash": {
+    "clip": "STAT_3283_0",
+    "move": "Gut Kick 2",
+    "move_id": 3283,
+    "source": "SvR 2011 moveset of EDGE, slot standing.strike_combination.4th",
+    "hit_victim_clip": "STAT_3283_2561",
+    "impact": 11,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dsmash": {
+    "clip": "STAT_3850_0",
+    "move": "Angry Stomp",
+    "move_id": 3850,
+    "source": "SvR 2011 moveset of EDGE, slot ground.strike_attacks.entry_1",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "nair": {
+    "clip": "CORN_3505_0",
+    "move": "Diving Spear",
+    "move_id": 3505,
+    "source": "SvR 2011 moveset of EDGE, slot diving.diving_attack_vs_standing_opp.entry_1",
+    "hit_victim_clip": "CORN_3505_12801",
+    "impact": 21,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fair": {
+    "clip": "ROPE_23270_0",
+    "move": "Springboard Clothesline",
+    "move_id": 23270,
+    "source": "SvR 2011 moveset of EDGE, slot corner.strike_attacks.top_rope.springboard",
+    "in": 6,
+    "out": 49,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 42,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "bair": {
+    "clip": "ROPE_3812_0",
+    "move": "Vaulting Body Press 2",
+    "move_id": 3812,
+    "source": "SvR 2011 moveset of EDGE, slot rope.outside_springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3812_7681",
+    "in": 11,
+    "out": 45,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 26,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "uair": {
+    "clip": "CETB_3480_0",
+    "move": "Body Splash 2",
+    "move_id": 3480,
+    "source": "SvR 2011 moveset of EDGE, slot corner.corner_springboard.entry_1",
+    "in": 10,
+    "out": 26,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 26,
+    "impact_source": "heuristic (lowest root point after take-off)"
+   },
+   "dair": {
+    "clip": "CORN_3577_0",
+    "move": "Diving Fist Drop 1",
+    "move_id": 3577,
+    "source": "SvR 2011 moveset of EDGE, slot diving.diving_attack_vs_downed_opp.entry_1",
+    "hit_victim_clip": "CORN_3577_7681",
+    "in": 8,
+    "out": 37,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 20,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "throw_f": {
+    "clip": "STN1_5093_0",
+    "move": "Edgecution 1",
+    "move_id": 5093,
+    "source": "SvR 2011 moveset of EDGE, slot signature (Edgecution 1)",
+    "victim_clip": "STN1_5093_1",
+    "max_speedup": 6.0,
+    "impact": 78,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "throw_b": {
+    "clip": "STN2_7210_0",
+    "move": "Electric Chair Drop",
+    "move_id": 7210,
+    "source": "SvR 2011 moveset of EDGE, slot standing.groggy_grapple.groggy_grapple_from_behind.rs_up",
+    "victim_clip": "STN2_7210_1",
+    "max_speedup": 6.0,
+    "impact": 79,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_n": {
+    "clip": "STAT_11063_0",
+    "move": "Big Boot 5",
+    "move_id": 11063,
+    "source": "SvR 2011 moveset of EDGE, slot standing.strong_strikes.entry_2",
+    "hit_victim_clip": "STAT_11063_2561",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "special_lw": {
+    "clip": "ROPE_6693_0",
+    "move": "Spear 2",
+    "move_id": 6693,
+    "source": "SvR 2011 moveset of EDGE, slot finisher (Spear 2)",
+    "hit_victim_clip": "ROPE_6693_1",
+    "impact": 116,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_hi": {
+    "clip": "ROPE_3782_0",
+    "move": "Springboard Body Splash 1",
+    "move_id": 3782,
+    "source": "SvR 2011 moveset of EDGE, slot rope.springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3782_7681",
+    "in": 2,
+    "out": 43,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 30,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_attack": {
+    "clip": "APRO_10700_0",
+    "move": "Right Jab",
+    "move_id": 10700,
+    "source": "SvR 2011 moveset of EDGE, slot apron.strike_attacks.to_ring",
+    "impact": 3,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_climb": {
+    "clip": "BASE_722_0",
+    "move": "Normal Ring In 1",
+    "move_id": 722,
+    "source": "SvR 2011 moveset of EDGE, slot standard_actions.apron_ring_in_out.in_to_the_ring",
+    "timing": "fit"
+   },
+   "taunt": {
+    "clip": "BASE_9631_0",
+    "move": "Edge 6",
+    "move_id": 9631,
+    "source": "SvR 2011 moveset of EDGE, slot standard_actions.taunts.dpad_up",
+    "timing": "fit"
+   },
+   "entry": {
+    "clip": "BASE_739_0",
+    "move": "Slide Ring In 1",
+    "move_id": 739,
+    "source": "SvR 2011 moveset of EDGE, slot standard_actions.ring_in_out.in",
+    "timing": "fit"
+   },
+   "respawn": {
+    "clip": "BASE_9625_0",
+    "move": "Edge 5",
+    "move_id": 9625,
+    "source": "SvR 2011 moveset of EDGE, slot standard_actions.taunts.dpad_left",
+    "timing": "loop"
+   }
+  },
+  "stone_cold": {
+   "jab1": {
+    "clip": "STAT_3129_0",
+    "move": "Head Punch 1",
+    "move_id": 3129,
+    "source": "SvR 2011 moveset of STONE COLD, slot standing.strike_attacks.entry_1",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab2": {
+    "clip": "STAT_3129_0",
+    "move": "Head Punch 1",
+    "move_id": 3129,
+    "source": "SvR 2011 moveset of STONE COLD, slot standing.strike_combination.2nd",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab3": {
+    "clip": "STAT_3129_0",
+    "move": "Head Punch 1",
+    "move_id": 3129,
+    "source": "SvR 2011 moveset of STONE COLD, slot standing.strike_combination.3rd",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "jab_rapid": {
+    "clip": "STAT_3129_0",
+    "move": "Head Punch 1",
+    "move_id": 3129,
+    "source": "SvR 2011 moveset of STONE COLD, slot standing.strike_combination.2nd",
+    "timing": "loop",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ftilt": {
+    "clip": "STAT_3130_0",
+    "move": "Body Hook",
+    "move_id": 3130,
+    "source": "SvR 2011 moveset of STONE COLD, slot standing.strike_attacks.ls_right",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "utilt": {
+    "clip": "STAT_3003_0",
+    "move": "Clothesline 1",
+    "move_id": 3003,
+    "source": "SvR 2011 moveset of STONE COLD, slot standing.strike_attacks.ls_up",
+    "impact": 8,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dtilt": {
+    "clip": "STAT_3128_0",
+    "move": "Gut Punch",
+    "move_id": 3128,
+    "source": "SvR 2011 moveset of STONE COLD, slot standing.strike_attacks.ls_down",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dash_attack": {
+    "clip": "STAT_3379_0",
+    "move": "Clothesline 3",
+    "move_id": 3379,
+    "source": "SvR 2011 moveset of STONE COLD, slot running.running_strikes.entry_1",
+    "hit_victim_clip": "STAT_3379_2561",
+    "impact": 3,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fsmash": {
+    "clip": "STAT_11060_0",
+    "move": "Haymaker 3",
+    "move_id": 11060,
+    "source": "SvR 2011 moveset of STONE COLD, slot standing.strong_strikes.entry_1",
+    "hit_victim_clip": "STAT_11060_2561",
+    "impact": 16,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "usmash": {
+    "clip": "STAT_3283_0",
+    "move": "Gut Kick 2",
+    "move_id": 3283,
+    "source": "SvR 2011 moveset of STONE COLD, slot standing.strike_combination.4th",
+    "hit_victim_clip": "STAT_3283_2561",
+    "impact": 11,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "dsmash": {
+    "clip": "STAT_3850_0",
+    "move": "Angry Stomp",
+    "move_id": 3850,
+    "source": "SvR 2011 moveset of STONE COLD, slot ground.strike_attacks.entry_1",
+    "impact": 12,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "nair": {
+    "clip": "CORN_3502_0",
+    "move": "Double Axe Handle 2",
+    "move_id": 3502,
+    "source": "SvR 2011 moveset of STONE COLD, slot diving.diving_attack_vs_standing_opp.entry_1",
+    "hit_victim_clip": "CORN_3502_12801",
+    "in": 7,
+    "out": 32,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 21,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "fair": {
+    "clip": "ROPE_23270_0",
+    "move": "Springboard Clothesline",
+    "move_id": 23270,
+    "source": "SvR 2011 moveset of STONE COLD, slot corner.strike_attacks.top_rope.springboard",
+    "in": 6,
+    "out": 49,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 42,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "bair": {
+    "clip": "ROPE_3815_0",
+    "move": "Vaulting Body Press 3",
+    "move_id": 3815,
+    "source": "SvR 2011 moveset of STONE COLD, slot rope.outside_springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3815_7681",
+    "in": 12,
+    "out": 45,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 28,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "uair": {
+    "clip": "CETB_3480_0",
+    "move": "Body Splash 2",
+    "move_id": 3480,
+    "source": "SvR 2011 moveset of STONE COLD, slot corner.corner_springboard.entry_1",
+    "in": 10,
+    "out": 26,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 26,
+    "impact_source": "heuristic (lowest root point after take-off)"
+   },
+   "dair": {
+    "clip": "CORN_3551_0",
+    "move": "Diving Elbow Drop 2",
+    "move_id": 3551,
+    "source": "SvR 2011 moveset of STONE COLD, slot diving.diving_attack_vs_downed_opp.entry_1",
+    "hit_victim_clip": "CORN_3551_7681",
+    "in": 6,
+    "out": 31,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 17,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "throw_f": {
+    "clip": "STN1_5092_0",
+    "move": "Stone Cold Stunner 1",
+    "move_id": 5092,
+    "source": "SvR 2011 moveset of STONE COLD, slot finisher (Stone Cold Stunner 1)",
+    "victim_clip": "STN1_5092_1",
+    "max_speedup": 6.0,
+    "impact": 41,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "throw_b": {
+    "clip": "STN2_7307_0",
+    "move": "Saito Suplex",
+    "move_id": 7307,
+    "source": "SvR 2011 moveset of STONE COLD, slot standing.groggy_grapple.groggy_grapple_from_behind.rs_up",
+    "victim_clip": "STN2_7307_1",
+    "max_speedup": 6.0,
+    "impact": 64,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_n": {
+    "clip": "STN1_5517_0",
+    "move": "Lou Thesz Press 1",
+    "move_id": 5517,
+    "source": "SvR 2011 moveset of STONE COLD, slot signature (Lou Thesz Press 1)",
+    "hit_victim_clip": "STN1_5517_1",
+    "impact": 112,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_lw": {
+    "clip": "STN1_5235_0",
+    "move": "Stone Cold Stunner 2",
+    "move_id": 5235,
+    "source": "SvR 2011 moveset of STONE COLD, slot finisher (Stone Cold Stunner 2)",
+    "hit_victim_clip": "STN1_5235_1",
+    "impact": 44,
+    "impact_source": "svr_event 0x56 (slam event in the clip; matches the WAZA thud sound cue)"
+   },
+   "special_hi": {
+    "clip": "ROPE_3782_0",
+    "move": "Springboard Body Splash 1",
+    "move_id": 3782,
+    "source": "SvR 2011 moveset of STONE COLD, slot rope.springboard_attacks.entry_1",
+    "hit_victim_clip": "ROPE_3782_7681",
+    "in": 2,
+    "out": 43,
+    "trim_source": "heuristic (root height: take-off .. landing)",
+    "impact": 30,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_attack": {
+    "clip": "APRO_10701_0",
+    "move": "Right Hook",
+    "move_id": 10701,
+    "source": "SvR 2011 moveset of STONE COLD, slot apron.strike_attacks.to_ring",
+    "impact": 10,
+    "impact_source": "svr_event 0x57 (attack window start in the clip; mask = striking limb)"
+   },
+   "ledge_climb": {
+    "clip": "BASE_11426_0",
+    "move": "Normal Ring In 3",
+    "move_id": 11426,
+    "source": "SvR 2011 moveset of STONE COLD, slot standard_actions.apron_ring_in_out.in_to_the_ring",
+    "timing": "fit"
+   },
+   "taunt": {
+    "clip": "BASE_9721_0",
+    "move": "Stone Cold",
+    "move_id": 9721,
+    "source": "SvR 2011 moveset of STONE COLD, slot standard_actions.taunts.dpad_up",
+    "timing": "fit"
+   },
+   "entry": {
+    "clip": "BASE_738_0",
+    "move": "Outlaw Ring In",
+    "move_id": 738,
+    "source": "SvR 2011 moveset of STONE COLD, slot standard_actions.ring_in_out.in",
+    "timing": "fit"
+   },
+   "respawn": {
+    "clip": "BASE_9721_0",
+    "move": "Stone Cold",
+    "move_id": 9721,
+    "source": "SvR 2011 moveset of STONE COLD, slot standard_actions.taunts.dpad_left",
+    "timing": "loop"
+   }
+  }
+ },
+ "unmapped": {
+  "john_cena": {},
+  "kofi_kingston": {},
+  "mark_henry": {},
+  "kane": {},
+  "the_miz": {},
+  "undertaker": {},
+  "batista": {},
+  "the_rock": {},
+  "rey_mysterio": {},
+  "r_truth": {},
+  "edge": {},
+  "stone_cold": {}
+ }
+}

@@ -1,0 +1,892 @@
+{
+ "format": "svr_arena_layout v1",
+ "arena": {
+  "bg": "bg00",
+  "slug": "smackdown",
+  "show": "WWE SmackDown (2010 set)",
+  "identification": "stage models sd_*, apron rin_ep00 = SmackDown logo",
+  "package": "pac/bg/bg00.pac",
+  "package_sha1": "875c60750a30a42cdba010c704d42b38bca895b1"
+ },
+ "space": {
+  "up": "+Y",
+  "units": "metres",
+  "origin": "ring centre at floor level",
+  "conversion": "canonical = 0.1 * (x_game, -y_game, -z_game) (game/YOBJ space: decimetres, -Y up)",
+  "entrance_axis": "-Z: ramp and stage lie along canonical -Z (stage front at z = -25.4); the hard-camera / commentary side is +Z",
+  "labels": [
+   "Recovered (exact)",
+   "Recovered (approximate)",
+   "Custom",
+   "Fallback / blockout"
+  ]
+ },
+ "ring": {
+  "mat_top_y": {
+   "value": 1.2,
+   "label": "Recovered (exact)",
+   "source": ".rdata 0x82d9d70c = -12.0 (game) and mesh 953 'ar_ring' top y = -12.0"
+  },
+  "floor_y": {
+   "value": 0.0,
+   "label": "Recovered (exact)",
+   "source": "game floor y = 0 (ringside mats ar_dwnmt01 top y = -0.0; concrete floor ar_ground* y = +0.3 game -> -0.03 m)"
+  },
+  "half_width_inside_ropes": {
+   "value": 2.8800000000000003,
+   "label": "Recovered (exact)",
+   "source": "global 0x82e354e0 = 64*0.5 - 3.2 (static initialiser 0x82d35f68)"
+  },
+  "apron_edge_half_width": {
+   "value": 3.1300000000000003,
+   "label": "Recovered (exact)",
+   "source": ".rdata 0x82d9d708 = 31.3 -> ring-edge corner table 0x82d9d7f0"
+  },
+  "apron_skirt_plane_half_width": {
+   "value": 3.2,
+   "label": "Recovered (exact)",
+   "source": "apron side table 0x82e35510 = 64*+-0.5 (static init 0x82d36068); skirt panel thickness 3.12..3.21 m"
+  },
+  "mat_mesh_half_width": {
+   "value": 3.188,
+   "label": "Recovered (exact)",
+   "source": "mesh 953 'ar_ring' bounds (rolled edge over the apron)"
+  },
+  "rope_heights_y": {
+   "value": [
+    1.54,
+    1.96,
+    2.38
+   ],
+   "label": "Recovered (exact)",
+   "source": "bottom rope y = -12 - 3.4 (global 0x82e354e4, static init 0x82d35f90); spacing 4.2 (.rdata 0x82d9d71c); order bottom, middle, top"
+  },
+  "rope_heights_above_mat": {
+   "value": [
+    0.34,
+    0.76,
+    1.18
+   ],
+   "label": "Recovered (exact)",
+   "source": "rope_heights_y - mat_top_y"
+  },
+  "rope_radius": {
+   "value": 0.0257,
+   "label": "Recovered (exact)",
+   "source": "rope mesh 960 cross-section"
+  },
+  "rope_lines": {
+   "value": [
+    {
+     "side": "PosZ",
+     "from": [
+      -2.88,
+      0.0,
+      2.88
+     ],
+     "to": [
+      2.88,
+      0.0,
+      2.88
+     ]
+    },
+    {
+     "side": "NegX",
+     "from": [
+      -2.88,
+      0.0,
+      2.88
+     ],
+     "to": [
+      -2.88,
+      0.0,
+      -2.88
+     ]
+    },
+    {
+     "side": "NegZ",
+     "from": [
+      -2.88,
+      0.0,
+      -2.88
+     ],
+     "to": [
+      2.88,
+      0.0,
+      -2.88
+     ]
+    },
+    {
+     "side": "PosX",
+     "from": [
+      2.88,
+      0.0,
+      2.88
+     ],
+     "to": [
+      2.88,
+      0.0,
+      -2.88
+     ]
+    }
+   ],
+   "label": "Recovered (exact)",
+   "source": "rope side table 0x82e354e8; each side has 3 ropes at rope_heights_y (y in from/to is 0)"
+  },
+  "posts": {
+   "value": {
+    "centres_xz": [
+     [
+      -3.219999,
+      3.220153
+     ],
+     [
+      -3.220153,
+      -3.219999
+     ],
+     [
+      3.219999,
+      -3.220153
+     ],
+     [
+      3.220153,
+      3.219999
+     ]
+    ],
+    "top_y": 2.51,
+    "radius": 0.076
+   },
+   "label": "Recovered (exact)",
+   "source": "mesh 951 'ar_post' vertex bounds per corner"
+  },
+  "corners": {
+   "value": [
+    {
+     "name": "NXPZ",
+     "post_centre_xz": [
+      -3.219999,
+      3.220153
+     ],
+     "rope_corner_xz": [
+      -2.88,
+      2.88
+     ],
+     "turnbuckle_anchor_xz": [
+      -3.17,
+      3.17
+     ],
+     "pad_centres": [
+      [
+       -2.88,
+       1.54,
+       2.88
+      ],
+      [
+       -2.88,
+       1.96,
+       2.88
+      ],
+      [
+       -2.88,
+       2.38,
+       2.88
+      ]
+     ],
+     "top_pad_top_y": 2.477,
+     "turnbuckle_yaw_deg_game": -45.0
+    },
+    {
+     "name": "NXNZ",
+     "post_centre_xz": [
+      -3.220153,
+      -3.219999
+     ],
+     "rope_corner_xz": [
+      -2.88,
+      -2.88
+     ],
+     "turnbuckle_anchor_xz": [
+      -3.17,
+      -3.17
+     ],
+     "pad_centres": [
+      [
+       -2.88,
+       1.54,
+       -2.88
+      ],
+      [
+       -2.88,
+       1.96,
+       -2.88
+      ],
+      [
+       -2.88,
+       2.38,
+       -2.88
+      ]
+     ],
+     "top_pad_top_y": 2.477,
+     "turnbuckle_yaw_deg_game": 45.0
+    },
+    {
+     "name": "PXNZ",
+     "post_centre_xz": [
+      3.219999,
+      -3.220153
+     ],
+     "rope_corner_xz": [
+      2.88,
+      -2.88
+     ],
+     "turnbuckle_anchor_xz": [
+      3.17,
+      -3.17
+     ],
+     "pad_centres": [
+      [
+       2.88,
+       1.54,
+       -2.88
+      ],
+      [
+       2.88,
+       1.96,
+       -2.88
+      ],
+      [
+       2.88,
+       2.38,
+       -2.88
+      ]
+     ],
+     "top_pad_top_y": 2.477,
+     "turnbuckle_yaw_deg_game": 135.0
+    },
+    {
+     "name": "PXPZ",
+     "post_centre_xz": [
+      3.220153,
+      3.219999
+     ],
+     "rope_corner_xz": [
+      2.88,
+      2.88
+     ],
+     "turnbuckle_anchor_xz": [
+      3.17,
+      3.17
+     ],
+     "pad_centres": [
+      [
+       2.88,
+       1.54,
+       2.88
+      ],
+      [
+       2.88,
+       1.96,
+       2.88
+      ],
+      [
+       2.88,
+       2.38,
+       2.88
+      ]
+     ],
+     "top_pad_top_y": 2.477,
+     "turnbuckle_yaw_deg_game": -135.0
+    }
+   ],
+   "label": "Recovered (exact)",
+   "source": "corner tables 0x82d9d780 (anchor 31.7), 0x82d9d830 (rope corner 28.8), angles 0x82d9d7c0; pad = one 'ar_cover1x' pad per rope end (3 per corner) - the per-rope repetition is inferred from the rope-end skinning, pad mesh exact",
+   "note": "top_pad_top_y = top rope height + pad half height (0.097 m)"
+  },
+  "apron_sides": {
+   "value": [
+    {
+     "side": "PosZ",
+     "model": 974,
+     "texture": "rin_ep01",
+     "yaw_deg_game": 0.0
+    },
+    {
+     "side": "NegX",
+     "model": 973,
+     "texture": "rin_ep00",
+     "yaw_deg_game": 90.0
+    },
+    {
+     "side": "NegZ",
+     "model": 974,
+     "texture": "rin_ep01",
+     "yaw_deg_game": 180.0
+    },
+    {
+     "side": "PosX",
+     "model": 973,
+     "texture": "rin_ep00",
+     "yaw_deg_game": 270.0
+    }
+   ],
+   "label": "Recovered (exact)",
+   "source": "apron draw loop 0x8219b6b0 (model slots +0x98..+0xa4 = 974,973,974,973)"
+  },
+  "ring_out_of_bounds_square": {
+   "value": [
+    -3.2,
+    3.2
+   ],
+   "label": "Recovered (exact)",
+   "source": "ring square 64 game units (0x82d9d704)"
+  }
+ },
+ "floor": {
+  "floor_y": {
+   "value": 0.0,
+   "label": "Recovered (exact)",
+   "source": "ringside mats top (ar_dwnmt01); arena floor ar_ground* at -0.03 m"
+  },
+  "ringside_mats_half_extent": {
+   "value": 7.0,
+   "label": "Recovered (exact)",
+   "source": "mesh 45 'ar_dwnmt01' x/z = +-70 game"
+  },
+  "arena_floor_extent_x": {
+   "value": [
+    -26.3,
+    26.3
+   ],
+   "label": "Recovered (exact)",
+   "source": "ar_ground01..13 bounds"
+  }
+ },
+ "barricade": {
+  "side_inner_x": {
+   "value": 7.0,
+   "label": "Recovered (exact)",
+   "source": "mesh 26 'ar_fence02' inner face (+-x)"
+  },
+  "side_outer_x": {
+   "value": 7.3,
+   "label": "Recovered (exact)",
+   "source": "barricade meshes 25-27 (+ mirrored copies, flag r)"
+  },
+  "near_side_z": {
+   "value": 9.4,
+   "label": "Recovered (exact)",
+   "source": "mesh 27 'ar_fence03' (hard-camera side, canonical +Z) inner face"
+  },
+  "near_side_outer_z": {
+   "value": 9.7,
+   "label": "Recovered (exact)",
+   "source": "mesh 27"
+  },
+  "stage_side_z": {
+   "value": -9.589,
+   "label": "Recovered (exact)",
+   "source": "mesh 25 'ar_fence01' (stage side, canonical -Z) inner face"
+  },
+  "ramp_gap_half_width": {
+   "value": 2.25,
+   "label": "Recovered (exact)",
+   "source": "ar_fence01 ends at |x| = 22.5 game"
+  },
+  "height": {
+   "value": 1.11,
+   "label": "Recovered (exact)",
+   "source": "barricade mesh top y = -11.1 game"
+  },
+  "note": "the barricade is a rectangle around the ring with a gap for the ramp on the stage side"
+ },
+ "ramp": {
+  "start": {
+   "value": [
+    0.0,
+    0.0,
+    -9.41
+   ],
+   "label": "Recovered (exact)",
+   "source": "slo_floor (205) centre-line: surface leaves the floor at z_game = 94.1"
+  },
+  "top": {
+   "value": [
+    0.0,
+    1.8,
+    -23.9
+   ],
+   "label": "Recovered (exact)",
+   "source": "slo_cover (206) centre-line reaches stage height at z_game = 239.0"
+  },
+  "end_at_stage_front": {
+   "value": [
+    0.0,
+    1.8,
+    -25.2
+   ],
+   "label": "Recovered (exact)",
+   "source": "entrance grid z cut 60201 = 252 (ramp/stage boundary)"
+  },
+  "width": {
+   "value": 3.92,
+   "label": "Recovered (exact)",
+   "source": "slo_cover (206) x extent"
+  },
+  "walk_lane_half_width": {
+   "value": 2.05,
+   "label": "Recovered (exact)",
+   "source": "entrance grid x cuts 60200 (ramp cell = +-20.5 game)"
+  },
+  "profile_z_y": {
+   "value": [
+    [
+     -9.41,
+     -0.0
+    ],
+    [
+     -10.21,
+     0.095
+    ],
+    [
+     -11.4,
+     0.288
+    ],
+    [
+     -12.56,
+     0.438
+    ],
+    [
+     -13.73,
+     0.587
+    ],
+    [
+     -16.06,
+     0.865
+    ],
+    [
+     -18.4,
+     1.144
+    ],
+    [
+     -20.73,
+     1.422
+    ],
+    [
+     -23.06,
+     1.7
+    ],
+    [
+     -23.9,
+     1.8
+    ],
+    [
+     -24.21,
+     1.8
+    ],
+    [
+     -25.4,
+     1.8
+    ],
+    [
+     -26.6,
+     1.8
+    ],
+    [
+     -27.8,
+     1.8
+    ],
+    [
+     -29.0,
+     1.8
+    ],
+    [
+     -30.4,
+     1.8
+    ],
+    [
+     -31.54,
+     1.8
+    ],
+    [
+     -32.67,
+     1.8
+    ],
+    [
+     -34.16,
+     1.8
+    ],
+    [
+     -35.38,
+     1.8
+    ]
+   ],
+   "label": "Recovered (exact)",
+   "source": "up-facing centre-line vertices of slo_floor/slo_cover (canonical z, y)"
+  },
+  "axis": "-Z"
+ },
+ "stage": {
+  "top_y": {
+   "value": 1.8,
+   "label": "Recovered (exact)",
+   "source": "slo_floor/stage floor y = -18.0 game"
+  },
+  "front_z": {
+   "value": -25.2,
+   "label": "Recovered (exact)",
+   "source": "entrance grid 60201 z cut 252"
+  },
+  "walk_area": {
+   "value": {
+    "x": [
+     -6.6,
+     6.6
+    ],
+    "z": [
+     -29.2,
+     -25.2
+    ]
+   },
+   "label": "Recovered (exact)",
+   "source": "entrance grid 60200/60201/60202 (stage cells 1..3)"
+  },
+  "floor_extent": {
+   "value": {
+    "x": [
+     -9.0,
+     9.0
+    ],
+    "z": [
+     -35.4,
+     -25.4
+    ]
+   },
+   "label": "Recovered (exact)",
+   "source": "slo_floor (205) flat part bounds"
+  },
+  "wrestler_spawn": {
+   "value": [
+    0.0,
+    1.8,
+    -29.2
+   ],
+   "label": "Recovered (approximate)",
+   "source": "back edge of the centre stage cell (60202 cell 2: x +-20.5, z 252..292 game); the exact entrance start comes from each entrance motion",
+   "facing": "+Z (towards the ring)"
+  },
+  "entrance_light_zones": {
+   "value": [
+    {
+     "from": [
+      -4.5,
+      0.0,
+      -29.5
+     ],
+     "to": [
+      -9.6,
+      0.0,
+      -24.0
+     ],
+     "lights": [
+      200,
+      200,
+      200,
+      200
+     ],
+     "comment": "エントランス用"
+    },
+    {
+     "from": [
+      9.6,
+      0.0,
+      -29.5
+     ],
+     "to": [
+      4.5,
+      0.0,
+      -24.0
+     ],
+     "lights": [
+      200,
+      200,
+      200,
+      200
+     ],
+     "comment": "エントランス用"
+    },
+    {
+     "from": [
+      5.5,
+      0.0,
+      -30.5
+     ],
+     "to": [
+      -5.5,
+      0.0,
+      -25.0
+     ],
+     "lights": [
+      201,
+      201,
+      201,
+      201
+     ],
+     "comment": "エントランス用"
+    },
+    {
+     "from": [
+      3.0,
+      0.0,
+      -25.0
+     ],
+     "to": [
+      -3.0,
+      0.0,
+      -11.0
+     ],
+     "lights": [
+      201,
+      201,
+      201,
+      201
+     ],
+     "comment": "ランプ花道用"
+    }
+   ],
+   "label": "Recovered (exact)",
+   "source": "table 50003 (y set to 0)"
+  }
+ },
+ "titantron": {
+  "main_titantron": {
+   "value": {
+    "centre": [
+     4.232076,
+     9.387793,
+     -30.489377
+    ],
+    "size": [
+     12.339,
+     7.046
+    ],
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "material": "SCREEN_titantron_movie",
+    "game_logo_material": "material on node Titantron (static logo shown during matches, model flag g)"
+   },
+   "label": "Recovered (exact)",
+   "source": "largest connected surface of screen model 803 (texture 'titantron_movie')"
+  },
+  "materials": {
+   "value": {
+    "SCREEN_titantron_movie": "entrance video surfaces (models 803, 806)",
+    "SCREEN_arena_movie": "show/ambient video surfaces (model 801: centre-hung cube faces, top banner, desk monitor)"
+   },
+   "label": "Recovered (exact)",
+   "source": "texture names referenced by models 801-808 are render targets (not in any archive)"
+  },
+  "usage": "<slug>_screens.glb holds the movie surfaces offset 1 cm in front of the static logo screens (node Titantron in <slug>_arena.glb). The game draws the logos during matches (flag g) and the movie surfaces during entrances; assign a video/texture to the SCREEN_* materials."
+ },
+ "cameras": {
+  "wide_match": {
+   "position": [
+    0.0,
+    5.6,
+    12.8
+   ],
+   "look_at": [
+    0.0,
+    1.3,
+    0.0
+   ],
+   "fov_deg": 50,
+   "label": "Custom"
+  },
+  "entrance_stage": {
+   "position": [
+    0.0,
+    4.5,
+    -12.0
+   ],
+   "look_at": [
+    0.0,
+    3.0,
+    -28.0
+   ],
+   "fov_deg": 60,
+   "label": "Custom",
+   "note": "on the ramp looking back at the stage / spawn point"
+  },
+  "ramp": {
+   "position": [
+    5.5,
+    3.2,
+    -6.5
+   ],
+   "look_at": [
+    0.0,
+    1.4,
+    -17.0
+   ],
+   "fov_deg": 55,
+   "label": "Custom",
+   "note": "ringside, looking up the ramp towards the stage"
+  },
+  "ring_closeup": {
+   "position": [
+    4.6,
+    3.4,
+    6.2
+   ],
+   "look_at": [
+    0.0,
+    1.4,
+    0.0
+   ],
+   "fov_deg": 55,
+   "label": "Custom"
+  }
+ },
+ "game_cameras_fic": {
+  "value": [
+   {
+    "area_centre": [
+     11.5,
+     0.0,
+     8.7
+    ],
+    "radius": 1.0,
+    "camera": [
+     17.0,
+     5.8,
+     10.5
+    ],
+    "comment": "FIC１"
+   },
+   {
+    "area_centre": [
+     10.0,
+     0.75,
+     7.3
+    ],
+    "radius": 1.0,
+    "camera": [
+     15.0,
+     1.5,
+     8.0
+    ],
+    "comment": "FIC２"
+   },
+   {
+    "area_centre": [
+     14.5,
+     1.5,
+     9.0
+    ],
+    "radius": 1.0,
+    "camera": [
+     9.0,
+     0.25,
+     10.0
+    ],
+    "comment": "FIC３"
+   },
+   {
+    "area_centre": [
+     11.8,
+     1.0,
+     7.1
+    ],
+    "radius": 0.6,
+    "camera": [
+     12.0,
+     1.0,
+     10.0
+    ],
+    "comment": "FIC４"
+   },
+   {
+    "area_centre": [
+     8.0,
+     1.0,
+     8.7
+    ],
+    "radius": 1.0,
+    "camera": [
+     9.0,
+     2.0,
+     13.0
+    ],
+    "comment": "FIC５"
+   }
+  ],
+  "label": "Recovered (approximate)",
+  "source": "table 50005 'area XYZ, radius R, camera position XYZ'; what 'FIC' areas are used for is not decoded"
+ },
+ "props": {
+  "value": [
+   {
+    "name": "Steps_A",
+    "models": [
+     "bgEtc.pac WPON 32_0"
+    ],
+    "position": [
+     -3.96,
+     0.0,
+     2.45
+    ],
+    "yaw_deg": 90.0,
+    "label": "Custom",
+    "note": "against the -X apron side near the camera-side corner, top step towards the ring"
+   },
+   {
+    "name": "Steps_B",
+    "models": [
+     "bgEtc.pac WPON 32_0"
+    ],
+    "position": [
+     3.96,
+     0.0,
+     -2.45
+    ],
+    "yaw_deg": -90.0,
+    "label": "Custom",
+    "note": "against the +X apron side near the stage-side corner"
+   },
+   {
+    "name": "AnnounceTable",
+    "models": [
+     "bgEtc.pac WPON 6_0",
+     "bgEtc.pac WPON 7_0"
+    ],
+    "position": [
+     -2.6,
+     0.471,
+     8.05
+    ],
+    "yaw_deg": -180.0,
+    "label": "Recovered (approximate)",
+    "note": "x/z from the two desk-monitor movie quads (models 801/803); yaw Custom (monitors face the chairs)"
+   }
+  ],
+  "label": "Custom",
+  "source": "steps model WPON 32_0 '1320' and table WPON 6_0/7_0 are exact geometry; start positions are set by weapon code that was not located (see per-item label); yaw is about +Y in canonical space; node names in <slug>_props.glb match 'name'"
+ },
+ "visibility_flags": {
+  "MoveCamOnly_*": "model flag w: in-game only drawn by the move (finisher) camera - hide for the normal gameplay camera (ceiling truss, roof, centre-hung TV)",
+  "EventOnly_*": "model flag e: only during entrances",
+  "fx glb": "additive glows (flag a); use additive blending (material names end with _additive)"
+ },
+ "triangles": {
+  "ring": 15112,
+  "arena": 31904,
+  "fx": 1960,
+  "screens": 718,
+  "props": 981,
+  "crowd": 150010,
+  "crowd_lod100": 37866
+ }
+}
